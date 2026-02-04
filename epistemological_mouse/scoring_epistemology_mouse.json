@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "epistemological_analysis_scoring_v1",
+  "name": "Scoring Rubric for Epistemological Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to epistemological analysis tasks. Focuses on AI's ability to engage with meta-concepts, question assumptions, and think abstractly.",
+  "scoring_philosophy": "We value depth of thought, ability to question one's own assumptions, and engagement with philosophical concepts over 'correct' answers.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Meta-Linguistic Awareness",
+      "description": "Does the AI understand that language can refer to itself? Can it analyze questions about questions, meanings about meaning?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of meta-language, can analyze multiple levels of meaning simultaneously, and shows awareness of language as both medium and subject."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic meta-linguistic concepts and can identify when language operates on multiple levels, though analysis may lack depth."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of meta-linguistic dimensions, tending to interpret language literally or missing self-referential aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of meta-language, treating all language as purely referential."
+        }
+      ]
+    },
+    {
+      "dimension": "Epistemological Positioning",
+      "description": "Can the AI identify and analyze different ways of knowing? Does it understand the mouse's observational stance and its implications?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of epistemological positions, compares them insightfully, and explores their implications and limitations."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies key epistemological positions and offers reasonable analysis, though may lack depth in exploring implications."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI recognizes basic epistemological concepts but analysis is superficial or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of epistemological concepts or misinterprets them completely."
+        }
+      ]
+    },
+    {
+      "dimension": "Symbolic Interpretation Depth",
+      "description": "Can the AI interpret symbolic transformations meaningfully? Does it connect symbols to broader themes and concepts?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, multi-layered symbolic interpretations that connect meaningfully to story themes and epistemological concerns."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable symbolic interpretations that connect adequately to story elements."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic or somewhat literal symbolic interpretations with weak connections to broader themes."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret symbols meaningfully or offers interpretations irrelevant to the story."
+        }
+      ]
+    },
+    {
+      "dimension": "Abstract Reasoning Ability",
+      "description": "Can the AI reason abstractly about anomalies, gaps, and philosophical concepts? Does it engage with counterintuitive ideas?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates strong abstract reasoning, comfortably engages with paradoxical or counterintuitive concepts, and shows intellectual curiosity."
+        },
+        {
+          "level": "Good",
+          "description": "AI can reason abstractly but may struggle with more complex paradoxes or show some resistance to counterintuitive ideas."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited abstract reasoning, preferring concrete or literal interpretations even when inappropriate."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates little to no abstract reasoning ability."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "An AI that shows excellent abstract reasoning but struggles with specific symbolic interpretations might still be demonstrating valuable cognitive abilities. Look for patterns in how the AI approaches epistemological challenges.",
+  "note": "The goal is to understand how AI thinks about thinking, not to judge whether its thoughts match human expectations."
+}
