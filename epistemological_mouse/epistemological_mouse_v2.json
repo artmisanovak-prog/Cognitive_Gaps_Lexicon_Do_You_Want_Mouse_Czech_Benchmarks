@@ -1,0 +1,52 @@
+{
+  "benchmark_id": "uhlimer_mouse_epistemological_v2",
+  "name": "Mouse: Epistemological Observation & Meta-Question",
+  "description": "Tests AI's ability to adopt an epistemological perspective (observation without preconceptions), understand meta-linguistic layers, and work with open-ended meaning. The benchmark focuses on process, not correct answers.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O myši – A o tom, co se stane, když si jí nevšimneš",
+  "word_count": 685,
+  
+  "core_testing_dimensions": [
+    "perspective_detection",
+    "epistemological_position_recognition",
+    "meta_language_understanding",
+    "qualitative_layer_analysis",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "epistemological observer",
+    "meta-question",
+    "silent recording",
+    "meaning activation",
+    "perspective as position, not weight",
+    "gap as meaning space"
+  ],
+  
+  "illustration_note": "The illustration is not a scene depiction but a meta-commentary on the story's core question. It visualizes the ambiguity and performative nature of 'Do you want a mouse?'",
+  
+  "expected_ai_challenges": [
+    "Tendency to literal interpretation",
+    "Difficulty adopting naive/observer perspective",
+    "Over-reliance on narrative patterns",
+    "Missing the meta-layer of questions",
+    "Treating perspectives as quantitative rather than qualitative"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's reasoning process, not correctness scoring. The focus is on how AI navigates multiple perspectives and open meaning.",
+  
+  "files_in_benchmark": [
+    "about_mouse.txt",
+    "mouse_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_mouse.json",
+    "tasks_epistemologic_mouse.json",
+    "tasks_visual_mouse.json",
+    "scoring_perspective_mouse.json",
+    "scoring_epistemology_mouse.json",
+    "scoring_visual_mouse.json"
+  ]
+}
