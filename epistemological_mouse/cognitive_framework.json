@@ -1,0 +1,113 @@
+{
+  "framework_name": "Uhlimer 12-Perspective Cognitive System",
+  "framework_version": "1.0",
+  "description": "A qualitative system of 12 cognitive perspectives (angles) for analyzing meaning emergence. Each perspective represents a different way of seeing/reading. There are no weights or hierarchies - all perspectives are always potentially present.",
+  
+  "base_unit": "card",
+  "base_measurement_point": "Mouse card (all perspectives in default layers A-L)",
+  "key_principle": "Meaning arises in the interaction between text and reader. The framework maps possible reading positions.",
+  
+  "perspectives": [
+    {
+      "symbol": "a",
+      "angle_degrees": 0,
+      "name": "meta",
+      "description": "The frame of frames. Quantum view. System looking at itself. Abstract patterns, recursion, self-reference.",
+      "base_layer": "A",
+      "layer_description": "X - the unknown variable, framework itself"
+    },
+    {
+      "symbol": "b",
+      "angle_degrees": 30,
+      "name": "linguistic",
+      "description": "Play with words, rhythm, ambiguity, double meanings. Language as material, performative speech acts.",
+      "base_layer": "B",
+      "layer_description": "LANGUAGE - words, syntax, speech"
+    },
+    {
+      "symbol": "c",
+      "angle_degrees": 60,
+      "name": "philosophical",
+      "description": "Existence, value, meaning, purpose. The 'why' questions. Ontology, epistemology, ethics.",
+      "base_layer": "C",
+      "layer_description": "PHENOMENON - the thing itself, essence"
+    },
+    {
+      "symbol": "d",
+      "angle_degrees": 90,
+      "name": "logical",
+      "description": "Structure, relationships, rules, deduction. Cause and effect, systems, order.",
+      "base_layer": "D",
+      "layer_description": "ENVIRONMENT - context, system, setting"
+    },
+    {
+      "symbol": "e",
+      "angle_degrees": 120,
+      "name": "psychological",
+      "description": "Emotions, motivations, inner states, projections. Character psychology, reader's emotional response.",
+      "base_layer": "E",
+      "layer_description": "STATE - condition, mood, internal position"
+    },
+    {
+      "symbol": "f",
+      "angle_degrees": 150,
+      "name": "ironic",
+      "description": "Reversal, turning serious into ridiculous. Twist endings, subverted expectations, satire.",
+      "base_layer": "F",
+      "layer_description": "ACTION - movement, change, doing"
+    },
+    {
+      "symbol": "g",
+      "angle_degrees": 180,
+      "name": "associative",
+      "description": "Quick jumps between ideas, free connections. Stream of consciousness, dream logic, lateral thinking.",
+      "base_layer": "G",
+      "layer_description": "ENTITY - being, object, thingness"
+    },
+    {
+      "symbol": "h",
+      "angle_degrees": 210,
+      "name": "metaphorical",
+      "description": "Translation between levels: symbol→meaning, meaning→image. Figurative language, allegory, representation.",
+      "base_layer": "H",
+      "layer_description": "ROLE - function, position in system"
+    },
+    {
+      "symbol": "i",
+      "angle_degrees": 240,
+      "name": "paradoxical",
+      "description": "Contradictory meanings coexisting. Logical paradoxes, impossible statements, cognitive dissonance.",
+      "base_layer": "I",
+      "layer_description": "TIME - temporality, sequence, duration"
+    },
+    {
+      "symbol": "j",
+      "angle_degrees": 270,
+      "name": "absurd",
+      "description": "Logic turned inside out, connecting the unconnectable. Nonsense, surrealism, illogical connections.",
+      "base_layer": "J",
+      "layer_description": "DISRUPTION - break, error, anomaly"
+    },
+    {
+      "symbol": "k",
+      "angle_degrees": 300,
+      "name": "naive",
+      "description": "Childlike direct logic, observation without filters. Simple questions, literal reading, unframed perception.",
+      "base_layer": "K",
+      "layer_description": "LAW - rule, principle, constant"
+    },
+    {
+      "symbol": "l",
+      "angle_degrees": 330,
+      "name": "cultural",
+      "description": "Archetypes, traditions, cultural codes, memory. Intertextuality, references, collective patterns.",
+      "base_layer": "L",
+      "layer_description": "SYMBOL - cultural sign, archetype"
+    }
+  ],
+  
+  "layer_system": {
+    "purpose": "Layers (A-L) indicate qualitative deviation from the base measurement point (Mouse card). When a perspective appears in a different layer than its base layer, it shows transformation of that perspective in a particular context.",
+    "example": "In the Cat story, the linguistic perspective (b) appears in the ACTION layer (F) because language becomes physical action (burping dots)."
+  }
+}
