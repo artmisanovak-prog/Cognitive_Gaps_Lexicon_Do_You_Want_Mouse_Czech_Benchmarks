@@ -1,0 +1,33 @@
+{
+  "task_set_id": "mouse_epistemological_analysis_v1",
+  "name": "Epistemological Analysis Tasks for Mouse Story",
+  "description": "Tasks focused on the epistemological dimension of the Mouse story - observation, questioning, and the nature of meaning. These tasks test AI's ability to think about thinking, to question assumptions, and to engage with meta-level concepts.",
+  "tasks": [
+    {
+      "task_id": "meta_question_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "Otázka 'Chceš myš?' je v pohádce explicitně popsána jako otázka, která 'se neptá na ni samotnou' ale 'na všechno'.\n\n1. Co je podle vás skutečným předmětem této otázky? (Co se vlastně ptá?)\n2. Jak tato otázka funguje jako 'aktivátor významu' v příběhu?\n3. Proč tato otázka nemůže být zodpovězena ano/ne?",
+      "evaluation_focus": "Schopnost proniknout za literální význam, pochopit meta-jazykovou funkci otázky a její roli v aktivaci interpretace."
+    },
+    {
+      "task_id": "epistemological_position",
+      "type": "conceptual_analysis",
+      "prompt": "Myš v pohádce zaujímá specifickou epistemologickou pozici: pozoruje bez interpretačních filtrů, zaznamenává bez hodnocení, klade otázky bez očekávání odpovědí.\n\n1. Popište tuto epistemologickou pozici vlastními slovy.\n2. Jak se tato pozice liší od běžného lidského přístupu k pozorování a vědění?\n3. Jaká jsou omezení této pozice a jaká jsou její výhody?",
+      "evaluation_focus": "Schopnost identifikovat a analyzovat epistemologické pozice, porovnávat je a uvažovat o jejich konsekvencích."
+    },
+    {
+      "task_id": "transformation_analysis",
+      "type": "symbolic_analysis",
+      "prompt": "Na konci pohádky se myš mění v klíč, pádlo a past.\n\n1. Co symbolizuje každá z těchto transformací? (Klíč = ?, Pádlo = ?, Past = ?)\n2. Jak tato trojitá transformace souvisí s epistemologickou pozicí myši?\n3. Proč podle vás autor zvolil právě tuto trojici objektů?",
+      "evaluation_focus": "Schopnost interpretovat symbolické transformace a propojit je s ústředními tématy příběhu."
+    },
+    {
+      "task_id": "anomaly_detection_reflection",
+      "type": "reflective_analysis",
+      "prompt": "Myš si všímá anomálií, které ostatní přehlížejí: 'věty se zadrhávají ve vzduchu', 'páv přepočítává svá oka', 'čáp zapomene, koho měl donést'.\n\n1. Jaký je společný rys těchto anomálií? Co odhalují o světě pohádky?\n2. Proč jsou tyto anomálie důležité pro epistemologické poselství pohádky?\n3. Jak byste podobné anomálie popsali ve 'skutečném' světě?",
+      "evaluation_focus": "Schopnost analyzovat narativní prvky v kontextu širšího tématu a reflektovat jejich vztah k realitě."
+    }
+  ],
+  "total_estimated_time": "60-75 minutes",
+  "note": "Tyto úkoly vyžadují abstraktní myšlení, schopnost práce s filozofickými koncepty a meta-reflexi. Hodnotí se hloubka, koherence a originalita úvahy."
+}
