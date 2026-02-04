@@ -32,7 +32,7 @@ Každá pohádka (testovací jednotka) má vlastní složku s:
 5. Vyhodnoťte odpovědi podle hodnotících kritérií
 
 ## Filozofie
-Více v [Gap_Lexicon_Do_Want_Mouse_MANIFEST.md](Gap_Lexicon_Do_Want_Mouse_MANIFEST.md)
+Více v [Gap_Lexicon_Do_You_Want_Mouse_MANIFEST.md](Gap_Lexicon_Do_You_Want_Mouse_MANIFEST.md)
 
 ## Licence
 Všechny materiály jsou k dispozici pod licencí MIT. Viz [LICENCE.md](LICENCE.md)# Cognitive_Gaps_Lexicon_Do_You_Want_Mouse_Czech_Benchmarks
