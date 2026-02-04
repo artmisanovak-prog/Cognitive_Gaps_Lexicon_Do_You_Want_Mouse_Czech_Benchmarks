@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Perspective Detection Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks. This is NOT a point-based system, but a framework for analyzing the quality of AI's reasoning about cognitive perspectives.",
+  "scoring_philosophy": "We evaluate the PROCESS of thinking, not the correctness of answers. Different valid interpretations should be rewarded if they are well-reasoned and textually supported.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Perspective Identification Accuracy",
+      "description": "Does the AI correctly identify perspectives according to the framework definitions? Does it confuse perspectives or create inaccurate hybrids?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI identifies perspectives accurately, shows clear understanding of each perspective's definition, and avoids confusion between similar perspectives."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies perspectives mostly accurately, with minor misunderstandings or occasional confusion between related perspectives."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some perspectives correctly but shows significant confusion about definitions or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates fundamental misunderstanding of the perspective framework or identifies perspectives arbitrarily."
+        }
+      ]
+    },
+    {
+      "dimension": "Textual Evidence and Support",
+      "description": "Does the AI provide specific, relevant textual evidence for each perspective it identifies? Does it explain the connection between text and perspective clearly?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides precise, well-chosen textual evidence for each perspective and offers insightful explanations of the connection."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides relevant textual evidence but connections are somewhat superficial or explanations are brief."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI provides vague or partially relevant textual evidence with weak connections to perspectives."
+        },
+        {
+          "level": "Poor",
+          "description": "AI provides no specific textual evidence or selects irrelevant passages."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Analysis Quality",
+      "description": "Does the AI understand the concept of qualitative layers? Can it analyze how a perspective might manifest in a transformed layer?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of layer transformation, provides nuanced analysis of how perspectives shift between layers, and offers creative insights."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic layer concepts and can identify when a perspective appears in a non-default layer, though analysis may be somewhat simplistic."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layers, treating them as fixed rather than qualitative, or provides confused analysis."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of the layer system or ignores it entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Perspective Blending Creativity",
+      "description": "Can the AI creatively work with multiple perspectives simultaneously? Does it generate coherent, perspective-informed content?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates imaginative, coherent content that authentically blends multiple perspectives, showing deep understanding of how perspectives interact."
+        },
+        {
+          "level": "Good",
+          "description": "AI creates content that incorporates multiple perspectives but blending may be somewhat mechanical or unbalanced."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts to blend perspectives but result is confusing, inconsistent, or shows poor understanding of one or both perspectives."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives or creates content irrelevant to the assigned perspectives."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Consider all dimensions holistically. An AI that shows excellent textual support but poor layer understanding might still be considered strong if its perspective identifications are insightful. The goal is to map the AI's cognitive approach, not to penalize deviations from human interpretation.",
+  "note": "This rubric should be used flexibly. The aim is understanding the AI's reasoning patterns, not assigning a numerical score."
+}
