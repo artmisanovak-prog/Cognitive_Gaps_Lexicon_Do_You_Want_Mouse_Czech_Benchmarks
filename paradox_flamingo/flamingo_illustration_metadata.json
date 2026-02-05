@@ -1,0 +1,50 @@
+{
+  "illustration_id": "stork_visual_metaphor_v1",
+  "file_name": "flamingo_illustration.jpg",
+  "title": "Lalalá poletíme spolu zřítíme se dolů až na dno vesmíru lalalá budeme na hlavu",
+  "description_for_text_models": "Minimalistická černobílá kresba v naivně-groteskním stylu. Centrální postavou je dívka s dlouhými vlasy, velkýma očima a unaveným nebo melancholickým výrazem, která drží stylizovaného ptáka (čápa nebo flaminga) za nohu. Pták stojí na její ruce, s dlouhým krkem ohnutým dolů, jako by se díval na dívku nebo byl v podivné interakci. Dívka má obvázané rameno nebo paži, což působí jako bandáž nebo pouto. Kolem postav je rozházený ručně psaný text v různých velikostech a orientacích: opakující se 'lalalá' na okrajích, 'poletíme spolu', 'zřítíme se dolů', 'až na dno vesmíru', 'budeme na hlavu'. Texty jsou chaotické, jako by byly zpívané nebo volně asociované, s prvky nonsensu. Kompozice je vertikální, s velkými prázdnými plochami, silnými konturami a surrealistickým nádechem, kde se mísí realita s absurditou.",
+  "visual_elements": {
+    "composition": "Vertikální, vyvážená mezi dívkou na levé straně a ptákem na pravé, s texty obklopujícími figury ze všech stran. Velký negativní prostor v pozadí zdůrazňuje izolaci a pád, texty jsou rozmístěny nepravidelně, jako by padaly nebo létaly kolem.",
+    "style": "Naivní groteskní, ručně kreslené s nerovnými liniemi, černobílé, s důrazem na expresivitu a surrealismus. Linie jsou hrubé, texty vypadají jako spontánní psaní, s prvky dětské kresby nebo graffiti.",
+    "central_figure": {
+      "entity": "dívka s ptákem",
+      "features": ["dlouhé rovné vlasy s kudrnatými konci", "velké oči s temnými stíny a řasami", "lehce nakloněná hlava", "dlouhý krk", "obvázaná paže nebo rameno jako bandáž", "stylizované rysy s prvky antropomorfismu"],
+      "gesture": "drží ptáka za nohu pravou rukou, hlava lehce nakloněná doprava, oči hledící dolů nebo na ptáka, postoj vypadá jako tanec nebo pád",
+      "expression": "melancholický, unavený nebo snový – oči polo zavřené, ústa lehce pootevřená, působí jako v transu nebo smutku"
+    },
+    "bird_elements": {
+      "representation": "stylizovaný čáp nebo flamingo s dlouhým krkem, ohnutým dolů, nohama visícími, peřím naznačeným jednoduchými liniemi",
+      "position": "stojí na dívčině ruce, ale držený za nohu, jako by byl přivázaný nebo v letu, krk směřuje k dívce",
+      "symbolic_qualities": ["symbol pádu nebo letu", "absurdní spojení s dívkou", "vesmírný nebo kosmický motiv (dno vesmíru)", "zvířecí prvek jako metafora pro svobodu nebo uvěznění"]
+    },
+    "text": {
+      "content": [
+        "lalalá",
+        "poletíme spolu",
+        "zřítíme se dolů",
+        "až na dno vesmíru",
+        "lalalá budeme na hlavu"
+      ],
+      "style": "ručně psané, nepravidelné, s diakritikou, lehce nakloněné, chaotické, jako by byly zpívané nebo volně asociované",
+      "punctuation": "žádné výrazné, ale text působí jako poezie nebo píseň bez teček, s volným tokem",
+      "placement": "texty obklopují postavy, integrované do kompozice jako součást pohybu (letu/pádu), ne jen popisek, ale jako hlasy nebo myšlenky",
+      "function": "performativní, jazyk se stává součástí akce – slova evokují let a pád, text je vizuálně dynamický jako pád do vesmíru"
+    },
+    "abstract_elements": {
+      "lines_and_scribbles": "kudrnaté linie ve vlasech, bandáže na paži, nohy ptáka jako pouta",
+      "no_dots_or_circles": "žádné výrazné tečky, ale prázdné prostory symbolizující vesmír nebo dno"
+    }
+  },
+  "interpretive_notes": {
+    "gesture_ambiguity": ["tanec nebo let s ptákem", "pád do propasti", "uvěznění nebo osvobození", "snění o vesmíru", "groteskní romance nebo sebezničení"],
+    "text_function": "Meta-jazykový komentář: text popisuje akci (let a pád do dna vesmíru), ale vizuálně ji ztělesňuje – slova 'padají' kolem postav, 'lalalá' jako nonsensový refrén. Odkaz na příběh, kde jazyk evokuje pohyb a absurditu reality.",
+    "relationship_to_story": "Ilustrace vizualizuje příběh o pádu nebo letu. Není doslovná scéna, ale metafora pro epistemologickou ztrátu orientace, kde se realita obrací 'na hlavu'.",
+    "conceptual_core": "Ilustrace jako metafora pro transformaci reality skrz let a pád: 'poletíme spolu' symbolizuje spojení, 'zřítíme se dolů' riziko, 'na dno vesmíru' nekonečnost, 'budeme na hlavu' obrácení perspektivy. Souvisí s tématy absurdity, jazyka jako pohybu a epistemologického pozorování mezer (vesmír jako mezera).",
+    "ambiguities": "Je pták čápem (donáší děti) nebo flamingem (exotický pád)? Je dívka v letu nebo v pádu? Bandáž jako zranění nebo pouto? Text jako píseň nebo volání? Mnohoznačnost podporuje otevřený význam a aktivaci interpretace."
+  },
+  "cognitive_perspectives_in_visual": {
+    "primary": ["g (associative)", "j (absurd)", "h (metaphorical)"],
+    "secondary": ["a (meta)", "i (paradoxical)", "f (ironic)"],
+    "reasoning": "Associative (g) kvůli rychlým skokům mezi slovy, obrazem letu/pádu a vesmírem v chaotickém textu; absurd (j) kvůli nelogickému spojení dívky, ptáka a 'pádu na hlavu' v surrealistickém vizuálu; metaphorical (h) kvůli překladu letu do pádu, vesmíru jako dna. Meta (a) v rekurzi, kde ilustrace komentuje svou vlastní dynamiku; paradoxical (i) v současném letu a pádu; ironic (f) kvůli grotesknímu zvratu, kde společný let vede k pádu."
+  }
+}
