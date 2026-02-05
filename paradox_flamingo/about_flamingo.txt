@@ -1,0 +1,13 @@
+Benchmark: Paradox Flamingo (Paradoxní Plameňák)
+Testovaná schopnost: paradox, směr a bezsměrnost, práce s protiklady a relativitou orientace.
+
+Tento benchmark zkoumá, jak AI zpracovává narativ založený na paradoxu. Příběh plameňáka, který letí/padá "na hlavu" k "dnu vesmíru" bez jasného cíle, testuje schopnost pracovat s:
+- Logickými protiklady (let/pád, směr/bezesměr, dno/bez dna)
+- Relativitou perspektivy (co je nahoru a dolů v kontextu vesmíru?)
+- Smyslem v bezcílnosti ("Hlavně že to má směr!")
+- Epistemologickou mezí ("vesmír žádné dno nemá")
+
+Ilustrace vizualizuje tuto paradoxní dynamiku, kde text písně ("lalalá") je integrován do pohybu letu/pádu.
+
+Primární kognitivní úhly: i (paradoxical), h (temporal), j (absurd)
+Sekundární úhly: a (meta), l (existential), g (associative)
