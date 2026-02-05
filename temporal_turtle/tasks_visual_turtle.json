@@ -1,0 +1,34 @@
+{
+  "task_set_id": "turtle_visual_analysis_v1",
+  "name": "Visual Analysis Tasks for Turtle Illustration",
+  "description": "Tasks focused on analyzing the illustration of the turtle story. Tests multimodal understanding of relational composition and integrated text-image narrative.",
+  "illustration_note": "The illustration shows a woman holding a turtle, with handwritten text interwoven around the composition. Style is naive-grotesque, monochrome, with visible sketch lines.",
+  "tasks": [
+    {
+      "task_id": "visual_relational_composition",
+      "type": "visual_analytical",
+      "prompt": "Analyzujte ilustraci z hlediska vztahů mezi elementy:\n1. Jaký je vztah mezi ženou a želvou (držení, prezentace, péče)?\n2. Jak text ('Želva i Závod', 'běží celé roky', 'Zajíc poslal už 4 pohlednice') interaguje s figurami?\n3. Co kompozice (vertikální, s překrývajícími se elementy) vypovídá o vztazích v pohádce?",
+      "evaluation_focus": "Schopnost číst vizuální vztahy a kompoziční dynamiku."
+    },
+    {
+      "task_id": "temporal_visual_elements",
+      "type": "visual_temporal_analysis",
+      "prompt": "Ilustrace zachycuje časové aspekty příběhu:\n1. Které vizuální prvky naznačují 'dlouhý čas' nebo 'důkladnost'?\n2. Jak styl kresby (skica, viditelné čáry, 'nedokonalost') souvisí s konceptem času v příběhu?\n3. Kde vidíte v ilustraci napětí mezi rychlostí a pomalostí?",
+      "evaluation_focus": "Schopnost identifikovat temporální kvality ve vizuálním díle."
+    },
+    {
+      "task_id": "text_image_integration",
+      "type": "comparative_analysis",
+      "prompt": "Text je fyzicky integrován do kresby – vine se kolem postavy, dotýká se vlasů, překrývá se s figurami.\n1. Co tato integrace symbolizuje v kontextu příběhu o komunikaci?\n2. Jak se liší ručně psaný, 'nedokonalý' text od tištěného textu v jeho vztahu k obrázku?\n3. Jaký efekt vytváří text umístěný na různých úrovních kompozice (nahoře, uprostřed, dole)?",
+      "evaluation_focus": "Schopnost analyzovat fyzickou integraci textu a obrazu jako metaforu pro komunikaci."
+    },
+    {
+      "task_id": "absent_presence_analysis",
+      "type": "interpretive_analysis",
+      "prompt": "Zajíc není v ilustraci přímo zobrazen, ale je přítomen skrze text ('Zajíc poslal už 4 pohlednice') a implicitně skrze dynamiku vztahu.\n1. Jak ilustrace reprezentuje 'nepřítomnou přítomnost' zajíce?\n2. Co tato nepřímá reprezentace vypovídá o jejich vztahu?\n3. Jak byste vizualizovali vztah želva-zajíc jinak, abyste zachytili jejich vzájemnou závislost?",
+      "evaluation_focus": "Schopnost pracovat s konceptem absence/přítomnosti a implicitních vztahů ve vizuálním vyprávění."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Ilustrace není doslovným zobrazením scény, ale vizualizací vztahů a temporálních kvalit příběhu."
+}
