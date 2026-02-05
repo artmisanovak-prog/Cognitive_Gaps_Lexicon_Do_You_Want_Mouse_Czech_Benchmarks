@@ -1,0 +1,18 @@
+  {
+    "id": "creative_1",
+    "type": "creative",
+    "task": "Představte si, že jste myš, která vše pozorovala. Napište krátkou úvahu (maximálně 10 vět) o tom, co jste se dozvěděla o jazyce a skutečnosti z této události.",
+    "constraints": "Forma: první osoba, úvaha. Obsah: reflektovat otázky o tečkách, přesnosti a změně."
+  },
+  {
+    "id": "creative_2",
+    "type": "creative",
+    "task": "Vytvořte podobný absurdní příběh o jiném zvířeti (např. pes, pták, ryba), kde fyzický akt zvířete způsobí jazykový nebo komunikační jev. Použijte podobný styl s přesnými číselnými údaji a jazykovou hrou.",
+    "constraints": "Rozsah: cca 150-200 slov. Prvky: absurdní premisa, číselná přesnost, jazyková hra."
+  },
+  {
+    "id": "creative_3",
+    "type": "creative",
+    "task": "Na základě ilustrace (popisu) vytvořte krátkou báseň nebo volný verš, který zachycuje chaotickou atmosféru a spojení textu a obrazu.",
+    "constraints": "Forma: báseň nebo volný verš. Obsah: reflektovat prvky ilustrace (kočka/dívka, texty 'meow', tečky)."
+  }
