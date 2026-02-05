@@ -1,0 +1,18 @@
+  {
+    "id": "open_1",
+    "type": "open",
+    "question": "Co podle vás znamená, že kocour po sežrání berušek krkal tečky? Interpretujte tuto situaci z hlediska jazyka a komunikace.",
+    "hint": "Zamyslete se nad tím, co tečky reprezentují v psaném textu a jak se fyzický akt krkání týká abstraktního jazyka."
+  },
+  {
+    "id": "open_2",
+    "type": "open",
+    "question": "Proč příběh tolikrát opakuje slovo 'přesně' a zdůrazňuje číselné údaje (dvě berušky, 14 teček, půl hodiny)? Jaký to má význam?",
+    "hint": "Zvažte vztah mezi přesností matematickou a absurditou děje."
+  },
+  {
+    "id": "open_3",
+    "type": "open",
+    "question": "Jak rozumíte větě 'Ale ta myš, vždycky zvědavá byla.' a roli myši v příběhu? Proč je myš tou, kdo klade otázky?",
+    "hint": "Myš představuje epistemologické zkoumání. Srovnejte s benchmarkem o myši."
+  }
