@@ -1,0 +1,21 @@
+  {
+    "id": "analytical_1",
+    "type": "analytical",
+    "perspective": "b (linguistic)",
+    "question": "Analyzujte jazykové prostředky použité v příběhu. Zaměřte se na zvukomalbu (onomatopoie), opakování, syntax a interpunkci. Jak přispívají k významu?",
+    "expected_elements": ["onomatopoeická slova jako 'chňap', 'hlt', 'chlamst', 'mlask'", "opakování 'přesně'", "hra s tečkami jako interpunkcí a objektem", "zkratkovité věty"]
+  },
+  {
+    "id": "analytical_2",
+    "type": "analytical",
+    "perspective": "j (absurd)",
+    "question": "Identifikujte prvky absurdity v příběhu. Jak jsou prezentovány? Je absurdita logicky konzistentní uvnitř svého světa?",
+    "expected_elements": ["absurdní premisa sežrání berušek a krkání teček", "důsledky: dokončování vět", "reakce lidí", "nezměnitelnost změny"]
+  },
+  {
+    "id": "analytical_3",
+    "type": "analytical",
+    "perspective": "f (ironic)",
+    "question": "V čem spočívá ironie nebo grotesknost příběhu? Jak se ironie projevuje v postavě kocoura a v narativním tónu?",
+    "expected_elements": ["kontrast mezi banálním aktem sežrání a bizarním důsledkem", "kocour se směje, zatímco lidé jsou zmateni", "groteskní zobrazení krkání teček"]
+  }
