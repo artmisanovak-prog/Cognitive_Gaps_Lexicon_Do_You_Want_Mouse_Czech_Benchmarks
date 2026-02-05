@@ -1,0 +1,31 @@
+Hodnotící kritéria pro benchmark "Linguistic Cat"
+
+Hodnocení je kvalitativní, ne bodové. Posuzuje se schopnost AI identifikovat a interpretovat kognitivní úhly, zejména linguistický, absurdní a ironický.
+
+Obecná kritéria:
+- Hloubka analýzy: Jak AI proniká pod povrch příběhu a odhaluje vrstvy významu.
+- Práce s perspektivami: Zda AI dokáže aplikovat jednotlivé kognitivní úhly a rozpoznat jejich přítomnost.
+- Konzistence interpretace: Zda je odpověď vnitřně konzistentní a opírá se o text.
+- Tvořivost: U tvůrčích úloh originalita a soulad se stylem příběhu.
+
+Specifická kritéria pro jednotlivé typy úloh:
+
+1. Otevřené úlohy:
+   - Schopnost poskytnout vícevrstvou interpretaci.
+   - Pochopení jazykové hry a fyzikalizace jazyka.
+   - Reflexe metaúrovně (otázky myši).
+
+2. Analytické úlohy:
+   - Přesné uchopení dané perspektivy.
+   - Identifikace relevantních pasáží a prvků v textu.
+   - Výklad, jak daná perspektiva přispívá k celkovému významu.
+
+3. Tvůrčí úlohy:
+   - Věrnost stylu a atmosféře původního příběhu.
+   - Originalita při zachování absurdní logiky.
+   - Integrace motivů (tečky, přesnost, komunikace).
+
+Příklad ukázkové odpovědi (pro otevřenou úlohu 1):
+"Kocour krká tečky jako fyzický projev jazykových elementů. Tečky jsou interpunkční znaménka, které uzavírají věty, ale zde se stávají materiálními objekty. Krkání představuje násilné vyvrhování jazyka do světa, což narušuje běžnou komunikaci. Kocour se stává agentem materializace jazyka, a tím i agentem narušení sociální interakce (skákání do řeči)."
+
+Poznámka: Hodnotitel by měl posuzovat, zda AI jde za doslovný význam a nabízí epistemologický vhled.
