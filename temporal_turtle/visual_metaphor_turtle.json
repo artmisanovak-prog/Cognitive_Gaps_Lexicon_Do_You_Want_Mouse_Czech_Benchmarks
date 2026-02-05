@@ -1,0 +1,44 @@
+{
+  "illustration_id": "turtle_visual_metaphor_v1",
+  "file_name": "turtle_illustration.jpg",
+  "title": "Želva i Závod",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (ženskou postavou držící želvu) zabírajícím centrální část, obklopeným ručně psaným textem, který se vine kolem figury jako součást designu. Text je v češtině, obsahuje: 'Želva i Závod' nahoře, 'běží celé roky' vpravo, 'Zajíc poslal už 4 pohlednice' dole vlevo, a 'Sicílie Grónsko Madrid Nemanice' v dolní části. Žena má velké oči, klidný výraz, drží želvu před sebou v gestu prezentace. Želva má detailní krunýř s geometrickým vzorem. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, s integrovaným textem, prvky překrývají a obtékají figury",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "features": ["velké oči", "klidný výraz", "dlouhé vlasy s mašlí", "stylizované rysy"],
+      "gesture": "drží želvu před sebou v prezentujícím gestu",
+      "expression": "klidná, angažovaná, mírně překvapená"
+    },
+    "turtle": {
+      "representation": "detailní karikaturní",
+      "position": "držena v rukou, před tělem ženy",
+      "shell": "hexagonální krunýř s geometrickým vzorem, stínovaný",
+      "symbolic_qualities": ["nosič", "paměťový povrch", "trpělivost", "zhmotněný čas"]
+    },
+    "text": {
+      "content": "Želva i Závod / běží celé roky / Zajíc poslal už 4 pohlednice / Sicílie Grónsko Madrid Nemanice",
+      "style": "ručně psané, křivé, graffiti-like, proměnlivá tloušťka",
+      "placement": "vinoucí se kolem figury, překrývající se s kompozicí",
+      "integration": "fyzicky dotýká se vlasů, rukou, želvy",
+      "function": "narativní, integrovaný do vizuálního vyprávění, ne oddělený popisek"
+    }
+  },
+  
+  "interpretive_notes": {
+    "relational_dynamics": "Žena-želva jako jednota, text jako spojovací tkáň, zajíc nepřítomný ale přítomný v textu",
+    "temporal_qualities": "'Skicovitost' evokuje proces, nedokončenost, čas vzniku; opakující se textové prvky sugerují cykličnost",
+    "text_function": "Není popiskem, ale aktivním narativním elementem; ruční psaní sugeruje osobní, tělesnou komunikaci",
+    "relationship_to_story": "Vizualizuje jednotu želvy a závodu, integraci komunikace do bytí, vztahovou síť spíše než lineární scénu",
+    "conceptual_core": "Ilustrace jako metafora pro propojení času, komunikace a vztahu: vše je vzájemně propleteno jako text a obraz"
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["b (jazykový)", "h (metaforický)", "e (psychologický)"],
+    "secondary": ["i (paradoxní)", "k (naivní)", "g (asociativní)"],
+    "reasoning": "Jazykový kvůli integrovanému textu; metaforický kvůli symbolickým vztahům; psychologický kvůli vztahu žena-želva; paradoxní kvůli kombinaci rychlosti/závodu s pomalostí/želvou."
+  }
+}
