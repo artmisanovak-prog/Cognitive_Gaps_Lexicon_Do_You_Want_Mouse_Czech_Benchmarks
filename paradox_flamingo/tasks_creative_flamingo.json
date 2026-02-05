@@ -1,0 +1,18 @@
+  {
+    "id": "creative_1",
+    "type": "creative",
+    "task": "Napište krátkou píseň nebo báseň z perspektivy plameňáka padajícího vesmírem. Zachyťte pocit radostného pádu bez cíle.",
+    "constraints": "Forma: volný verš nebo písňový text. Obsah: reflektovat motivy letu/pádu, vesmíru, 'lalalá'."
+  },
+  {
+    "id": "creative_2",
+    "type": "creative",
+    "task": "Představte si, že jste myš pozorující tento pád. Napište záznam do svého deníku o tom, co jste viděli a jak to změnilo vaše chápání 'směru' a 'cíle'.",
+    "constraints": "Forma: deníkový záznam, první osoba. Rozsah: 8-12 vět. Obsah: reflektovat paradox a jeho význam."
+  },
+  {
+    "id": "creative_3",
+    "type": "creative",
+    "task": "Vytvořte popis absurdního 'dna' něčeho, co ve skutečnosti žádné dno nemá (např. dno zvuku, dno myšlenky, dno času). Použijte podobný styl jako v příběhu.",
+    "constraints": "Rozsah: 100-150 slov. Prvky: poetický jazyk, konkrétní detaily, paradoxní logika."
+  }
