@@ -1,0 +1,32 @@
+{
+  "task_set_id": "turtle_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Turtle Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Turtle story. Focuses on temporal, relational, and communicative dimensions.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_turtle",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O želvě'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu času a vzájemného bytí. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu času/komunikace",
+      "example_response": {
+        "perspective": "i (paradoxní)",
+        "text_passage": "'Želva běží závod. Celé roky. Ne pomalu. Jen důkladně.'",
+        "explanation": "Paradoxní perspektiva se projevuje v překonání protikladu rychlost vs. pomalost – želva 'běží', ale 'celé roky', což vytváří časový paradox."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma času a vzájemné závislosti."
+    },
+    {
+      "task_id": "temporal_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'i (paradoxní)' projevuje v pohádce o želvě z hlediska časových vrstev. Výchozí vrstva pro paradoxní perspektivu je 'I' (ČAS).\n\n1. Jak se paradox času (důkladnost vs. rychlost) projevuje v textu?\n2. Objevuje se paradoxní perspektiva i v jiných vrstvách než časové? Například ve vrstvě 'H' (ROLE) – jak se mění role závodníků?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu temporálního narativu."
+    },
+    {
+      "task_id": "mutual_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli převyprávět vztah želvy a zajíce z kombinace perspektiv 'd (logický)' a 'e (psychologický)'.\n\nNapište krátký popis (3-4 věty) jejich vztahu skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by logická perspektiva analyzovala jejich 'systém' komunikace?\n2. Jak by psychologická perspektiva interpretovala jejich vnitřní motivace?\n3. Jak se tyto dvě perspektivy doplňují v pochopení jejich vzájemného bytí?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují systémy a psychologii současně."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět čas a komunikaci skrze multiple perspektivy, ne jen lineárně."
+}
