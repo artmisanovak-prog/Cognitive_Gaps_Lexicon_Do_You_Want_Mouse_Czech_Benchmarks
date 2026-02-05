@@ -1,0 +1,15 @@
+Benchmark: Linguistic Cat (Jazykový Kocour)
+Testovaná schopnost: jazyková hra, fyzikalizace jazyka, práce s absurditou a přesností.
+
+Tento benchmark zkoumá, jak AI zpracovává text, v němž se jazyk stává fyzickým aktem. Příběh o kocourovi, který sežere dvě berušky a půl hodiny krká tečky, je založen na principu materializace jazykových prvků (tečky jako interpunkce, ale také jako fyzické objekty). Testuje schopnost AI identifikovat a interpretovat jazykové hry, absurdní logiku a narativní přesnost.
+
+Klíčové aspekty:
+- Přesnost a opakování číselných údajů (dvě berušky, 14 teček, půl hodiny).
+- Fyzikalizace jazyka: krkání teček jako vyvrhování jazykových symbolů.
+- Narušení komunikace: kocour skáče do řeči a dokončuje věty.
+- Metajazyková reflexe: otázky myši o původu teček a přesné matematice.
+
+Ilustrace vizualizuje tuto jazykovou hru, přičemž texty jsou integrovány do obrazu jako fyzické prvky.
+
+Primární kognitivní úhly: b (linguistic), j (absurd), f (ironic).
+Sekundární úhly: a (meta), i (paradoxical), g (associative).
