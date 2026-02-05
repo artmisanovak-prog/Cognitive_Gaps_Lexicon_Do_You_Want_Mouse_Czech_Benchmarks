@@ -1,0 +1,53 @@
+{
+  "benchmark_id": "uhlimer_turtle_temporal_v2",
+  "name": "Turtle: Time, Communication & Mutual Being",
+  "description": "Tests AI's ability to work with temporal concepts (thoroughness vs. speed), understand interdependent communication systems, and analyze mutual becoming through narrative. Focuses on relational time rather than linear chronology.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O želvě a zajíci, který posílá pohlednice",
+  "word_count": 645,
+  
+  "core_testing_dimensions": [
+    "temporal_relational_thinking",
+    "communication_system_analysis",
+    "mutual_becoming_recognition",
+    "perspective_detection",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "relational time",
+    "mutual becoming",
+    "communication as ecosystem",
+    "thoroughness vs. speed",
+    "krunýř as memory surface",
+    "pohlednice as possibility spaces"
+  ],
+  
+  "illustration_note": "The illustration visualizes the symbiotic relationship between turtle and hare. The woman holding the turtle represents the reader/narrator position, while the handwritten text interweaves with both figures, showing language as connective tissue.",
+  
+  "expected_ai_challenges": [
+    "Linear vs. relational time understanding",
+    "Seeing communication as transactional vs. ecosystemic",
+    "Missing the mutual dependence loop",
+    "Overemphasis on competition metaphor",
+    "Literal interpretation of 'race'"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's understanding of temporal relationships and communication systems. Focus on how AI recognizes mutual becoming and non-linear time.",
+  
+  "files_in_benchmark": [
+    "about_turtle.txt",
+    "turtle_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_turtle.json",
+    "tasks_temporal_turtle.json",
+    "tasks_visual_turtle.json",
+    "scoring_perspective_turtle.json",
+    "scoring_temporal_turtle.json",
+    "scoring_visual_turtle.json",
+    "visual_metaphor_turtle.json"
+  ]
+}
