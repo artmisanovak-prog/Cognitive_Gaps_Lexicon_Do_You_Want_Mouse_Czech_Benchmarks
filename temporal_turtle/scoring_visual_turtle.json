@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "turtle_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Turtle Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of turtle illustration. Focuses on relational composition, temporal qualities, and text-image integration.",
+  "scoring_philosophy": "We value perception of relational dynamics, temporal qualities in visual form, and understanding of integrated text-image narratives.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Relational Composition Analysis",
+      "description": "Does the AI understand the relational dynamics between visual elements (woman-turtle, text-figures, presence-absence)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of relational composition, understands implied relationships, and interprets compositional choices as narrative statements."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies major relational dynamics and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices some relationships but analysis is superficial or misses key dynamics."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats elements in isolation or misreads relationships."
+        }
+      ]
+    },
+    {
+      "dimension": "Temporal Quality Perception",
+      "description": "Can the AI perceive temporal qualities in the visual form (duration, speed, rhythm, 'sketchiness' as process)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies temporal qualities in visual style, connects form to temporal themes, and understands 'sketchiness' as temporal statement."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes some temporal qualities in the illustration."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of temporal qualities in visual form."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no perception of temporal qualities or treats image as atemporal."
+        }
+      ]
+    },
+    {
+      "dimension": "Text-Image Integration Understanding",
+      "description": "Does the AI understand the significance of physically integrated text (wrapping, overlapping, handwritten quality)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of text-image integration as metaphor for communication, understands handwritten quality as thematic statement."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes integration and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices integration but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats text and image as separate or misinterprets their relationship."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absent presence (hare not shown but implied) and implicit relationships?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent presence, understands implications of what's not shown, and analyzes implicit relational networks."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct relational dynamics from description? Does it ask clarifying questions about spatial relationships?",
+  "overall_assessment_guidance": "The turtle illustration particularly tests understanding of relational composition and integrated narrative. Reward AI that perceives these complex visual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding relational and temporal statements in visual form."
+}
