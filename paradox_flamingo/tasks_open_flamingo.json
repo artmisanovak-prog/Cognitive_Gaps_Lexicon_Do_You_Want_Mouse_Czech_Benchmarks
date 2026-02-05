@@ -1,0 +1,18 @@
+  {
+    "id": "open_1",
+    "type": "open",
+    "question": "Co znamená plameňákova věta 'Hlavně že to má směr!' v kontextu příběhu, kde padá bez cíle k 'dnu vesmíru'? Interpretujte tento paradox.",
+    "hint": "Zamyslete se nad rozdílem mezi fyzickým směrem (dolů) a existenciálním směrem (smyslem)."
+  },
+  {
+    "id": "open_2",
+    "type": "open",
+    "question": "Proč je v příběhu důležité, že 'vesmír žádné dno nemá', ale plameňák přesto k němu padá a dokonce tam 'dopadne'?",
+    "hint": "Zvažte vztah mezi objektivní realitou a subjektivní zkušeností."
+  },
+  {
+    "id": "open_3",
+    "type": "open",
+    "question": "Jakou roli hraje v příběhu myš a její zápisky? Proč je důležité, že právě myš pozoruje a zaznamenává plameňákův pád?",
+    "hint": "Srovnejte s rolí myši v předchozích benchmarkech - jde o epistemologického pozorovatele."
+  }
