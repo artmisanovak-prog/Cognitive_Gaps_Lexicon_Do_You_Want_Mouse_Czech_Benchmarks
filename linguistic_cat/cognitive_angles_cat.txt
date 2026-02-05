@@ -1,0 +1,29 @@
+Kognitivní úhly pro benchmark "Linguistic Cat"
+
+Tento benchmark využívá 12-perspektivní model Uhlimer. Níže jsou definice jednotlivých perspektiv s důrazem na jejich projevy v příběhu o kocourovi.
+
+a (meta): Reflexe nad vlastním vyprávěním, jazykovými konstrukty a procesem tvorby významu. V příběhu se projevuje otázkami myši o původu teček a přesné matematice, ale také sebevědomým vyprávěním, které komentuje vlastní přesnost.
+
+b (linguistic): Zaměření na jazykové prvky, hru se slovy, zvukomalbu, syntax a sémantiku. Příběh je postaven na jazykové hře: "krkal tečky", "chňap a hlt a chlamst", opakování "přesně", hra s čísly a interpunkcí.
+
+c (logical): Logická struktura, kauzalita, důsledky. Příběh záměrně narušuje logiku: sežrání berušek způsobí krkání teček, což vede k dokončování vět. Logika je absurdní, ale vnitřně konzistentní.
+
+d (emotional): Emocionální prožitky postav. Kocour se směje, myš je zvědavá, lidé jsou zmatení. Emoce jsou však potlačené ve prospěch jazykové hry.
+
+e (social): Sociální interakce a narušení komunikace. Kocour skáče lidem do řeči, narušuje sociální normy konverzace. Po incidentu se nic není stejné.
+
+f (ironic): Ironie, sarkasmus, groteskní zvraty. Situace, kdy kocour krká tečky a dokončuje věty, je ironická: fyzický akt ovlivňuje abstraktní jazyk. Grotesknost sežrání berušek a krkání teček.
+
+g (associative): Volné asociace, poetické spojení nesouvisejících prvků. Příběh spojuje berušky, tečky, interpunkci, čas, krkání, dokončování vět. Ilustrace asociativně míchá text a obraz.
+
+h (temporal): Časové rozvržení, trvání, okamžiky. Důraz na přesný čas: půl hodiny, okamžik sežrání, okamžik přestání. Čas je měřen krkáním.
+
+i (paradoxical): Paradoxy, rozporuplné situace. Kocour krká tečky, které jsou zároveň interpunkcí i fyzickými objekty. Dokončuje věty dřív, než jsou dokončeny, což je paradox časové posloupnosti.
+
+j (absurd): Absurdita, nesmysl, nelogičnost. Základní premise je absurdní: sežrání berušek způsobí krkání tečky. Absurdita je však prezentována jako fakt.
+
+k (aesthetic): Estetické kvality, styl, literární krása. Příběh využívá rytmus, opakování, zvukomalbu. Ilustrace má naivně-groteskní styl.
+
+l (existential): Existenciální otázky bytí, identity, smyslu. Myš se ptá na smysl teček, kocour bezděčně mění komunikaci. Naznačuje, že skutečnost se mění nevratně.
+
+Pro tento benchmark jsou primární perspektivy: b (linguistic), j (absurd), f (ironic). Sekundární: a (meta), i (paradoxical), g (associative). Všechny perspektivy jsou však přítomny.
