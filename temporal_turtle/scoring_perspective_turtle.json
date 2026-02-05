@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "turtle_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Turtle Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in turtle story. Focus on temporal and relational perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to time, communication, and mutual becoming, not just general perspective identification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Temporal Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to time (paradoxical, logical, philosophical, naive) and understand their temporal dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of temporal perspectives, identifies time-related paradoxes, and connects perspectives to specific temporal qualities in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant temporal perspectives and provides reasonable analysis, though may miss subtler temporal dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some temporal perspectives but analysis is superficial or misses key temporal aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of temporal dimensions in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Relational Perspective Recognition",
+      "description": "Can the AI identify perspectives that illuminate relationships (psychological, cultural, metaphorical) and mutual dependence?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies relational perspectives, understands mutual becoming, and analyzes how perspectives reveal interdependence."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relational perspectives and provides adequate analysis of relationships."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some relational perspectives but analysis is weak or overly individualistic."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize relational dimensions or treats characters in isolation."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Temporal Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with time and communication themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to temporal/communicative context, shows understanding of qualitative shifts."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to time/communication themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Mutual Perspective Blending",
+      "description": "Can the AI creatively blend perspectives to analyze mutual relationships and communication systems?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate the turtle-hare relationship and communication ecosystem."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze relationships."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for relational analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of temporal and relational perspectives. An AI that excels in temporal sensitivity but is weaker in relational analysis might still show valuable cognitive patterns.",
+  "note": "The turtle story demands particular sensitivity to time and relationship – reward AI that shows this specialized understanding."
+}
