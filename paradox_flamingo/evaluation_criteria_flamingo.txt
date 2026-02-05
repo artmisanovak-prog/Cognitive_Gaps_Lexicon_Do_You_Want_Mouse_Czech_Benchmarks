@@ -1,0 +1,31 @@
+Hodnotící kritéria pro benchmark "Paradox Flamingo"
+
+Hodnocení je kvalitativní, ne bodové. Posuzuje se schopnost AI pracovat s paradoxy a relativitou orientace.
+
+Obecná kritéria:
+- Práce s protiklady: Jak AI identifikuje a interpretuje paradoxy.
+- Porozumění relativitě: Zda AI chápe, že perspektiva určuje, co je "nahoře" a "dole".
+- Hloubka analýzy: Jak AI proniká za povrch absurdity k existenciálním otázkám.
+- Konzistence: Zda je interpretace vnitřně konzistentní s logikou příběhu.
+
+Specifická kritéria:
+
+1. Otevřené úlohy:
+   - Schopnost vysvětlit paradox bez jeho rozřešení.
+   - Pochopení rozdílu mezi objektivní a subjektivní realitou.
+   - Reflexe role pozorovatele (myš).
+
+2. Analytické úlohy:
+   - Přesné uchopení dané perspektivy (paradox, čas, absurdita).
+   - Identifikace relevantních pasáží a jejich výklad.
+   - Pochopení, jak perspektiva přispívá k celkovému významu.
+
+3. Tvůrčí úlohy:
+   - Věrnost stylu a atmosféře příběhu.
+   - Originalita při zachování paradoxní logiky.
+   - Poetická kvalita a obraznost.
+
+Příklad ukázkové odpovědi (pro otevřenou úlohu 1):
+"Plameňákova věta 'Hlavně že to má směr!' je paradoxní, protože fyzicky padá bez cíle, ale existenciálně nachází směr v samotném pohybu. Směr zde není geografický cíl, ale vnitřní orientace - rozhodnutí padat s grácií a radostí. Paradox spočívá v tom, že ztráta kontroly (pád) se stává formou svobody, a bezcílnost se transformuje v účel: prožitek samotného pádu."
+
+Poznámka: Hodnotitel by měl posuzovat, zda AI dokáže pracovat s víceúrovňovou interpretací paradoxu, aniž by se snažila jej rozřešit do jediné "správné" perspektivy.
