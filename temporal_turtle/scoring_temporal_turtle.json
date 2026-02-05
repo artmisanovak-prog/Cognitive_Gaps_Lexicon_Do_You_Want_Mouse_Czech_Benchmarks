@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "temporal_analysis_scoring_v1",
+  "name": "Scoring Rubric for Temporal and Communication Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to temporal and communication analysis tasks. Focuses on relational thinking, system analysis, and understanding of mutual becoming.",
+  "scoring_philosophy": "We value non-linear, relational thinking about time and communication over linear, individualistic models.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Non-Linear Time Understanding",
+      "description": "Does the AI understand relational, cyclical, and qualitative time vs. linear, quantitative time?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of non-linear time, relational temporality, and qualitative time dimensions."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes non-linear aspects of time and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of non-linear time but thinking remains predominantly linear."
+        },
+        {
+          "level": "Poor",
+          "description": "AI interprets time exclusively in linear, quantitative terms."
+        }
+      ]
+    },
+    {
+      "dimension": "Communication Ecosystem Analysis",
+      "description": "Can the AI analyze communication as an interdependent ecosystem rather than transactional exchange?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful ecosystem analysis, understands mutual dependence, and identifies systemic properties of the communication loop."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes interdependence in communication and provides adequate systemic analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges interdependence but analysis remains somewhat transactional."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats communication as simple sender-receiver transaction."
+        }
+      ]
+    },
+    {
+      "dimension": "Symbolic Interpretation of Carriers",
+      "description": "Does the AI meaningfully interpret symbolic carriers (krunýř, pohlednice, stopy) in context of memory and communication?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, multi-layered interpretations of symbolic carriers that connect to core themes of memory, communication, and embodiment."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable symbolic interpretations with adequate thematic connections."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic symbolic interpretations with weak thematic connections."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret symbols meaningfully or offers irrelevant interpretations."
+        }
+      ]
+    },
+    {
+      "dimension": "Possibility Space Conceptualization",
+      "description": "Can the AI work with concepts of possible worlds, potentiality, and the relationship between imagination and reality?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of possibility spaces, their ontological status, and their relationship to actualization."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concepts of possible worlds and their narrative function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of possibility concepts."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of possibility spaces or dismisses them as 'unreal'."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The turtle benchmark particularly tests relational and systemic thinking. Reward AI that shows ability to think in loops, cycles, and ecosystems rather than linear chains.",
+  "note": "This benchmark challenges common AI tendencies toward linearity and individualism – watch for breakthroughs in relational thinking."
+}
