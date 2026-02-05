@@ -1,0 +1,50 @@
+{
+  "illustration_id": "cat_visual_metaphor_v1",
+  "file_name": "cat_illustration.jpg",
+  "title": "Kocour sežral 2x berušky a 0,5h krkal tečky",
+  "description_for_text_models": "Minimalistická černobílá kresba v naivně-groteskním stylu. Centrální postavou je dívka s divokými, kudrnatými vlasy, které se mísí s prvky kočky – na vrcholu hlavy je stylizovaná kočičí hlava s ušima, očima a tlamou, která vypadá, jako by 'seděla' na dívčině hlavě nebo z ní vyrůstala. Dívka má velké, výrazné oči s temnými stíny, lehce nakloněnou hlavu a melancholický nebo zamyšlený výraz. Kolem postavy je rozházený ručně psaný text v různých velikostech a orientacích: nahoře 'KOCOUR SEŽRAL 2x BERUŠKY A 0,5H KRKAL TEČKY', opakující se 'meow' v různých stylech, 'DVE' (pravděpodobně 'dvě'), 'meow meow', a dole 'TEČKY TEČKY' s tečkami a kruhy. Texty jsou chaotické, jako by byly vykrknuté nebo rozházené. Kompozice je vertikální, s velkými prázdnými plochami, silnými konturami a abstraktními tečkami/kruhy, které vypadají jako 'vykrknuté' prvky. Celkově působí ilustrace surrealisticky, s prvky absurdity a jazykové hry.",
+  "visual_elements": {
+    "composition": "Vertikální, chaotická, s centrální postavou dívky/kočky obklopenou texty a abstraktními prvky. Velký negativní prostor v pozadí zdůrazňuje zmatek a izolaci postavy. Prvky jsou rozmístěny nepravidelně, jako by byly 'vyhozené' na papír.",
+    "style": "Naivní groteskní, ručně kreslené s nerovnými liniemi, černobílé, s důrazem na expresivitu a surrealismus. Linie jsou hrubé, texty vypadají jako dětské psaní nebo graffiti.",
+    "central_figure": {
+      "entity": "dívka s kočičími prvky",
+      "features": ["divoké kudrnaté vlasy mísící se s kočičí hlavou", "velké oči s temnými stíny a řasami", "nakloněná hlava", "dlouhý krk", "stylizované rysy s prvky antropomorfismu"],
+      "gesture": "hlava lehce nakloněná dolů a do strany, oči hledící přímo na diváka, ruce nejsou vidět",
+      "expression": "melancholický, zamyšlený, možná unavený nebo znechucený – oči vypadají unaveně, ústa lehce pootevřená"
+    },
+    "cat_elements": {
+      "representation": "kočičí hlava na vrcholu dívčiny hlavy, s ušima, očima a tlamou; opakující se 'meow' jako zvukové efekty",
+      "position": "kočka 'sedí' na hlavě, jako by byla součástí vlasů nebo vyrůstala z ní",
+      "symbolic_qualities": ["fúze člověka a zvířete", "absurdní transformace", "jazyková hra s 'krkáním teček'", "zvířecí instinkty nebo nemoc po sežrání berušek"]
+    },
+    "text": {
+      "content": [
+        "KOCOUR SEŽRAL 2x BERUŠKY A 0,5H KRKAL TEČKY",
+        "DVE",
+        "meow",
+        "meow meow",
+        "TEČKY TEČKY"
+      ],
+      "style": "ručně psané, nepravidelné, s chybami nebo stylizovanými písmeny (např. '2x' jako matematický výraz), lehce nakloněné, chaotické",
+      "punctuation": "tečky jako kruhy a body rozházené kolem, symbolizující 'krkání'",
+      "placement": "texty obklopují postavu ze všech stran, integrované do kompozice jako součást akce (krkání), ne jen popisek",
+      "function": "performativní, jazyk se stává fyzickým – slova 'krkají' tečky, text je vizuálně chaotický jako zvracení"
+    },
+    "abstract_elements": {
+      "dots_and_circles": "malé kruhy a tečky rozházené kolem, zejména dole a kolem 'TEČKY TEČKY', vypadají jako vykrknuté objekty nebo beruščí tečky",
+      "lines_and_scribbles": "kudrnaté linie ve vlasech, které se mísí s texty a kočičími prvky"
+    }
+  },
+  "interpretive_notes": {
+    "gesture_ambiguity": ["unavená kočka po 'jídle'", "zamyšlení nad absurditou", "groteskní transformace", "jazyková nemoc nebo hra", "satira na zvířecí chování"],
+    "text_function": "Meta-jazykový komentář: text popisuje akci (sežrání berušek a krkání teček), ale vizuálně ji ztělesňuje – tečky jsou nakreslené, 'meow' jako zvukové efekty. Odkaz na příběh, kde jazyk se stává fyzickým aktem.",
+    "relationship_to_story": "Ilustrace vizualizuje příběh o kocourovi, který sežere berušky a pak 'krká' tečky půl hodiny. Není doslovná scéna, ale metafora pro jazykovou absurditu, kde slova a zvuky se mísí s vizuály.",
+    "conceptual_core": "Ilustrace jako metafora pro transformaci jazyka v akci: 'krkání teček' symbolizuje, jak slova nebo myšlenky se stávají fyzickými, chaotickými prvky. Souvisí s tématy absurdity, jazyka jako materiálu a epistemologického pozorování skrytých vrstev (např. berušky jako tečky).",
+    "ambiguities": "Je postava kocour nebo dívka? Je kočka součástí ní, nebo na ní? Tečky jako beruščí křídla, interpunkce nebo zvracení? Mnohoznačnost podporuje otevřený význam."
+  },
+  "cognitive_perspectives_in_visual": {
+    "primary": ["b (linguistic)", "j (absurd)", "f (ironic)"],
+    "secondary": ["a (meta)", "i (paradoxical)", "g (associative)"],
+    "reasoning": "Linguistic (b) kvůli hře s texty, které se stávají fyzickými (krkání teček); absurd (j) kvůli nelogickému spojení kocoura, berušek a teček v chaotickém vizuálu; ironic (f) kvůli grotesknímu zvratu, kde sežrání vede k 'jazykové nemoci'. Meta (a) v rekurzi, kde ilustrace komentuje sama sebe; paradoxical (i) v fúzi člověka/kočky; associative (g) v rychlých skocích mezi slovy, zvuky a obrazy."
+  }
+}
