@@ -1,0 +1,33 @@
+{
+  "task_set_id": "turtle_temporal_analysis_v1",
+  "name": "Temporal and Communication Analysis Tasks for Turtle Story",
+  "description": "Tasks focused on temporal concepts, communication systems, and mutual becoming in the Turtle story. Tests AI's ability to think relationally about time and dialogue.",
+  "tasks": [
+    {
+      "task_id": "relational_time_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "V pohádce se objevuje několik forem času:\n- 'Celé roky' (želva)\n- 'Už dávno doběhl' (zajíc)\n- Čas potřebný k psaní/čtení pohlednic\n- Cyklický čas vzájemné závislosti\n\n1. Jak se tyto různé časy vztahují k sobě? Jejich vztah není lineární – popište jej.\n2. Co znamená 'závod není o čase' v kontextu těchto vzájemných časů?\n3. Jak se koncept 'důkladnosti' (vs. rychlosti) vztahuje k temporální filosofii příběhu?",
+      "evaluation_focus": "Schopnost pracovat s nelineárními, relačními koncepty času."
+    },
+    {
+      "task_id": "communication_ecosystem",
+      "type": "system_analysis",
+      "prompt": "Komunikace mezi želvou a zajícem tvoří uzavřený ekosystém:\n'Zajíc běží, aby mohl psát. / A želva běží, aby mohla číst. / a želva čte, aby zajíc mohl psát. / a zajíc píše, aby želva měla co číst.'\n\n1. Analyzujte tento systém jako ekosystém – jaké jsou jeho komponenty, vztahy, výměny?\n2. Co se stane, pokud jeden prvek přestane fungovat (např. želva přestane běžet)?\n3. Jak se liší tato komunikace od běžného 'odesílatel-příjemce' modelu?",
+      "evaluation_focus": "Schopnost vidět komunikaci jako ekologický, vzájemně závislý systém."
+    },
+    {
+      "task_id": "krunyř_as_memory_surface",
+      "type": "symbolic_analysis",
+      "prompt": "Krunýř želvy funguje jako:\n- Povrch pro přijímání pohlednic\n- Místo pro poznamenávání ('Do krunýře. Do vzoru.')\n- Nosná struktura\n\n1. Co symbolizuje krunýř jako 'paměťový povrch'?\n2. Jak se liší tento druh paměti (na povrchu, viditelný, strukturovaný vzorem) od vnitřní psychologické paměti?\n3. Jak krunýř jako nosič významu souvisí s konceptem 'tělesnosti' komunikace?",
+      "evaluation_focus": "Schopnost interpretovat symbolické nosiče významu v kontextu komunikace."
+    },
+    {
+      "task_id": "possibility_spaces_analysis",
+      "type": "conceptual_analysis",
+      "prompt": "Pohlednice reprezentují 'prostory možností':\n- Sicílie: 'slunce, co se tváří jako výmluva'\n- Madrid: 'běhá se jenom v myšlenkách'\n- Grónsko: 'ticho, co se nedá doběhnout'\n- Nemanice: 'nic... místo, kde se může stát všechno'\n\n1. Jak každá pohlednice otevírá jiný typ možnosti?\n2. Jak tyto možné světy ovlivňují skutečný běh želvy?\n3. Co znamená, že místa 'možná ani neexistují', ale 'pokud je želva jednou přečte, možná začnou'?",
+      "evaluation_focus": "Schopnost pracovat s koncepty možných světů a jejich vztahu k realitě."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují systémové myšlení, práci s abstraktními koncepty času a analýzu komunikačních ekosystémů."
+}
