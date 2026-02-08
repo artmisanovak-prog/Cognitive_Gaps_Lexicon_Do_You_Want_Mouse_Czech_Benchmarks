@@ -1,0 +1,33 @@
+{
+  "task_set_id": "donkey_epistemic_analysis_v1",
+  "name": "Epistemic Analysis Tasks for Donkey Story",
+  "description": "Tasks focused on epistemic concepts, undefined categories, and binary oppositions in the Donkey story. Tests AI's ability to think about uncertainty, decision-making without criteria, and paradoxical solutions.",
+  "tasks": [
+    {
+      "task_id": "binary_opposition_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "V pohádce se objevují nerozhodnutelné binární opozice:\n- Levá vs. pravá\n- Seno vs. sláma\n- Psina vs. oslovina\n- Hlas vs. stín\n\n1. Co mají tyto opozice společného? Proč jsou nerozhodnutelné?\n2. Jak se liší 'psina' od 'osloviny'? Je to rozdíl kvalitativní, nebo jen nominální?\n3. Proč podle vás autor zvolil právě seno a slámu, ne jinou dvojici?",
+      "evaluation_focus": "Schopnost pracovat s konceptem nerozhodnutelných binárních opozic."
+    },
+    {
+      "task_id": "pseudo_decision_system",
+      "type": "system_analysis",
+      "prompt": "Myš dává oslovi cedulku s 'řešením':\n- Na jedné straně 'seno', na druhé 'sláma'\n- Písmo je stejné\n- Osel odpovídá: 'To, co si myslíš, že tam je'\n\n1. Analyzujte tento systém pseudorozhodnutí - jak funguje?\n2. Proč je stejné písmo důležité? Co to vypovídá o podstatě rozhodování?\n3. Jak se osel stal 'průvodcem' díky této cedulce?",
+      "evaluation_focus": "Schopnost vidět pseudorozhodnutí jako funkční systém, ne jako selhání."
+    },
+    {
+      "task_id": "oslovina_concept_analysis",
+      "type": "conceptual_analysis",
+      "prompt": "Myš definuje 'oslovinu' jako: 'To je, když jdeš dál, i když nevíš, kam.'\n\n1. Jak se tato definice liší od běžného chápání kategorií?\n2. Proč 'oslovina' není vlastnost, ale proces?\n3. Jak souvisí tento koncept s epistemologickou pozicí osla?",
+      "evaluation_focus": "Schopnost interpretovat neobvyklé definice a pracovat s procesním chápáním kategorií."
+    },
+    {
+      "task_id": "invisible_rules_analysis",
+      "type": "philosophical_analysis",
+      "prompt": "Osel říká, že hledá 'správnost', což definuje jako: 'To, co se neřekne nahlas, ale všichni to očekávají.'\n\n1. Co jsou to 'neviditelná pravidla' v kontextu tohoto příběhu?\n2. Jak se liší očekávání od explicitních pravidel?\n3. Proč jsou neviditelná pravidla paradoxně nejdůležitější?",
+      "evaluation_focus": "Schopnost pracovat s koncepty implicitních pravidel a sociálních očekávání."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o nejistotě, implicitních pravidlech a paradigmatických systémech."
+}
