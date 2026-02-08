@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "sparrow_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Sparrow Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in sparrow story. Focus on topographic and cultural perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to spatial value, ownership transformation, and cultural code subversion, not just general perspective identification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Topographic Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to spatial value metaphors (cultural, metaphorical, logical) and understand their topographic dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of topographic perspectives, identifies spatial value dynamics, and connects perspectives to specific topographic qualities in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant topographic perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some topographic perspectives but analysis is superficial or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of topographic dimensions in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Ownership Transformation Recognition",
+      "description": "Can the AI identify perspectives that illuminate ownership dynamics and their transformation (psychological, metaphorical, meta)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies ownership perspectives, understands transformation processes, and analyzes how perspectives reveal dynamic property relations."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies ownership perspectives and provides adequate analysis of transformation processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some ownership perspectives but analysis is weak or misses transformation."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize ownership dimensions or treats property as static."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Topographic Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with spatial value and cultural themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to topographic context, shows understanding of qualitative shifts between physical and mental ownership."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to spatial/cultural themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Cultural Perspective Blending",
+      "description": "Can the AI creatively blend perspectives to analyze cultural code transformation and spatial value systems?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate proverb metamorphosis and topographic economics."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze cultural and spatial processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for cultural-topographic analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of topographic and cultural perspectives. An AI that excels in cultural sensitivity but is weaker in spatial analysis might still show valuable cognitive patterns.",
+  "note": "The sparrow story demands particular sensitivity to spatial value and cultural transformation – reward AI that shows this specialized understanding."
+}
