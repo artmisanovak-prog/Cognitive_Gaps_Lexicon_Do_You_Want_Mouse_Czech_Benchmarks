@@ -1,0 +1,34 @@
+{
+  "task_set_id": "sparrow_visual_analysis_v1",
+  "name": "Visual Analysis Tasks for Sparrow Illustration",
+  "description": "Tasks focused on analyzing the illustration of the sparrow story. Tests multimodal understanding of power hierarchy and spatial value visualization.",
+  "illustration_note": "The illustration shows woman with sparrow on her head, with text spatially divided around her. Style is naive-grotesque, monochrome.",
+  "tasks": [
+    {
+      "task_id": "visual_hierarchy_analysis",
+      "type": "visual_analytical",
+      "prompt": "Analyzujte ilustraci z hlediska vizuální hierarchie:\n1. Jaký je vztah mezi ženou a vrabcem (kdo má vizuální nadřazenost)?\n2. Jak kompozice (vrabec nahoře, žena pod ním) komentuje téma moci a vlastnictví?\n3. Co znamená, že žena má skloněnou hlavu a unavený výraz?",
+      "evaluation_focus": "Schopnost číst vizuální mocenské vztahy a jejich symbolický význam."
+    },
+    {
+      "task_id": "text_spatial_visualization",
+      "type": "visual_metaphor_analysis",
+      "prompt": "Text na ilustraci je prostorově rozdělen:\n- 'lepší holub na střeše' vlevo\n- 'než vrabec na hlavě' vpravo\n\n1. Jak tato prostorová distribuce textu odpovídá tématu hodnotového rozhodování?\n2. Proč je text rozptýlen a překrývá se s postavou?\n3. Jak ručně psaný, 'nedokonalý' text souvisí s tématem transformace a relativity v pohádce?",
+      "evaluation_focus": "Schopnost identifikovat vztah mezi vizuální distribucí textu a tématem hodnotové hierarchie."
+    },
+    {
+      "task_id": "absence_presence_analysis",
+      "type": "comparative_analysis",
+      "prompt": "V ilustraci není zobrazen:\n- Holub na střeše\n- Hrst (vrabec v hrsti)\n- Transformační moment (skok z hrsti na hlavu)\n- Hnízdo v procesu stavění\n\n1. Co tyto absence vypovídají o vztahu ilustrace k příběhu?\n2. Proč ilustrace zobrazuje pouze finální stav (vrabec na hlavě), ne proces transformace?\n3. Jak byste vizualizovali 'holuba na střeše' jako nedosažitelný ideál?",
+      "evaluation_focus": "Schopnost analyzovat výběr zobrazených a nezobrazených elementů jako narativní rozhodnutí."
+    },
+    {
+      "task_id": "mental_architecture_visualization",
+      "type": "interpretive_analysis",
+      "prompt": "Kudrnaté vlasy ženy mohou být čteny jako 'architektura' pro vrabčí hnízdo:\n1. Jak tento vizuální prvek souvisí s textovým popisem hnízda z 'pochybností a ranních vlasů'?\n2. Co symbolizuje organická, chaotická struktura vlasů jako základ pro mentální konstrukci?\n3. Jak byste vizualizovali proces 'stavění hnízda myšlenek'?",
+      "evaluation_focus": "Schopnost pracovat s konceptem mentální architektury a její vizuální reprezentace."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Ilustrace není doslovným zobrazením scény, ale vizualizací mocenské dynamiky a hodnotové hierarchie."
+}
