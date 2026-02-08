@@ -1,0 +1,32 @@
+{
+  "task_set_id": "krokodyl_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Krokodýl Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Krokodýl story. Focuses on commodification and semiotic transformation themes.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_krokodyl",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O krokodýlovi'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu komodifikace emocí a ekonomie významu. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu komercializace",
+      "example_response": {
+        "perspective": "c (filozofický)",
+        "text_passage": "'Krokodýlí slzy nejsou falešné. Jsou jen snadno dostupné.'",
+        "explanation": "Filozofická perspektiva analyzuje rozdíl mezi ontologickou falešností a sociální dostupností, zpochybňuje binární kategorie autenticity."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma komodifikace a hodnotové transformace."
+    },
+    {
+      "task_id": "semiotic_layer_analysis",
+      "type": "qualitative_analysis", 
+      "prompt": "Analyzujte, jak se perspektiva 'l (kulturní)' projevuje v pohádce o krokodýlovi z hlediska sémiotických vrstev. Výchozí vrstva pro kulturní perspektivu je 'L' (SYMBOL).\n\n1. Jak se symbol krokodýla transformuje v komerčním kontextu?\n2. Objevuje se kulturní perspektiva ve vrstvě 'K' (SYSTÉM) - kde se symbol stává součástí ekonomického systému?\n3. Popište tuto transformaci vrstev v kontextu 'slevy na smysl'.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu komercializace symbolů."
+    },
+    {
+      "task_id": "commodification_perspective_blending", 
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli převyprávět scénu, kde jazyk a smysl přicházejí na kontrolu, z kombinace perspektiv 'd (logický)' a 'j (absurdní)'.\n\nNapište krátký popis (3-4 věty) této scény skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by logická perspektiva analyzovala 'kontrolu' jako systémovou funkci?\n2. Jak by absurdní perspektiva interpretovala příchod personifikovaného Jazyka a Smyslu?\n3. Jak se tyto dvě perspektivy doplňují v pochopení 'kontrolních mechanismů významu'?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují systémovost a absurditu současně."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět komodifikaci a sémiotické posuny skrze multiple perspektivy."
+}
