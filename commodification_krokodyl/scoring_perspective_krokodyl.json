@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "krokodyl_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Krokodýl Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in krokodýl story. Focus on commodification and semiotic perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to emotion commodification, meaning economics, and commercial symbolism.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Commodification Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to commodification processes (cultural, philosophical, logical) and understand their economic-semiotic dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of commodification perspectives, identifies value transformation dynamics, and connects perspectives to specific economic-semiotic qualities."
+        },
+        {
+          "level": "Good", 
+          "description": "AI identifies relevant commodification perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some commodification perspectives but analysis is superficial or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of commodification dimensions in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Semiotic Shift Recognition",
+      "description": "Can the AI identify perspectives that illuminate semiotic transformations (symbol → product, emotion → commodity, meaning → sale item)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies semiotic shift perspectives, understands transformation processes, and analyzes how perspectives reveal value degradation."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies semiotic shift perspectives and provides adequate analysis of their function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some semiotic perspectives but analysis is weak or misses transformation."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize semiotic dimensions or treats symbols as static."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Commercial Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with commodification and commercial systems?",
+      "levels": [
+        {
+          "level": "Excellent", 
+          "description": "AI provides sophisticated analysis of layer transformation specific to commercial context, shows understanding of qualitative shifts between symbolic and economic layers."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to commercial themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Commercial-Absurd Perspective Blending",
+      "description": "Can the AI creatively blend perspectives to analyze commercial absurdity and economic paradoxes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate commercial absurdity and meaning economy paradoxes."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze commercial-absurd processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor", 
+          "description": "AI fails to meaningfully blend perspectives for commodification analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of commodification and semiotic perspectives. An AI that excels in economic analysis but is weaker in symbolic analysis might still show valuable cognitive patterns.",
+  "note": "The krokodýl story demands particular sensitivity to value degradation and commercial symbolism – reward AI that shows this specialized understanding."
+}
