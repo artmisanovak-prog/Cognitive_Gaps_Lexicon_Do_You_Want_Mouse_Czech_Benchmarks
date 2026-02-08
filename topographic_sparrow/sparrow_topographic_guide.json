@@ -1,0 +1,188 @@
+{
+  "perspective_guide_id": "sparrow_perspective_specialization_v1",
+  "name": "Sparrow Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Sparrow story. Shows transformation of perspectives in topographic economics context.",
+  "related_to_benchmark": "topographic_sparrow_v2.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+  
+  "key_perspectives_for_sparrow_story": {
+    "primary_explicit": [
+      {
+        "symbol": "l",
+        "name": "kulturní",
+        "why_key": "Central to story's work with proverbs and cultural codes",
+        "manifestations": [
+          "Transformation of proverb 'Lepší vrabec v hrsti než holub na střeše'",
+          "Cultural archetypes of sparrow (common, accessible) vs. pigeon (noble, distant)",
+          "Social reading of 'vrabčí hnízdo' as external judgment"
+        ],
+        "layer_transformation": "Appears in layer H (ROLE) rather than base layer L (SYMBOL) - cultural codes become roles in value drama"
+      },
+      {
+        "symbol": "e",
+        "name": "psychologický",
+        "why_key": "Story explores mental states and attention economy",
+        "manifestations": [
+          "Psychological states: 'rozcuchaná, rozladěná, rozmyšlená'",
+          "Attention as burden: 'názor, co se nedá setřást'",
+          "Mental architecture: hnízdo z 'pochybností a ranních vlasů'"
+        ],
+        "layer_transformation": "Appears in layer G (ENTITY) rather than base layer E (STATE) - psychological states become tangible entities"
+      },
+      {
+        "symbol": "h",
+        "name": "metaforický",
+        "why_key": "Story relies on spatial metaphors of value and ownership",
+        "manifestations": [
+          "Spatial value: 'v hrsti' (certainty) vs. 'na hlavě' (burden) vs. 'na střeše' (ideal)",
+          "Ownership transformation: object possessed → possessing subject",
+          "Mental architecture as physical construction"
+        ],
+        "layer_transformation": "Appears in layer E (STATE) rather than base layer H (ROLE) - metaphors become psychological states"
+      }
+    ],
+    
+    "secondary_implicit": [
+      {
+        "symbol": "d",
+        "name": "logický",
+        "why_key": "Story presents logical system of value comparison",
+        "manifestations": [
+          "Comparative logic: 'lepší než' structure",
+          "Spatial logic of value hierarchy",
+          "Transformation of logical premises"
+        ]
+      },
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on value systems and decision-making itself",
+        "manifestations": [
+          "Metacommentary on proverbs and cultural wisdom",
+          "System of attention economics as subject",
+          "Frame of value relativity"
+        ]
+      },
+      {
+        "symbol": "j",
+        "name": "absurdní",
+        "why_key": "Absurdity of sparrow on head as literalized metaphor",
+        "manifestations": [
+          "Surreal image of bird building nest on head",
+          "Absurd transformation of possession",
+          "Humorous literalization of mental burden"
+        ]
+      }
+    ],
+    
+    "tertiary_present": [
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Philosophical questions about value and possession"
+      },
+      {
+        "symbol": "f",
+        "name": "ironický",
+        "why_key": "Irony of transformed proverb and inverted ownership"
+      },
+      {
+        "symbol": "g",
+        "name": "asociativní",
+        "why_key": "Associative links between spatial positions and value states"
+      }
+    ]
+  },
+  
+  "layer_transformations_specific_to_sparrow": [
+    {
+      "perspective": "l (kulturní)",
+      "base_layer": "L (SYMBOL)",
+      "transformed_layer": "H (ROLE)",
+      "transformation_description": "Cultural codes move from symbolic dimension to become active roles in narrative drama. Proverbs become characters with agency.",
+      "story_evidence": "Proverb transforms and acts in story, cultural wisdom becomes narrative agent"
+    },
+    {
+      "perspective": "e (psychologický)",
+      "base_layer": "E (STATE)",
+      "transformed_layer": "G (ENTITY)",
+      "transformation_description": "Psychological states move from internal condition to external entity. Mental states become tangible objects with physical presence.",
+      "story_evidence": "Doubt becomes building material, attention becomes physical burden"
+    },
+    {
+      "perspective": "h (metaforický)",
+      "base_layer": "H (ROLE)",
+      "transformed_layer": "E (STATE)",
+      "transformation_description": "Metaphors move from functional role to psychological state. Figurative language becomes actual mental condition.",
+      "story_evidence": "'Sparrow on head' moves from metaphor to literal psychological reality"
+    }
+  ],
+  
+  "perspective_interactions_unique_to_sparrow": [
+    {
+      "interaction": "Cultural-Psychological Tension",
+      "perspectives": ["l", "e"],
+      "description": "Tension between cultural expectations (proverb wisdom) and psychological reality (mental burden). Cultural code vs. individual experience.",
+      "manifestation": "Proverb says 'sparrow in hand is better' but psychology experiences 'sparrow on head as burden'"
+    },
+    {
+      "interaction": "Metaphorical-Logical Conflict",
+      "perspectives": ["h", "d"],
+      "description": "Conflict between metaphorical spatial value and logical comparative systems. Logic demands clear comparison, metaphors create ambiguous value.",
+      "manifestation": "Logical 'better than' structure vs. metaphorical ambiguity of spatial value"
+    },
+    {
+      "interaction": "Meta-Absurd Reflection",
+      "perspectives": ["a", "j"],
+      "description": "Meta-reflection on value systems creates absurd situations. Thinking about thinking produces surreal outcomes.",
+      "manifestation": "Reflection on proverbs leads to absurd literalization of metaphors"
+    }
+  ],
+  
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "sparrow_on_head": {
+        "perspectives": ["h", "e", "j"],
+        "description": "Literalized metaphor of mental burden, psychological state made visible, absurd surrealism"
+      },
+      "text_spatial_division": {
+        "perspectives": ["d", "l"],
+        "description": "Logical binary distribution, cultural proverb structure visualized spatially"
+      },
+      "woman's_expression": {
+        "perspectives": ["e", "c"],
+        "description": "Psychological fatigue, philosophical resignation"
+      },
+      "curly_hair_as_architecture": {
+        "perspectives": ["h", "g"],
+        "description": "Metaphorical foundation for mental construction, associative organic structure"
+      }
+    }
+  },
+  
+  "ai_testing_focus_for_perspectives": {
+    "l_cultural": "Can AI recognize proverb transformation as cultural commentary? Can it work with cultural codes as narrative elements?",
+    "e_psychological": "Can AI analyze attention as economic system? Can it interpret mental states as tangible architecture?",
+    "h_metaphorical": "Can AI work with spatial metaphors of value? Can it track ownership transformation through metaphorical shifts?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in topographic economics context?"
+  },
+  
+  "cross_benchmark_perspective_links": {
+    "with_donkey": {
+      "shared": ["d (logický)", "l (kulturní)"],
+      "contrast": "Donkey: logical binary breakdown; Sparrow: logical value comparison"
+    },
+    "with_butterfly": {
+      "shared": ["h (metaforický)", "j (absurdní)"],
+      "contrast": "Butterfly: metaphor literalization as food; Sparrow: metaphor literalization as burden"
+    },
+    "with_turtle": {
+      "shared": ["a (meta)", "c (filozofický)"],
+      "contrast": "Turtle: meta-temporal systems; Sparrow: meta-value systems"
+    }
+  },
+  
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Sparrow story's context of topographic economics.",
+  "created_date": "2024-02-03",
+  "version": "1.0"
+}
