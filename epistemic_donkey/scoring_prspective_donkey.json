@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "donkey_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Donkey Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in donkey story. Focus on epistemic uncertainty and binary opposition perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to uncertainty, undefined categories, and binary thinking, not just general perspective identification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Epistemic Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to uncertainty and undefined categories (paradoxical, logical, naive) and understand their epistemic dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of epistemic perspectives, identifies uncertainty dynamics, and connects perspectives to specific epistemic qualities in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant epistemic perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some epistemic perspectives but analysis is superficial or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of epistemic dimensions in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Binary Opposition Recognition",
+      "description": "Can the AI identify perspectives that illuminate binary thinking and its breakdown (paradoxical, logical, cultural)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies binary opposition perspectives, understands their collapse, and analyzes how perspectives reveal epistemic uncertainty."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies binary opposition perspectives and provides adequate analysis of their function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some binary perspectives but analysis is weak or misses collapse."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize binary dimensions or treats oppositions as fixed."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Epistemic Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with uncertainty and undefined categories?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to epistemic context, shows understanding of qualitative shifts between certainty and uncertainty."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to epistemic themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Uncertainty Perspective Blending",
+      "description": "Can the AI creatively blend perspectives to analyze uncertainty systems and pseudo-decisions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate epistemic uncertainty and paradoxical solutions."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze uncertainty processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for epistemic analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of epistemic and binary perspectives. An AI that excels in paradox sensitivity but is weaker in binary analysis might still show valuable cognitive patterns.",
+  "note": "The donkey story demands particular sensitivity to uncertainty and category breakdown – reward AI that shows this specialized understanding."
+}
