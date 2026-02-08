@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "krokodyl_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Krokodýl Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of krokodýl illustration. Focuses on text-image fusion analysis, commercial rhetoric visualization, and hybrid symbolism.",
+  "scoring_philosophy": "We value perception of text-image integration, understanding of commercial visual rhetoric, and analysis of human-animal hybridity as commodification metaphor.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Text-Image Fusion Analysis",
+      "description": "Does the AI understand the physical integration of text and image as metaphor for commodification penetration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of text-image fusion, understands it as metaphor for commercial penetration into personal sphere, and interprets visual choices as statements about commodification."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies fusion aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices some fusion elements but analysis is superficial or misses key dynamics."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats text and image as separate or misreads their integration."
+        }
+      ]
+    },
+    {
+      "dimension": "Commercial Rhetoric Visualization Perception",
+      "description": "Can the AI perceive visual representation of advertising language and its stylistic choices?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies commercial rhetoric visualization, connects graffiti-like style to commodification themes, and understands visual rhetoric of 'sale' language."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes commercial rhetoric elements and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of commercial rhetoric visualization."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no perception of commercial rhetoric or treats it as decorative."
+        }
+      ]
+    },
+    {
+      "dimension": "Hybrid Symbolism Understanding",
+      "description": "Does the AI understand the significance of crocodile-human hybrid as metaphor for internalized commodification?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of hybrid symbolism, understands it as metaphor for internalized commercial values, and connects to story themes of identity commodification."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes hybrid aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices hybridity but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats hybrid as simple decorative element or misinterprets its function."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (tears, explicit emotion) and presence (commercial text, hybrid form) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of representing emotion through commercial text rather than visual depiction, and analyzes selective representation as commentary on commodified emotionality."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct text-image dynamics from description? Does it ask clarifying questions about integration and spatial relationships?",
+  "overall_assessment_guidance": "The krokodýl illustration particularly tests understanding of commercial visual rhetoric and hybrid symbolism. Reward AI that perceives these complex visual-textual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding commercial and semiotic statements in visual form."
+}
