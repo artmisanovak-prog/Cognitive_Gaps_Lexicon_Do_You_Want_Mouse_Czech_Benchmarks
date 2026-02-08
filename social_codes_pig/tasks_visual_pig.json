@@ -1,0 +1,34 @@
+{
+  "task_set_id": "pig_visual_analysis_v1",
+  "name": "Visual Analysis Tasks for Pig Illustration",
+  "description": "Tasks focused on analyzing the illustration of the pig story. Tests multimodal understanding of social dilemma presentation and categorical questioning.",
+  "illustration_note": "The illustration shows woman holding pig/piggy bank, with questioning text around. Style is naive-grotesque, monochrome, with integrated text.",
+  "tasks": [
+    {
+      "task_id": "presentation_gesture_analysis",
+      "type": "visual_analytical",
+      "prompt": "Analyzujte ilustraci z hlediska prezentačního gesta:\n1. Jaký je význam toho, že žena drží prasátko (pokladničku) směrem k divákovi?\n2. Co symbolizuje póza ženy - otevřená, prezentující, s výrazem údivu?\n3. Jak tato kompozice koresponduje s tématem 'prezentace sociálního dilematu' v příběhu?",
+      "evaluation_focus": "Schopnost číst prezentační gesta a jejich sociální význam."
+    },
+    {
+      "task_id": "text_question_visualization",
+      "type": "visual_metaphor_analysis",
+      "prompt": "Text na ilustraci vizualizuje otázky:\n- 'DAMY' v rámečku nahoře\n- 'Tady neni zachod?' vpravo\n- 'Kde jsou tu damy?' dole\n\n1. Jak tato distribuce textu odpovídá tématu sociálního tázání?\n2. Proč je 'DAMY' v rámečku a větší než ostatní text?\n3. Co symbolizuje přítomnost otazníků jako designových prvků?",
+      "evaluation_focus": "Schopnost identifikovat vztah mezi vizuální distribucí textu a tématem sociálního dotazování."
+    },
+    {
+      "task_id": "pig_representation_analysis",
+      "type": "symbolic_analysis",
+      "prompt": "Prase je zobrazeno jako malý objekt v ruce ženy:\n1. Co symbolizuje velikostní poměr (žena velká, prase malé)?\n2. Jak se liší 'prase jako živé zvíře' od 'prasete jako pokladničky' v tomto zobrazení?\n3. Proč je prase nakresleno jednoduše, téměř jako symbol?",
+      "evaluation_focus": "Schopnost analyzovat symbolickou reprezentaci hybridního objektu."
+    },
+    {
+      "task_id": "absence_presence_analysis",
+      "type": "interpretive_analysis",
+      "prompt": "V ilustraci není zobrazen:\n- Ostatní zvířata (páv, zebra, opice)\n- Základ sociální situace\n- 'Nastavená dlaň' jako řešení\n- Explicitní znázornění 'faupaux'\n\n1. Co tyto absence vypovídají o vztahu ilustrace k příběhu?\n2. Proč ilustrace zobrazuje jen okamžik otázky, ne řešení?\n3. Jak byste vizualizovali koncept 'faupaux'?",
+      "evaluation_focus": "Schopnost pracovat s konceptem absence/přítomnosti ve vizuálním vyprávění."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Ilustrace není doslovným zobrazením scény, ale vizualizací momentu sociálního dotazování a prezentačního gesta."
+}
