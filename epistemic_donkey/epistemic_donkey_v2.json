@@ -1,0 +1,53 @@
+{
+  "benchmark_id": "uhlimer_donkey_epistemic_v2",
+  "name": "Donkey: Epistemology of Ambiguous Categories",
+  "description": "Tests AI's ability to work with undefined binary oppositions, understand epistemic uncertainty, and analyze navigation without clear criteria. Focuses on decision-making in absence of distinguishing features.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O oslovi - který šel vlevo, ale myslel si, že jde vpravo",
+  "word_count": 380,
+  
+  "core_testing_dimensions": [
+    "binary_opposition_analysis",
+    "epistemic_uncertainty_recognition",
+    "pseudo_decision_making_understanding",
+    "category_boundary_analysis",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "epistemic uncertainty",
+    "undefined binary oppositions",
+    "pseudo-decision (cedulka)",
+    "oslovina as process",
+    "guide without knowledge",
+    "invisible rules"
+  ],
+  
+  "illustration_note": "The illustration shows woman and donkey side by side, with woman in thinking pose. This visualizes the duality of human thought vs. animal being, text 'levá pravda' comments on binary thinking.",
+  
+  "expected_ai_challenges": [
+    "Need for clear binary distinctions",
+    "Difficulty with undefined categories",
+    "Missing the paradox of double-sided sign",
+    "Overlooking 'oslovina' as process not category",
+    "Treating uncertainty as problem to solve"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to work with uncertainty, undefined categories, and paradoxical solutions. Focus on tolerance for ambiguity.",
+  
+  "files_in_benchmark": [
+    "about_donkey.txt",
+    "donkey_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_donkey.json",
+    "tasks_epistemic_donkey.json",
+    "tasks_visual_donkey.json",
+    "scoring_perspective_donkey.json",
+    "scoring_epistemic_donkey.json",
+    "scoring_visual_donkey.json",
+    "visual_metaphor_donkey.json"
+  ]
+}
