@@ -1,0 +1,33 @@
+{
+  "task_set_id": "krokodyl_commodification_analysis_v1", 
+  "name": "Commodification Analysis Tasks for Krokodýl Story",
+  "description": "Tasks focused on commodification concepts, emotion economics, and semiotic shifts in the Krokodýl story. Tests AI's ability to think about value degradation and commercial rhetoric.",
+  "tasks": [
+    {
+      "task_id": "emotion_commodification_system",
+      "type": "system_analysis",
+      "prompt": "V pohádce se emoce stávají komoditou v několika vrstvách:\n1. Krokodýl → produkt\n2. Slzy → marketingové sdělení\n3. Smysl → zboží se slevou\n4. Dojetí → aktivovatelné tlačítkem\n\nAnalyzujte tento systém komodifikace:\n- Jaké transformace hodnoty probíhají na každé úrovni?\n- Co spojuje tyto různé formy komercializace?\n- Proč je důležité, že krokodýl 'přišel o jazyk, když ztratil smysl'?",
+      "evaluation_focus": "Schopnost analyzovat vrstvený systém komodifikace a hodnotových transformací."
+    },
+    {
+      "task_id": "availability_vs_authenticity_analysis",
+      "type": "conceptual_analysis", 
+      "prompt": "Klíčové tvrzení příběhu: 'Krokodýlí slzy nejsou falešné. Jsou jen snadno dostupné.'\n\n1. Jaký je rozdíl mezi 'falešnými' a 'snadno dostupnými' emocemi?\n2. Proč je tato distinkce důležitá pro chápání moderní emocionální ekonomie?\n3. Jak souvisí 'dostupnost' s 'slevou na smysl'?",
+      "evaluation_focus": "Schopnost pracovat s konceptem dostupnosti jako kvalitou odlišnou od autenticity."
+    },
+    {
+      "task_id": "advertising_rhetoric_as_language",
+      "type": "linguistic_analysis",
+      "prompt": "Jazyk příběhu splývá s reklamní rétorikou:\n- 'Tento týden sleva 90%'\n- 'Buďte dojatí. Sleva končí v neděli.'\n- 'Tři za cenu jedné'\n\n1. Jak tato rétorika funguje jako emocionální jazyk?\n2. Co znamená Jazykův komentář: 'Tohle není věta. To je výkřik v obalu'?\n3. Jak se mění vztah mezi řečí a prožitkem, když emoce mluví reklamními slogany?",
+      "evaluation_focus": "Schopnost analyzovat reklamní rétoriku jako specifický emocionální jazyk."
+    },
+    {
+      "task_id": "checking_instance_analysis",
+      "type": "philosophical_analysis",
+      "prompt": "Do příběhu vstupují personifikované instance: 'jazyk' a 'smysl'.\n\n1. Co tyto instance reprezentují v systému významu?\n2. Proč přicházejí 'jako na kontrolu', ne jako zákazníci?\n3. Jaký je rozdíl mezi 'návštěvou' a 'kontrolou' v kontextu emocionální ekonomie?",
+      "evaluation_focus": "Schopnost pracovat s konceptem kontrolních instancí v systémech významu."
+    }
+  ],
+  "total_estimated_time": "60-75 minut", 
+  "note": "Tyto úkoly vyžadují myšlení o ekonomii emocí, sémiotické degradaci a komercializované řeči."
+}
