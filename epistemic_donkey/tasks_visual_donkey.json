@@ -1,0 +1,34 @@
+{
+  "task_set_id": "donkey_visual_analysis_v1",
+  "name": "Visual Analysis Tasks for Donkey Illustration",
+  "description": "Tasks focused on analyzing the illustration of the donkey story. Tests multimodal understanding of binary composition and thinking vs. being dynamics.",
+  "illustration_note": "The illustration shows woman and donkey side by side, woman in thinking pose, with text interwoven around them. Style is naive-grotesque, monochrome.",
+  "tasks": [
+    {
+      "task_id": "binary_composition_analysis",
+      "type": "visual_analytical",
+      "prompt": "Analyzujte ilustraci z hlediska binární kompozice:\n1. Jaký je vztah mezi ženou a oslem (myšlení vs. bytí, lidské vs. zvířecí)?\n2. Jak kompozice (vedle sebe, podobné proporce) komentuje téma binárních opozic?\n3. Co znamená, že žena je v profilu (přemýšlí), zatímco osel je en face (je)?",
+      "evaluation_focus": "Schopnost číst vizuální binární vztahy a jejich symbolický význam."
+    },
+    {
+      "task_id": "text_binary_visualization",
+      "type": "visual_metaphor_analysis",
+      "prompt": "Text na ilustraci vizualizuje binární opozice:\n- 'Seno Sláma' vlevo\n- 'Levá pravda' vpravo\n- 'Pro jednoho PSI NA pro druhého OSLOVINA'\n\n1. Jak tato prostorová distribuce textu odpovídá tématu binárního rozhodování?\n2. Co znamená 'levá pravda'? Může mít pravda stranu?\n3. Proč je text rozptýlen a překrývá se s postavami?",
+      "evaluation_focus": "Schopnost identifikovat vztah mezi vizuální distribucí textu a tématem binárnosti."
+    },
+    {
+      "task_id": "thinking_gesture_analysis",
+      "type": "comparative_analysis",
+      "prompt": "Žena má ruku u hlavy v gestu přemýšlení, osel stojí klidně.\n1. Co symbolizuje tento kontrast v kontextu příběhu o rozhodování?\n2. Je lidské přemýšlení řešením oslova dilematu, nebo jeho součástí?\n3. Jak byste vizualizovali 'oslovinu' (jít dál bez vědění)?",
+      "evaluation_focus": "Schopnost analyzovat gesta jako výraz epistemologických pozic."
+    },
+    {
+      "task_id": "absence_presence_analysis",
+      "type": "interpretive_analysis",
+      "prompt": "V ilustraci není zobrazen:\n- Dvě hromady sena a slámy\n- Cedulka s oboustranným nápisem\n- Cesta nebo směr\n- Myš, která dává radu\n\n1. Co tyto absence vypovídají o vztahu ilustrace k příběhu?\n2. Proč ilustrace zobrazuje jen 'stav' (přemýšlení, bytí), ne 'děj' (rozhodování, chození)?\n3. Jak byste vizualizovali nerozhodnutelnost mezi senem a slámou?",
+      "evaluation_focus": "Schopnost pracovat s konceptem absence/přítomnosti ve vizuálním vyprávění."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Ilustrace není doslovným zobrazením scény, ale vizualizací tématu binárnosti a myšlení."
+}
