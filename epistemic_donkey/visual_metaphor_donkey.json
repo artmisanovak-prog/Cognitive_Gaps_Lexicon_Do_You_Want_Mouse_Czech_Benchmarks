@@ -1,0 +1,46 @@
+{
+  "illustration_id": "donkey_visual_metaphor_v1",
+  "file_name": "donkey_illustration.jpg",
+  "title": "Seno Sláma Levá Pravda",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavními subjekty (žena a osel) zabírajícími centrální část vedle sebe, obklopenými ručně psaným textem, který se vine kolem figur jako součást designu. Text je v češtině, obsahuje: 'Seno Sláma' vlevo nahoře, 'Pro jednoho PSI NA pro druhého OSLOVINA' pod ním, 'Levá pravda' vpravo nahoře, a 'jedna dvě raz raz dva' dole vpravo. Žena je zobrazená z profilu vpravo, s rukou u hlavy v gestu přemýšlení. Osel stojí vlevo, otočený doprava. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, binární (žena-osel vedle sebe), s integrovaným textem",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figures": {
+      "woman": {
+        "entity": "žena",
+        "pose": "profil vpravo, ruka u hlavy v gestu přemýšlení",
+        "expression": "unavená, skeptická, introspektivní",
+        "features": ["velké polouzavřené oči", "tenké rty", "dlouhé rovné vlasy"]
+      },
+      "donkey": {
+        "entity": "osel",
+        "pose": "stojící vlevo, otočený doprava",
+        "features": ["velké uši", "hranatá hlava", "tečkované oči", "karikaturní styl"],
+        "expression": "klidný, přítomný"
+      }
+    },
+    "text": {
+      "content": "Seno Sláma / Pro jednoho PSI NA pro druhého OSLOVINA / Levá pravda / jedna dvě raz raz dva",
+      "style": "ručně psané, křivé, graffiti-like, s proměnlivou tloušťkou",
+      "placement": "distribuované binárně (levá/pravá), překrývající se s figurami",
+      "integration": "fyzicky dotýká se vlasů, uší, těl",
+      "function": "vizuální metafora binárního rozhodování, prostorová distribuce opozic"
+    }
+  },
+  
+  "interpretive_notes": {
+    "binary_dynamics": "Žena-osel jako myšlení vs. bytí, text levý/pravý jako binární opozice",
+    "thinking_gesture": "Ruka u hlavy symbolizuje lidské přemýšlení o nerozhodnutelných opozicích",
+    "text_spatial_metaphor": "'Seno Sláma' vlevo, 'Levá pravda' vpravo - vizuální reprezentace binárního rozhodování",
+    "relationship_to_story": "Nezobrazuje narativní děj, ale vizualizuje epistemologický stav - myšlení o nerozhodnutelnosti",
+    "conceptual_core": "Ilustrace jako metafora pro binární myšlení a jeho limitace, myšlení vs. pouhé bytí"
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["i (paradoxní)", "d (logický)", "e (psychologický)"],
+    "secondary": ["k (naivní)", "a (meta)", "l (kulturní)"],
+    "reasoning": "Paradoxní kvůli 'levé pravdě'; logický kvůli binární kompozici; psychologický kvůli gestu přemýšlení; naivní kvůli jednoduchosti kresby; meta kvůli komentáři na myšlení; kulturní kvůli přísloví a archetypům."
+  }
+}
