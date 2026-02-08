@@ -1,0 +1,33 @@
+{
+  "task_set_id": "butterfly_gastrosemiotic_analysis_v1",
+  "name": "Gastrosemiotic Analysis Tasks for Butterfly Story",
+  "description": "Tasks focused on gastrosemiotic concepts, metaphorical hunger, and literalization of emotions in the Butterfly story. Tests AI's ability to think about food as sign system and emotions as literal objects.",
+  "tasks": [
+    {
+      "task_id": "metaphor_literalization_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "V pohádce dochází k literalizaci metafor:\n- 'motýly v břiše' → skuteční motýli\n- 'žaludek zpívá' → motýli šeptají básničky\n- 'lásku nakrmit' → příloha k lásce\n\n1. Jak tato literalizace funguje narativně? Co odhaluje o vztahu mezi jazykem a realitou?\n2. Proč podle vás autor zvolil právě motýly, ne jinou metaforu?\n3. Jak se liší 'hlad po jídle' od 'hladu po významu' v tomto příběhu?",
+      "evaluation_focus": "Schopnost pracovat s procesem literalizace metafor a jeho narativními důsledky."
+    },
+    {
+      "task_id": "performative_transformation_system",
+      "type": "system_analysis",
+      "prompt": "Motýli v příběhu procházejí sérií performativních transformací:\n- Jeden motýl se jmenuje Horac → změní se na Florián\n- Motýl se pokusí být salát\n- Motýl se schoulí do tvaru knedlíku\n- Motýl se převlékne za banán\n\n1. Analyzujte tento systém transformací - co spojuje tyto proměny?\n2. Jak souvisí změna jména (Horac → Florián) s transformací identity?\n3. Co to vypovídá o 'motýlí' povaze v tomto příběhu?",
+      "evaluation_focus": "Schopnost vidět performativní transformace jako systém a analyzovat jejich společný princip."
+    },
+    {
+      "task_id": "dialogic_absurdity_analysis",
+      "type": "symbolic_analysis",
+      "prompt": "Dialog obsahuje absurdní logiku:\n- 'chleba neumí lítat' vs. 'křídla nejsou chleba'\n- 'chleba je nejvíc emo, řeže se a má dvě patky'\n- 'motýl by chutnal jako neděle'\n\n1. Jak funguje tato absurdní logika v kontextu hladu?\n2. Co znamená, že 'chleba je emo'? Jak to souvisí s gastrosémiotikou?\n3. Proč může motýl chutnat jako 'neděle' a ne jako konkrétní jídlo?",
+      "evaluation_focus": "Schopnost interpretovat absurdní dialog v kontextu gastrosémiotických témat."
+    },
+    {
+      "task_id": "hunger_semiotics_analysis",
+      "type": "conceptual_analysis",
+      "prompt": "Hlad je v příběhu prezentován jako semiotický systém:\n- Fyzický hlad ('já mám hlad')\n- Emocionální hlad ('motýly v břiše')\n- Estetický hlad ('dá se na to koukat')\n- Interpretativní hlad ('to je interpretace')\n\n1. Jak se tyto různé hlady vzájemně ovlivňují?\n2. Který 'hlad' je podle vás v příběhu skutečně nasycen?\n3. Co znamená finální otázka 'A máš k tomu i přílohu?' v kontextu lásky jako výživy?",
+      "evaluation_focus": "Schopnost pracovat s konceptem hladu jako komplexního semiotického systému."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o jídle jako znakovém systému, práci s metaforickou vrstvou a analýzu performativní transformace."
+}
