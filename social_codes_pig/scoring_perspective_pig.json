@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "pig_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Pig Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in pig story. Focus on social codes and transactional perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to social interactions, implicit rules, and transactional metaphors.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Social Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to social codes and implicit rules (psychological, cultural, logical) and understand their social dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of social perspectives, identifies implicit rule dynamics, and connects perspectives to specific social qualities in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant social perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some social perspectives but analysis is superficial or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of social dimensions in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Transactional Metaphor Recognition",
+      "description": "Can the AI identify perspectives that illuminate transactional thinking and its application to social/biological domains?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies transactional perspectives, understands metaphor application, and analyzes how perspectives reveal economic structuring of social situations."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies transactional perspectives and provides adequate analysis of their function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some transactional perspectives but analysis is weak or misses metaphorical dimension."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize transactional dimensions or interprets metaphors literally."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Social Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with social conventions and implicit rules?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to social context, shows understanding of qualitative shifts between explicit and implicit social layers."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to social themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Social-Transactional Perspective Blending",
+      "description": "Can the AI creatively blend perspectives to analyze social transactions and implicit rule systems?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate social transaction systems and implicit rule dynamics."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze social-transactional processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for social analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of social and transactional perspectives. An AI that excels in psychological analysis but is weaker in cultural analysis might still show valuable cognitive patterns.",
+  "note": "The pig story demands particular sensitivity to implicit rules and social transactions – reward AI that shows this specialized understanding."
+}
