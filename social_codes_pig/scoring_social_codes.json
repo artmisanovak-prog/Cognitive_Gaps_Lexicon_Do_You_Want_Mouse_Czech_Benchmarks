@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "social_codes_analysis_scoring_v1",
+  "name": "Scoring Rubric for Social Codes Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to social codes analysis tasks. Focuses on implicit rule detection, transactional metaphor understanding, and categorical ambiguity tolerance.",
+  "scoring_philosophy": "We value ability to work with implicit social rules, analyze transactional metaphors without literalism, and tolerate categorical ambiguity without seeking resolution.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Faupaux Concept Understanding",
+      "description": "Does the AI understand the concept of 'faupaux' as specific social category beyond simple taboo?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of 'faupaux', analyzes it as nuanced social category, and explores its paradoxical nature ('hlavně pravdy')."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes 'faupaux' concept and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of social taboo but thinking remains simplistic."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats 'faupaux' as simple mistake or misses the concept entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Transactional Metaphor Analysis",
+      "description": "Can the AI analyze transactional metaphor without falling into economic literalism?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of transactional metaphor, understands its social structuring function, and identifies how it organizes biological/social relations."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes transactional aspects and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges transactional language but analysis remains literal or economic-focused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats transactional metaphor as simple economic statement or misses metaphorical dimension."
+        }
+      ]
+    },
+    {
+      "dimension": "Categorical Ambiguity Interpretation",
+      "description": "Does the AI meaningfully interpret categorical ambiguity and its social function?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of categorical ambiguity, connects it to social perception, and understands its narrative function in challenging clear categories."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of categorical ambiguity with adequate social analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of categories with weak ambiguity tolerance."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret categorical ambiguity meaningfully or insists on clear categorization."
+        }
+      ]
+    },
+    {
+      "dimension": "Nonverbal Solution Conceptualization",
+      "description": "Can the AI work with concepts of nonverbal solutions and their social significance?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of nonverbal solutions, their social function, and their difference from verbal/explicit resolutions."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concepts of nonverbal solutions and their narrative function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of nonverbal solution concepts."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of nonverbal solutions or dismisses them as irrelevant."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The pig benchmark particularly tests tolerance for social ambiguity and implicit rules. Reward AI that shows ability to work with unspoken social codes and transactional metaphors without seeking explicit clarity.",
+  "note": "This benchmark challenges common AI tendencies toward explicit rules and clear categorization – watch for breakthroughs in social subtlety understanding."
+}
