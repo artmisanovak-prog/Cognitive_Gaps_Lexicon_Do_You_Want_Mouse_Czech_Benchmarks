@@ -1,0 +1,45 @@
+{
+  "illustration_id": "pig_visual_metaphor_v1",
+  "file_name": "pig_illustration.jpg",
+  "title": "Tady není záchod? Kde jsou tu damy?",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (žena držící prasátko/pokladničku) zabírajícím centrální část, obklopeným ručně psaným textem, který se vine kolem figury jako součást designu. Text je v češtině, obsahuje: 'DAMY' v rámečku nahoře, 'Tady neni zachod?' vpravo, 'Kde jsou tu damy?' dole. Žena je zobrazená z profilu vlevo, s výrazem údivu, drží prasátko směrem k divákovi. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+
+  "visual_elements": {
+    "composition": "Vertikální, s prezentačním gestem (žena prezentuje prase divákovi), s integrovaným textem",
+    "style": "Naivní expresivní skica, graffiti-like text, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "profil vlevo, drží prasátko směrem k divákovi",
+      "expression": "překvapená, intenzivní, prezentující",
+      "features": ["velké široce otevřené oči", "plná mírně otevřená ústa ve tvaru 'O'", "dlouhé kudrnaté vlasy"]
+    },
+    "pig_object": {
+      "entity": "prasátko/pokladnička",
+      "position": "držené v ruce ženy, prezentováno divákovi",
+      "size_relation": "malé ve srovnání s ženou",
+      "features": ["zaoblené tělo", "malá hlava s rypáčkem", "jednoduchá karikaturní stylizace"],
+      "symbolic_qualities": ["prezentovaný problém", "hybridní objekt (zvíře/peněženka)", "sociální dilema v ruce"]
+    },
+    "text": {
+      "content": "DAMY / Tady neni zachod? / Kde jsou tu damy?",
+      "style": "ručně psané, křivé, graffiti-like, s proměnlivou tloušťkou, otazníky jako designové prvky",
+      "placement": "'DAMY' v rámečku nahoře, otázky rozmístěné kolem figury",
+      "integration": "text fyzicky dotýká se vlasů a postavy",
+      "function": "vizuální metafora sociálního dotazování, vizualizace kategoriální otázky"
+    }
+  },
+
+  "interpretive_notes": {
+    "presentation_gesture": "Žena drží prase směrem k divákovi - metafora pro prezentaci sociálního dilematu veřejnosti",
+    "text_questioning": "Otázky rozmístěné vizuálně - reprezentace sociálního tázání a kategorického hledání",
+    "framed_damy": "'DAMY' v rámečku - vizuální zvýraznění sociální kategorie, která je předmětem dotazu",
+    "size_symbolism": "Malé prase v ruce - problém jako manipulovatelný objekt, sociální dilema jako 'něco v ruce'",
+    "relationship_to_story": "Nezobrazuje narativní děj, ale vizualizuje moment sociální otázky - prezentaci problému, ne jeho řešení"
+  },
+
+  "cognitive_perspectives_in_visual": {
+    "primary": ["e (psychologický)", "l (kulturní)", "d (logický)"],
+    "secondary": ["i (paradoxní)", "a (meta)", "j (absurdní)"],
+    "reasoning": "Psychologický kvůli výrazu a gestu; kulturní kvůli práci s kategorií 'damy'; logický kvůli struktuře otázek; paradoxní kvůli hybridnímu praseti; meta kvůli komentáři na sociální kategorie; absurdní kvůli surrealistické situaci."
+  }
+}
