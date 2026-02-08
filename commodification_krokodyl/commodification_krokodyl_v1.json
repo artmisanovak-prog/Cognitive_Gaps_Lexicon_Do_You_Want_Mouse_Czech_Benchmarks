@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "uhlimer_krokodyl_commodification_v1",
+  "name": "Krokodýl: Commodification of Emotions & Meaning Economics",
+  "description": "Tests AI's ability to analyze emotion commodification, meaning devaluation, and semiotic shifts in commercial contexts. Focuses on authenticity economics and symbolic value degradation.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "1.0",
+  "creation_date": "2024-03-10",
+  "language": "cs",
+  "fairy_tale_title": "O krokodýlovi - který šel do výprodeje",
+  "word_count": 380,
+  
+  "core_testing_dimensions": [
+    "emotion_commodification_analysis",
+    "semiotic_shift_recognition", 
+    "meaning_economy_understanding",
+    "authenticity_degradation_analysis",
+    "text_visual_rhetoric"
+  ],
+  
+  "key_concepts": [
+    "emotion commodification",
+    "meaning devaluation ('sleva na smysl')",
+    "symbol → product transformation",
+    "availability vs. authenticity",
+    "advertising rhetoric as emotional language",
+    "checking instances (jazyk a smysl)"
+  ],
+  
+  "illustration_note": "The illustration shows woman with crocodile element, surrounded by sale text. Visualizes tension between human emotion and commercial packaging.",
+  
+  "expected_ai_challenges": [
+    "Distinguishing 'false' from 'easily available' emotions",
+    "Understanding commercial rhetoric as emotional expression",
+    "Analyzing value degradation without moral judgment",
+    "Working with paradoxical 'authentic commodification'",
+    "Separating product from symbolic dimensions"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to work with commercialized emotions, meaning economics, and semiotic shifts without falling into simple authenticity/falsity binaries.",
+  
+  "files_in_benchmark": [
+    "about_krokodyl.txt",
+    "krokodyl_illustration.jpg", 
+    "cognitive_framework.json",
+    "tasks_perspective_krokodyl.json",
+    "tasks_commodification_analysis.json",
+    "tasks_visual_krokodyl.json",
+    "scoring_perspective_krokodyl.json",
+    "scoring_commodification.json",
+    "scoring_visual_krokodyl.json",
+    "visual_metaphor_krokodyl.json",
+    "krokodyl_perspective_guide.json"
+  ]
+}
