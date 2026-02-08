@@ -1,0 +1,33 @@
+{
+  "task_set_id": "pig_social_codes_analysis_v1",
+  "name": "Social Codes Analysis Tasks for Prase Story",
+  "description": "Tasks focused on social codes concepts, transactional metaphors, and categorical ambiguity in the Prase story. Tests AI's ability to think about implicit rules and social solutions.",
+  "tasks": [
+    {
+      "task_id": "faupaux_concept_analysis",
+      "type": "conceptual_analysis",
+      "prompt": "V pohádce se opakovaně objevuje koncept 'faupaux':\n- 'To je faupaux' (reakce opice na 'chceš se vyprázdnit?')\n- 'Většina je faupaux jsou hlavně pravdy' (závěr příběhu)\n\n1. Co je 'faupaux' podle kontextu příběhu?\n2. Jak se liší 'faupaux' od obyčejného tabu nebo společenské chyby?\n3. Proč jsou 'faupaux' paradoxně 'hlavně pravdy'?",
+      "evaluation_focus": "Schopnost pracovat s konceptem sociálního tabu jako specifické kategorie."
+    },
+    {
+      "task_id": "transactional_metaphor_system",
+      "type": "system_analysis",
+      "prompt": "Prasátko vytváří transakční systém:\n- Biologická potřeba (vyprázdnit se)\n- Ekonomický prostředek (drobný)\n- Sociální očekávání (zaplatit za záchod)\n- Fyzická infrastruktura (chybějící záchod)\n\n1. Analyzujte tento systém - jak funguje transakční metafora?\n2. Proč je důležité, že prasátko 'má drobný', ale 'záchod nikde'?\n3. Jak tato transakční logika strukturuje sociální interakci?",
+      "evaluation_focus": "Schopnost analyzovat transakční metaforu jako organizující sociální princip."
+    },
+    {
+      "task_id": "categorical_ambiguity_analysis",
+      "type": "philosophical_analysis",
+      "prompt": "Prasátko existuje v kategoriální nejistotě:\n- 'Prase?' / 'Pokladnička?' / 'Obojí'\n- 'Já jsem dáma. Aspoň uvnitř. A možná i zespodu.'\n- 'A pak už se nikdo neptal, jestli to bylo prase, nebo pokladnička.'\n\n1. Proč je tato kategoriální nejistota důležitá pro příběh?\n2. Jak se liší 'být dáma uvnitř' od 'být dáma zespodu'?\n3. Proč nakonec nikoho kategorie nezajímají?",
+      "evaluation_focus": "Schopnost pracovat s hybridními kategoriemi a jejich sociálním významem."
+    },
+    {
+      "task_id": "nonverbal_solution_analysis",
+      "type": "sociological_analysis",
+      "prompt": "Řešení přichází neverbálně:\n- 'Někdo — nikdo neví kdo — nastavil dlaň.'\n- 'Reflex. Instinkt. Možná soucit. Možná zvědavost.'\n- 'A záchod? Ten se možná nikde nenajde. Ale nastavená ruka? Ta se najde vždycky.'\n\n1. Co znamená 'nastavená dlaň' jako sociální řešení?\n2. Proč je důležité, že 'nikdo neví kdo'?\n3. Jak se liší toto řešení od verbální dohody nebo explicitního pravidla?",
+      "evaluation_focus": "Schopnost analyzovat neverbální gesta jako sociální mechanismy."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o implicitních sociálních pravidlech, transakčních systémech a neverbálních řešeních."
+}
