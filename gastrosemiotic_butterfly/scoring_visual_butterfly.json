@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "butterfly_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Butterfly Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of butterfly illustration. Focuses on representation vs. reality analysis, text-image literalization, and mask identity concepts.",
+  "scoring_philosophy": "We value perception of representational dynamics, understanding of visual literalization, and analysis of mask as identity tool.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Representation-Reality Analysis",
+      "description": "Does the AI understand the difference between representation (mask) and reality (butterfly) in the illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of representation-reality dynamics, understands mask as commentary on representation, and interprets visual choices as thematic statements."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies representational aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices some representational elements but analysis is superficial or misses key dynamics."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats mask as literal butterfly or misreads representational aspects."
+        }
+      ]
+    },
+    {
+      "dimension": "Visual Literalization Perception",
+      "description": "Can the AI perceive visual literalization of text and its relationship to story themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies visual literalization, connects form to textual themes, and understands 'mistakes' in text (BRVÓ) as part of transformation theme."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes some visual literalization aspects in the illustration."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of visual literalization."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no perception of visual literalization or treats text as decorative."
+        }
+      ]
+    },
+    {
+      "dimension": "Mask Identity Understanding",
+      "description": "Does the AI understand the significance of mask as identity tool (eyes cut out, held before face)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of mask as identity tool, understands 'looking through mask' as metaphor, and connects to story themes of transformation."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes mask functions and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices mask but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats mask as simple prop or misinterprets its function."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (real butterflies, hunger, dialogue) and presence (mask, text, woman) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of what's not shown, and analyzes selective representation as narrative choice."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct representational dynamics from description? Does it ask clarifying questions about mask vs. butterfly?",
+  "overall_assessment_guidance": "The butterfly illustration particularly tests understanding of representation and visual literalization. Reward AI that perceives these complex visual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding representational and thematic statements in visual form."
+}
