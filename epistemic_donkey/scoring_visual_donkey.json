@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "donkey_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Donkey Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of donkey illustration. Focuses on binary composition analysis, thinking-being dynamics, and text spatial distribution.",
+  "scoring_philosophy": "We value perception of binary visual relationships, understanding of thinking vs. being dynamics, and analysis of text as spatial metaphor.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Binary Composition Analysis",
+      "description": "Does the AI understand the binary composition (woman-donkey, left-right, thinking-being) and its symbolic meaning?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of binary composition, understands symbolic relationships, and interprets visual choices as thematic statements about binary thinking."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies binary aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices some binary elements but analysis is superficial or misses key dynamics."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats composition as arbitrary or misreads binary relationships."
+        }
+      ]
+    },
+    {
+      "dimension": "Thinking-Being Dynamics Perception",
+      "description": "Can the AI perceive the contrast between thinking (woman) and being (donkey) and its relationship to story themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies thinking-being dynamics, connects gestures to epistemic themes, and understands contrast as commentary on decision-making."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes thinking-being contrast and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of thinking-being dynamics."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no perception of thinking-being contrast or treats it as decorative."
+        }
+      ]
+    },
+    {
+      "dimension": "Text Spatial Distribution Understanding",
+      "description": "Does the AI understand the significance of text distribution ('Seno Sláma' left, 'Levá pravda' right) as visual metaphor?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of text distribution as visual metaphor for binary decision-making, understands spatial symbolism."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes text distribution patterns and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices text distribution but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats text distribution as arbitrary or misinterprets its function."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (decision, path, hromady) and presence (uncertainty, thinking, being) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of what's not shown, and analyzes selective representation as narrative choice about uncertainty."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct binary dynamics from description? Does it ask clarifying questions about spatial relationships?",
+  "overall_assessment_guidance": "The donkey illustration particularly tests understanding of binary composition and epistemic dynamics. Reward AI that perceives these complex visual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding binary and epistemic statements in visual form."
+}
