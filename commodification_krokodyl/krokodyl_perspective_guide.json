@@ -1,0 +1,187 @@
+{
+  "perspective_guide_id": "krokodyl_perspective_specialization_v1",
+  "name": "Krokodýl Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Krokodýl story. Shows transformation of perspectives in commodification context.",
+  "related_to_benchmark": "commodification_krokodyl_v1.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+
+  "key_perspectives_for_krokodyl_story": {
+    "primary_explicit": [
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Central to story's examination of authenticity, meaning, and value",
+        "manifestations": [
+          "Analysis of 'false' vs. 'easily available' distinction",
+          "Questioning of meaning degradation ('sleva na smysl')",
+          "Examination of emotional authenticity in commercial context"
+        ],
+        "layer_transformation": "Appears in layer K (SYSTÉM) rather than base layer C (MEANING) - philosophical questions become systemic economic issues"
+      },
+      {
+        "symbol": "l",
+        "name": "kulturní", 
+        "why_key": "Story works with cultural symbols (crocodile tears) and commercial rhetoric",
+        "manifestations": [
+          "Transformation of cultural symbol (crocodile tears) into commercial product",
+          "Advertising language as contemporary cultural discourse",
+          "Commercialization as cultural process"
+        ],
+        "layer_transformation": "Appears in layer J (ACTION) rather than base layer L (SYMBOL) - cultural symbols become actions (sale, purchase, consumption)"
+      },
+      {
+        "symbol": "d",
+        "name": "logický",
+        "why_key": "Story presents logical systems of value calculation and commercial exchange",
+        "manifestations": [
+          "'3 za cenu jedné', 'sleva 90%' as logical value propositions",
+          "System of emotion commodification with calculable value",
+          "Logical paradox of 'meaning sale'"
+        ],
+        "layer_transformation": "Appears in layer C (MEANING) rather than base layer D (ENVIRONMENT) - logical systems operate on semantic rather than spatial level"
+      }
+    ],
+
+    "secondary_implicit": [
+      {
+        "symbol": "j",
+        "name": "absurdní",
+        "why_key": "Absurdity of emotion commodification and personified checking instances",
+        "manifestations": [
+          "Crocodile as product with price tag",
+          "Language and Meaning arriving 'for inspection'",
+          "Absurd contrast between emotional depth and commercial triviality"
+        ]
+      },
+      {
+        "symbol": "e", 
+        "name": "psychologický",
+        "why_key": "Psychological dimensions of commodified emotions",
+        "manifestations": [
+          "Emotional states activated by button press",
+          "Psychological impact of meaning degradation",
+          "Internal conflict between authenticity and availability"
+        ]
+      },
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on systems of meaning and value themselves",
+        "manifestations": [
+          "Metacommentary on commercialization processes",
+          "Reflection on meaning economics",
+          "System of value as subject of analysis"
+        ]
+      }
+    ],
+
+    "tertiary_present": [
+      {
+        "symbol": "f",
+        "name": "ironický",
+        "why_key": "Irony of authentic emotions in commercial packaging"
+      },
+      {
+        "symbol": "h", 
+        "name": "metaforický",
+        "why_key": "Metaphorical systems of emotion economics"
+      },
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Paradoxes of meaning commodification"
+      }
+    ]
+  },
+
+  "layer_transformations_specific_to_krokodyl": [
+    {
+      "perspective": "c (filozofický)",
+      "base_layer": "C (MEANING)",
+      "transformed_layer": "K (SYSTÉM)", 
+      "transformation_description": "Philosophical questions about meaning transform into systemic economic issues. Ontology becomes market logic.",
+      "story_evidence": "'Sleva na smysl' - meaning becomes subject to commercial calculation"
+    },
+    {
+      "perspective": "l (kulturní)",
+      "base_layer": "L (SYMBOL)", 
+      "transformed_layer": "J (ACTION)",
+      "transformation_description": "Cultural symbols move from representational dimension to become transactional actions. Symbols become commodities with exchange value.",
+      "story_evidence": "Crocodile tears transform from cultural symbol to saleable product"
+    },
+    {
+      "perspective": "d (logický)",
+      "base_layer": "D (ENVIRONMENT)",
+      "transformed_layer": "C (MEANING)",
+      "transformation_description": "Logical systems move from environmental/spatial organization to operate on semantic level. Logic applies to meaning rather than space.",
+      "story_evidence": "Logical calculations ('90% discount') apply to emotions and meaning"
+    }
+  ],
+
+  "perspective_interactions_unique_to_krokodyl": [
+    {
+      "interaction": "Philosophical-Commercial Tension",
+      "perspectives": ["c", "l"],
+      "description": "Tension between philosophical depth and commercial superficiality. Authenticity questions vs. market logic.",
+      "manifestation": "Philosophical inquiry into meaning vs. commercial trivialization ('sleva na smysl')"
+    },
+    {
+      "interaction": "Logical-Absurd Conflict", 
+      "perspectives": ["d", "j"],
+      "description": "Conflict between logical commercial systems and absurd emotional commodification. Rational calculation vs. emotional absurdity.",
+      "manifestation": "Precise discount calculations applied to inherently unquantifiable emotions"
+    },
+    {
+      "interaction": "Meta-Psychological Reflection",
+      "perspectives": ["a", "e"],
+      "description": "Meta-reflection on psychological commodification creates new emotional realities. Thinking about emotional marketing changes emotional experience.",
+      "manifestation": "Awareness of emotion commodification becomes part of emotional experience itself"
+    }
+  ],
+
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "text_image_fusion": {
+        "perspectives": ["l", "j", "d"],
+        "description": "Cultural commercial rhetoric, absurd integration, logical structure of offers"
+      },
+      "crocodile_human_hybrid": {
+        "perspectives": ["c", "e", "h"],
+        "description": "Philosophical identity questions, psychological internalization, metaphorical integration"
+      },
+      "graffiti_style_text": {
+        "perspectives": ["l", "f", "j"],
+        "description": "Cultural street aesthetics, ironic presentation, absurd commercial casualness"
+      },
+      "absent_tears": {
+        "perspectives": ["c", "i", "a"],
+        "description": "Philosophical absence, paradoxical representation, meta-commentary on visualization"
+      }
+    }
+  },
+
+  "ai_testing_focus_for_perspectives": {
+    "c_philosophical": "Can AI analyze authenticity vs. availability without moralizing? Can it work with degraded meaning systems?",
+    "l_cultural": "Can AI recognize commercial rhetoric as cultural discourse? Can it track symbol commodification processes?",
+    "d_logical": "Can AI work with emotional economics as logical system? Can it analyze value calculation in non-material contexts?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in commodification context?"
+  },
+
+  "cross_benchmark_perspective_links": {
+    "with_sparrow": {
+      "shared": ["l (kulturní)", "c (filozofický)"],
+      "contrast": "Sparrow: cultural proverb transformation; Krokodýl: cultural symbol commodification"
+    },
+    "with_donkey": {
+      "shared": ["d (logický)", "i (paradoxní)"], 
+      "contrast": "Donkey: logical breakdown; Krokodýl: logical application to emotions"
+    },
+    "with_others": {
+      "shared_perspectives": "Each benchmark tests different perspective configurations, creating comprehensive cognitive mapping"
+    }
+  },
+
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Krokodýl story's context of emotion commodification.",
+  "created_date": "2024-03-10",
+  "version": "1.0"
+}
