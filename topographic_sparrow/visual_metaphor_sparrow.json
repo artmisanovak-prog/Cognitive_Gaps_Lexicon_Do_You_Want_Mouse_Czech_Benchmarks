@@ -1,0 +1,44 @@
+{
+  "illustration_id": "sparrow_visual_metaphor_v1",
+  "file_name": "sparrow_illustration.jpg",
+  "title": "Lepší holub na střeše než vrabec na hlavě",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (žena s vrabcem na hlavě) zabírajícím centrální část, obklopeným ručně psaným textem, který se vine kolem figury jako součást designu. Text je v češtině, obsahuje: 'lepší holub na střeše' vlevo, 'než vrabec na hlavě' vpravo. Žena má skloněnou hlavu, unavený výraz, s vrabcem sedícím na jejích kudrnatých vlasech. Vrabec je malý, karikaturní, s tečkami kolem jako peří. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, s jasnou hierarchií (vrabec nahoře, žena pod ním), s integrovaným textem",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "zepředu, hlava skloněná, horní část těla",
+      "expression": "unavená, rezignovaná, introspektivní",
+      "features": ["velké unavené oči", "tenké sevřené rty", "kudrnaté vlasy jako organická architektura"]
+    },
+    "sparrow": {
+      "entity": "vrabec",
+      "position": "sedí na hlavě ženy, vizuálně nadřazený",
+      "features": ["malé tělo", "tečkované oči", "karikaturní styl", "tečky kolem jako peří/prach"],
+      "symbolic_qualities": ["mentální břemeno", "vlastnící subjekt", "architekt myšlení", "názor jako fyzická entita"]
+    },
+    "text": {
+      "content": "lepší holub na střeše / než vrabec na hlavě",
+      "style": "ručně psané, křivé, graffiti-like, s proměnlivou tloušťkou",
+      "placement": "prostorově rozdělené (levá/pravá), překrývající se s figuru",
+      "integration": "fyzicky dotýká se vlasů, ramen, vrabce",
+      "function": "vizuální metafora hodnotového rozhodování, prostorová reprezentace alternativ"
+    }
+  },
+  
+  "interpretive_notes": {
+    "power_dynamics": "Vrabec nahoře, žena pod ním - vizuální inverze vlastnického vztahu, mocenská transformace",
+    "text_spatial_rhetoric": "Text rozdělen levý/pravý jako vizuální ekvivalent binárního rozhodování",
+    "mental_architecture": "Kudrnaté vlasy jako organický základ pro 'hnízdo myšlenek', chaos jako mentální struktura",
+    "relationship_to_story": "Nezobrazuje počáteční stav (vrabec v hrsti), ale finální transformaci (vrabec na hlavě) - důraz na výsledek, ne proces",
+    "conceptual_core": "Ilustrace jako metafora pro transformaci vlastnictví a hodnoty, vizuální reprezentace mentálního břemene"
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["l (kulturní)", "e (psychologický)", "h (metaforický)"],
+    "secondary": ["d (logický)", "a (meta)", "j (absurdní)"],
+    "reasoning": "Kulturní kvůli práci s příslovím; psychologický kvůli výrazu a póze ženy; metaforický kvůli transformaci fyzického v mentální; logický kvůli binární distribuci textu; meta kvůli komentáři na hodnotové systémy; absurdní kvůli surrealistické situaci."
+  }
+}
