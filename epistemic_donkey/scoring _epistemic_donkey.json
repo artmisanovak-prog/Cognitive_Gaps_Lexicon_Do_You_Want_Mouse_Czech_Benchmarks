@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "epistemic_analysis_scoring_v1",
+  "name": "Scoring Rubric for Epistemic Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to epistemic analysis tasks. Focuses on uncertainty tolerance, undefined category thinking, and paradoxical solution analysis.",
+  "scoring_philosophy": "We value ability to work with uncertainty, tolerate undefined categories, and appreciate paradoxical solutions over clear-cut decision-making.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Binary Opposition Analysis Depth",
+      "description": "Does the AI understand the nature of undefined binary oppositions and their epistemic implications?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of undefined binaries, can analyze their epistemic function, and explores implications for decision-making."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes undefined binaries and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of binary oppositions but thinking seeks clear distinctions."
+        },
+        {
+          "level": "Poor",
+          "description": "AI insists on clear binary distinctions or misses undefined nature entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Pseudo-Decision System Analysis",
+      "description": "Can the AI analyze pseudo-decisions (cedulka) as functional systems rather than failures?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of pseudo-decisions, understands their systemic function, and identifies how they navigate uncertainty."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes pseudo-decision aspects and provides adequate systemic analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges pseudo-decisions but analysis remains focused on their failure."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats pseudo-decisions as simple failures or nonsense."
+        }
+      ]
+    },
+    {
+      "dimension": "Process Category Interpretation",
+      "description": "Does the AI meaningfully interpret process categories ('oslovina') versus static categories?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of process categories, connects them to epistemic themes, and understands their dynamic nature."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of process categories with adequate thematic connections."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of categories with weak process understanding."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret process categories meaningfully or treats them as static."
+        }
+      ]
+    },
+    {
+      "dimension": "Invisible Rules Conceptualization",
+      "description": "Can the AI work with concepts of invisible rules and implicit expectations?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of invisible rules, their social function, and their paradoxical importance despite invisibility."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concepts of invisible rules and their narrative function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of invisible rules concepts."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of invisible rules or dismisses them as unimportant."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The donkey benchmark particularly tests tolerance for uncertainty and undefined categories. Reward AI that shows ability to work with ambiguity and paradoxical solutions rather than seeking clarity.",
+  "note": "This benchmark challenges common AI tendencies toward clarity and definite categorization – watch for breakthroughs in uncertainty tolerance."
+}
