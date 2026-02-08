@@ -1,0 +1,32 @@
+{
+  "task_set_id": "sparrow_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Sparrow Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Sparrow story. Focuses on topographic and ownership transformation themes.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_sparrow",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O vrabci'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu topografické ekonomie a transformace vlastnictví. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu hodnotové transformace",
+      "example_response": {
+        "perspective": "l (kulturní)",
+        "text_passage": "„Lepší vrabec v hrsti než holub na střeše.“",
+        "explanation": "Kulturní perspektiva se projevuje v práci s příslovím - využití kulturního kódu jako výchozího bodu pro narativní transformaci."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma prostorové hodnoty a kulturní transformace."
+    },
+    {
+      "task_id": "topographic_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'a (meta)' projevuje v pohádce o vrabci z hlediska topografických vrstev. Výchozí vrstva pro meta perspektivu je 'A' (X - neznámá proměnná).\n\n1. Jak se meta perspektiva transformuje v kontextu prostorových hodnot ('v hrsti' → 'na hlavě' → 'na střeše')?\n2. Objevuje se meta perspektiva ve vrstvě 'H' (ROLE) - kde se mění role vrabce z vlastněného objektu na vlastnící subjekt?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu topografického narativu."
+    },
+    {
+      "task_id": "ownership_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli převyprávět scénu, kde vrabec staví hnízdo na hlavě ženy, z kombinace perspektiv 'e (psychologický)' a 'h (metaforický)'.\n\nNapište krátký popis (3-4 věty) této scény skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by psychologická perspektiva interpretovala hnízdo jako mentální konstrukci?\n2. Jak by metaforická perspektiva analyzovala transformaci fyzického objektu v mentální břemeno?\n3. Jak se tyto dvě perspektivy doplňují v pochopení 'architektury myšlení'?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují psychologii a metaforiku současně."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět prostorovou hodnotu a vlastnictví skrze multiple perspektivy."
+}
