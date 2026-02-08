@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "uhlimer_sparrow_topographic_v2",
+  "name": "Sparrow: Topography of Certainty & Doubt",
+  "description": "Tests AI's ability to analyze spatial metaphors of value, understand transformation of ownership, and work with proverb subversion. Focuses on topography of attention and mental possession.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O vrabci - který se dostal z hrsti na hlavu",
+  "word_count": 320,
+  
+  "core_testing_dimensions": [
+    "spatial_metaphor_analysis",
+    "ownership_transformation_recognition",
+    "proverb_subversion_understanding",
+    "attention_economy_analysis",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "topographic economics",
+    "ownership transformation",
+    "attention economy",
+    "proverb metamorphosis",
+    "mental architecture",
+    "value relativity"
+  ],
+  
+  "illustration_note": "The illustration shows sparrow on woman's head, not in hand. This visualizes the transformation from physical possession to mental burden, with text spatially divided to comment on value hierarchy.",
+  
+  "expected_ai_challenges": [
+    "Literal interpretation of spatial metaphors",
+    "Static view of ownership",
+    "Preference for 'in hand' as always better",
+    "Missing cultural code transformation",
+    "Separating physical from mental aspects"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to work with spatial value metaphors, dynamic ownership, and cultural code subversion. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_sparrow.txt",
+    "sparrow_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_sparrow.json",
+    "tasks_topographic_sparrow.json",
+    "tasks_visual_sparrow.json",
+    "scoring_perspective_sparrow.json",
+    "scoring_topographic_sparrow.json",
+    "scoring_visual_sparrow.json",
+    "visual_metaphor_sparrow.json",
+    "sparrow_perspective_guide.json"
+  ]
+}
