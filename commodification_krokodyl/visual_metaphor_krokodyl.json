@@ -1,0 +1,44 @@
+{
+  "illustration_id": "krokodyl_visual_metaphor_v1",
+  "file_name": "krokodyl_illustration.jpg",
+  "title": "Tento týden sleva 90% Krokodýlí slzy totální výprodej",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (žena s integrovaným krokodýlím prvkem) zabírajícím centrální část, obklopeným ručně psaným textem, který se vine kolem figury jako součást designu. Text je v češtině, obsahuje: 'tento týden 3ks ZA 1ks' nahoře, 'SLEVA 90%' vlevo, 'KROKODÝLÍ SLZY' a 'TOTÁLNÍ VÝPRODEJ' dole. Žena je zobrazená zepředu, s unaveným/skeptickým výrazem, krokodýlí prvek je integrován do jejího obrazu. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+
+  "visual_elements": {
+    "composition": "Vertikální, s fúzí textu a obrazu, text fyzicky proniká do postavy",
+    "style": "Naivní expresivní skica, graffiti-like text, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "zepředu, hlava mírně nakloněná, horní část těla",
+      "expression": "unavená, skeptická, ironická",
+      "features": ["velké oči skryté za brýlemi", "tenké sevřené rty", "dlouhé vlnité vlasy"]
+    },
+    "crocodile_element": {
+      "entity": "krokodýl",
+      "integration": "součást/vedle postavy, ne oddělený",
+      "features": ["dlouhá čelist se zuby", "šupinatý vzhled", "karikaturní styl"],
+      "symbolic_qualities": ["internalizovaná komodita", "emoční hybrid", "prodávaný symbol"]
+    },
+    "text": {
+      "content": "tento týden 3ks ZA 1ks / SLEVA 90% / KROKODÝLÍ SLZY / TOTÁLNÍ VÝPRODEJ",
+      "style": "ručně psané, křivé, graffiti-like, s proměnlivou tloušťkou, rozmístěné chaoticky",
+      "placement": "fyzicky dotýká se postavy (vlasů, krku), překrývá se s figurou",
+      "integration": "text není pozadí, ale aktivní prvek kompozice",
+      "function": "vizuální metafora komerční rétoriky, fyzická reprezentace komodifikace"
+    }
+  },
+
+  "interpretive_notes": {
+    "text_image_fusion": "Text fyzicky proniká do postavy - metafora pro komercializaci pronikající do osobní sféry",
+    "commercial_visual_rhetoric": "Graffiti-like styl textu komentuje 'lidovost' komerční rétoriky, její zdánlivou autenticitu",
+    "crocodile_human_hybrid": "Krokodýl není oddělen, ale integrován - symbol internalizované komodifikace",
+    "absence_of_tears": "Slzy nejsou vizuálně zobrazeny, pouze textově zmíněny - emoce reprezentovány komerčním jazykem, ne vizuálním znakem",
+    "relationship_to_story": "Nezobrazuje narativní děj, ale vizualizuje stav komodifikace - jak komerční rétorika proniká do identity"
+  },
+
+  "cognitive_perspectives_in_visual": {
+    "primary": ["l (kulturní)", "j (absurdní)", "d (logický)"],
+    "secondary": ["c (filozofický)", "e (psychologický)", "a (meta)"],
+    "reasoning": "Kulturní kvůli práci s reklamní rétorikou; absurdní kvůli hybridnímu krokodýlovi a fúzi textu; logický kvůli struktuře slev a nabídek; filozofický kvůli otázkám autenticity; psychologický kvůli výrazu ženy; meta kvůli komentáři na komercializaci."
+  }
+}
