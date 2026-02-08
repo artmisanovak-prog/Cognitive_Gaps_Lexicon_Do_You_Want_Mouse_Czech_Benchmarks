@@ -1,0 +1,188 @@
+{
+  "perspective_guide_id": "pig_perspective_specialization_v1",
+  "name": "Prase Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Prase story. Shows transformation of perspectives in social codes context.",
+  "related_to_benchmark": "social_codes_pig_v2.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+
+  "key_perspectives_for_pig_story": {
+    "primary_explicit": [
+      {
+        "symbol": "e",
+        "name": "psychologický",
+        "why_key": "Central to story's examination of social emotions, collective states, and nonverbal communication",
+        "manifestations": [
+          "Analysis of collective silence ('ticho, který se dá nakrájet')",
+          "Social anxiety and awkwardness dynamics",
+          "Nonverbal solution psychology ('nastavená dlaň')"
+        ],
+        "layer_transformation": "Appears in layer G (ENTITY) rather than base layer E (STATE) - psychological states become collective entities with agency"
+      },
+      {
+        "symbol": "l",
+        "name": "kulturní",
+        "why_key": "Story works with social categories, taboos, and implicit cultural codes",
+        "manifestations": [
+          "'Faupaux' as cultural-social category",
+          "Category of 'damy' and its social boundaries",
+          "Cultural codes of what's speakable/unspeakable"
+        ],
+        "layer_transformation": "Appears in layer E (STATE) rather than base layer L (SYMBOL) - cultural categories become psychological states"
+      },
+      {
+        "symbol": "d",
+        "name": "logický",
+        "why_key": "Story presents logical systems of transaction and social exchange",
+        "manifestations": [
+          "Transactional logic: 'drobný za záchod'",
+          "Logical structure of social expectations",
+          "System of social problem-solving"
+        ],
+        "layer_transformation": "Appears in layer J (ACTION) rather than base layer D (ENVIRONMENT) - logical systems become actions and transactions"
+      }
+    ],
+
+    "secondary_implicit": [
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Paradoxes of social categories and hybrid identities",
+        "manifestations": [
+          "Paradox of 'prase/pokladnička' identity",
+          "'Dama uvnitř' / 'dama zespodu' paradox",
+          "Paradox of 'faupaux jsou hlavně pravdy'"
+        ]
+      },
+      {
+        "symbol": "h",
+        "name": "metaforický",
+        "why_key": "Transactional metaphor structuring social interaction",
+        "manifestations": [
+          "Metaphor of economic transaction for biological need",
+          "Social interaction as transactional system",
+          "Nonverbal gesture as metaphorical solution"
+        ]
+      },
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on social systems and their implicit rules",
+        "manifestations": [
+          "Metacommentary on social codes",
+          "Reflection on what constitutes social solution",
+          "System of social conventions as subject"
+        ]
+      }
+    ],
+
+    "tertiary_present": [
+      {
+        "symbol": "j",
+        "name": "absurdní",
+        "why_key": "Absurdity of social situation and categorical confusion"
+      },
+      {
+        "symbol": "f",
+        "name": "ironický",
+        "why_key": "Irony of social conventions and their breakdown"
+      },
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Philosophical questions about categories and social reality"
+      }
+    ]
+  },
+
+  "layer_transformations_specific_to_pig": [
+    {
+      "perspective": "e (psychologický)",
+      "base_layer": "E (STATE)",
+      "transformed_layer": "G (ENTITY)",
+      "transformation_description": "Psychological states move from internal conditions to external collective entities with social agency.",
+      "story_evidence": "'Ticho' becomes entity that can be 'cut', collective psychological state with presence"
+    },
+    {
+      "perspective": "l (kulturní)",
+      "base_layer": "L (SYMBOL)",
+      "transformed_layer": "E (STATE)",
+      "transformation_description": "Cultural categories move from symbolic dimension to become psychological states and social conditions.",
+      "story_evidence": "Category 'damy' becomes internal/external state of being, 'faupaux' as psychological-social condition"
+    },
+    {
+      "perspective": "d (logický)",
+      "base_layer": "D (ENVIRONMENT)",
+      "transformed_layer": "J (ACTION)",
+      "transformation_description": "Logical systems move from environmental organization to become actions and transactions in social space.",
+      "story_evidence": "Logical transaction becomes social action ('nastavení dlaně'), system becomes practice"
+    }
+  ],
+
+  "perspective_interactions_unique_to_pig": [
+    {
+      "interaction": "Psychological-Cultural Tension",
+      "perspectives": ["e", "l"],
+      "description": "Tension between psychological reality and cultural expectations. Individual experience vs. social categories.",
+      "manifestation": "Psychological need vs. cultural 'faupaux', internal state vs. social category of 'dama'"
+    },
+    {
+      "interaction": "Logical-Metaphorical Conflict",
+      "perspectives": ["d", "h"],
+      "description": "Conflict between logical transaction systems and metaphorical social structuring. Literal logic vs. metaphorical meaning.",
+      "manifestation": "Literal transaction logic ('drobný za záchod') vs. metaphorical social structuring"
+    },
+    {
+      "interaction": "Meta-Paradox Reflection",
+      "perspectives": ["a", "i"],
+      "description": "Meta-reflection on social systems creates paradox awareness. Thinking about social codes reveals their paradoxical nature.",
+      "manifestation": "Reflection on 'faupaux' reveals they are 'hlavně pravdy' - meta-awareness of social paradox"
+    }
+  ],
+
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "presentation_gesture": {
+        "perspectives": ["e", "d", "a"],
+        "description": "Psychological exposure, logical presentation, meta-commentary on social display"
+      },
+      "question_text": {
+        "perspectives": ["l", "d", "i"],
+        "description": "Cultural categorization, logical interrogation, paradoxical questioning"
+      },
+      "pig_object": {
+        "perspectives": ["i", "h", "j"],
+        "description": "Paradoxical identity, metaphorical hybrid, absurd object"
+      },
+      "framed_damy": {
+        "perspectives": ["l", "c", "a"],
+        "description": "Cultural category highlighted, philosophical questioning, meta-categorization"
+      }
+    }
+  },
+
+  "ai_testing_focus_for_perspectives": {
+    "e_psychological": "Can AI analyze collective psychological states? Can it work with social emotions and nonverbal communication?",
+    "l_cultural": "Can AI recognize implicit social codes and categories? Can it work with 'faupaux' as specific social concept?",
+    "d_logical": "Can AI analyze social transactions as logical systems? Can it track transactional metaphors in social contexts?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in social interaction context?"
+  },
+
+  "cross_benchmark_perspective_links": {
+    "with_krokodyl": {
+      "shared": ["l (kulturní)", "d (logický)"],
+      "contrast": "Krokodýl: cultural symbol commodification; Prase: cultural category application"
+    },
+    "with_donkey": {
+      "shared": ["i (paradoxní)", "d (logický)"],
+      "contrast": "Donkey: logical binary breakdown; Prase: logical social transaction"
+    },
+    "with_sparrow": {
+      "shared": ["e (psychologický)", "h (metaforický)"],
+      "contrast": "Sparrow: psychological burden; Prase: psychological-social tension"
+    }
+  },
+
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Prase story's context of social codes and transactions.",
+  "created_date": "2026-02-03",
+  "version": "1.0"
+}
