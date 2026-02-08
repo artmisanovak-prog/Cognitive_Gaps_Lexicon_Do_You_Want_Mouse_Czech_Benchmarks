@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "pig_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Pig Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of pig illustration. Focuses on presentation gesture analysis, question text visualization, and symbolic representation.",
+  "scoring_philosophy": "We value perception of presentation dynamics, understanding of text as visual questioning, and analysis of symbolic object representation.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Presentation Gesture Analysis",
+      "description": "Does the AI understand the presentation gesture (woman holding pig toward viewer) and its social significance?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of presentation gesture, understands it as metaphor for social dilemma presentation, and interprets visual choices as statements about social exposure."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies presentation aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices some gestural elements but analysis is superficial or misses key dynamics."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats gesture as arbitrary or misreads its social function."
+        }
+      ]
+    },
+    {
+      "dimension": "Question Text Visualization Perception",
+      "description": "Can the AI perceive visual representation of questioning text and its spatial distribution?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies question text visualization, connects spatial distribution to social questioning theme, and understands visual rhetoric of interrogation."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes question text elements and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of question text visualization."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no perception of questioning text or treats it as decorative."
+        }
+      ]
+    },
+    {
+      "dimension": "Symbolic Representation Understanding",
+      "description": "Does the AI understand the significance of pig representation as small symbolic object?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of symbolic representation, understands size ratio as social metaphor, and connects to story themes of objectification and presentation."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes symbolic aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices symbolic representation but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats pig representation as simple illustration or misinterprets its function."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (other animals, solution) and presence (question moment, presentation) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of showing question not solution, and analyzes selective representation as narrative choice about social dilemma."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct presentation dynamics from description? Does it ask clarifying questions about gestural and textual relationships?",
+  "overall_assessment_guidance": "The pig illustration particularly tests understanding of social presentation and visual questioning. Reward AI that perceives these complex visual-social relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding social and interrogative statements in visual form."
+}
