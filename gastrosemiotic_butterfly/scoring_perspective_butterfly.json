@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "butterfly_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Butterfly Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in butterfly story. Focus on gastrosemiotic and metaphorical perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to food metaphors, literalization, and semiotic systems, not just general perspective identification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Gastrosemiotic Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to food as sign system (absurd, metaphorical, linguistic) and understand their gastrosemiotic dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of gastrosemiotic perspectives, identifies food-as-metaphor dynamics, and connects perspectives to specific gastrosemiotic qualities in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant gastrosemiotic perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some gastrosemiotic perspectives but analysis is superficial or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of gastrosemiotic dimensions in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Metaphor Transformation Recognition",
+      "description": "Can the AI identify perspectives that illuminate metaphor literalization and performative transformation (metaphorical, ironic, associative)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies transformation perspectives, understands literalization processes, and analyzes how perspectives reveal metaphor dynamics."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies transformation perspectives and provides adequate analysis of metaphorical processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some transformation perspectives but analysis is weak or overly literal."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize metaphorical dimensions or treats transformations literally."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Gastrosemiotic Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with food and metaphor themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to gastrosemiotic context, shows understanding of qualitative shifts between literal and metaphorical."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to food/metaphor themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Metaphor Perspective Blending",
+      "description": "Can the AI creatively blend perspectives to analyze metaphorical systems and transformations?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate metaphor literalization and performative transformation."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze metaphorical processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for metaphorical analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of gastrosemiotic and metaphorical perspectives. An AI that excels in metaphor sensitivity but is weaker in gastrosemiotic analysis might still show valuable cognitive patterns.",
+  "note": "The butterfly story demands particular sensitivity to metaphor and food-as-sign – reward AI that shows this specialized understanding."
+}
