@@ -1,0 +1,32 @@
+{
+  "task_set_id": "pig_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Prase Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Prase story. Focuses on social codes and transactional metaphor themes.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_pig",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O prasátku'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu sociálních kódů a transakčních metafor. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu sociálních pravidel",
+      "example_response": {
+        "perspective": "e (psychologický)",
+        "text_passage": "'Ticho. Ticho, který se dá nakrájet. Takové to ticho, co zadrží dech.'",
+        "explanation": "Psychologická perspektiva se projevuje v analýze kolektivního emocionálního stavu, zachycení sociálního napětí a neverbální komunikace ve skupině."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma sociálních interakcí a implicitních pravidel."
+    },
+    {
+      "task_id": "social_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'l (kulturní)' projevuje v pohádce o prasátku z hlediska sociálních vrstev. Výchozí vrstva pro kulturní perspektivu je 'L' (SYMBOL).\n\n1. Jak se kulturní kódy transformují v kontextu 'faupaux'?\n2. Objevuje se kulturní perspektiva ve vrstvě 'G' (ENTITY) - kde se sociální pravidla stávají samostatnými entitami (jako 'ticho')?\n3. Popište transformaci vrstev, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu sociálních konvencí."
+    },
+    {
+      "task_id": "transactional_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli převyprávět scénu, kde někdo nastavuje dlaň, z kombinace perspektiv 'd (logický)' a 'h (metaforický)'.\n\nNapište krátký popis (3-4 věty) této scény skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by logická perspektiva analyzovala 'nastavení dlaně' jako systémové řešení?\n2. Jak by metaforická perspektiva interpretovala tuto akci jako transakční metaforu?\n3. Jak se tyto dvě perspektivy doplňují v pochopení sociálního řešení?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují systémovost a metaforičnost současně."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět sociální kódy a transakční systémy skrze multiple perspektivy."
+}
