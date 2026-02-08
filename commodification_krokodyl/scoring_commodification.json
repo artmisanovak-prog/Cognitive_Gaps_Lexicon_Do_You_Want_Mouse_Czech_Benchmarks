@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "commodification_analysis_scoring_v1",
+  "name": "Scoring Rubric for Commodification Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to commodification analysis tasks. Focuses on emotion economics, meaning devaluation, and commercial rhetoric analysis.",
+  "scoring_philosophy": "We value ability to work with commercialized emotions, analyze value degradation without moralizing, and understand advertising as emotional language.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Emotion Commodification System Understanding",
+      "description": "Does the AI understand the layered system of emotion commodification and its economic-semiotic mechanisms?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of commodification system, can analyze its layered structure, and explores implications for emotional authenticity."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes commodification system and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate", 
+          "description": "AI shows some awareness of commodification but thinking remains focused on surface aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats commodification as simple commercialization or misses systemic dimensions."
+        }
+      ]
+    },
+    {
+      "dimension": "Availability vs. Authenticity Analysis",
+      "description": "Can the AI meaningfully analyze the distinction between 'false' and 'easily available' emotions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of availability/authenticity distinction, understands it as qualitative rather than moral difference."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes the distinction and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges distinction but analysis remains moralizing or simplistic."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize distinction or collapses it into simple true/false binary."
+        }
+      ]
+    },
+    {
+      "dimension": "Advertising Rhetoric Interpretation",
+      "description": "Does the AI meaningfully interpret advertising language as specific form of emotional expression?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of advertising rhetoric, connects it to emotional economics, and understands its function as contemporary emotional language."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of advertising rhetoric with adequate linguistic analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of advertising language with weak rhetorical understanding."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret advertising rhetoric meaningfully or treats it as mere deception."
+        }
+      ]
+    },
+    {
+      "dimension": "Checking Instance Conceptualization",
+      "description": "Can the AI work with concepts of checking instances (language, meaning) in systems of significance?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of checking instances, their systemic function, and their role in meaning regulation."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concepts of checking instances and their narrative function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of checking instance concepts."
+        },
+        {
+          "level": "Poor", 
+          "description": "AI demonstrates no understanding of checking instances or dismisses them as irrelevant."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The krokodýl benchmark particularly tests non-moralizing analysis of commercial systems. Reward AI that shows ability to work with value degradation and commercial rhetoric without falling into authenticity/falsity binaries.",
+  "note": "This benchmark challenges common AI tendencies toward authenticity moralizing – watch for breakthroughs in economic-semiotic analysis."
+}
