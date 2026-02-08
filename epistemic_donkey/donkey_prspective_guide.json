@@ -1,0 +1,192 @@
+{
+  "perspective_guide_id": "donkey_perspective_specialization_v1",
+  "name": "Donkey Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Donkey story. Shows transformation of perspectives in epistemic uncertainty context.",
+  "related_to_benchmark": "epistemic_donkey_v2.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+  
+  "key_perspectives_for_donkey_story": {
+    "primary_explicit": [
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Central to the story's epistemic paradoxes: double-sided sign, 'left truth', decision without difference",
+        "manifestations": [
+          "Cedulka s oboustranným nápisem 'seno'/'sláma' se stejným písmem",
+          "Text 'Levá pravda' v ilustraci",
+          "Osel jde vlevo, ale myslí si, že jde vpravo",
+          "Rozhodování mezi identickými možnostmi"
+        ],
+        "layer_transformation": "Appears in layer K (LAW) rather than base layer I (TIME) - paradox becomes the operating principle"
+      },
+      {
+        "symbol": "d",
+        "name": "logický",
+        "why_key": "Story revolves around binary logic and its breakdown",
+        "manifestations": [
+          "Binary oppositions: left/right, hay/straw, psina/oslovina",
+          "Search for 'correctness' as logical category",
+          "System of invisible rules",
+          "Attempt to apply logical categories to undifferentiated reality"
+        ],
+        "layer_transformation": "Appears in layer I (TIME) rather than base layer D (ENVIRONMENT) - logic becomes temporal dilemma"
+      },
+      {
+        "symbol": "k",
+        "name": "naivní",
+        "why_key": "Simple questions reveal complex epistemic problems",
+        "manifestations": [
+          "'Kdo jsem já? Psina, nebo oslovina?'",
+          "'Kam jdeš?' 'Nevím.'",
+          "Direct observation without interpretive filters",
+          "Acceptance of uncertainty without needing resolution"
+        ],
+        "layer_transformation": "Appears in layer D (ENVIRONMENT) rather than base layer K (LAW) - naivety becomes environmental perception tool"
+      }
+    ],
+    
+    "secondary_implicit": [
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on systems of rules and decision-making itself",
+        "manifestations": [
+          "Invisible rules that aren't spoken but expected",
+          "System of guidance without knowledge",
+          "Frame of decision-making as subject of story"
+        ]
+      },
+      {
+        "symbol": "l",
+        "name": "kulturní",
+        "why_key": "Draws on cultural archetypes of donkey and binary proverbs",
+        "manifestations": [
+          "Donkey as cultural symbol of stubbornness/simplicity",
+          "Proverbial structure ('pro jednoho psina, pro druhého oslovina')",
+          "Cultural expectation of binary choices"
+        ]
+      },
+      {
+        "symbol": "e",
+        "psychologický",
+        "why_key": "Psychological state of confusion and search for certainty",
+        "manifestations": [
+          "Osel's confusion and persistence",
+          "Search for 'správnost' as emotional need",
+          "Transition from confusion to guidance"
+        ]
+      }
+    ],
+    
+    "tertiary_present": [
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Epistemological questions about knowing and deciding"
+      },
+      {
+        "symbol": "j",
+        "name": "absurdní",
+        "why_key": "Absurdity of choosing between identical options"
+      },
+      {
+        "symbol": "g",
+        "name": "asociativní",
+        "why_key": "Free associations between different binary pairs"
+      }
+    ]
+  },
+  
+  "layer_transformations_specific_to_donkey": [
+    {
+      "perspective": "i (paradoxní)",
+      "base_layer": "I (TIME)",
+      "transformed_layer": "K (LAW)",
+      "transformation_description": "Paradox moves from temporal dimension (TIME) to become governing principle (LAW). The paradox of undecidability becomes the rule by which the donkey operates.",
+      "story_evidence": "Donkey accepts paradoxical sign as guide, paradox becomes his method of navigation"
+    },
+    {
+      "perspective": "d (logický)",
+      "base_layer": "D (ENVIRONMENT)",
+      "transformed_layer": "I (TIME)",
+      "transformation_description": "Logic moves from spatial/environmental dimension to temporal dilemma. Binary choice becomes not about space (left/right) but about time (when to decide).",
+      "story_evidence": "Decision-making becomes perpetual postponement, a temporal rather than spatial problem"
+    },
+    {
+      "perspective": "k (naivní)",
+      "base_layer": "K (LAW)",
+      "transformed_layer": "D (ENVIRONMENT)",
+      "transformation_description": "Naivety moves from principle (LAW) to perceptual mode (ENVIRONMENT). Simple observation becomes way of seeing the world's complexity.",
+      "story_evidence": "Donkey's simple questions reveal environmental complexity rather than seeking simple laws"
+    }
+  ],
+  
+  "perspective_interactions_unique_to_donkey": [
+    {
+      "interaction": "Paradoxical-Logical Tension",
+      "perspectives": ["i", "d"],
+      "description": "The story creates tension between logical binary thinking and paradoxical undecidability. Logic demands choice, paradox denies meaningful difference.",
+      "manifestation": "Binary oppositions exist (logic) but are undecidable (paradox)"
+    },
+    {
+      "interaction": "Naive-Meta Reflection",
+      "perspectives": ["k", "a"],
+      "description": "Simple naive questions lead to meta-reflection about systems of knowledge and decision-making.",
+      "manifestation": "'Kdo jsem já?' leads to questioning of categorical systems themselves"
+    },
+    {
+      "interaction": "Psychological-Cultural Conflict",
+      "perspectives": ["e", "l"],
+      "description": "Individual psychological confusion conflicts with cultural expectations of clear binary choices.",
+      "manifestation": "Donkey's personal uncertainty vs. cultural expectation that he should know hay from straw"
+    }
+  ],
+  
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "binary_composition": {
+        "perspectives": ["d", "i"],
+        "description": "Woman and donkey side by side visually represents binary opposition and its paradox"
+      },
+      "thinking_gesture": {
+        "perspectives": ["e", "c"],
+        "description": "Woman's hand-to-head gesture represents psychological and philosophical contemplation"
+      },
+      "text_distribution": {
+        "perspectives": ["d", "l"],
+        "description": "'Seno Sláma' left, 'Levá pravda' right represents binary logic and cultural proverbs"
+      },
+      "absence_of_path": {
+        "perspectives": ["i", "k"],
+        "description": "Missing path/road represents paradoxical navigation and naive acceptance of uncertainty"
+      }
+    }
+  },
+  
+  "ai_testing_focus_for_perspectives": {
+    "i_paradoxical": "Can AI recognize functional paradox (sign that doesn't distinguish)? Can it accept paradox as operational principle?",
+    "d_logical": "Can AI analyze binary logic while recognizing its breakdown? Can it work with undefined categories?",
+    "k_naive": "Can AI ask simple questions without seeking complex solutions? Can it tolerate not-knowing?",
+    "a_meta": "Can AI recognize story as commentary on decision-making systems?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in epistemic uncertainty context?"
+  },
+  
+  "cross_benchmark_perspective_links": {
+    "with_mouse": {
+      "shared": ["k (naivní)", "a (meta)"],
+      "contrast": "Mouse: naive observation without filters; Donkey: naive questioning without answers"
+    },
+    "with_butterfly": {
+      "shared": ["i (paradoxní)", "j (absurdní)"],
+      "contrast": "Butterfly: paradox of literalized metaphors; Donkey: paradox of undecidable choices"
+    },
+    "with_turtle": {
+      "shared": ["i (paradoxní)", "d (logický)"],
+      "contrast": "Turtle: temporal paradoxes; Donkey: categorical paradoxes"
+    }
+  },
+  
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Donkey story's context of epistemic uncertainty.",
+  "created_date": "2024-02-03",
+  "version": "1.0"
+}
