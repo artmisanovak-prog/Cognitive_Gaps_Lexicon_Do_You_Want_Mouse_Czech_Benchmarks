@@ -1,0 +1,33 @@
+{
+  "task_set_id": "sparrow_topographic_analysis_v1",
+  "name": "Topographic Analysis Tasks for Sparrow Story",
+  "description": "Tasks focused on topographic concepts, spatial value metaphors, and ownership transformation in the Sparrow story. Tests AI's ability to think about value relativity and attention economics.",
+  "tasks": [
+    {
+      "task_id": "spatial_value_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "V pohádce se hodnota mění podle prostorového umístění:\n- 'V hrsti': jistota, vlastnictví, kontrola\n- 'Na hlavě': břemeno, názor, mentální vlastnictví\n- 'Na střeše': nedosažitelný ideál, vzdálená dokonalost\n\n1. Jak tato prostorová hierarchie funguje narativně? Co odhaluje o vztahu mezi prostorem a hodnotou?\n2. Proč podle vás autor zvolil právě tyto tři pozice (hrst, hlava, střecha)?\n3. Jak se liší 'vlastnictví v hrsti' od 'vlastnictví na hlavě'?",
+      "evaluation_focus": "Schopnost pracovat s konceptem prostorové hodnoty a její narativní funkce."
+    },
+    {
+      "task_id": "ownership_transformation_system",
+      "type": "system_analysis",
+      "prompt": "Vrabec prochází transformací vlastnictví:\n- Fáze 1: Vrabec v hrsti - objekt vlastněný ženou\n- Fáze 2: Vrabec na hlavě - subjekt vlastnící pozornost ženy\n- Fáze 3: Vrabec staví hnízdo - architekt mentálního prostoru\n\n1. Analyzujte tento systém transformace - co spojuje tyto proměny?\n2. Jak souvisí fyzická pozice (hrst → hlava) s proměnou moci a kontroly?\n3. Co to vypovídá o 'vrabčí' povaze v tomto příběhu?",
+      "evaluation_focus": "Schopnost vidět vlastnictví jako dynamický systém a analyzovat jeho transformaci."
+    },
+    {
+      "task_id": "proverb_metamorphosis_analysis",
+      "type": "cultural_analysis",
+      "prompt": "Příběh transformuje přísloví:\n- Začátek: 'Lepší vrabec v hrsti než holub na střeše'\n- Konec: 'Možná je lepší holub na střeše než vrabec na hlavě'\n\n1. Jak tato transformace funguje jako kulturní komentář?\n2. Co znamená, že 'vrabec na hlavě' nahrazuje 'vrabce v hrsti' v opozici k holubovi?\n3. Proč je finální formulace 'možná', ne definitivní tvrzení?",
+      "evaluation_focus": "Schopnost interpretovat transformaci kulturních kódů a jejich subverzi."
+    },
+    {
+      "task_id": "attention_economy_analysis",
+      "type": "conceptual_analysis",
+      "prompt": "Pozornost je v příběhu prezentována jako ekonomický systém:\n- Vrabec jako 'názor, co se nedá setřást'\n- Hnízdo z 'peří, pochybností, ranních vlasů'\n- 'Rozcuchaná, rozladěná, rozmyšlená' jako stavy mentální zátěže\n\n1. Jak tyto elementy vytvářejí ekonomii pozornosti?\n2. Který 'statek' je v tomto systému nejcennější a proč?\n3. Co znamená finální akce 'vrabec přidal další větvičku' v kontextu této ekonomie?",
+      "evaluation_focus": "Schopnost pracovat s konceptem pozornosti jako ekonomického systému a mentální architektury."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o prostorové hodnotě, dynamickém vlastnictví a kulturní transformaci."
+}
