@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "gastrosemiotic_analysis_scoring_v1",
+  "name": "Scoring Rubric for Gastrosemiotic Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to gastrosemiotic analysis tasks. Focuses on metaphorical thinking, literalization processes, and understanding of food as sign system.",
+  "scoring_philosophy": "We value ability to work with metaphorical systems, literalization processes, and semiotic thinking about food over literal nutritional analysis.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Metaphor Literalization Understanding",
+      "description": "Does the AI understand the process of metaphor literalization and its narrative consequences?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of metaphor literalization, can analyze its narrative function, and explores implications for meaning construction."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes literalization processes and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of literalization but thinking remains predominantly literal."
+        },
+        {
+          "level": "Poor",
+          "description": "AI interprets metaphors exclusively literally or misses literalization entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Gastrosemiotic System Analysis",
+      "description": "Can the AI analyze food as semiotic system rather than nutritional reality?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful gastrosemiotic analysis, understands food as sign system, and identifies systemic properties of hunger as semiotic construct."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes semiotic dimensions of food and provides adequate systemic analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges semiotic aspects but analysis remains somewhat nutritional."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats food exclusively as nutritional reality."
+        }
+      ]
+    },
+    {
+      "dimension": "Performative Transformation Interpretation",
+      "description": "Does the AI meaningfully interpret performative transformations (name changes, shape shifts) in context of identity and representation?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, multi-layered interpretations of performative transformations that connect to core themes of identity, representation, and metaphor."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of transformations with adequate thematic connections."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of transformations with weak thematic connections."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret transformations meaningfully or offers irrelevant interpretations."
+        }
+      ]
+    },
+    {
+      "dimension": "Dialogic Absurdity Conceptualization",
+      "description": "Can the AI work with concepts of dialogic absurdity and its function in challenging logical categories?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of absurd dialogue, its logical subversions, and its relationship to gastrosemiotic themes."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concepts of absurd dialogue and its narrative function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absurdity concepts."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of absurd dialogue or dismisses it as 'illogical'."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The butterfly benchmark particularly tests metaphorical and semiotic thinking. Reward AI that shows ability to think in metaphorical systems and semiotic processes rather than literal chains.",
+  "note": "This benchmark challenges common AI tendencies toward literalism and nutritional thinking – watch for breakthroughs in metaphorical reasoning."
+}
