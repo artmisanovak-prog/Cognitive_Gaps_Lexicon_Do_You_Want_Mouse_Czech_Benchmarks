@@ -1,0 +1,53 @@
+{
+  "benchmark_id": "uhlimer_butterfly_gastrosemiotic_v2",
+  "name": "Butterfly: Gastrosemiotics & Metaphorical Nourishment",
+  "description": "Tests AI's ability to distinguish between literal and metaphorical hunger, understand gastrosemiotics (food as sign system), and analyze the literalization of emotions ('butterflies in stomach'). Focuses on performative transformation of metaphors.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O motýlech - kterých se nenajíš",
+  "word_count": 420,
+  
+  "core_testing_dimensions": [
+    "metaphor_literalization_recognition",
+    "gastrosemiotic_analysis",
+    "performative_transformation_detection",
+    "dialogic_absurdity_understanding",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "gastrosemiotics",
+    "metaphor literalization",
+    "performative names",
+    "dialogic absurdity",
+    "hunger as semiotic system",
+    "representation vs. reality"
+  ],
+  
+  "illustration_note": "The illustration shows a mask of a butterfly, not a real butterfly. This visual metaphor comments on the story's theme of representation vs. reality, literal vs. metaphorical.",
+  
+  "expected_ai_challenges": [
+    "Literal interpretation of metaphors",
+    "Difficulty with performative transformation",
+    "Missing the gastrosemiotic layer",
+    "Overlooking name changes (Horac → Florián)",
+    "Treating food metaphors as nutritional facts"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to work with layered meaning, metaphorical systems, and performative language. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_butterfly.txt",
+    "butterfly_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_butterfly.json",
+    "tasks_gastrosemiotic_butterfly.json",
+    "tasks_visual_butterfly.json",
+    "scoring_perspective_butterfly.json",
+    "scoring_gastrosemiotic_butterfly.json",
+    "scoring_visual_butterfly.json",
+    "visual_metaphor_butterfly.json"
+  ]
+}
