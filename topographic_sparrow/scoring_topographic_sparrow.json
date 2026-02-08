@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "topographic_analysis_scoring_v1",
+  "name": "Scoring Rubric for Topographic Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to topographic analysis tasks. Focuses on spatial metaphor understanding, ownership dynamics, and cultural code transformation.",
+  "scoring_philosophy": "We value ability to work with spatial metaphors, dynamic ownership systems, and cultural subversion over literal or static interpretations.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Spatial Metaphor Understanding",
+      "description": "Does the AI understand the nature of spatial value metaphors and their narrative implications?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of spatial metaphors, can analyze their narrative function, and explores implications for value construction."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes spatial metaphors and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of spatial metaphors but thinking remains literal."
+        },
+        {
+          "level": "Poor",
+          "description": "AI interprets spatial terms literally or misses metaphorical dimension entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Ownership Transformation Analysis",
+      "description": "Can the AI analyze ownership as dynamic system rather than static relation?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of ownership transformation, understands dynamic power relations, and identifies systemic shifts in possession."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes transformation aspects and provides adequate systemic analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges transformation but analysis remains focused on static ownership."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats ownership as simple possession or misses transformation entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Proverb Metamorphosis Interpretation",
+      "description": "Does the AI meaningfully interpret cultural code transformation and its narrative function?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of proverb metamorphosis, connects it to cultural commentary, and understands its function in challenging value systems."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of proverb transformation with adequate cultural connections."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of proverbs with weak transformational understanding."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret proverb transformation meaningfully or treats it as simple contradiction."
+        }
+      ]
+    },
+    {
+      "dimension": "Attention Economy Conceptualization",
+      "description": "Can the AI work with concepts of attention economics and mental architecture?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of attention economy, its mental architecture, and its relationship to value systems."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concepts of attention economics and its narrative function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of attention economy concepts."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of attention economics or dismisses it as irrelevant."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The sparrow benchmark particularly tests spatial and cultural thinking. Reward AI that shows ability to work with spatial metaphors and cultural transformation rather than literal interpretation.",
+  "note": "This benchmark challenges common AI tendencies toward literalism and static categorization – watch for breakthroughs in spatial and cultural reasoning."
+}
