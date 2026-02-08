@@ -1,0 +1,44 @@
+{
+  "illustration_id": "butterfly_visual_metaphor_v1",
+  "file_name": "butterfly_illustration.jpg",
+  "title": "MOTÝLŮ V BŘÍŠE SE NENAJÍŠ",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (ženskou postavou držící masku motýla) zabírajícím centrální část, obklopeným ručně psaným textem, který se vine kolem figury jako součást designu. Text je v češtině, obsahuje: 'MOTÝLŮ' nahoře, 'V BŘÍŠE SE NENAJÍŠ' dole, psané s variacemi (BRVÓ místo BŘÍŠE). Žena má velké oči, ironický výraz, drží masku motýla před sebou v gestu prezentace. Maska má vyříznuté oči a tykadla. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, s integrovaným textem, prvky překrývají a obtékají figuru",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "features": ["velké oči", "ironický výraz", "kudrnaté vlasy", "stylizované rysy"],
+      "gesture": "drží masku motýla před sebou v prezentujícím gestu",
+      "expression": "ironická, angažovaná, mírně překvapená"
+    },
+    "butterfly_mask": {
+      "representation": "karnevalová maska, ne živý motýl",
+      "position": "držena v levé ruce, před tělem ženy",
+      "features": ["vyříznuté oči", "tykadla", "nepravidelná křídla se spirálami"],
+      "symbolic_qualities": ["reprezentace", "přetvářka", "metaforická doslovnost", "performativní identita"]
+    },
+    "text": {
+      "content": "MOTÝLŮ / V BŘÍŠE SE NENAJÍŠ (psáno jako V BRVÓ BRISE SE NE NAJÍŠ)",
+      "style": "ručně psané, křivé, graffiti-like, s 'chybami' (BRVÓ)",
+      "placement": "vinoucí se kolem figury, překrývající se s kompozicí",
+      "integration": "fyzicky dotýká se vlasů, rukou, masky",
+      "function": "doslovná vizualizace přísloví, integrovaná do vizuálního vyprávění"
+    }
+  },
+  
+  "interpretive_notes": {
+    "representation_dynamics": "Maska vs. živý motýl - téma reprezentace vs. reality, doslovnost vs. metafora",
+    "visual_literalization": "Text zobrazen doslovně - vizuální ekvivalent literalizace metafor v příběhu",
+    "mask_function": "Maska s vyříznutýma očima umožňuje 'dívat se skrze' - téma perspektivy a identifikace",
+    "relationship_to_story": "Nezobrazuje scénu z pohádky, ale vizualizuje ústřední téma literalizace a reprezentace",
+    "conceptual_core": "Ilustrace jako metafora pro vztah mezi reprezentací a realitou, metaforou a doslovností"
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["b (jazykový)", "j (absurdní)", "h (metaforický)"],
+    "secondary": ["f (ironický)", "a (meta)", "g (asociativní)"],
+    "reasoning": "Jazykový kvůli doslovnému textu; absurdní kvůli kombinaci masky a přísloví; metaforický kvůli reprezentaci motýla; ironický kvůli prezentujícímu gestu s maskou."
+  }
+}
