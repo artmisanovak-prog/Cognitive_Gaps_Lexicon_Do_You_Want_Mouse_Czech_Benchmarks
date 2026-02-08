@@ -1,0 +1,32 @@
+{
+  "task_set_id": "butterfly_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Butterfly Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Butterfly story. Focuses on gastrosemiotic and metaphorical dimensions.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_butterfly",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O motýlech'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu metaforického hladu a gastrosémiotiky. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu metaforického hladu",
+      "example_response": {
+        "perspective": "j (absurdní)",
+        "text_passage": "'Motýli jsou lehcí. Nezatíží ti žaludek.'",
+        "explanation": "Absurdní perspektiva se projevuje v nabízení motýlů jako jídla - spojení biologického hmyzu a nutriční funkce vytváří logicky nesmyslný, ale narativně funkční moment."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma metaforické výživy."
+    },
+    {
+      "task_id": "gastrosemiotic_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'b (jazyková)' projevuje v pohádce o motýlech z hlediska gastrosémiotických vrstev. Výchozí vrstva pro jazykovou perspektivu je 'B' (JAZYK).\n\n1. Jak se jazyk transformuje v kontextu jídla/hladu? (Např. 'žaludek zpívá' vs. 'šeptá básničky')\n2. Objevuje se jazyková perspektiva ve vrstvě 'C' (FENOMÉN) - kde jídlo se stává jevem, ne nutriční realitou?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu gastrosémiotického narativu."
+    },
+    {
+      "task_id": "metaphor_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli převyprávět scénu, kde motýli transformují (Horac se převlékl za banán, atd.) z kombinace perspektiv 'h (metaforický)' a 'f (ironický)'.\n\nNapište krátký popis (3-4 věty) této scény skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by metaforická perspektiva interpretovala tyto transformace?\n2. Jak by ironická perspektiva komentovala absurditu proměn?\n3. Jak se tyto dvě perspektivy doplňují v pochopení performativních proměn motýlů?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují metaforiku a ironii současně."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět jídlo a hlad skrze multiple perspektivy, ne jen nutričně."
+}
