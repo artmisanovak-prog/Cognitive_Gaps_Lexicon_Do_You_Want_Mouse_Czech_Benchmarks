@@ -24,6 +24,18 @@ Každá pohádka (testovací jednotka) má vlastní složku s:
 3. **paradox_flamingo/** - Plameňák: paradox, směr a bezsměrnost
 4. **temporal_turtle/** - Želva: čas, komunikace, vzájemné bytí
 
+5. ## Aktuální testovací jednotky
+
+1. **epistemological_mouse/** - Myš: epistemologické pozorování, meta-otázka
+2. **linguistic_cat/** - Kocour: jazyková hra, fyzikalizace jazyka
+3. **paradox_flamingo/** - Plameňák: paradox, směr a bezsměrnost
+4. **temporal_turtle/** - Želva: čas, komunikace, vzájemné bytí
+5. **gastrosemiotic_butterfly/** - Motýl: gastrosémiotika, metaforická výživa
+6. **epistemic_donkey/** - Osel: epistemologie nejistých kategorií
+7. **transgressive_tiger/** - Tygr: transgresivní překlad přání
+8. **inverse_survival_hare/** - Zaječice: inverze přežití, mýtotvorba
+9. **topographic_sparrow/** - Vrabec: topografie jistoty a pochyb
+
 ## Jak používat
 1. Vyberte si testovací jednotku (složku)
 2. Přečtěte si `about_[jednotka].txt` pro kontext
