@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "sparrow_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Sparrow Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of sparrow illustration. Focuses on power hierarchy analysis, spatial text distribution, and mental architecture visualization.",
+  "scoring_philosophy": "We value perception of visual power dynamics, understanding of spatial text as metaphor, and analysis of mental architecture in visual form.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Visual Hierarchy Analysis",
+      "description": "Does the AI understand the visual power hierarchy (sparrow above woman) and its symbolic meaning?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of visual hierarchy, understands power inversion symbolism, and interprets compositional choices as thematic statements about ownership."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies hierarchical aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices some hierarchical elements but analysis is superficial or misses key dynamics."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats composition as arbitrary or misreads power relationships."
+        }
+      ]
+    },
+    {
+      "dimension": "Text Spatial Distribution Perception",
+      "description": "Can the AI perceive spatial distribution of text as visual metaphor for value decision-making?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies text distribution as spatial metaphor, connects layout to thematic value hierarchy, and understands visual rhetoric of 'left-right' decision."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes text distribution patterns and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of text spatial distribution."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no perception of text distribution or treats it as decorative."
+        }
+      ]
+    },
+    {
+      "dimension": "Mental Architecture Understanding",
+      "description": "Does the AI understand the significance of hair as architectural element for mental construction?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of hair as mental architecture, understands organic chaos as foundation for thought, and connects to story themes of mental burden."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes architectural aspects of hair and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices hair but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats hair as simple visual element or misinterprets its function."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (pigeon, hand, transformation) and presence (sparrow on head, final state) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of selective representation, and analyzes narrative choice to show result not process."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct hierarchical dynamics from description? Does it ask clarifying questions about spatial relationships?",
+  "overall_assessment_guidance": "The sparrow illustration particularly tests understanding of visual power and spatial rhetoric. Reward AI that perceives these complex visual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding hierarchical and architectural statements in visual form."
+}
