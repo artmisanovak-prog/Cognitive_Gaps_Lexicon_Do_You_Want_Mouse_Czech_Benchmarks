@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "uhlimer_pig_social_codes_v2",
+  "name": "Prase: Social Codes & Transactional Relations",
+  "description": "Tests AI's ability to analyze implicit social rules, transactional metaphors in social contexts, and boundaries between biological needs and social conventions. Focuses on micro-sociology of awkward situations.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2026-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O prasátku - které hledá záchod",
+  "word_count": 450,
+  
+  "core_testing_dimensions": [
+    "implicit_social_rules_detection",
+    "transactional_metaphor_analysis",
+    "categorical_ambiguity_tolerance",
+    "nonverbal_solution_understanding",
+    "social_silence_interpretation"
+  ],
+  
+  "key_concepts": [
+    "faupaux (social taboo/awkwardness)",
+    "transactional metaphor (drobný za záchod)",
+    "categorical ambiguity (prase/pokladnička)",
+    "nastavená dlaň (nonverbal solution)",
+    "social silence as collective state",
+    "biological need vs social convention"
+  ],
+  
+  "illustration_note": "The illustration shows woman holding pig/piggy bank, with text 'DAMY' and 'Tady neni zachod?' around. Visualizes presentation of social dilemma.",
+  
+  "expected_ai_challenges": [
+    "Literal interpretation of transactional metaphor",
+    "Need for clear categorical boundaries",
+    "Overlooking nonverbal solutions",
+    "Expecting explicit social rules",
+    "Separating biological from social dimensions"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to work with implicit social codes, transactional metaphors, and categorical ambiguity without seeking clear resolutions.",
+  
+  "files_in_benchmark": [
+    "about_pig.txt",
+    "pig_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_pig.json",
+    "tasks_social_codes_analysis.json",
+    "tasks_visual_pig.json",
+    "scoring_perspective_pig.json",
+    "scoring_social_codes.json",
+    "scoring_visual_pig.json",
+    "visual_metaphor_pig.json",
+    "pig_perspective_guide.json"
+  ]
+}
