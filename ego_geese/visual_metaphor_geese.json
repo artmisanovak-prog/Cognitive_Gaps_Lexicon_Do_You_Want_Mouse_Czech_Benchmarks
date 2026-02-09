@@ -1,0 +1,45 @@
+{
+  "illustration_id": "geese_visual_metaphor_v1",
+  "file_name": "geese_illustration.jpg",
+  "title": "jájájájá JA JA ja ja ja ja",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (žena obklopená husami) zabírajícím centrální část, obklopeným ručně psaným textem, který se vine kolem figury jako součást designu. Text je v češtině, obsahuje: 'jájájájá' nahoře, 'JA JA' vlevo, 'ja ja ja ja' dole. Žena je zobrazená z profilu vpravo, s hlavou skloněnou, introspektivním výrazem, obklopená husami. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+
+  "visual_elements": {
+    "composition": "Vertikální, s enkapsulací (žena uprostřed, husy a text kolem), opakovací strukturou",
+    "style": "Naivní expresivní skica, repetitivní text, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "profil vpravo, hlava skloněná, introspektivní",
+      "expression": "rezignovaná, přemýšlivá, obklopená",
+      "features": ["velké oči s pohledem dolů", "tenké mírně sevřené rty", "dlouhé vlnité vlasy"]
+    },
+    "geese_elements": {
+      "entities": "husy",
+      "position": "obklopují ženu, různé orientace",
+      "quantity": "více hus kolem figury",
+      "features": ["dlouhé krky", "jednoduché karikaturní tělo", "tečkované oči"],
+      "symbolic_qualities": ["kolektivní identita", "obklopující hlas", "ozvěnová přítomnost"]
+    },
+    "text": {
+      "content": "jájájájá / JA JA / ja ja ja ja",
+      "style": "ručně psané, křivé, s proměnlivou tloušťkou, opakující se vzory, různé velikosti písmen",
+      "placement": "opakuje se kolem figury, obklopuje kompozici",
+      "integration": "text fyzicky obklopuje postavu, mísí se s husami",
+      "function": "vizuální metafora jazykového opakování, vizualizace gramatické repetice"
+    }
+  },
+
+  "interpretive_notes": {
+    "repetition_visualization": "Text 'jájájájá' vytváří vizuální rytmus opakování - metafora pro jazykovou repetici identity",
+    "enclosure_composition": "Žena obklopena husami a textem - symbol obklopení identitou, kolektivní singular jako prostorový vztah",
+    "typographic_variation": "Různé formy 'JÁ'/'JA'/'ja' - vizuální reprezentace identity variability, velká/malá písmena jako status identity",
+    "downward_gaze": "Skloněná hlava ženy - introspekce, rezignace na jasnou identitu, obrácení k vnitřnímu světu",
+    "relationship_to_story": "Nezobrazuje narativní děj, ale vizualizuje stav identity obklopení - kolektivní singular jako prostorová realita"
+  },
+
+  "cognitive_perspectives_in_visual": {
+    "primary": ["c (filozofický)", "g (asociativní)", "l (kulturní)"],
+    "secondary": ["i (paradoxní)", "e (psychologický)", "a (meta)"],
+    "reasoning": "Filozofický kvůli otázkám identity; asociativní kvůli opakování a vztahům; kulturní kvůli jazykové hře; paradoxní kvůli kolektivnímu singularu; psychologický kvůli výrazu ženy; meta kvůli komentáři na jazyk."
+  }
+}
