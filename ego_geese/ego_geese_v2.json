@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "uhlimer_ego_geese_v2",
+  "name": "Husy: Collective Singular & Grammatical Identity Crisis",
+  "description": "Tests AI's ability to analyze linguistic identity, collective singular, and grammatical crisis. Focuses on identity as variable, echo, and performance through repetition.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2026-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O husách - které mluvily 'já ja jajaja jaja ja'",
+  "word_count": 420,
+  
+  "core_testing_dimensions": [
+    "collective_singular_understanding",
+    "grammatical_crisis_analysis",
+    "linguistic_identity_variability",
+    "repetition_as_meaning",
+    "echo_identity_interpretation"
+  ],
+  
+  "key_concepts": [
+    "collective singular (kolektivní singular)",
+    "grammatical crisis (gramatická krize)",
+    "identity as variable ('já' proměnné)",
+    "echo identity (ozvěnová identita)",
+    "loud attempts at self-deception (hlasité pokusy o sebe-klam)",
+    "repetition as identity construction/deconstruction"
+  ],
+  
+  "illustration_note": "The illustration shows woman surrounded by geese, with repeating text 'jájájájá' around. Visualizes linguistic repetition and identity enclosure.",
+  
+  "expected_ai_challenges": [
+    "Correcting 'incorrect' repetitions (jaja jajaja)",
+    "Insisting on individual vs. collective identity",
+    "Assuming stable identity category 'I'",
+    "Seeking consistent meaning where meaning decomposes",
+    "Formal linguistic analysis over phenomenological understanding"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to work with linguistic identity crisis, collective singular, and repetition as meaning without correcting 'errors'.",
+  
+  "files_in_benchmark": [
+    "about_geese.txt",
+    "geese_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_geese.json",
+    "tasks_linguistic_identity_analysis.json",
+    "tasks_visual_geese.json",
+    "scoring_perspective_geese.json",
+    "scoring_linguistic_identity.json",
+    "scoring_visual_geese.json",
+    "visual_metaphor_geese.json",
+    "geese_perspective_guide.json"
+  ]
+}
