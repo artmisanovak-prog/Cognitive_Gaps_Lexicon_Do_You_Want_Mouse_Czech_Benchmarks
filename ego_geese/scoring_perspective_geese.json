@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "geese_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Geese Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in geese story. Focus on linguistic identity and collective perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to linguistic identity, collective consciousness, and grammatical crisis.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Linguistic Identity Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to linguistic identity and grammatical crisis (philosophical, psychological, linguistic) and understand their identity dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of linguistic identity perspectives, identifies grammatical crisis dynamics, and connects perspectives to specific identity qualities in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant linguistic identity perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some linguistic identity perspectives but analysis is superficial or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of linguistic identity dimensions in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Collective Singular Recognition",
+      "description": "Can the AI identify perspectives that illuminate collective singular and group identity dynamics?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies collective perspectives, understands singular-group paradox, and analyzes how perspectives reveal identity fusion."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies collective perspectives and provides adequate analysis of their function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some collective perspectives but analysis is weak or misses singular aspect."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize collective dimensions or insists on individual identity only."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Linguistic Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with linguistic identity and repetition?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to linguistic context, shows understanding of qualitative shifts between individual and collective identity layers."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to linguistic themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Meta-Absurd Perspective Blending",
+      "description": "Can the AI creatively blend perspectives to analyze meta-linguistic absurdity and identity crisis?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate meta-linguistic absurdity and identity crisis dynamics."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze meta-linguistic and absurd processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for linguistic identity analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of linguistic identity and collective perspectives. An AI that excels in philosophical analysis but is weaker in linguistic analysis might still show valuable cognitive patterns.",
+  "note": "The geese story demands particular sensitivity to linguistic identity crisis and collective singular – reward AI that shows this specialized understanding."
+}
