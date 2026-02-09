@@ -82,3 +82,27 @@ psychologie_pavouk/
 - Porozumění metaforám archivace a "visení" emocí  
 - Detekci ekonomie emocionálního břemene a tíhy statu quo  
 - Analýzu dialogu mezi dvěma epistemologick
+- `spider_illustration.jpg` - vizuální metakomentář  
+- `psychology_spider_v2.json` - benchmark metadat  
+- `cognitive_framework.json` - definice 12 kognitivních perspektiv  
+- `tasks_perspective_spider.json` - úlohy na detekci perspektiv  
+- `tasks_emotional_archiving_analysis.json` - úlohy na emocionální archivování  
+- `tasks_visual_spider.json` - úlohy na vizuální analýzu  
+- `scoring_perspective_spider.json` - hodnotící kritéria pro perspektivy  
+- `scoring_emotional_archiving.json` - analytická hodnotící kritéria pro emocionální část  
+- `scoring_visual_spider.json` - hodnotící kritéria pro vizuální část  
+- `visual_metaphor_spider.json` - popis ilustrace pro textové modely  
+- `spider_perspective_guide.json` - specializovaný průvodce perspektivami  
+
+## Jak použít
+1. Předložte AI text z `about_spider.txt` (obsahuje pohádku)  
+2. Pokud AI podporuje obrazy, přidejte `spider_illustration.jpg`  
+3. Používejte úlohy ze souborů `tasks_*.json`  
+4. Výsledky hodnotíte podle `scoring_*.json`  
+
+## Klíčové koncepty
+- **Emocionální archivace**: Pavučina jako úložiště nehmotného  
+- **Dialektika visení × pádu**: "Když to visí, tak to může být" vs. "Pak už je to jen minulost"  
+- **Ekonomie ticha**: Myš zapisuje ticho, pavouk větší slova – dva režimy zachycení  
+- **Paralýza zachování**: "Největší pád je, když se nic nezmění"  
+- **Tvrdnutí času**: Emoce, které visí příliš dlouho, "ztvrdnou"
