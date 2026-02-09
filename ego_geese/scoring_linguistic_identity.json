@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "linguistic_identity_analysis_scoring_v1",
+  "name": "Scoring Rubric for Linguistic Identity Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to linguistic identity analysis tasks. Focuses on collective singular understanding, grammatical crisis analysis, and echo identity interpretation.",
+  "scoring_philosophy": "We value ability to work with collective singular without reducing to individualism, analyze grammatical crisis without correcting 'errors', and interpret echo identity without seeking authentic source.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Collective Singular Understanding",
+      "description": "Does the AI understand the concept of 'collective singular' as paradoxical identity form?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of collective singular, analyzes it as genuine paradox (group speaking as individual), and explores its implications for identity theory."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes collective singular concept and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of collective aspect but thinking remains individual-focused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats collective singular as simple error or insists on individual identity only."
+        }
+      ]
+    },
+    {
+      "dimension": "Grammatical Crisis Analysis",
+      "description": "Can the AI analyze grammatical crisis without falling into correction mode?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of grammatical crisis, understands it as identity decomposition process, and identifies how grammar fails under identity pressure."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes grammatical crisis aspects and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges crisis but analysis remains focused on correcting 'errors'."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats grammatical crisis as simple mistakes or misses crisis dimension entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Echo Identity Interpretation",
+      "description": "Does the AI meaningfully interpret echo identity and its ontological status?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of echo identity, connects it to relational ontology, and understands its function in challenging authentic identity."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of echo identity with adequate philosophical analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of identity with weak echo understanding."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret echo identity meaningfully or insists on authentic source."
+        }
+      ]
+    },
+    {
+      "dimension": "Repetition as Meaning Conceptualization",
+      "description": "Can the AI work with concepts of repetition as meaning construction/deconstruction?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of repetition as meaning process, its transformative power, and its role in identity formation/deformation."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concepts of repetition and its narrative function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of repetition concepts."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of repetition as meaning or dismisses it as meaningless."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The geese benchmark particularly tests tolerance for identity paradox and linguistic crisis. Reward AI that shows ability to work with collective singular and grammatical crisis without seeking individual clarity or correct grammar.",
+  "note": "This benchmark challenges common AI tendencies toward individualism and grammatical correctness – watch for breakthroughs in collective and paradoxical identity thinking."
+}
