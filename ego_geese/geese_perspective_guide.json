@@ -1,0 +1,188 @@
+{
+  "perspective_guide_id": "geese_perspective_specialization_v1",
+  "name": "Geese Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Geese story. Shows transformation of perspectives in linguistic identity context.",
+  "related_to_benchmark": "linguistic_geese_v2.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+
+  "key_perspectives_for_geese_story": {
+    "primary_explicit": [
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Central to story's examination of identity ontology and linguistic being",
+        "manifestations": [
+          "Analysis of 'I' as relational not substantial",
+          "Ontological questions: 'Já jsem já, ale jen když ja slyšíš'",
+          "Echo identity and its philosophical status"
+        ],
+        "layer_transformation": "Appears in layer B (RELATION) rather than base layer C (MEANING) - philosophical meaning becomes relational structure"
+      },
+      {
+        "symbol": "g",
+        "name": "asociativní",
+        "why_key": "Story works with repetition chains and echo relationships",
+        "manifestations": [
+          "'já → ja → jaja → jajaja' associative chain",
+          "Echo relationships between identities",
+          "Collective as associative network"
+        ],
+        "layer_transformation": "Appears in layer A (X - variable) rather than base layer G (ENTITY) - associations become variable transformations"
+      },
+      {
+        "symbol": "l",
+        "name": "kulturní",
+        "why_key": "Story works with linguistic codes and grammatical cultural norms",
+        "manifestations": [
+          "Grammatical crisis as cultural breakdown",
+          "'Kolektivní singular' as cultural linguistic concept",
+          "Cultural norms of identity expression"
+        ],
+        "layer_transformation": "Appears in layer C (MEANING) rather than base layer L (SYMBOL) - cultural symbols become meaning systems"
+      }
+    ],
+
+    "secondary_implicit": [
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Paradoxes of collective singular and echo identity",
+        "manifestations": [
+          "Paradox of group speaking singular 'I'",
+          "Echo without original paradox",
+          "Identity as both self and not-self"
+        ]
+      },
+      {
+        "symbol": "e",
+        "name": "psychologický",
+        "why_key": "Psychological dimensions of identity crisis and self-deception",
+        "manifestations": [
+          "'hlasité pokusy o sebe-klam'",
+          "Identity anxiety and uncertainty",
+          "Collective psychological states"
+        ]
+      },
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on linguistic systems and identity construction",
+        "manifestations": [
+          "Meta-commentary on 'kolektivní singular'",
+          "Reflection on grammatical crisis",
+          "Language about language about identity"
+        ]
+      }
+    ],
+
+    "tertiary_present": [
+      {
+        "symbol": "j",
+        "name": "absurdní",
+        "why_key": "Absurdity of geese linguistic crisis"
+      },
+      {
+        "symbol": "d",
+        "name": "logický",
+        "why_key": "Logical structure of repetition patterns"
+      },
+      {
+        "symbol": "h",
+        "name": "metaforický",
+        "why_key": "Metaphorical systems of echo and repetition"
+      }
+    ]
+  },
+
+  "layer_transformations_specific_to_geese": [
+    {
+      "perspective": "c (filozofický)",
+      "base_layer": "C (MEANING)",
+      "transformed_layer": "B (RELATION)",
+      "transformation_description": "Philosophical meaning moves from substantive content to relational structure. Identity becomes relation, not essence.",
+      "story_evidence": "'Já' exists only in relation to hearing - identity as relational not substantial"
+    },
+    {
+      "perspective": "g (asociativní)",
+      "base_layer": "G (ENTITY)",
+      "transformed_layer": "A (X - variable)",
+      "transformation_description": "Associative entities move from stable nodes to variable transformations. Associations become processes of change.",
+      "story_evidence": "'já → ja → jaja' chain shows associative transformation as variable process"
+    },
+    {
+      "perspective": "l (kulturní)",
+      "base_layer": "L (SYMBOL)",
+      "transformed_layer": "C (MEANING)",
+      "transformation_description": "Cultural symbols move from representational level to become meaning systems. Symbols become semantic structures.",
+      "story_evidence": "Grammatical crisis transforms cultural symbol 'I' into meaning system in decomposition"
+    }
+  ],
+
+  "perspective_interactions_unique_to_geese": [
+    {
+      "interaction": "Philosophical-Associative Tension",
+      "perspectives": ["c", "g"],
+      "description": "Tension between philosophical identity essence and associative identity chains. Substance vs. relation, stability vs. transformation.",
+      "manifestation": "Philosophical 'I' vs. associative 'já→ja→jaja' transformation chain"
+    },
+    {
+      "interaction": "Cultural-Paradox Conflict",
+      "perspectives": ["l", "i"],
+      "description": "Conflict between cultural linguistic norms and paradoxical identity expressions. Normative grammar vs. paradoxical 'collective singular'.",
+      "manifestation": "Cultural grammar norms vs. paradoxical 'group saying I'"
+    },
+    {
+      "interaction": "Meta-Psychological Reflection",
+      "perspectives": ["a", "e"],
+      "description": "Meta-reflection on psychological identity creates new psychological realities. Thinking about identity crisis becomes part of crisis.",
+      "manifestation": "Meta-awareness of 'hlasité pokusy o sebe-klam' as psychological phenomenon"
+    }
+  ],
+
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "repetition_text": {
+        "perspectives": ["g", "l", "d"],
+        "description": "Associative chains, cultural language play, logical repetition patterns"
+      },
+      "enclosure_composition": {
+        "perspectives": ["c", "e", "i"],
+        "description": "Philosophical identity relations, psychological enclosure, paradoxical collective-individual"
+      },
+      "typographic_variation": {
+        "perspectives": ["l", "a", "h"],
+        "description": "Cultural language conventions, meta-linguistic commentary, metaphorical identity variations"
+      },
+      "downward_gaze": {
+        "perspectives": ["e", "c", "j"],
+        "description": "Psychological introspection, philosophical inwardness, absurd resignation"
+      }
+    }
+  },
+
+  "ai_testing_focus_for_perspectives": {
+    "c_philosophical": "Can AI analyze identity as relational not substantial? Can it work with echo ontology?",
+    "g_associative": "Can AI track associative identity chains? Can it see transformation in repetition?",
+    "l_cultural": "Can AI recognize grammatical crisis as cultural breakdown? Can it work with 'collective singular' as concept?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in linguistic identity context?"
+  },
+
+  "cross_benchmark_perspective_links": {
+    "with_pig": {
+      "shared": ["l (kulturní)", "e (psychologický)"],
+      "contrast": "Pig: cultural social codes; Geese: cultural linguistic codes"
+    },
+    "with_krokodyl": {
+      "shared": ["c (filozofický)", "a (meta)"],
+      "contrast": "Krokodýl: philosophical authenticity; Geese: philosophical identity"
+    },
+    "with_donkey": {
+      "shared": ["i (paradoxní)", "d (logický)"],
+      "contrast": "Donkey: paradoxical binaries; Geese: paradoxical identity"
+    }
+  },
+
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Geese story's context of linguistic identity crisis.",
+  "created_date": "2026-02-03",
+  "version": "1.0"
+}
