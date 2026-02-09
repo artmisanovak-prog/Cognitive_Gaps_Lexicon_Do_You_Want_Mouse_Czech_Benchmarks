@@ -1,0 +1,33 @@
+{
+  "task_set_id": "geese_linguistic_identity_analysis_v1",
+  "name": "Linguistic Identity Analysis Tasks for Geese Story",
+  "description": "Tasks focused on linguistic identity concepts, collective singular, and grammatical crisis in the Geese story. Tests AI's ability to think about identity as variable and collective.",
+  "tasks": [
+    {
+      "task_id": "collective_singular_analysis",
+      "type": "conceptual_analysis",
+      "prompt": "Houser komentuje: 'Aha. Kolektivní singular. To znám.'\n\n1. Co je 'kolektivní singular' podle kontextu příběhu?\n2. Jak se liší od běžného kolektivu nebo skupiny?\n3. Proč je tento koncept klíčový pro pochopení identity krize hus?",
+      "evaluation_focus": "Schopnost pracovat s konceptem kolektivního singularu jako specifické formy identity."
+    },
+    {
+      "task_id": "grammatical_crisis_system",
+      "type": "system_analysis",
+      "prompt": "Husy procházejí 'gramatickou krizí':\n- Každá nese 'já', ale nejisté, zda je opravdu 'já'\n- 'Já ja jajaja jaja ja' jako manifest identity v rozkladu\n- 'To nebyl výkřik. To byla gramatická krize.'\n\n1. Analyzujte tuto krizi - jak funguje gramatika identity?\n2. Proč je 'já' jako gramatická kategorie v krizi?\n3. Jak se liší 'výkřik' od 'gramatické krize'?",
+      "evaluation_focus": "Schopnost analyzovat gramatickou krizi jako jazykový a identitární fenomén."
+    },
+    {
+      "task_id": "echo_identity_analysis",
+      "type": "philosophical_analysis",
+      "prompt": "Text pracuje s 'ozvěnou identity':\n- 'žádné z těch všech 'já' si nebylo jisté, jestli je opravdu 'já', nebo jen ozvěna jiného 'já'\n- 'Já jsem já, ale jen když ja slyšíš'\n- 'hlasité pokusy o sebe-klam'\n\n1. Co je 'ozvěna identity' a jak funguje?\n2. Jak se liší 'být jaja' od 'být já'?\n3. Proč jsou 'hlasité pokusy o sebe-klam' důležité pro identitu hus?",
+      "evaluation_focus": "Schopnost pracovat s identitou jako s ozvěnou a sebeklamem."
+    },
+    {
+      "task_id": "repetition_as_meaning_analysis",
+      "type": "linguistic_analysis",
+      "prompt": "Opakování vytváří/ničí význam:\n- 'já ja jajaja jaja ja' jako transformační řetězec\n- 'když mě slyšíš moc, jsem jajaja'\n- 'když někdo opakuje 'já' tak dlouho, až to zní jako 'jajaja''\n\n1. Jak opakování mění význam 'já'?\n2. Kde je hranice mezi 'já' a 'jajaja' jako identitami?\n3. Co znamená, že 'jajaja' může být hledání bílých hus?",
+      "evaluation_focus": "Schopnost analyzovat opakování jako proces tvorby/ztráty identity."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o jazykové identitě, kolektivním singularu a gramatické krizi."
+}
