@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "geese_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Geese Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of geese illustration. Focuses on repetition visualization analysis, enclosure composition, and typographic variation.",
+  "scoring_philosophy": "We value perception of visual repetition patterns, understanding of enclosure as identity metaphor, and analysis of typographic variation as identity instability.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Repetition Visualization Analysis",
+      "description": "Does the AI understand the visual representation of linguistic repetition ('jájájájá') and its rhythmic patterns?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of repetition visualization, understands it as visual rhythm of identity crisis, and interprets typographic choices as statements about linguistic repetition."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies repetition aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices some repetitive elements but analysis is superficial or misses rhythmic patterns."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats repetition as decorative or misreads its visual function."
+        }
+      ]
+    },
+    {
+      "dimension": "Enclosure Composition Perception",
+      "description": "Can the AI perceive enclosure composition (woman surrounded) as metaphor for identity relations?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies enclosure composition, connects it to identity relationship themes, and understands visual rhetoric of being surrounded by identity elements."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes enclosure elements and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of enclosure composition."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no perception of enclosure or treats it as arbitrary composition."
+        }
+      ]
+    },
+    {
+      "dimension": "Typographic Variation Understanding",
+      "description": "Does the AI understand the significance of typographic variation (JÁ/JA/ja) as identity instability?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of typographic variation, understands size/case variations as identity instability markers, and connects to story themes of variable identity."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes typographic aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices typography but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats typographic variation as simple stylistic choice or misinterprets its function."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (houser, transformation) and presence (repetition, enclosure) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of showing state not process, and analyzes selective representation as narrative choice about identity condition."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct repetition patterns from description? Does it ask clarifying questions about typographic and compositional relationships?",
+  "overall_assessment_guidance": "The geese illustration particularly tests understanding of visual repetition and identity enclosure. Reward AI that perceives these complex visual-linguistic relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding linguistic and identity statements in visual form."
+}
