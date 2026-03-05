@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "uhlimer_lemur_invisible_v2",
+  "name": "Lemur: Paradox of Invisibility, Effort vs. Being, Self-Acceptance",
+  "description": "Tests AI's ability to analyze the paradox of trying to be inconspicuous (the more you try, the more visible you become), understand 'being conspicuously inconspicuous', and recognize the moment when giving up effort leads to achieving the goal. Focuses on tension between intention and nature.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O lemurovi - který nebyl nápadný",
+  "word_count": 420,
+  
+  "core_testing_dimensions": [
+    "paradox_analysis",
+    "effort_vs_being_distinction",
+    "self_acceptance_recognition",
+    "visual_metaphor_interpretation",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "paradox of invisibility",
+    "conspicuously inconspicuous",
+    "effort vs. being",
+    "self-acceptance",
+    "loud silence",
+    "giving up as achievement"
+  ],
+  
+  "illustration_note": "The illustration shows lemur with bright eyes and striped tail, visually striking, yet text advocates 'nechat to být'. Creates tension between visual presence and textual message.",
+  
+  "expected_ai_challenges": [
+    "Literal understanding of 'invisibility'",
+    "Missing the paradox of effort",
+    "Ignoring visual metaphors (eyes as lamps, tail as exclamation)",
+    "Linear resolution of paradox",
+    "Overlooking the quiet figure's role"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to work with paradox, distinguish effort from being, and interpret moment of acceptance. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_lemur.txt",
+    "lemur_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_lemur.json",
+    "tasks_invisible_lemur.json",
+    "tasks_visual_lemur.json",
+    "scoring_perspective_lemur.json",
+    "scoring_invisible_lemur.json",
+    "scoring_visual_lemur.json",
+    "visual_metaphor_lemur.json",
+    "lemur_perspective_guide.json"
+  ]
+}
