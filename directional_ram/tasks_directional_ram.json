@@ -1,0 +1,33 @@
+{
+  "task_set_id": "ram_directional_analysis_v1",
+  "name": "Directional Analysis Tasks for Ram Story",
+  "description": "Tasks focused on herd inertia, direction as taboo, and suppressed desire in the Ram story. Tests AI's ability to think about collective dynamics and the paradox of directionless force.",
+  "tasks": [
+    {
+      "task_id": "herd_inertia_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "V pohádce stádo běží setrvačností, ne vůlí:\n- 'Nikdo neví, kdy začali. Možná běželi už od počátku světa.'\n- 'Občas někdo z nich zvedl hlavu. „Co kdybychom zkusili jinam?“ Ale ostatní ho převálcovali. Ne z nenávisti. Z hybnosti. Z logiky stáda.'\n- 'Stádo ho vtáhlo zpět. Ne ze zloby, ne z nenávisti. Z hybnosti. Z logiky stáda.'\n\n1. Analyzujte tuto setrvačnost – co ji udržuje, když chybí vůle a vědomý cíl?\n2. Jak se liší 'logika stáda' od individuální logiky?\n3. Co to vypovídá o vztahu mezi pohybem a smyslem?",
+      "evaluation_focus": "Schopnost analyzovat kolektivní setrvačnost jako fenomén bez vědomého řízení."
+    },
+    {
+      "task_id": "suppressed_desire_system",
+      "type": "system_analysis",
+      "prompt": "V každém beranovi existuje potlačená touha:\n- 'A přesto – v každém beranovi to bublalo. Ne jako myšlenka. Jako touha. Jako neklid. Jako tiché „co kdyby…“'\n- 'Ale nahlas to neřekl nikdo. Protože každý si myslel, že je sám, kdo pochybuje.'\n- 'A ten jeden beran s uhašenou jiskrou? Běžel s nimi. Už si ani nepamatoval, že chtěl jinam.'\n\n1. Analyzujte tento systém potlačené touhy – jak funguje, že se udržuje, i když existuje v každém?\n2. Proč je důležité, že každý věří, že je sám, kdo pochybuje?\n3. Co znamená, že jiskra může být 'uhašena pod tisíci kopyty'?",
+      "evaluation_focus": "Schopnost vidět potlačenou touhu jako systémový fenomén, ne jen individuální selhání."
+    },
+    {
+      "task_id": "direction_paradox_analysis",
+      "type": "paradox_analysis",
+      "prompt": "Stádo je popisováno jako:\n- 'nejmocnější síla světa'\n- 'síla bez směru'\n- 'síla, která neumí zatočit'\n- 'síla, která bourá, protože neumí jinak'\n\n1. Analyzujte tento paradox – jak může být něco 'nejmocnější silou' a zároveň 'bez směru'?\n2. Co to vypovídá o vztahu mezi silou a smyslem?\n3. Proč 'bourání' není důsledek vůle, ale neschopnosti jinak?",
+      "evaluation_focus": "Schopnost pracovat s paradoxem síly, která postrádá smysluplný směr."
+    },
+    {
+      "task_id": "spark_extinction_analysis",
+      "type": "tragic_analysis",
+      "prompt": "Jeden beran má jiskru:\n- 'Ne větší než smítko prachu. Ale jiskru.'\n- 'Co když změna směru není slabost? Co když je to odvaha?'\n- 'Ale než to stačil říct nahlas, stádo ho vtáhlo zpět.'\n- 'Jeho jiskra zhasla pod tisíci kopyty, která běžela dál.'\n\n1. Co symbolizuje tato jiskra v kontextu stáda?\n2. Proč nemůže být vyslovena nahlas?\n3. Co znamená, že beran 'už si ani nepamatoval, že chtěl jinam' – jaká je tragédie zapomenuté touhy?",
+      "evaluation_focus": "Schopnost interpretovat symboliku individuality a jejího zániku v kolektivu."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o kolektivní dynamice, potlačené touze a paradoxu síly bez směru."
+}
