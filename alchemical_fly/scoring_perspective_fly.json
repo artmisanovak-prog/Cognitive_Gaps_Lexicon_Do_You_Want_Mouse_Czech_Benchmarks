@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "fly_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Fly Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in fly story. Focus on value inversion and geological time perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to radical value shift, geological time, and paradoxical coexistence of opposites, not just general perspective identification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Value Inversion Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to value relativity (paradoxical, absurd, philosophical) and understand their inverting dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of value inversion perspectives, identifies radical reframing, and connects perspectives to specific inversion moments in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant inversion perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some inversion perspectives but analysis is superficial or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of value inversion in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Geological Time Recognition",
+      "description": "Can the AI identify perspectives that illuminate time as layering (paradoxical, meta, cultural)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies geological time perspectives, understands layering as history, and analyzes how perspectives reveal time as sediment."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies time perspectives and provides adequate analysis of layering."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some time perspectives but analysis remains linear."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize geological time or treats time as simple chronology."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Alchemical Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with value inversion and geological themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to alchemical context, shows understanding of qualitative shifts between catastrophe and paradise."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to inversion themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Perspective Plurality Blending",
+      "description": "Can the AI creatively blend radically different perspectives to analyze the same reality?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate how same reality can be heaven and hell simultaneously."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze value relativity."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for value relativity analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of value inversion and geological time perspectives. An AI that excels in paradox sensitivity but is weaker in temporal analysis might still show valuable cognitive patterns.",
+  "note": "The fly story demands particular sensitivity to radical value shifts and time as layering – reward AI that shows this specialized understanding."
+}
