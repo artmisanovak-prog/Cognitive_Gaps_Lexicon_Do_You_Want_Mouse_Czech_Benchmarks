@@ -1,0 +1,44 @@
+{
+  "illustration_id": "cows_visual_metaphor_v1",
+  "file_name": "cows_illustration.jpg",
+  "title": "Bů bů Bů Bů – blbnu ti hlavu bů",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavními subjekty (žena a krávy) zabírajícími centrální část, obklopenými ručně psaným textem, který se vine kolem figur jako součást designu. Text je v češtině, obsahuje: nahoře 'Bů bů Bů Bů', vlevo 'Boo..', vpravo 'bů bů bů', dole 'BLBNUTÍ HLAVU Bů Bů Bů Bů Bů'. Text je opakovaný, zaplavuje prostor. Žena je z profilu vpravo, s unaveným výrazem. Kolem ní jsou roztroušeny krávy v karikaturním stylu. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, s textem zaplavujícím prostor kolem figur",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "profil vpravo, introspektivní",
+      "expression": "unavená, skeptická",
+      "features": ["velké oči", "dlouhé rovné vlasy", "jednoduché linie těla"]
+    },
+    "cows": {
+      "representation": "karikaturní, detailní",
+      "position": "roztroušené kolem ženy",
+      "features": ["zaoblená těla", "rohy", "vemena", "tečkované oči"],
+      "symbolic_qualities": ["zdroj jazykové záplavy", "dekonstruktoři významu", "hlas bez obsahu"]
+    },
+    "text": {
+      "content": "Bů bů Bů Bů / Boo.. / bů bů bů / BLBNUTÍ HLAVU Bů Bů Bů Bů Bů",
+      "style": "ručně psané, křivé, graffiti-like, opakované",
+      "placement": "zaplavující celý prostor, překrývající se s figurami",
+      "integration": "propojené s kravami a ženou, slova jako součást vizuálního šumu",
+      "function": "vizuální ekvivalent kravského bučení, metoda 'blbnutí hlavy' převedená do obrazu"
+    }
+  },
+  
+  "interpretive_notes": {
+    "visual_inundation": "Opakované 'Bů' zaplavuje prostor jako kravské bučení – divák je vizuálně 'blbnut' stejně jako postavy v příběhu",
+    "sound_visualization": "Zvuk je převeden do vizuální podoby – 'bů' není jen slyšet, ale je všudypřítomný",
+    "woman_role": "Žena uprostřed záplavy, unavená – možná symbolizuje 'hlavu, která je blbnuta', nebo lidskou snahu porozumět nesmyslu",
+    "relationship_to_story": "Ilustrace nezobrazuje děj (krávy ve vesnici), ale metodu – samotné 'blbnutí hlavy' vizuálně",
+    "conceptual_core": "Ilustrace jako metafora pro dekonstrukci jazyka – význam je rozpuštěn v opakování, slova ztrácejí referenci a stávají se pouhým stavem"
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["j (absurdní)", "b (jazykový)", "i (paradoxní)"],
+    "secondary": ["c (filozofický)", "a (meta)", "g (asociativní)"],
+    "reasoning": "Absurdní kvůli nesmyslnému opakování; jazykový kvůli tématu jazyka; paradoxní kvůli metodě dekonstrukce; filozofický kvůli otázkám významu; meta kvůli komentáři na jazyk; asociativní kvůli volným spojením mezi zvukem a obrazem."
+  }
+}
