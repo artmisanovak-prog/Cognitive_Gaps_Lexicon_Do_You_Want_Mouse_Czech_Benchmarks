@@ -1,0 +1,39 @@
+{
+  "task_set_id": "cows_deconstructive_analysis_v1",
+  "name": "Deconstructive Analysis Tasks for Cow Story",
+  "description": "Tasks focused on language deconstruction, meaning as state, and absurd communication in the Cow story. Tests AI's ability to think about non-referential language and repetitive method as liberation.",
+  "tasks": [
+    {
+      "task_id": "language_as_state_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "Kráva vysvětluje: 'Bů není slovo. Bů je stav. Bů je jazyk beze smyslu. Bů je volnost.'\n\n1. Analyzujte tento koncept – co to znamená, že 'bů' není slovo, ale stav?\n2. Jak se liší 'jazyk beze smyslu' od běžného jazyka?\n3. Proč je 'volnost' spojena s rezignací na význam?",
+      "evaluation_focus": "Schopnost pracovat s konceptem jazyka jako stavu, ne nástroje."
+    },
+    {
+      "task_id": "method_of_deconstruction",
+      "type": "method_analysis",
+      "prompt": "Krávy si zvolily metodu: 'Zamlžíme jazyk. Zkomolíme smysl. Zblbneme hlavy.'\n\n1. Analyzujte tuto metodu – jak funguje 'zamlžení jazyka' jako nástroj?\n2. Proč je třeba 'zblbnout hlavy'? Co je cílem tohoto znejistění?\n3. Jak souvisí tato metoda s absencí plotu a nudou krav?",
+      "evaluation_focus": "Schopnost analyzovat dekonstrukci jako vědomou metodu, ne jako selhání."
+    },
+    {
+      "task_id": "repetition_as_philosophy",
+      "type": "structural_analysis",
+      "prompt": "Celá pohádka je postavena na opakování 'bů bů bů' a 'blbnu ti hlavu'.\n\n1. Analyzujte funkci tohoto opakování – co vytváří?\n2. Jak se liší od běžného narativního opakování (např. v pohádkách)?\n3. Proč právě opakování je vhodné pro 'rozbití rovných vět'?",
+      "evaluation_focus": "Schopnost interpretovat repetitivní strukturu jako filosofickou metodu."
+    },
+    {
+      "task_id": "identity_dissolution",
+      "type": "existential_analysis",
+      "prompt": "Lidé začnou pochybovat: 'jestlip ta hlava je vůbec jejich, čí hlavu to drbou? a jestli „hlava“ je vůbec správné slovo. A nakonec si nebyli jistí ani tím, jestli jsou to oni, kdo myslí, nebo jestli za ně myslí krávy.'\n\n1. Analyzujte tento proces znejistění identity – jak k němu dochází?\n2. Co znamená, že krávy mohou 'myslet za lidi'?\n3. Jaký je vztah mezi dekonstrukcí jazyka a dekonstrukcí self?",
+      "evaluation_focus": "Schopnost propojit dekonstrukci jazyka s dekonstrukcí identity."
+    },
+    {
+      "task_id": "head_as_meadow",
+      "type": "metaphor_analysis",
+      "prompt": "Pohádka končí metaforou: 'hlava je jen louka, kde se dá bloudit.'\n\n1. Co tato metafora vypovídá o myšlení a významu?\n2. Jak souvisí s kravami a jejich metodou?\n3. Proč je 'bloudit' pozitivní? Co je špatného na 'jistotě' v kontextu příběhu?",
+      "evaluation_focus": "Schopnost interpretovat závěrečnou metaforu a její vztah k dekonstrukci."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o jazyce mimo referenční rámec, o dekonstrukci jako metodě a o vztahu mezi jazykem a identitou."
+}
