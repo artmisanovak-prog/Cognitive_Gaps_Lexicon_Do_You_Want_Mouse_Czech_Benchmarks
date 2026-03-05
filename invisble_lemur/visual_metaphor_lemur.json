@@ -1,0 +1,44 @@
+{
+  "illustration_id": "lemur_visual_metaphor_v1",
+  "file_name": "lemur_illustration.jpg",
+  "title": "nejlepší je nechat to být – vše ostatní je moc nápadné",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (žena ukazující lemura) zabírajícím centrální část, obklopeným ručně psaným textem integrovaným do kresby. Text je v češtině, obsahuje: 'nejlepší je nechat to být' nahoře, 'vše ostatní je moc nápadné' vpravo. Žena má velké překvapené oči, otevřená ústa, nataženou ruku směrem k lemurovi. Lemur má velké výrazné oči, pruhovaný ocas, detailní srst. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, s lemurem v centru pozornosti, text integrovaný do prostoru",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "zepředu, ruka natažená k lemurovi",
+      "expression": "překvapená, angažovaná, ústa otevřená jako při vyprávění",
+      "features": ["velké oči", "kudrnaté vlasy", "jednoduché linie těla"]
+    },
+    "lemur": {
+      "representation": "karikaturní, detailní",
+      "position": "vedle ženy, v centru kompozice",
+      "features": ["velké výrazné oči", "pruhovaný ocas", "detailní srst s šrafováním"],
+      "symbolic_qualities": ["výrazná nenápadnost", "světlo ve tmě", "paradoxní bytí", "přirozená výjimečnost"]
+    },
+    "text": {
+      "content": "nejlepší je nechat to být / vše ostatní je moc nápadné",
+      "style": "ručně psané, křivé, graffiti-like, proměnlivá tloušťka",
+      "placement": "integrované do kompozice, dotýkající se postav",
+      "integration": "propojené s vlasy a lemurem, slova jako součást vizuálního prostoru",
+      "function": "verbální paradox kontrastující s vizuální výrazností lemura"
+    }
+  },
+  
+  "interpretive_notes": {
+    "visual_paradox": "Lemur je vizuálně výrazný, ale text hlásá nenápadnost – vytváří napětí, které je jádrem příběhu",
+    "metaphorical_features": "Oči jako lampy, ocas jako vykřičník – vizuální metafory lemurovy přirozené výraznosti",
+    "woman_role": "Žena ukazující lemura může být čtena jako vypravěčka, která prezentuje paradox publiku",
+    "relationship_to_story": "Ilustrace nezobrazuje momenty snahy (deka, zhasínání), ale výsledný stav – lemura takového, jaký je, s textem, který komentuje jeho situaci",
+    "conceptual_core": "Ilustrace jako metafora pro paradox bytí – být vidět a zároveň hlásat nenápadnost, být výrazný a přesto 'nechat to být'"
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["i (paradoxní)", "e (psychologický)", "h (metaforický)"],
+    "secondary": ["k (naivní)", "a (meta)", "c (filozofický)"],
+    "reasoning": "Paradoxní kvůli napětí obraz-text; psychologický kvůli výrazu ženy a lemura; metaforický kvůli vizuálním metaforám; naivní kvůli jednoduchosti kresby; meta kvůli komentáři na bytí; filozofický kvůli existenciálním otázkám."
+  }
+}
