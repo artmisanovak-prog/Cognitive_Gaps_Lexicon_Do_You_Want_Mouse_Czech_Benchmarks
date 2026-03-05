@@ -1,0 +1,32 @@
+{
+  "task_set_id": "cows_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Cow Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Cow story. Focuses on language deconstruction and absurd communication themes.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_cows",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O kravách'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu dekonstrukce jazyka a absurdní komunikace. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu rozkladu významu",
+      "example_response": {
+        "perspective": "j (absurdní)",
+        "text_passage": "„Bu bu bu, blbnu ti hlavu, bu bu.“",
+        "explanation": "Absurdní perspektiva se projevuje v opakování nesmyslné fráze jako metody – logika je obrácena naruby, nesmysl se stává nástrojem."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma dekonstrukce a absurdity."
+    },
+    {
+      "task_id": "language_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'b (jazykový)' projevuje v pohádce o kravách z hlediska vrstev jazyka. Výchozí vrstva pro jazykovou perspektivu je 'B' (JAZYK).\n\n1. Jak se jazyk transformuje, když přestává být nástrojem komunikace a stává se 'stavem'?\n2. Objevuje se jazyková perspektiva ve vrstvě 'J' (NARUŠENÍ) – kde jazyk sám sebe rozkládá?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu dekonstrukce jazyka."
+    },
+    {
+      "task_id": "absurd_method_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli popsat metodu 'blbnutí hlavy' z kombinace perspektiv 'j (absurdní)' a 'c (filozofický)'.\n\nNapište krátký popis (3-4 věty) této metody skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by absurdní perspektiva popsala samotný akt opakování?\n2. Jak by filozofická perspektiva interpretovala účel této metody?\n3. Jak se tyto dvě perspektivy doplňují v pochopení dekonstrukce jako osvobození?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují absurditu a filosofii současně."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět dekonstrukci jazyka a absurdní metodu skrze multiple perspektivy."
+}
