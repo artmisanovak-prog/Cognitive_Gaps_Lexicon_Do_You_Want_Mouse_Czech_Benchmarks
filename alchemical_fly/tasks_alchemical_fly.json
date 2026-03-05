@@ -1,0 +1,39 @@
+{
+  "task_set_id": "fly_alchemical_analysis_v1",
+  "name": "Alchemical Analysis Tasks for Fly Story",
+  "description": "Tasks focused on alchemy of trouble, perspective shift, and geological time in the Fly story. Tests AI's ability to radically reframe value and understand time as layering.",
+  "tasks": [
+    {
+      "task_id": "value_inversion_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "Pohádka staví proti sobě dvě perspektivy téže reality:\n- Pro bordeláře: katastrofa, fuj, problém, hanba\n- Pro mouchu: švédský stůl existence, ráj, hojnost, teplo světa\n\n1. Analyzujte tuto hodnotovou inverzi – jak může být totéž radikálně odlišně hodnoceno?\n2. Co to vypovídá o povaze hodnot? Jsou inherentní, nebo závislé na perspektivě?\n3. Která perspektiva je 'pravdivější'? Má smysl se ptát?",
+      "evaluation_focus": "Schopnost pracovat s hodnotovou relativitou a neredukovat realitu na jednu perspektivu."
+    },
+    {
+      "task_id": "geological_time_analysis",
+      "type": "temporal_analysis",
+      "prompt": "Nepořádek není náhlý, ale vrstvený:\n- 'Vznikal po kapkách.'\n- 'Rozhodnutí po rozhodnutí. Odložením po odložení.'\n- 'Skvrna není skvrna. Je to geologie.'\n\n1. Analyzujte tento koncept času – jak se liší od lineárního času?\n2. Co znamená, že skvrna je 'geologie'? Jaké vrstvy obsahuje?\n3. Jak souvisí geologický čas s identitou ('Tohle jsme my')?",
+      "evaluation_focus": "Schopnost pracovat s časem jako vrstvením, ne jako lineární posloupností."
+    },
+    {
+      "task_id": "buzzing_as_commentary",
+      "type": "semiotic_analysis",
+      "prompt": "Moucha bzučí:\n- 'Ne jako výčitka. Jako komentář.'\n- 'Ten zvuk nebyl hlasitý. Jen nešel ignorovat.'\n- 'A v tom bzučení bylo slyšet: odkládání, únava, zítřek, který nikdy nepřišel.'\n\n1. Analyzujte bzučení jako sémiotický akt – co a jak sděluje?\n2. Proč je důležité, že není hlasité, ale nejde ignorovat?\n3. Jak bzučení 'aktualizuje' skrytou realitu (odkládání, únavu)?",
+      "evaluation_focus": "Schopnost interpretovat zvuk jako významotvorný element, ne jen jako kulisu."
+    },
+    {
+      "task_id": "paradise_transience",
+      "type": "existential_analysis",
+      "prompt": "Moucha odlétá:\n- 'Protože ráj není místo, kde zůstaneš. Je to místo, které tě už nepotřebuje.'\n\n1. Analyzujte tuto definici ráje – co znamená, že ráj nepotřebuje?\n2. Proč moucha odlétá, když je nasycena?\n3. Jaký je vztah mezi přítomností a rájem? Může ráj existovat bez toho, kdo ho prožívá?",
+      "evaluation_focus": "Schopnost pracovat s paradoxem pomíjivého ráje a vztahu mezi subjektem a místem."
+    },
+    {
+      "task_id": "trouble_as_home",
+      "type": "ontological_analysis",
+      "prompt": "Pro mouchu: 'Průser byl domov. Tam, kde ostatní viděli zkázu, ona viděla hojnost.'\n\n1. Co znamená, že průser může být 'domov'?\n2. Jak tato perspektiva přehodnocuje vztah k chaosu, rozkladu, nepořádku?\n3. Může být tato perspektiva aplikována i na jiné oblasti života?",
+      "evaluation_focus": "Schopnost přijmout radikálně odlišné ontologické ukotvení – vidět v rozkladu domov."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o hodnotové relativitě, geologickém čase a zvuku jako komentáři."
+}
