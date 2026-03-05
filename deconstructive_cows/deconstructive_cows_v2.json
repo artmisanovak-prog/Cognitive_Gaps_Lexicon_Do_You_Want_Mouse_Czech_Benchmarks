@@ -1,0 +1,55 @@
+{
+  "benchmark_id": "uhlimer_cows_deconstructive_v2",
+  "name": "Cows: Language Deconstruction, Meaning as State, Absurd Communication",
+  "description": "Tests AI's ability to analyze language that has abandoned communication and become a 'state', understand the method of 'blbnutí hlavy' (mind-confusing) as deconstruction of certainty, and work with absurd logic where 'bů' is not a word but a way of being. Focuses on the dissolution of meaning through repetitive absurdity.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O kravách – které blbnou hlavy",
+  "word_count": 380,
+  
+  "core_testing_dimensions": [
+    "non_referential_language_analysis",
+    "absurd_method_understanding",
+    "meaning_deconstruction",
+    "repetitive_structure_analysis",
+    "speaker_listener_relationship",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "language as state",
+    "deconstruction of meaning",
+    "absurd repetition as method",
+    "blbnutí hlavy",
+    "dissolution of certainty",
+    "head as meadow"
+  ],
+  
+  "illustration_note": "The illustration is flooded with repeated 'Bů' texts, surrounding woman and cows. Visualizes the linguistic inundation and the method of mind-confusing through repetition.",
+  
+  "expected_ai_challenges": [
+    "Searching for meaning where meaning is suspended",
+    "Reducing 'bů' to mere onomatopoeia, not existential category",
+    "Viewing repetition as error rather than deliberate method",
+    "Preferring linear narrative over circular, repetitive structure",
+    "Separating speaker and listener instead of seeing their interconnection"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to work with non-referential language, accept absurd method as meaningful, and understand deconstruction as liberation. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_cows.txt",
+    "cows_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_cows.json",
+    "tasks_deconstructive_cows.json",
+    "tasks_visual_cows.json",
+    "scoring_perspective_cows.json",
+    "scoring_deconstructive_cows.json",
+    "scoring_visual_cows.json",
+    "visual_metaphor_cows.json",
+    "cows_perspective_guide.json"
+  ]
+}
