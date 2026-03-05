@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "ram_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Ram Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in ram story. Focus on herd dynamics and suppressed desire perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to collective dynamics, suppressed individuality, and direction paradox, not just general perspective identification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Herd Dynamics Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to collective movement and its logic (psychological, cultural, logical) and understand their herd dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of herd dynamics perspectives, identifies collective logic, and connects perspectives to specific herd qualities in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant herd perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some herd perspectives but analysis is superficial or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of herd dynamics in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Suppressed Desire Recognition",
+      "description": "Can the AI identify perspectives that illuminate suppressed individual desire and its extinguishing (psychological, meta, paradoxical)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies desire perspectives, understands suppression mechanisms, and analyzes how perspectives reveal tragic loss of individuality."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies desire perspectives and provides adequate analysis of suppression processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some desire perspectives but analysis is weak or misses systemic suppression."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize desire dimensions or treats individuals as uniform."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Herd Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with collective dynamics and direction paradox?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to herd context, shows understanding of qualitative shifts between individual and collective."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to herd themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Direction Paradox Perspective Blending",
+      "description": "Can the AI creatively blend perspectives to analyze direction paradox and force without meaning?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate the paradox of directionless force and its tragic implications."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze direction paradox."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for paradox analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of herd and individual perspectives. An AI that excels in psychological sensitivity but is weaker in systemic analysis might still show valuable cognitive patterns.",
+  "note": "The ram story demands particular sensitivity to collective dynamics and suppressed desire – reward AI that shows this specialized understanding."
+}
