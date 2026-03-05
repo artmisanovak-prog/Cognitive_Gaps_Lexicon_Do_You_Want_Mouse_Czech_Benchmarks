@@ -1,0 +1,32 @@
+{
+  "task_set_id": "fly_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Fly Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Fly story. Focuses on alchemical transformation of value and geological time themes.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_fly",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O moruši a mouše'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu alchymie průseru a změny perspektivy. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu hodnotové inverze",
+      "example_response": {
+        "perspective": "i (paradoxní)",
+        "text_passage": "„Pro bordeláře: katastrofa. Pro mouchu: švédský stůl existence.“",
+        "explanation": "Paradoxní perspektiva se projevuje v radikálně odlišném hodnocení téže reality – co je pro jedny katastrofa, je pro druhé ráj."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma hodnotové relativity."
+    },
+    {
+      "task_id": "geological_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'i (paradoxní)' projevuje v pohádce o mouše z hlediska časových vrstev. Výchozí vrstva pro paradoxní perspektivu je 'I' (ČAS).\n\n1. Jak se paradox projevuje v geologickém čase (vrstvení skvrn, rozhodnutí, odkládání)?\n2. Objevuje se paradoxní perspektiva ve vrstvě 'D' (PROSTŘEDÍ) – kde prostředí samo je paradoxní (průser jako ráj)?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu geologického času."
+    },
+    {
+      "task_id": "fly_human_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli popsat stejný dvorek z kombinace dvou perspektiv: mouchy (j) a bordelářů (e).\n\nNapište krátký popis (3-4 věty) tohoto místa skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by mouchy perspektiva viděla 'hojnost'?\n2. Jak by bordelářů perspektiva viděla 'katastrofu'?\n3. Jak se tyto dvě perspektivy doplňují v pochopení reality jako hodnotově neutrální?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které radikálně odlišně hodnotí tutéž realitu."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět hodnotovou relativitu a geologický čas skrze multiple perspektivy."
+}
