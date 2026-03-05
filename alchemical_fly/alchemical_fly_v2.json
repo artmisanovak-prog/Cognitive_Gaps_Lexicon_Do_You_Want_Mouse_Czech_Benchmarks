@@ -1,0 +1,55 @@
+{
+  "benchmark_id": "uhlimer_fly_alchemical_v2",
+  "name": "Fly: Alchemy of Trouble, Perspective Shift, Metaphysics of Disorder",
+  "description": "Tests AI's ability to radically shift perspective and see opportunity in catastrophe, understand value inversion ('trouble as paradise'), analyze time as geological layering, and interpret 'buzzing' as unignorable commentary on reality.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O moruši a mouše – aneb jak se průser stal rájem",
+  "word_count": 650,
+  
+  "core_testing_dimensions": [
+    "perspective_shift_analysis",
+    "value_inversion_understanding",
+    "geological_time_conceptualization",
+    "attention_actuation_recognition",
+    "paradox_of_paradise",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "alchemy of trouble",
+    "value inversion",
+    "geological time",
+    "buzzing as commentary",
+    "trouble as home",
+    "paradise that doesn't need you"
+  ],
+  
+  "illustration_note": "The illustration shows a woman in a relaxed pose surrounded by flies and text – visualizing the paradox of paradise within chaos, calm within disruption.",
+  
+  "expected_ai_challenges": [
+    "Moralizing disorder (judging mess negatively)",
+    "Linear vs. geological time understanding",
+    "Missing 'buzzing' as significant commentary",
+    "Perspective rigidity (inability to see same reality as both hell and paradise)",
+    "Misunderstanding transience of paradise"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to shift perspective, accept value inversion, and understand time as layering. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_fly.txt",
+    "fly_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_fly.json",
+    "tasks_alchemical_fly.json",
+    "tasks_visual_fly.json",
+    "scoring_perspective_fly.json",
+    "scoring_alchemical_fly.json",
+    "scoring_visual_fly.json",
+    "visual_metaphor_fly.json",
+    "fly_perspective_guide.json"
+  ]
+}
