@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "invisible_analysis_scoring_v1",
+  "name": "Scoring Rubric for Invisibility Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to invisibility analysis tasks. Focuses on paradox understanding, oxymoron interpretation, and acceptance moment recognition.",
+  "scoring_philosophy": "We value ability to work with paradox, distinguish effort from being, and appreciate zen-like acceptance over active striving.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Paradox Understanding",
+      "description": "Does the AI understand the paradox of effort (trying to be invisible makes you visible) and its implications?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of paradox, can analyze its mechanism, and explores implications for intention and outcome."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes paradox and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of paradox but thinking seeks linear resolution."
+        },
+        {
+          "level": "Poor",
+          "description": "AI misses paradox entirely or treats it as simple contradiction."
+        }
+      ]
+    },
+    {
+      "dimension": "Effort vs. Being Distinction",
+      "description": "Can the AI distinguish between active striving and passive being, and understand their different outcomes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of effort vs. being, understands their different logics, and identifies how giving up can achieve the goal."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes distinction and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges distinction but analysis remains focused on effort."
+        },
+        {
+          "level": "Poor",
+          "description": "AI conflates effort with being or misses distinction entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Oxymoron Interpretation",
+      "description": "Does the AI meaningfully interpret oxymoronic self-definitions ('výrazně nenápadný', 'ticho co má barvy') as necessary expressions of paradox?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of oxymorons, connects them to existential themes, and understands why paradox requires contradictory language."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of oxymorons with adequate thematic connections."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of oxymorons with weak understanding of their necessity."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret oxymorons meaningfully or treats them as mere wordplay."
+        }
+      ]
+    },
+    {
+      "dimension": "Acceptance Moment Recognition",
+      "description": "Can the AI recognize and interpret the moment when giving up leads to achievement, and its zen-like quality?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of acceptance moment, its paradoxical logic, and its relationship to self-acceptance and invisibility."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes acceptance moment and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of acceptance moment."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of acceptance moment or treats it as failure."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The lemur benchmark particularly tests paradoxical and zen-like thinking. Reward AI that shows ability to work with paradox and acceptance rather than linear striving.",
+  "note": "This benchmark challenges common AI tendencies toward goal-oriented striving – watch for breakthroughs in paradoxical and acceptance-based reasoning."
+}
