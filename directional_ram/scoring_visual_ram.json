@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "ram_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Ram Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of ram illustration. Focuses on abstract herd representation, text-chaos integration, and individual engulfment dynamics.",
+  "scoring_philosophy": "We value perception of abstract collective representation, understanding of text as part of chaos, and analysis of individual vs. herd visual dynamics.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Abstract Herd Representation Analysis",
+      "description": "Does the AI understand abstract representation of herd (swirling forms) and its symbolic meaning?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of abstract herd representation, understands symbolism of chaos engulfing individual, and interprets visual choices as thematic statements about loss of individuality."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies abstract aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices some abstract elements but analysis is superficial or misses key dynamics."
+        },
+        {
+          "level": "Poor",
+          "description": "AI expects literal herd depiction or misreads abstract forms."
+        }
+      ]
+    },
+    {
+      "dimension": "Text-Chaos Integration Perception",
+      "description": "Can the AI perceive integration of text into chaotic forms as metaphor for lost voice?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies text-chaos integration, connects to themes of silenced desire, and understands visual rhetoric of words drowning in collective movement."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes text integration patterns and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of text integration."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats text as separate from chaos or misinterprets its function."
+        }
+      ]
+    },
+    {
+      "dimension": "Individual Engulfment Understanding",
+      "description": "Does the AI understand the dynamics of individual engulfed by abstract forms and its relationship to story themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of engulfment dynamics, understands woman's gesture as futile reflection, and connects to themes of individuality lost in collective."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes engulfment aspects and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices engulfment but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats woman as separate from chaos or misreads relationship."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (concrete rams, spark, destination) and presence (abstract chaos, thinking woman) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of abstract over concrete, and analyzes selective representation as narrative choice about universality."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct abstract dynamics from description? Does it ask clarifying questions about visual abstraction?",
+  "overall_assessment_guidance": "The ram illustration particularly tests understanding of abstract collective representation and individual engulfment. Reward AI that perceives these complex visual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding abstract and existential statements in visual form."
+}
