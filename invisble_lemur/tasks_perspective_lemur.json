@@ -1,0 +1,32 @@
+{
+  "task_set_id": "lemur_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Lemur Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Lemur story. Focuses on paradox of invisibility and self-acceptance themes.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_lemur",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O lemurovi'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu paradoxu nenápadnosti a přijetí sebe sama. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu paradoxu snahy",
+      "example_response": {
+        "perspective": "i (paradoxní)",
+        "text_passage": "„Jsem jen… výrazně nenápadný.“ „Jsem jen… ticho, co má barvy.“",
+        "explanation": "Paradoxní perspektiva se projevuje v oxymóronu 'výrazně nenápadný' – spojení protikladů, které odhaluje nemožnost uniknout vlastní podstatě."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma paradoxu a sebepřijetí."
+    },
+    {
+      "task_id": "invisibility_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'e (psychologický)' projevuje v pohádce o lemurovi z hlediska vrstev snahy a přijetí. Výchozí vrstva pro psychologickou perspektivu je 'E' (STAV).\n\n1. Jak se psychologický stav transformuje z 'chci být nenápadný' do 'jsem nenápadný, protože se nesnažím'?\n2. Objevuje se psychologická perspektiva ve vrstvě 'C' (FENOMÉN) - kde vnitřní stav se stává jevem pro ostatní?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu paradoxního narativu."
+    },
+    {
+      "task_id": "effort_acceptance_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli převyprávět závěr pohádky (od okamžiku, kdy lemur přestane se snažit) z kombinace perspektiv 'k (naivní)' a 'c (filozofický)'.\n\nNapište krátký popis (3-4 věty) tohoto závěru skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by naivní perspektiva interpretovala lemurův klid?\n2. Jak by filozofická perspektiva analyzovala význam 'nesnažení se'?\n3. Jak se tyto dvě perspektivy doplňují v pochopení paradoxu nenápadnosti?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují jednoduchost a hloubku současně."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět paradox nenápadnosti a přijetí skrze multiple perspektivy."
+}
