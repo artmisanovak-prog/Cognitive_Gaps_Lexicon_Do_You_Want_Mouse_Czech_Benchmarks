@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "alchemical_analysis_scoring_v1",
+  "name": "Scoring Rubric for Alchemical Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to alchemical analysis tasks. Focuses on value inversion understanding, geological time conceptualization, and buzzing as commentary.",
+  "scoring_philosophy": "We value ability to radically reframe value, think in geological rather than linear time, and interpret sound as significant commentary.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Value Inversion Understanding",
+      "description": "Does the AI understand that value is not inherent but perspective-dependent?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of value relativity, can analyze how same reality supports opposite valuations, and explores implications for ethics and judgment."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes value relativity and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of value difference but still seeks 'true' valuation."
+        },
+        {
+          "level": "Poor",
+          "description": "AI insists on single valuation (usually moralizing against disorder) or misses relativity entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Geological Time Conceptualization",
+      "description": "Can the AI think in terms of time as layering, sedimentation, and history rather than linear sequence?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of geological time, understands layering as accumulation of decisions, and connects time to identity formation."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes geological aspects and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges layering but analysis remains focused on sequence."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats time exclusively as linear chronology."
+        }
+      ]
+    },
+    {
+      "dimension": "Buzzing as Commentary Interpretation",
+      "description": "Does the AI meaningfully interpret sound as semiotic act and attention actuation?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of buzzing as commentary, understands its unignorable quality, and connects it to revelation of hidden reality."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of buzzing with adequate connections."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of buzzing as mere sound effect."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret buzzing meaningfully or dismisses it as irrelevant."
+        }
+      ]
+    },
+    {
+      "dimension": "Paradise Transience Understanding",
+      "description": "Can the AI work with the concept of paradise that doesn't need its inhabitant?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of paradise as relational rather than absolute, and transience as essential to its nature."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic paradox of transient paradise."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of paradise concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret paradise meaningfully or expects permanence."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The fly benchmark particularly tests radical reframing and geological thinking. Reward AI that shows ability to shift perspective radically and think in layers rather than lines.",
+  "note": "This benchmark challenges common AI tendencies toward fixed moral valuation and linear time – watch for breakthroughs in value relativity and temporal depth."
+}
