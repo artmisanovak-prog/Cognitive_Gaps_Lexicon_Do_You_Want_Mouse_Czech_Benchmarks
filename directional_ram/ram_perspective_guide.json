@@ -1,0 +1,192 @@
+{
+  "perspective_guide_id": "ram_perspective_specialization_v1",
+  "name": "Ram Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Ram story. Shows transformation of perspectives in herd dynamics context.",
+  "related_to_benchmark": "directional_ram_v2.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+  
+  "key_perspectives_for_ram_story": {
+    "primary_explicit": [
+      {
+        "symbol": "e",
+        "name": "psychologický",
+        "why_key": "Central to story's exploration of suppressed desire and individual longing within collective",
+        "manifestations": [
+          "V každém beranovi bublá touha po změně",
+          "Jiskra v oku jednoho berana",
+          "Pocit osamělosti pochybnosti (každý si myslí, že je sám)",
+          "Zapomenutá touha po uhašení jiskry"
+        ],
+        "layer_transformation": "Appears in layer D (ENVIRONMENT) rather than base layer E (STATE) - psychological states become environmental pressure"
+      },
+      {
+        "symbol": "d",
+        "name": "logický",
+        "why_key": "Story presents herd logic as system that overrides individual will",
+        "manifestations": [
+          "Logika stáda vs. individuální logika",
+          "Setrvačnost jako princip pohybu",
+          "Systém, kde změna není možná",
+          "Síla bez směru jako paradoxní systém"
+        ],
+        "layer_transformation": "Appears in layer J (DISRUPTION) rather than base layer D (ENVIRONMENT) - logic becomes what prevents disruption"
+      },
+      {
+        "symbol": "l",
+        "name": "kulturní",
+        "why_key": "Story draws on cultural archetypes of herd, ram, and collective movement",
+        "manifestations": [
+          "Archetyp berana jako symbolu tvrdohlavosti",
+          "Kulturní představa stáda jako jednotné masy",
+          "Tabulzace změny směru jako kulturní normy",
+          "Legenda o stádu jako nejmocnější síle"
+        ],
+        "layer_transformation": "Appears in layer C (PHENOMENON) rather than base layer L (SYMBOL) - cultural archetypes become lived reality"
+      }
+    ],
+    
+    "secondary_implicit": [
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Central paradox of force without direction",
+        "manifestations": [
+          "Nejmocnější síla světa, která neumí zatočit",
+          "Síla, která bourá, protože neumí jinak",
+          "Pohyb bez cíle jako existence"
+        ]
+      },
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on systems of collective behavior and their logic",
+        "manifestations": [
+          "Reflexe stádové logiky jako systému",
+          "Komentář k tabuizaci změny",
+          "Frame of 'co kdyby...' jako meta-otázka"
+        ]
+      },
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Existential questions about meaning of movement without purpose",
+        "manifestations": [
+          "Proč běžíme? Kam míříme?",
+          "Smysl pohybu bez směru",
+          "Zapomenutý důvod běhu"
+        ]
+      }
+    ],
+    
+    "tertiary_present": [
+      {
+        "symbol": "f",
+        "name": "ironický",
+        "why_key": "Irony of 'nejmocnější síla' která je bezmocná změnit směr"
+      },
+      {
+        "symbol": "g",
+        "name": "asociativní",
+        "why_key": "Associative links between fyzickým během a existenciálním během"
+      },
+      {
+        "symbol": "k",
+        "name": "naivní",
+        "why_key": "Naivní otázka 'co kdybychom zkusili jinam?' v kontextu komplexní stádové logiky"
+      }
+    ]
+  },
+  
+  "layer_transformations_specific_to_ram": [
+    {
+      "perspective": "e (psychologický)",
+      "base_layer": "E (STATE)",
+      "transformed_layer": "D (ENVIRONMENT)",
+      "transformation_description": "Psychological states move from internal condition to environmental pressure. Individual desire becomes part of the herd's atmosphere.",
+      "story_evidence": "Touha po změně existuje v každém, ale stává se součástí prostředí, které změnu znemožňuje"
+    },
+    {
+      "perspective": "d (logický)",
+      "base_layer": "D (ENVIRONMENT)",
+      "transformed_layer": "J (DISRUPTION)",
+      "transformation_description": "Logic moves from environmental framework to become the very force that prevents disruption. System's logic maintains itself by blocking change.",
+      "story_evidence": "Logika stáda vtahuje zpět každého, kdo by chtěl změnu – systém se chrání před narušením"
+    },
+    {
+      "perspective": "l (kulturní)",
+      "base_layer": "L (SYMBOL)",
+      "transformed_layer": "C (PHENOMENON)",
+      "transformation_description": "Cultural archetypes move from symbolic dimension to become lived phenomenon. The symbol of herd becomes actual existential reality.",
+      "story_evidence": "Archetyp stáda není jen symbol, ale způsob bytí, který určuje každý okamžik existence"
+    }
+  ],
+  
+  "perspective_interactions_unique_to_ram": [
+    {
+      "interaction": "Psychological-Logical Tension",
+      "perspectives": ["e", "d"],
+      "description": "Tension between individual psychology (desire for change) and systemic logic (herd inertia). Psychology wants, logic prevents.",
+      "manifestation": "Každý beran chce změnu, ale systém stáda ji znemožňuje"
+    },
+    {
+      "interaction": "Cultural-Paradoxical Conflict",
+      "perspectives": ["l", "i"],
+      "description": "Conflict between cultural narrative of power (nejsilnější stádo) and paradoxical reality (síla bez směru). Culture celebrates what is existentially empty.",
+      "manifestation": "Kulturní oslava stáda jako nejmocnější síly zakrývá paradox, že tato síla nemá směr"
+    },
+    {
+      "interaction": "Meta-Philosophical Reflection",
+      "perspectives": ["a", "c"],
+      "description": "Meta-reflection on systems leads to existential questions about meaning. Thinking about herd logic reveals philosophical emptiness.",
+      "manifestation": "Reflexe stádové logiky vede k otázce 'proč vlastně běžíme?'"
+    }
+  ],
+  
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "abstract_swirling_forms": {
+        "perspectives": ["d", "l", "i"],
+        "description": "Abstraktní vířící tvary reprezentují logiku stáda, kulturní archetyp bezejmenné masy a paradox síly bez tvaru"
+      },
+      "woman_thinking_gesture": {
+        "perspectives": ["e", "c", "a"],
+        "description": "Gesto přemýšlení reprezentuje psychologický stav, filozofickou reflexi a meta-pohled na systém"
+      },
+      "text_in_chaos": {
+        "perspectives": ["a", "f", "g"],
+        "description": "Text integrovaný do chaosu reprezentuje meta-komentář, ironii ztraceného hlasu a asociativní propojení slov a pohybu"
+      },
+      "skeptical_expression": {
+        "perspectives": ["e", "f", "c"],
+        "description": "Skeptický výraz reprezentuje psychologický odstup, ironický náhled a filozofickou pochybnost"
+      }
+    }
+  },
+  
+  "ai_testing_focus_for_perspectives": {
+    "e_psychological": "Can AI detect suppressed desire in each individual despite external conformity? Can it analyze the tragedy of forgotten desire?",
+    "d_logical": "Can AI understand herd logic as self-perpetuating system? Can it analyze how system prevents change?",
+    "l_cultural": "Can AI recognize cultural archetypes and their transformation into lived reality?",
+    "i_paradoxical": "Can AI work with paradox of directionless force and power without meaning?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in herd dynamics context?"
+  },
+  
+  "cross_benchmark_perspective_links": {
+    "with_donkey": {
+      "shared": ["d (logický)", "e (psychologický)"],
+      "contrast": "Donkey: individual faces undecidable choice; Ram: individual faces impossible choice"
+    },
+    "with_sparrow": {
+      "shared": ["e (psychologický)", "l (kulturní)"],
+      "contrast": "Sparrow: individual burdened by possession; Ram: individual consumed by collective"
+    },
+    "with_mouse": {
+      "shared": ["a (meta)", "c (filozofický)"],
+      "contrast": "Mouse: meta-question about meaning; Ram: meta-system without meaning"
+    }
+  },
+  
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Ram story's context of herd dynamics and suppressed desire.",
+  "created_date": "2024-02-03",
+  "version": "1.0"
+}
