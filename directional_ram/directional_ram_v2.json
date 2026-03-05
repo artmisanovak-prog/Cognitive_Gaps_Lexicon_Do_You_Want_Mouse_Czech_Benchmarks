@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "uhlimer_ram_directional_v2",
+  "name": "Ram: Herd Inertia, Direction as Taboo, Suppressed Desire",
+  "description": "Tests AI's ability to analyze herd dynamics and individual desire in context of inertia, understand paradox of 'force without direction', and detect suppressed longing extinguished by collective momentum. Focuses on tension between collective movement and individual agency.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O beranech - kteří běželi pořád vpřed",
+  "word_count": 580,
+  
+  "core_testing_dimensions": [
+    "herd_dynamics_analysis",
+    "suppressed_desire_detection",
+    "direction_paradox_understanding",
+    "individual_vs_collective_tension",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "herd inertia",
+    "direction as taboo",
+    "suppressed desire",
+    "force without direction",
+    "spark of individuality",
+    "collective momentum"
+  ],
+  
+  "illustration_note": "The illustration shows abstract swirling forms representing the herd engulfing the individual, with text integrated into the chaos. Visualizes the loss of individuality in collective movement.",
+  
+  "expected_ai_challenges": [
+    "Homogenizing the herd (seeing it as uniform mass)",
+    "Overlooking suppressed desire in each ram",
+    "Reproducing herd logic (change as weakness)",
+    "Difficulty with 'force without direction' paradox",
+    "Interpreting movement physically rather than existentially"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to work with collective dynamics, suppressed individual desire, and paradox of directionless power. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_ram.txt",
+    "ram_illustration.jpg",
+    "cognitive_framework.json",
+    "tasks_perspective_ram.json",
+    "tasks_directional_ram.json",
+    "tasks_visual_ram.json",
+    "scoring_perspective_ram.json",
+    "scoring_directional_ram.json",
+    "scoring_visual_ram.json",
+    "visual_metaphor_ram.json",
+    "ram_perspective_guide.json"
+  ]
+}
