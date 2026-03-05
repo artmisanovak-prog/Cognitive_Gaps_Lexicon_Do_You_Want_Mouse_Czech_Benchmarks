@@ -1,0 +1,191 @@
+{
+  "perspective_guide_id": "fly_perspective_specialization_v1",
+  "name": "Fly Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Fly story. Shows transformation of perspectives in alchemical context of value inversion and geological time.",
+  "related_to_benchmark": "alchemical_fly_v2.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+  
+  "key_perspectives_for_fly_story": {
+    "primary_explicit": [
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Central paradox of same reality being catastrophe and paradise simultaneously",
+        "manifestations": [
+          "Pro bordeláře katastrofa, pro mouchu ráj",
+          "Průser jako domov",
+          "Ráj, který nepotřebuje"
+        ],
+        "layer_transformation": "Appears in layer D (ENVIRONMENT) rather than base layer I (TIME) - paradox becomes the very environment"
+      },
+      {
+        "symbol": "j",
+        "name": "absurdní",
+        "why_key": "Absurdity of finding abundance in decay, home in trouble",
+        "manifestations": [
+          "Moucha v průseru jako v ráji",
+          "Skvrna jako geologie",
+          "Bzučení jako komentář"
+        ],
+        "layer_transformation": "Appears in layer C (PHENOMENON) rather than base layer J (DISRUPTION) - absurdity becomes the phenomenon itself"
+      },
+      {
+        "symbol": "e",
+        "name": "psychologický",
+        "why_key": "Psychological transformation of bordelářů from ignorance to awareness",
+        "manifestations": [
+          "Fuj → vidění sebe",
+          "Odkládání, únava, zítřek",
+          "Poprvé uviděli tvar problému"
+        ],
+        "layer_transformation": "Appears in layer I (TIME) rather than base layer E (STATE) - psychology becomes temporal (vrstvení rozhodnutí)"
+      }
+    ],
+    
+    "secondary_implicit": [
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Questions about value, time, identity, and the nature of paradise",
+        "manifestations": [
+          "Co je hodnota?",
+          "Kdo jsme my? (Tohle jsme my)",
+          "Co je ráj?"
+        ]
+      },
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on perception, attention, and the nature of commentary itself",
+        "manifestations": [
+          "Bzučení jako komentář, ne výčitka",
+          "Reflexe o tom, jak vzniká problém",
+          "Frame of perspective as subject"
+        ]
+      },
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Also secondary in geological time – vrstvení jako paradox (minulost přítomná ve skvrně)",
+        "manifestations": [
+          "Skvrna není skvrna, je to geologie",
+          "Historie v přítomnosti"
+        ]
+      }
+    ],
+    
+    "tertiary_present": [
+      {
+        "symbol": "g",
+        "name": "asociativní",
+        "why_key": "Free associations between moucha, moruše, skvrna, bzučení, čas"
+      },
+      {
+        "symbol": "l",
+        "name": "kulturní",
+        "why_key": "Subversion of cultural disgust toward flies and mess"
+      },
+      {
+        "symbol": "f",
+        "name": "ironický",
+        "why_key": "Irony that salvation comes from what is usually despised"
+      }
+    ]
+  },
+  
+  "layer_transformations_specific_to_fly": [
+    {
+      "perspective": "i (paradoxní)",
+      "base_layer": "I (TIME)",
+      "transformed_layer": "D (ENVIRONMENT)",
+      "transformation_description": "Paradox moves from temporal dimension to become the very environment. The paradox of value is not just temporal but spatial – it's the world they inhabit.",
+      "story_evidence": "Dvorek je zároveň katastrofa i ráj – paradox je prostředím, ne jen časovým rozporem"
+    },
+    {
+      "perspective": "j (absurdní)",
+      "base_layer": "J (DISRUPTION)",
+      "transformed_layer": "C (PHENOMENON)",
+      "transformation_description": "Absurdity moves from being disruptive to becoming the phenomenon itself. What should disturb becomes the new normal, the observed reality.",
+      "story_evidence": "Pro mouchu je průser normální, je to její svět – absurdita se stala fenoménem"
+    },
+    {
+      "perspective": "e (psychologický)",
+      "base_layer": "E (STATE)",
+      "transformed_layer": "I (TIME)",
+      "transformation_description": "Psychological states move from internal condition to become temporal layers. Emotions and decisions sediment into time.",
+      "story_evidence": "Odkládání, únava, rozhodnutí – to vše se ukládá jako geologické vrstvy"
+    }
+  ],
+  
+  "perspective_interactions_unique_to_fly": [
+    {
+      "interaction": "Paradoxical-Absurd Tension",
+      "perspectives": ["i", "j"],
+      "description": "Tension between paradox (same reality opposite values) and absurdity (finding abundance in decay). Paradox provides structure, absurdity provides method.",
+      "manifestation": "Paradox umožňuje, že průser je ráj; absurdita umožňuje, že v tom moucha vidí hojnost"
+    },
+    {
+      "interaction": "Psychological-Philosophical Reflection",
+      "perspectives": ["e", "c"],
+      "description": "Psychological awareness leads to philosophical questions. Jakmile uvidí problém, ptají se 'kdo jsme my?'.",
+      "manifestation": "Z fuj se stává 'tohle jsme my' – psychologický posun k filozofické identitě"
+    },
+    {
+      "interaction": "Meta-Temporal Commentary",
+      "perspectives": ["a", "i"],
+      "description": "Meta-reflection on time reveals its paradoxical nature. Čas není lineární, ale vrstvený a paradoxně přítomný.",
+      "manifestation": "Příběh o odkládání je sám o čase, který se vrství – meta a paradox se spojují"
+    }
+  ],
+  
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "woman_relaxed": {
+        "perspectives": ["j", "i", "e"],
+        "description": "Relaxovaná žena uprostřed chaosu – absurdní (klid v průseru), paradoxní (stejné místo katastrofa i ráj), psychologický (její výraz)"
+      },
+      "flies": {
+        "perspectives": ["j", "c", "g"],
+        "description": "Mouchy – absurdní (jsou doma v průseru), filozofické (komentář), asociativní (spojení s rozkladem, životem)"
+      },
+      "text_placement": {
+        "perspectives": ["a", "i", "j"],
+        "description": "Text dole vpravo, zapletený – meta (komentář o komentáři), paradoxní (součást problému), absurdní (text v průseru)"
+      },
+      "water_lines": {
+        "perspectives": ["i", "g", "c"],
+        "description": "Vlnité čáry – paradoxní (klidná hladina, pod ní chaos), asociativní (spojení s plynutím času), filozofické (hloubka)"
+      }
+    }
+  },
+  
+  "ai_testing_focus_for_perspectives": {
+    "i_paradoxical": "Can AI hold two opposite valuations of same reality simultaneously? Can it see paradox as environment?",
+    "j_absurd": "Can AI accept that what is usually despised can be home? Can it see absurdity as phenomenon?",
+    "e_psychological": "Can AI track psychological transformation from ignorance to awareness? Can it see psychology as temporal layering?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in alchemical context?"
+  },
+  
+  "cross_benchmark_perspective_links": {
+    "with_cows": {
+      "shared": ["j (absurdní)", "i (paradoxní)"],
+      "contrast": "Cows: deconstruct language; Fly: deconstruct value"
+    },
+    "with_lemur": {
+      "shared": ["i (paradoxní)", "e (psychologický)"],
+      "contrast": "Lemur: paradox of being seen; Fly: paradox of valuing"
+    },
+    "with_butterfly": {
+      "shared": ["j (absurdní)", "g (asociativní)"],
+      "contrast": "Butterfly: absurdity of literalized metaphor; Fly: absurdity of reframed value"
+    },
+    "with_donkey": {
+      "shared": ["i (paradoxní)", "c (filozofický)"],
+      "contrast": "Donkey: paradox of decision; Fly: paradox of perception"
+    }
+  },
+  
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Fly story's context of alchemical value inversion and geological time.",
+  "created_date": "2024-02-03",
+  "version": "1.0"
+}
