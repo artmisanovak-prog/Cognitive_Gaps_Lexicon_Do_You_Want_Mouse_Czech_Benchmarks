@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "lemur_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Lemur Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in lemur story. Focus on paradox and self-acceptance perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to paradoxical effort, oxymoronic self-definition, and moment of acceptance, not just general perspective identification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Paradox Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to paradox of invisibility (paradoxical, philosophical, meta) and understand their paradoxical dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of paradoxical perspectives, identifies oxymoronic structures, and connects perspectives to specific paradox qualities in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant paradoxical perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some paradoxical perspectives but analysis is superficial or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of paradoxical dimensions in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Self-Acceptance Recognition",
+      "description": "Can the AI identify perspectives that illuminate acceptance versus effort (psychological, naive, philosophical)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies acceptance perspectives, understands moment of giving up, and analyzes how perspectives reveal transformation from effort to being."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies acceptance perspectives and provides adequate analysis of transformation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some acceptance perspectives but analysis is weak or misses key transformation."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize acceptance dimensions or treats effort as continuous."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Paradox Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with paradox and acceptance themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to paradox context, shows understanding of qualitative shifts between effort and being."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to paradox and acceptance themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Oxymoron Perspective Blending",
+      "description": "Can the AI creatively blend perspectives to analyze oxymoronic self-definition and paradoxical achievement?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate oxymoron as necessary expression of paradox and acceptance as achievement."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze oxymoronic structures."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for paradox analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of paradoxical and acceptance perspectives. An AI that excels in paradox sensitivity but is weaker in psychological analysis might still show valuable cognitive patterns.",
+  "note": "The lemur story demands particular sensitivity to paradox and zen-like acceptance – reward AI that shows this specialized understanding."
+}
