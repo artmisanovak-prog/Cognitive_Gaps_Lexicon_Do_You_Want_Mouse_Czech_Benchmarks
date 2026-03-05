@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "directional_analysis_scoring_v1",
+  "name": "Scoring Rubric for Directional Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to directional analysis tasks. Focuses on herd inertia understanding, suppressed desire detection, and paradox of directionless force.",
+  "scoring_philosophy": "We value ability to work with collective dynamics, recognize systemic suppression of desire, and understand paradoxical power without meaning.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Herd Inertia Understanding",
+      "description": "Does the AI understand herd inertia as phenomenon without conscious direction or will?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of herd inertia, can analyze its self-perpetuating logic, and explores implications for collective behavior."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes herd inertia and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of collective momentum but thinking attributes too much agency."
+        },
+        {
+          "level": "Poor",
+          "description": "AI interprets herd as collection of individuals with will or misses collective dynamics entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Suppressed Desire System Analysis",
+      "description": "Can the AI analyze suppressed desire as systemic phenomenon rather than individual failure?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of suppressed desire as system, understands why it persists despite universality, and identifies mechanisms of extinguishing."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes systemic aspects of suppressed desire and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges suppression but analysis remains focused on individual psychology."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats desire as absent or individuals as content with herd movement."
+        }
+      ]
+    },
+    {
+      "dimension": "Direction Paradox Interpretation",
+      "description": "Does the AI meaningfully interpret the paradox of directionless force (power without meaning)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of direction paradox, connects it to existential themes, and understands its implications for meaning-making."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of paradox with adequate thematic connections."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of paradox with weak philosophical understanding."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret paradox meaningfully or treats it as simple contradiction."
+        }
+      ]
+    },
+    {
+      "dimension": "Spark Extinction Conceptualization",
+      "description": "Can the AI work with concepts of extinguishing individuality and forgotten desire?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of spark as symbol, extinction as process, and tragedy of forgotten desire."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concepts of individuality loss and its narrative function."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of spark symbolism."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of spark as symbol or dismisses its significance."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The ram benchmark particularly tests understanding of collective dynamics and existential paradox. Reward AI that shows ability to work with systemic suppression and directionless power.",
+  "note": "This benchmark challenges common AI tendencies toward individual agency attribution – watch for breakthroughs in systemic and tragic thinking."
+}
