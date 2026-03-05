@@ -1,0 +1,32 @@
+{
+  "task_set_id": "ram_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Ram Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Ram story. Focuses on herd dynamics and suppressed desire themes.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_ram",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O beranech'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu stádové setrvačnosti a potlačené touhy. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu stádové dynamiky",
+      "example_response": {
+        "perspective": "e (psychologický)",
+        "text_passage": "„A přesto – v každém beranovi to bublalo. Ne jako myšlenka. Jako touha. Jako neklid. Jako tiché „co kdyby…“",
+        "explanation": "Psychologická perspektiva se projevuje v popisu vnitřního stavu každého berana – potlačená touha existuje i přes vnější konformitu."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma kolektivní dynamiky a individuální psychologie."
+    },
+    {
+      "task_id": "herd_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'l (kulturní)' projevuje v pohádce o beranech z hlediska vrstev stádové dynamiky. Výchozí vrstva pro kulturní perspektivu je 'L' (SYMBOL - kulturní znak, archetyp).\n\n1. Jak se kulturní perspektiva transformuje v kontextu stáda (archetyp berana, symbol stáda)?\n2. Objevuje se kulturní perspektiva ve vrstvě 'D' (PROSTŘEDÍ) - kde stádo samo vytváří prostředí, které určuje chování?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu kolektivního narativu."
+    },
+    {
+      "task_id": "individual_collective_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli převyprávět scénu, kde beran s jiskrou uvažuje o změně směru, z kombinace perspektiv 'e (psychologický)' a 'd (logický)'.\n\nNapište krátký popis (3-4 věty) této scény skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by psychologická perspektiva interpretovala jeho vnitřní dilema?\n2. Jak by logická perspektiva analyzovala systém stáda a proč změna není možná?\n3. Jak se tyto dvě perspektivy doplňují v pochopení tragédie individuality ve stádu?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují psychologii a systémovost současně."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět stádovou dynamiku a individuální touhu skrze multiple perspektivy."
+}
