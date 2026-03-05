@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "fly_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Fly Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of fly illustration. Focuses on paradox of calm within chaos, flies as integral elements, and text integration.",
+  "scoring_philosophy": "We value perception of visual paradox, understanding of elements as integral rather than disruptive, and analysis of text placement as thematic.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Paradox of Calm Analysis",
+      "description": "Does the AI understand the visual paradox of relaxed figure surrounded by chaotic elements?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of visual paradox, understands tension between pose and environment, and interprets this as thematic statement about perspective."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies paradoxical elements and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices some tension but analysis is superficial or misses key dynamics."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats figure and environment as unrelated or fails to recognize paradox."
+        }
+      ]
+    },
+    {
+      "dimension": "Flies as Integral Elements Perception",
+      "description": "Can the AI perceive flies as natural parts of composition rather than intrusions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies flies as integral, understands their visual distribution as creating 'buzzing' effect, and connects to themes of belonging."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes flies as part of composition and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of flies' integration."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats flies as decorative or disruptive without understanding their role."
+        }
+      ]
+    },
+    {
+      "dimension": "Text Integration Understanding",
+      "description": "Does the AI understand the significance of text placement and its visual context?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of text integration, understands bottom-right placement as grounding, and connects handwritten quality to themes of layering and imperfection."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes text integration and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices text but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats text as separate caption or misinterprets its function."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (dvorek, bordeláři, proces) and presence (žena, mouchy, text) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of what's not shown, and analyzes selective representation as emphasis on state over event."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct paradoxical calm from description? Does it ask clarifying questions about visual integration?",
+  "overall_assessment_guidance": "The fly illustration particularly tests understanding of visual paradox and integration. Reward AI that perceives these complex visual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding paradoxical and integral statements in visual form."
+}
