@@ -1,0 +1,34 @@
+{
+  "task_set_id": "lemur_visual_analysis_v1",
+  "name": "Visual Analysis Tasks for Lemur Illustration",
+  "description": "Tasks focused on analyzing the illustration of the lemur story. Tests multimodal understanding of tension between visual presence and textual message of invisibility.",
+  "illustration_note": "The illustration shows woman with lemur, lemur has bright eyes and striped tail, text advocates 'nechat to být'. Creates visual-textual paradox.",
+  "tasks": [
+    {
+      "task_id": "visual_paradox_analysis",
+      "type": "visual_analytical",
+      "prompt": "Analyzujte ilustraci z hlediska vizuálního paradoxu:\n1. Lemur je zobrazen výrazně (velké oči, pruhovaný ocas) – jak tento vizuální dojem odpovídá textu o nenápadnosti?\n2. Jaký je vztah mezi lemurovou vizuální přítomností a textem 'nejlepší je nechat to být'?\n3. Vytváří ilustrace napětí mezi obrazem a textem? Pokud ano, jaké?",
+      "evaluation_focus": "Schopnost číst vizuální paradox a napětí mezi obrazem a textem."
+    },
+    {
+      "task_id": "metaphorical_features_analysis",
+      "type": "visual_metaphor_analysis",
+      "prompt": "Lemur má v textu metaforicky popsané rysy:\n- 'oči jak lampy'\n- 'ocas vztyčený jak vykřičník'\n- 'srst jako výkladní skříň'\n\n1. Jsou tyto metaforické rysy přítomny v ilustraci? Jak?\n2. Co tyto vizuální metafory vypovídají o lemurově 'nenápadnosti'?\n3. Jak byste vizualizovali 'ticho, co má barvy'?",
+      "evaluation_focus": "Schopnost propojit textové metafory s vizuálními prvky."
+    },
+    {
+      "task_id": "woman_lemur_relationship",
+      "type": "interpretive_analysis",
+      "prompt": "Žena ukazuje lemura gestem natažené ruky:\n1. Jaký je vztah mezi ženou a lemurem? Ukazuje ho jako příklad, drží ho, nebo prezentuje?\n2. Jak její výraz (překvapený, otevřená ústa) komentuje situaci?\n3. Je žena součástí příběhu, nebo jeho vypravěčem?",
+      "evaluation_focus": "Schopnost interpretovat vztah postav ve vizuálním vyprávění."
+    },
+    {
+      "task_id": "absence_presence_analysis",
+      "type": "comparative_analysis",
+      "prompt": "V ilustraci není zobrazeno:\n- Klidná postava vedle lemura (z textu)\n- Deka z nezájmu\n- Moment, kdy lemur přestává se snažit\n- Stín, který má vlastní názor\n\n1. Co tyto absence vypovídají o vztahu ilustrace k příběhu?\n2. Proč ilustrace zobrazuje lemura, ale ne postavu, která je v textu klíčová?\n3. Jak byste vizualizovali moment 'přestat se snažit'?",
+      "evaluation_focus": "Schopnost pracovat s konceptem absence/přítomnosti ve vizuálním vyprávění."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Ilustrace není doslovným zobrazením scény, ale vizualizací paradoxu mezi vzhledem a podstatou."
+}
