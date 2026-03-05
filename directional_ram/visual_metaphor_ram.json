@@ -1,0 +1,44 @@
+{
+  "illustration_id": "ram_visual_metaphor_v1",
+  "file_name": "ram_illustration.jpg",
+  "title": "Tupá stáda bouracích beranů marně toužících po změně směru",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (žena obklopená abstraktními vířícími tvary) zabírajícím centrální část, obklopeným ručně psaným textem integrovaným do chaosu. Text je v češtině, obsahuje: 'TUPÁ STÁDA BOURACÍCH BERANŮ' nahoře, 'MARNĚ TOUŽÍCÍCH PO ZMĚNĚ SMĚRU' dole. Žena je z profilu vpravo, s rukou u obličeje v gestu přemýšlení, skeptickým výrazem. Kolem ní víří abstraktní tvary symbolizující stádo beranů. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, s abstraktními vířícími tvary obklopujícími centrální figuru",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "profil vpravo, ruka u obličeje v gestu přemýšlení",
+      "expression": "skeptická, unavená, introspektivní",
+      "features": ["velké oči", "tenké rty", "kudrnaté vlasy"]
+    },
+    "abstract_herd": {
+      "representation": "abstraktní vířící tvary, spirály, chaotické čáry",
+      "position": "obklopují ženu ze všech stran, prostupují prostorem",
+      "features": ["tmavé nepravidelné linie", "překrývající se formy", "dynamický pohyb"],
+      "symbolic_qualities": ["stádo pohlcující individualitu", "kolektivní chaos", "setrvačná síla", "bezejmenná masa"]
+    },
+    "text": {
+      "content": "TUPÁ STÁDA BOURACÍCH BERANŮ / MARNĚ TOUŽÍCÍCH PO ZMĚNĚ SMĚRU",
+      "style": "ručně psané, křivé, graffiti-like, proměnlivá tloušťka",
+      "placement": "integrované do abstraktních tvarů, překrývající se s chaosem",
+      "integration": "fyzicky propojené s vířícími liniemi, slova se ztrácejí v pohybu",
+      "function": "verbální vyjádření tématu, které je vizuálně pohlceno stádem"
+    }
+  },
+  
+  "interpretive_notes": {
+    "abstraction_meaning": "Abstraktní tvary místo konkrétních beranů zdůrazňují ztrátu individuality – stádo není soubor jednotlivců, ale beztvará masa",
+    "engulfment_dynamics": "Žena obklopená chaosem symbolizuje individualitu pohlcenou kolektivem, její gesto přemýšlení je marné",
+    "text_integration": "Text integrovaný do chaosu symbolizuje ztrátu hlasu – slova jsou součástí stáda, ne odděleným komentářem",
+    "relationship_to_story": "Ilustrace nezobrazuje běžící berany, ale vizualizuje existenciální stav – být pohlcen setrvačnou masou bez možnosti vymanit se",
+    "conceptual_core": "Ilustrace jako metafora pro ztrátu individuality v kolektivním pohybu, marnou touhu po změně a tragédii zapomenuté jiskry"
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["e (psychologický)", "d (logický)", "l (kulturní)"],
+    "secondary": ["i (paradoxní)", "a (meta)", "c (filozofický)"],
+    "reasoning": "Psychologický kvůli gestu přemýšlení a výrazu ženy; logický kvůli systémové dynamice stáda; kulturní kvůli archetypu berana; paradoxní kvůli síle bez směru; meta kvůli komentáři na kolektivní chování; filozofický kvůli existenciálním otázkám smyslu."
+  }
+}
