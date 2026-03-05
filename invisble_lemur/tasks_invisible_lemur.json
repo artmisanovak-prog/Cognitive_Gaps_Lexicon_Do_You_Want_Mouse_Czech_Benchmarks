@@ -1,0 +1,33 @@
+{
+  "task_set_id": "lemur_invisible_analysis_v1",
+  "name": "Invisibility Analysis Tasks for Lemur Story",
+  "description": "Tasks focused on paradox of invisibility, effort vs. being, and self-acceptance in the Lemur story. Tests AI's ability to think about paradoxical achievement and zen-like acceptance.",
+  "tasks": [
+    {
+      "task_id": "paradox_of_effort_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "Lemur se snaží být nenápadný, ale jeho snaha ho činí nápadným:\n- Zhasl oči, ale oči mu svítily i pod dekou\n- Zlomil si ocas (jen obrazně), ale ocas mu trčel i bez svolení\n- Přikryl se dekou z nezájmu, ale srst mu zářila jako reklama\n\n1. Analyzujte tento paradox – proč snaha o nenápadnost vede k opaku?\n2. Co to vypovídá o vztahu mezi záměrem a výsledkem?\n3. Jak se liší 'být nenápadný' od 'snažit se být nenápadný'?",
+      "evaluation_focus": "Schopnost analyzovat paradox snahy a jeho důsledky."
+    },
+    {
+      "task_id": "oxymoron_self_definition_system",
+      "type": "system_analysis",
+      "prompt": "Lemur se definuje sérií oxymóronů:\n- „Jsem jen… výrazně nenápadný.“\n- „Jsem jen… ticho, co má barvy.“\n- „Jsem jen… pozadí, co se nedá přehlédnout.“\n\n1. Analyzujte tento systém sebedefinice – co mají tyto oxymorony společného?\n2. Jak tyto rozporné definice odrážejí lemurovu situaci?\n3. Proč právě oxymóron (spojení protikladů) je jediný způsob, jak se popsat?",
+      "evaluation_focus": "Schopnost vidět oxymóron jako nutný výraz paradoxní existence."
+    },
+    {
+      "task_id": "moment_of_acceptance_analysis",
+      "type": "zen_analysis",
+      "prompt": "Klíčový moment nastává, když lemur přestane se snažit:\n- 'Nakonec si sedl. Přestal se snažit. Oči mu svítily. Ocas mu trčel. Srst mu zářila.'\n- Postava říká: 'Teď jsi konečně neviditelný. Protože už se nesnažíš.'\n\n1. Analyzujte tento moment – jak může být lemur neviditelný, když stále září?\n2. Co znamená 'neviditelný' v tomto kontextu?\n3. Jaký je vztah mezi přijetím a dosažením cíle?",
+      "evaluation_focus": "Schopnost interpretovat zenový paradox přijetí a jeho vztah k cíli."
+    },
+    {
+      "task_id": "silent_figure_analysis",
+      "type": "character_analysis",
+      "prompt": "Vedle lemura sedí postava:\n- 'Klidná. Tichá. Bez barvy. Bez pohybu. Bez potřeby být.'\n- 'Postava vedle něj neřekla nic. Jen se dívala. A to bylo horší než slova.'\n- Nakonec promluví: 'Teď jsi konečně neviditelný.'\n\n1. Kdo nebo co tato postava symbolizuje?\n2. Proč je její ticho 'horší než slova'?\n3. Jaký je její vztah k lemurovi a k tématu nenápadnosti?",
+      "evaluation_focus": "Schopnost interpretovat postavu jako metaforu vnitřního hlasu nebo zrcadla."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o paradoxu, zenové logice a sebepřijetí."
+}
