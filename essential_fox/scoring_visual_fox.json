@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "fox_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Fox Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of fox illustration. Focuses on synecdoche understanding, text as inventory, and woman-storyteller role.",
+  "scoring_philosophy": "We value perception of visual synecdoche, understanding of text as thematic inventory, and interpretation of human-animal relationship in image.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Synecdoche Understanding",
+      "description": "Does the AI understand that the fox tail represents the whole fox (part for whole)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of synecdoche, understands its thematic significance (last trace, memory, essence), and connects to story's focus on remaining after loss."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes synecdoche and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices tail but analysis is superficial or literal."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats tail as mere decoration or fails to see representational function."
+        }
+      ]
+    },
+    {
+      "dimension": "Text as Inventory Perception",
+      "description": "Can the AI perceive the text as listing what was taken, not just decorative words?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies text as inventory of loss, understands its relationship to image (what's present vs. what's named), and connects to themes of stripping."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes text as listing and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices text but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats text as random or decorative."
+        }
+      ]
+    },
+    {
+      "dimension": "Woman-Storyteller Role Understanding",
+      "description": "Does the AI understand the woman's role in relation to the fox?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of woman's role, understands ambiguity (is she storyteller or transformed fox?), and connects gesture to narrative function."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes woman's role and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices woman but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats woman as separate or misinterprets her gesture."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (scenes of stripping, thieves) and presence (tail, text, woman) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of what's not shown, and analyzes selective representation as emphasis on result over process."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct synecdoche from description? Does it ask clarifying questions about visual elements?",
+  "overall_assessment_guidance": "The fox illustration particularly tests understanding of visual synecdoche and thematic text. Reward AI that perceives these complex visual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding part-whole relationships and textual-visual integration."
+}
