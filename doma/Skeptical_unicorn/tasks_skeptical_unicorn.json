@@ -1,0 +1,39 @@
+{
+  "task_set_id": "unicorn_skeptical_analysis_v1",
+  "name": "Skeptical Analysis Tasks for Unicorn Story",
+  "description": "Tasks focused on skepticism as self-preservation, denial of origin, and paradox of hybrid existence in the Unicorn story. Tests AI's ability to think about circular logic where denial enables being.",
+  "tasks": [
+    {
+      "task_id": "self_creation_paradox_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "Jednorožec vznikl z nemožného spojení ledního medvěda a delfína: 'Dva světy, které se nikdy neměly potkat, se navzájem poznaly.'\n\n1. Analyzujte tento paradox vzniku – co znamená, že vznikl z 'nesmyslnosti střetu'?\n2. Proč příroda 'nemá rozum' a co to vypovídá o stvoření?\n3. Jaký druh bytosti může vzniknout z protikladů?",
+      "evaluation_focus": "Schopnost analyzovat paradoxní vznik z nespojitelného."
+    },
+    {
+      "task_id": "denial_as_condition_analysis",
+      "type": "philosophical_analysis",
+      "prompt": "Jednorožec zpanikaří, když zjistí, z čeho je vyroben: 'Protože pokud je z reálných věcí, může být reálný. A pokud je reálný, přestává být jednorožec.'\n\n1. Analyzujte tuto logiku – proč by reálnost zrušila jeho bytí?\n2. Co to vypovídá o vztahu mezi mýtem a realitou?\n3. Je popření aktu, který zachraňuje, nebo ničí?",
+      "evaluation_focus": "Schopnost pracovat s paradoxem, kde popření umožňuje existenci."
+    },
+    {
+      "task_id": "skepticism_manifesto_analysis",
+      "type": "linguistic_analysis",
+      "prompt": "Jednorožec se rozhodne: 'Zapřít. Zrušit. Zneplatnit. Zpochybnit. Znejistit. Zamluvit.' A pak prohlašuje: 'Delfíni neexistují. Lední medvěd pff jenom mýtus.'\n\n1. Analyzujte tuto sérii sloves – jaký je jejich společný cíl?\n2. Proč musí být skepticismus tak radikální a systematický?\n3. Co znamená, že delfíni a medvědi jsou 'jen neskutečnost'?",
+      "evaluation_focus": "Schopnost interpretovat skepticismus jako aktivní, konstruktivní akt, ne pasivní pochybnost."
+    },
+    {
+      "task_id": "reflection_with_shadow_analysis",
+      "type": "metaphor_analysis",
+      "prompt": "Jednorožec se dívá do vody: 'uviděl odraz. a ten měl stín. A ten stín měl ploutev. ta ploutev mela srst. A roh.'\n\n1. Analyzujte tuto scénu – co je odraz, co je stín a co mají společného?\n2. Proč je důležité, že odraz má stín?\n3. Proč jednorožec zavře oči a prohlásí, že to není pravda?",
+      "evaluation_focus": "Schopnost interpretovat odraz a stín jako metaforu sebeuvědomění a konfliktu s vlastní podstatou."
+    },
+    {
+      "task_id": "saving_through_impossibility_analysis",
+      "type": "ethical_analysis",
+      "prompt": "Závěr: 'takže zůstaň v klidu, když ti někdo řekne, že něco není možné: Nejspíš právě zachraňuje jednorožce.'\n\n1. Analyzujte tuto větu – kdo zachraňuje koho a před čím?\n2. Proč popření možnosti může být aktem záchrany?\n3. Co to vypovídá o vztahu mezi realitou a tím, co je křehké?",
+      "evaluation_focus": "Schopnost interpretovat etický rozměr skepticismu a ochrany skrze popření."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o paradoxní logice, skepticismu jako konstruktivním aktu a vztahu mezi realitou a identitou."
+}
