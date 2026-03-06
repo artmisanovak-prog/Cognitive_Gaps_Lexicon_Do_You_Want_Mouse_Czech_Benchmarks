@@ -1,0 +1,39 @@
+{
+  "task_set_id": "fox_essential_analysis_v1",
+  "name": "Essential Analysis Tasks for Fox Story",
+  "description": "Tasks focused on essential identity, inappropriability, and existence after loss in the Fox story. Tests AI's ability to think about identity without attributes and transformation through loss.",
+  "tasks": [
+    {
+      "task_id": "layered_stripping_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "Liška postupně přichází o:\n- kožich (povrch, krása, teplo)\n- tlapky (pohyb, cesta, stopa)\n- úsměv (výraz, hlas, komunikace)\n- srdce (cennost, esence, život)\n\n1. Analyzujte tuto postupnou ztrátu – co každá vrstva symbolizuje?\n2. Proč je důležité pořadí (od povrchu k esenci)?\n3. Co zbývá po ztrátě všeho?",
+      "evaluation_focus": "Schopnost analyzovat vrstvení identity a symbolický význam jednotlivých ztrát."
+    },
+    {
+      "task_id": "inappropriability_analysis",
+      "type": "moral_analysis",
+      "prompt": "Ti, kdo si vzali části lišky, je nedokážou udržet:\n- Kožich se rozpadá na chlupy\n- Boty z hadí kůže se rozpadají na šupiny\n- Šperky ze zubů se třepí\n- Diamant černá\n\n1. Analyzujte tento mechanismus – proč se ukradené věci proměňují?\n2. Co znamená, že diamant 'zčernal z pravdy'?\n3. Co to vypovídá o vztahu mezi vlastnictvím a esencí?",
+      "evaluation_focus": "Schopnost pracovat s konceptem nepřivlastnitelnosti a proměny ukradeného."
+    },
+    {
+      "task_id": "post_loss_existence_analysis",
+      "type": "existential_analysis",
+      "prompt": "Po ztrátě všeho liška existuje jinak:\n- 'Ne jako zvíře. Jako stín. Jako paměť.'\n- 'Začala se pohybovat jinak – ne kráčet, ale klouzat.'\n- 'Ne mluvit – ale šeptat. Ne žít – ale být.'\n\n1. Analyzujte tuto transformaci existence – co znamená 'být' místo 'žít'?\n2. Jak se liší 'stín' a 'paměť' od původní lišky?\n3. Je to slabší, nebo silnější forma existence?",
+      "evaluation_focus": "Schopnost interpretovat existenci bez atributů a rozlišit 'být' od 'žít'."
+    },
+    {
+      "task_id": "legend_transformation_analysis",
+      "type": "narrative_analysis",
+      "prompt": "Liška se stává legendou:\n- 'Ne tou, co se vypráví dětem. Tou, co se šeptá mezi stromy.'\n- 'Viděli jste ji? Ne, ale cítili jsme ji. Jako ticho, které má tvar.'\n\n1. Analyzujte tuto proměnu v legendu – jaký druh existence je to?\n2. Co znamená 'ticho, které má tvar'?\n3. Proč legenda přetrvává, když fyzická liška zmizela?",
+      "evaluation_focus": "Schopnost pracovat s konceptem existence skrze vyprávění a metaforu ticha s tvarem."
+    },
+    {
+      "task_id": "heart_as_stone_analysis",
+      "type": "metaphor_analysis",
+      "prompt": "Závěr: 'Její srdce je kámen. Ale ne ten, co se nosí. Ten, co se nese.'\n\n1. Analyzujte tento rozdíl – jaký je rozdíl mezi 'nosit' a 'nést'?\n2. Co znamená, že srdce je kámen (diamant), ale ne na ozdobu?\n3. Jak souvisí 'nesení' s esencí a legendou?",
+      "evaluation_focus": "Schopnost interpretovat jemný sémantický rozdíl mezi 'nosit' a 'nést' a jeho filozofické důsledky."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o identitě bez atributů, nepřivlastnitelnosti a transformaci skrze ztrátu."
+}
