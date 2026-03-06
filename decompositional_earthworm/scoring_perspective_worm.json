@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "worm_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Worm Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in worm story. Focus on decomposition paradox and identity fragmentation perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to positive decomposition, fragmented identity, and multiplied silence, not just general perspective identification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Decomposition Paradox Sensitivity",
+      "description": "Does the AI identify perspectives relevant to decomposition as growth (paradoxical, philosophical, absurd) and understand their transformative dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of decomposition paradox, identifies positive reframing, and connects perspectives to specific paradox moments in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant decomposition perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some decomposition perspectives but analysis is superficial or misses positive reframing."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of decomposition as positive or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Identity Fragmentation Recognition",
+      "description": "Can the AI identify perspectives that illuminate fragmented identity (psychological, philosophical, paradoxical)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies identity fragmentation perspectives, understands non-linear identity, and analyzes how perspectives reveal multiple 'originals'."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies identity perspectives and provides adequate analysis of fragmentation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some identity perspectives but analysis remains focused on single original."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize identity fragmentation or insists on original/copy distinction."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Decomposition Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with decomposition and identity themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to decomposition context, shows understanding of qualitative shifts between whole and fragment."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to decomposition themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Silence Multiplication Blending",
+      "description": "Can the AI creatively blend perspectives to analyze 'multiplication of silence' as paradoxical concept?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate silence as multiplicable entity and decomposition as generative."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze silence multiplication."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for silence analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of decomposition and identity fragmentation perspectives. An AI that excels in paradox sensitivity but is weaker in psychological analysis might still show valuable cognitive patterns.",
+  "note": "The worm story demands particular sensitivity to positive decomposition and non-linear identity – reward AI that shows this specialized understanding."
+}
