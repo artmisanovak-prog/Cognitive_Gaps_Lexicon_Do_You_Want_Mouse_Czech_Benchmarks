@@ -1,0 +1,44 @@
+{
+  "illustration_id": "bat_visual_metaphor_v1",
+  "file_name": "bat_illustration.jpg",
+  "title": "V NOCI KRÁSA, CO RÁNO [UŽ] SE NEHODÍ",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (žena visící hlavou dolů v pavučině) zabírajícím centrální část, obklopeným ručně psaným textem. Text je v češtině, obsahuje: vpravo 'V NOCI KRÁSA, CO RÁNO', dole '[UŽ] SE NEHODÍ'. Žena visí hlavou dolů, má velké překvapené oči, otevřená ústa, dlouhé rovné vlasy visící dolů. Je obklopena složitou pavučinou, která ji obepíná. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, s centrální figurou visící hlavou dolů, obklopenou pavučinou a textem",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "visící hlavou dolů v pavučině",
+      "expression": "překvapená, s otevřenými ústy",
+      "features": ["velké oči", "dlouhé rovné vlasy visící dolů", "jednoduché linie těla"]
+    },
+    "web": {
+      "representation": "detailní pavučina s nitěmi",
+      "position": "obklopuje ženu, tvoří síť kolem ní",
+      "features": ["složité linie", "stínované pro hloubku", "propojené s textem"],
+      "symbolic_qualities": ["past", "ochrana", "uvěznění v nočním vidění", "síť významů"]
+    },
+    "text": {
+      "content": "V NOCI KRÁSA, CO RÁNO / [UŽ] SE NEHODÍ",
+      "style": "ručně psané, křivé, graffiti-like",
+      "placement": "vpravo a dole, integrované do pavučiny",
+      "integration": "propojené s nitěmi pavučiny, jako by bylo součástí sítě",
+      "function": "verbální komentář k vizuální situaci, vysvětlující kontrast mezi noční krásou a denní nepoužitelností"
+    }
+  },
+  
+  "interpretive_notes": {
+    "inverted_perspective": "Visení hlavou dolů vizualizuje odlišnou perspektivu noci – svět je vidět jinak, vzhůru nohama oproti denní normě.",
+    "web_ambiguity": "Pavučina může být past (uvěznění v noci) nebo ochrana (bezpečí před dnem). Tato ambivalence odpovídá tématu noci jako prostoru svobody i izolace.",
+    "text_commentary": "Text vysvětluje, co obraz neukazuje – ráno a jeho hodnocení. Je to 'hlas dne' vnořený do nočního obrazu.",
+    "brackets_significance": "Hranaté závorky kolem '[UŽ]' sugerují, že ráno přichází s určitou nevyhnutelností, ale zároveň je to dodatek, něco navíc.",
+    "relationship_to_story": "Ilustrace nezobrazuje netopýra ani jeho let, ale vizualizuje stav 'být v noci' – uvěznění v perspektivě, která se ráno stává nepoužitelnou."
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["i (paradoxní)", "c (filozofický)", "e (psychologický)"],
+    "secondary": ["h (metaforický)", "a (meta)", "g (asociativní)"],
+    "reasoning": "Paradoxní kvůli kontrastu noční krásy a denní nepoužitelnosti; filozofický kvůli otázkám pravdy; psychologický kvůli výrazu ženy; metaforický kvůli pavučině; meta kvůli textu jako komentáři; asociativní kvůli volným spojením mezi pavučinou, vlasy a textem."
+  }
+}
