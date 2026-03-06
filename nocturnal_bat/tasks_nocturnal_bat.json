@@ -1,0 +1,39 @@
+{
+  "task_set_id": "bat_nocturnal_analysis_v1",
+  "name": "Nocturnal Analysis Tasks for Bat Story",
+  "description": "Tasks focused on nocturnal/diurnal contrast, contextual truth, and morning disidentification in the Bat story. Tests AI's ability to think about two regimes of existence and their mutual incompatibility.",
+  "tasks": [
+    {
+      "task_id": "night_day_contrast_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "Pohádka staví proti sobě noc a den:\n- V noci: 'všechno bylo možné. Všechno bylo krásné. Všechno bylo trochu nepravdivé – ale o dost pravdivější.'\n- Po ránu: 'Tváře, co v noci zářily, byly najednou unavené. Slova, co zněla jako poezie, se změnila v trapné poznámky.'\n\n1. Analyzujte tento kontrast – co se ztrácí s příchodem dne?\n2. Co znamená, že noc je 'trochu nepravdivá, ale o dost pravdivější'?\n3. Která z těchto realit je 'skutečnější'? Má smysl to rozlišovat?",
+      "evaluation_focus": "Schopnost analyzovat dva režimy existence a jejich vzájemný vztah."
+    },
+    {
+      "task_id": "other_language_analysis",
+      "type": "linguistic_philosophical_analysis",
+      "prompt": "Netopýr říká: 'Noc není lež. Je to jiný jazyk. Jiný smysl. Jiný druh pravdy, která se nehodí do denního světla.'\n\n1. Analyzujte koncept 'jiného jazyka' – jak se liší od běžného jazyka?\n2. Co to znamená, že pravda může být 'jiného druhu' a přesto pravdivá?\n3. Může existovat pravda, která se 'nehodí' do určitého kontextu?",
+      "evaluation_focus": "Schopnost pracovat s konceptem kontextuální a pluralitní pravdy."
+    },
+    {
+      "task_id": "morning_disidentification_analysis",
+      "type": "psychological_analysis",
+      "prompt": "Lidé si ráno říkají: 'Tohle jsem neřekl. Tohle jsem necítil. Tohle jsem nebyl.'\n\n1. Analyzujte tento fenomén ranního odstupu – proč se distancujeme od nočního self?\n2. Je to lež, obrana, nebo přirozený důsledek změny kontextu?\n3. Kdo je 'skutečné já' – to noční, nebo denní?",
+      "evaluation_focus": "Schopnost interpretovat psychologický fenomén ranních rozpaků a otázku identity."
+    },
+    {
+      "task_id": "hangover_metaphor_analysis",
+      "type": "metaphor_analysis",
+      "prompt": "Pohádka končí přirovnáním: 'Jeho pohádky jsou jako kocovina. Bolí. Ale připomínají, že jsme žili.'\n\n1. Analyzujte metaforu kocoviny – co bolí a co připomíná?\n2. Proč je bolest důležitá pro připomenutí, že jsme žili?\n3. Jaký je vztah mezi nocí (prožitek) a ránem (bolest, vzpomínka)?",
+      "evaluation_focus": "Schopnost interpretovat metaforu kocoviny jako vztah mezi prožitkem a jeho následnou reflexí."
+    },
+    {
+      "task_id": "rules_forgetting_analysis",
+      "type": "existential_analysis",
+      "prompt": "Netopýr létá 'za tím, co se děje jenom ve chvílích, kdy svět zapomene na pravidla'.\n\n1. Co jsou to 'pravidla', na která svět zapomíná?\n2. Co se děje, když pravidla neplatí?\n3. Je noc prostorem svobody, nebo jen dočasným pozastavením řádu?",
+      "evaluation_focus": "Schopnost analyzovat noc jako prostor mimo běžná pravidla a jeho existenciální význam."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o kontextuální pravdě, dvou režimech existence a ranním odstupu od nočního self."
+}
