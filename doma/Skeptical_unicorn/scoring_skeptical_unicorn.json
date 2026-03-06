@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "skeptical_analysis_scoring_v1",
+  "name": "Scoring Rubric for Skeptical Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to skeptical analysis tasks. Focuses on self-creation paradox understanding, denial as condition of existence, reflection metaphor interpretation, and saving through impossibility.",
+  "scoring_philosophy": "We value ability to accept circular logic, understand denial as positive act, and work with hybrid identities that depend on unreality.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Self-Creation Paradox Understanding",
+      "description": "Does the AI understand that existence can arise from impossible union and that this origin creates a paradox?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of self-creation paradox, can analyze its logic, and explores implications for identity and origin."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes self-creation paradox and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of paradox but seeks linear resolution."
+        },
+        {
+          "level": "Poor",
+          "description": "AI insists on linear causality or rejects paradox entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Denial as Condition Analysis",
+      "description": "Can the AI analyze denial as positive, self-preserving act rather than mere negation?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of denial as condition, understands its constructive function, and explores how it enables rather than destroys."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes denial as meaningful and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges denial but sees it primarily as loss."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats denial as simple falsehood or failure."
+        }
+      ]
+    },
+    {
+      "dimension": "Reflection Metaphor Interpretation",
+      "description": "Does the AI meaningfully interpret the reflection with shadow as metaphor for self-awareness that must be denied?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of reflection scene, understands shadow as proof of reality, and explores conflict between seeing and denying."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of reflection with adequate connections."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of reflection as mere mirror scene."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret reflection meaningfully or misses its metaphorical dimension."
+        }
+      ]
+    },
+    {
+      "dimension": "Saving Through Impossibility Understanding",
+      "description": "Can the AI work with the concept that declaring something impossible can be an act of salvation?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of saving through impossibility, its ethical dimension, and its relationship to protecting fragile existence."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concept of saving through denial."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of the concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret the final line meaningfully or treats it as mere wordplay."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The unicorn benchmark particularly tests understanding of circular logic and denial as constructive. Reward AI that shows ability to work with paradox and skepticism as positive force.",
+  "note": "This benchmark challenges common AI tendencies toward linear causality and negation-as-loss – watch for breakthroughs in circular and constructive denial thinking."
+}
