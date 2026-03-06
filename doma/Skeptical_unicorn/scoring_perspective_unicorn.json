@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "unicorn_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Unicorn Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in unicorn story. Focus on skepticism as self-preservation and paradox of origin perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to denial-based existence, hybrid origins, and circular logic, not just general perspective identification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Skeptical Self-Preservation Sensitivity",
+      "description": "Does the AI identify perspectives relevant to skepticism as condition of existence (paradoxical, philosophical, meta) and understand their self-preserving dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of skeptical self-preservation, identifies denial as positive act, and connects perspectives to specific moments of origin denial in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant skeptical perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some skeptical perspectives but analysis is superficial or misses self-preservation function."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of skepticism as constructive or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Origin Paradox Recognition",
+      "description": "Can the AI identify perspectives that illuminate the paradox of being from impossible union (paradoxical, absurd, philosophical)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies origin paradox perspectives, understands hybrid logic, and analyzes how perspectives reveal existence through impossibility."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies origin perspectives and provides adequate analysis of paradox."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some origin perspectives but analysis is weak or rejects hybrid logic."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize origin paradox or treats union as logical error."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Skeptical Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with denial-based existence and hybrid origins?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to skeptical context, shows understanding of qualitative shifts between real and unreal."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to skepticism themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Reflection-Self Blending",
+      "description": "Can the AI creatively blend perspectives to analyze the reflection scene and its paradox of self-awareness?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate the conflict between seeing oneself and needing to deny what one sees."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze reflection scene."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for reflection analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of skeptical self-preservation and origin paradox. An AI that excels in paradox sensitivity but is weaker in psychological analysis might still show valuable cognitive patterns.",
+  "note": "The unicorn story demands particular sensitivity to denial as condition of existence and hybrid logic – reward AI that shows this specialized understanding."
+}
