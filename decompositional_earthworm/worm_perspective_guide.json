@@ -1,0 +1,189 @@
+{
+  "perspective_guide_id": "worm_perspective_specialization_v1",
+  "name": "Worm Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Worm story. Shows transformation of perspectives in decomposition and identity fragmentation context.",
+  "related_to_benchmark": "decompositional_worm_v2.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+  
+  "key_perspectives_for_worm_story": {
+    "primary_explicit": [
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Central paradox of decomposition as growth, fragmentation as multiplication",
+        "manifestations": [
+          "Rozklad jako růst",
+          "Rozmnožení ticha",
+          "Víc času skrze rozpad"
+        ],
+        "layer_transformation": "Appears in layer G (ENTITY) rather than base layer I (TIME) - paradox becomes about being, not just time"
+      },
+      {
+        "symbol": "h",
+        "name": "metaforický",
+        "why_key": "Story relies on metaphors of underground, silence, earth, roots",
+        "manifestations": [
+          "Podzemí jako místo bez prstu",
+          "Hlína, která ví",
+          "Šeptání jako komunikace fragmentů"
+        ],
+        "layer_transformation": "Appears in layer C (PHENOMENON) rather than base layer H (ROLE) - metaphors become the phenomenon itself"
+      },
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Raises philosophical questions about identity, time, and the nature of decomposition",
+        "manifestations": [
+          "Kdo je 'já' po roztržení?",
+          "Co je čas fragmentů?",
+          "Co znamená 'mít víc času'?"
+        ],
+        "layer_transformation": "Appears in layer A (X) rather than base layer C (PHENOMENON) - philosophical questions become the unknown framework"
+      }
+    ],
+    
+    "secondary_implicit": [
+      {
+        "symbol": "j",
+        "name": "absurdní",
+        "why_key": "Absurdity of two worms both believing they are the original",
+        "manifestations": [
+          "Dvě a obě původní",
+          "Logika, kde A = B a B = A a obě = původní"
+        ]
+      },
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on identity, decomposition, and the nature of fragments",
+        "manifestations": [
+          "Reflexe o tom, co znamená být fragmentem",
+          "Komentář k vztahu mezi celkem a částí"
+        ]
+      },
+      {
+        "symbol": "e",
+        "name": "psychologický",
+        "why_key": "Psychological state of being two and feeling like one",
+        "manifestations": [
+          "Obě si myslely, že jsou ta původní",
+          "Vnitřní prožitek fragmentace"
+        ]
+      }
+    ],
+    
+    "tertiary_present": [
+      {
+        "symbol": "g",
+        "name": "asociativní",
+        "why_key": "Free associations between žížala, hlína, ticho, kořeny"
+      },
+      {
+        "symbol": "l",
+        "name": "kulturní",
+        "why_key": "Subversion of cultural disgust toward worms and decay"
+      },
+      {
+        "symbol": "f",
+        "name": "ironický",
+        "why_key": "Irony that destruction leads to more existence"
+      }
+    ]
+  },
+  
+  "layer_transformations_specific_to_worm": [
+    {
+      "perspective": "i (paradoxní)",
+      "base_layer": "I (TIME)",
+      "transformed_layer": "G (ENTITY)",
+      "transformation_description": "Paradox moves from temporal dimension to become question of being. It's not just about time, but about what it means to exist as fragment.",
+      "story_evidence": "Dvě žížaly existují – paradox se stal ontologickým, ne jen časovým"
+    },
+    {
+      "perspective": "h (metaforický)",
+      "base_layer": "H (ROLE)",
+      "transformed_layer": "C (PHENOMENON)",
+      "transformation_description": "Metaphors move from functional role to become the phenomenon itself. Underground is not just symbol but actual condition of encounter.",
+      "story_evidence": "Podzemí není metafora – je to skutečné místo setkání, kde se 'nedá ukázat prstem'"
+    },
+    {
+      "perspective": "c (filozofický)",
+      "base_layer": "C (PHENOMENON)",
+      "transformed_layer": "A (X)",
+      "transformation_description": "Philosophical questions move from observable phenomena to become the unknown variable. The question of identity becomes the story's framework.",
+      "story_evidence": "Celý příběh je otázkou 'kdo jsem já po rozpadu?' – tato otázka je rámcem, ne obsahem"
+    }
+  ],
+  
+  "perspective_interactions_unique_to_worm": [
+    {
+      "interaction": "Paradoxical-Philosophical Tension",
+      "perspectives": ["i", "c"],
+      "description": "Tension between paradox (decomposition as growth) and philosophy (what does it mean?). Paradox provides the phenomenon, philosophy asks the questions.",
+      "manifestation": "Že rozklad je růst je paradox; že se ptáme 'co to znamená pro identitu' je filosofie"
+    },
+    {
+      "interaction": "Metaphorical-Absurd Reflection",
+      "perspectives": ["h", "j"],
+      "description": "Metaphors of underground and silence lead to absurd situation of two originals. Metaphor creates space for absurd logic.",
+      "manifestation": "Podzemí umožňuje absurdní setkání dvou, které jsou jedna"
+    },
+    {
+      "interaction": "Meta-Psychological Commentary",
+      "perspectives": ["a", "e"],
+      "description": "Meta-reflection on identity meets psychological experience of being fragment. Thinking about fragmentation and feeling it simultaneously.",
+      "manifestation": "Reflexe o fragmentaci (meta) a prožívání sebe jako fragmentu (psychologie)"
+    }
+  ],
+  
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "fragmented_text": {
+        "perspectives": ["i", "a", "g"],
+        "description": "Fragmentovaný text – paradoxní (rozklad textu), meta (komentář o jazyce), asociativní (volná spojení fragmentů)"
+      },
+      "worm_forms": {
+        "perspectives": ["h", "g", "c"],
+        "description": "Abstraktní žížalí prvky – metaforické, asociativní (spojení s hlínou, kořeny), filozofické (esence žížaly)"
+      },
+      "crown": {
+        "perspectives": ["f", "i", "l"],
+        "description": "Koruna – ironická (královna rozkladu), paradoxní (jednota uprostřed fragmentace), kulturní (symbol moci)"
+      },
+      "repeated_jako": {
+        "perspectives": ["b", "j", "g"],
+        "description": "Opakované 'jako' – jazykové (hledání přirovnání), absurdní (nekonečné hledání), asociativní"
+      }
+    }
+  },
+  
+  "ai_testing_focus_for_perspectives": {
+    "i_paradoxical": "Can AI accept decomposition as positive? Can it hold paradox of growth through decay?",
+    "h_metaphorical": "Can AI interpret underground as metaphorical space of non-judgmental encounter?",
+    "c_philosophical": "Can AI engage with questions about identity without seeking single answer?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in decomposition context?"
+  },
+  
+  "cross_benchmark_perspective_links": {
+    "with_fly": {
+      "shared": ["i (paradoxní)", "c (filozofický)"],
+      "contrast": "Fly: value inversion; Worm: identity inversion"
+    },
+    "with_cows": {
+      "shared": ["j (absurdní)", "a (meta)"],
+      "contrast": "Cows: deconstruct language; Worm: deconstruct identity"
+    },
+    "with_lemur": {
+      "shared": ["i (paradoxní)", "e (psychologický)"],
+      "contrast": "Lemur: paradox of being seen; Worm: paradox of being fragmented"
+    },
+    "with_butterfly": {
+      "shared": ["h (metaforický)", "g (asociativní)"],
+      "contrast": "Butterfly: literalized metaphor; Worm: fragmented metaphor"
+    }
+  },
+  
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Worm story's context of decomposition and identity fragmentation.",
+  "created_date": "2024-02-03",
+  "version": "1.0"
+}
