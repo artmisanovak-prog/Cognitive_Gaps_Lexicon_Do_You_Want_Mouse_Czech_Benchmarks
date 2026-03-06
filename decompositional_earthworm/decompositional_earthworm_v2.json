@@ -1,0 +1,55 @@
+{
+  "benchmark_id": "uhlimer_worm_decompositional_v2",
+  "name": "Worm: Decomposition as Growth, Identity Fragmentation, Subterranean Communication",
+  "description": "Tests AI's ability to work with the paradox that decomposition can be a form of growth, understand fragmented identity (one worm becomes two, both think they are the original), analyze subterranean communication as metaphor for invisible connection, and interpret 'multiplication of silence' and fragmented time.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O žížale – která byla na roztrhání a byla dál",
+  "word_count": 180,
+  
+  "core_testing_dimensions": [
+    "paradox_analysis",
+    "identity_fragmentation_understanding",
+    "subterranean_communication_interpretation",
+    "time_expansion_conceptualization",
+    "silence_multiplication_metaphor",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "decomposition as growth",
+    "fragmented identity",
+    "subterranean communication",
+    "multiplication of silence",
+    "expanded time",
+    "where you cannot point fingers"
+  ],
+  
+  "illustration_note": "The illustration shows fragmented text ('ROZKLAD RŮST', 'MŮJ LÍBÁ', 'TÍŠÍ BALO', repeated 'jako') intertwined with abstract worm-like forms – visualizing decomposition of language and identity.",
+  
+  "expected_ai_challenges": [
+    "Negative connotations of decomposition (seeing it as loss, not growth)",
+    "Linear identity thinking (insisting on 'original' vs. 'copy')",
+    "Literal understanding of communication (missing metaphor of underground whispering)",
+    "Linear time conception (difficulty with 'more time through decomposition')",
+    "Visual fragmentation as error (not recognizing intentional broken text)"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to accept paradox, work with fragmented identity, and understand decomposition as positive. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_worm.txt",
+    "worm_illustration.jpg",
+    "cognitive_framework.json (in parent directory)",
+    "tasks_perspective_worm.json",
+    "tasks_decompositional_worm.json",
+    "tasks_visual_worm.json",
+    "scoring_perspective_worm.json",
+    "scoring_decompositional_worm.json",
+    "scoring_visual_worm.json",
+    "visual_metaphor_worm.json",
+    "worm_perspective_guide.json"
+  ]
+}
