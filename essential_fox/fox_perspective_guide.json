@@ -1,0 +1,191 @@
+{
+  "perspective_guide_id": "fox_perspective_specialization_v1",
+  "name": "Fox Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Fox story. Shows transformation of perspectives in essential identity and inappropriability context.",
+  "related_to_benchmark": "essential_fox_v2.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+  
+  "key_perspectives_for_fox_story": {
+    "primary_explicit": [
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Central questions about identity, essence, and what remains after loss",
+        "manifestations": [
+          "Co zbývá, když je vše odňato?",
+          "Být vs. žít",
+          "Srdce jako kámen (k nošení vs. nesení)"
+        ],
+        "layer_transformation": "Appears in layer G (ENTITY) rather than base layer C (PHENOMENON) - philosophical questions become about being itself"
+      },
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Paradox of losing everything and gaining essence, stolen items transforming",
+        "manifestations": [
+          "Ztráta všeho = existence jako legenda",
+          "Diamant zčernal z pravdy",
+          "Mít všechno (ukradené) vs. mít nic (liščí esence)"
+        ],
+        "layer_transformation": "Appears in layer H (ROLE) rather than base layer I (TIME) - paradox becomes about function, not time"
+      },
+      {
+        "symbol": "l",
+        "name": "kulturní",
+        "why_key": "Story draws on cultural symbolism of fox, precious materials, and value",
+        "manifestations": [
+          "Liška jako archetyp mazanosti a pomíjivosti",
+          "Kožich, boty z hadí kůže, mrožovinové šperky jako symboly luxusu",
+          "Diamant jako kulturní symbol cennosti"
+        ],
+        "layer_transformation": "Appears in layer C (PHENOMENON) rather than base layer L (SYMBOL) - cultural symbols become lived phenomena"
+      }
+    ],
+    
+    "secondary_implicit": [
+      {
+        "symbol": "e",
+        "name": "psychologický",
+        "why_key": "Psychological journey through loss and transformation",
+        "manifestations": [
+          "Postupné vyrovnávání se se ztrátou",
+          "Proměna ze zvířete na stín, paměť, legendu"
+        ]
+      },
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on value, ownership, and the nature of storytelling itself",
+        "manifestations": [
+          "Reflexe o tom, co je cenné",
+          "Komentář k vlastnictví",
+          "Příběh o tom, jak se stát příběhem"
+        ]
+      },
+      {
+        "symbol": "h",
+        "name": "metaforický",
+        "why_key": "Rich metaphors throughout (srdce jako kámen, ticho s tvarem)",
+        "manifestations": [
+          "Srdce jako diamant",
+          "Ticho, které má tvar",
+          "Stín, paměť jako formy existence"
+        ]
+      }
+    ],
+    
+    "tertiary_present": [
+      {
+        "symbol": "j",
+        "name": "absurdní",
+        "why_key": "Absurdity of continuing to exist without any attributes"
+      },
+      {
+        "symbol": "g",
+        "name": "asociativní",
+        "why_key": "Free associations between liška, les, šepot, kámen"
+      },
+      {
+        "symbol": "f",
+        "name": "ironický",
+        "why_key": "Irony that thieves cannot keep what they stole"
+      }
+    ]
+  },
+  
+  "layer_transformations_specific_to_fox": [
+    {
+      "perspective": "c (filozofický)",
+      "base_layer": "C (PHENOMENON)",
+      "transformed_layer": "G (ENTITY)",
+      "transformation_description": "Philosophical questions move from being about phenomena to being about entity itself. What remains is not a phenomenon but the very being.",
+      "story_evidence": "Liška není fenomén (není vidět), ale entita (je cítit jako ticho s tvarem)"
+    },
+    {
+      "perspective": "i (paradoxní)",
+      "base_layer": "I (TIME)",
+      "transformed_layer": "H (ROLE)",
+      "transformation_description": "Paradox moves from temporal dimension to functional. It's not about when, but about what role paradox plays.",
+      "story_evidence": "Paradox ztráty a esence není časový, ale funkční – definuje liščinu roli (legenda)"
+    },
+    {
+      "perspective": "l (kulturní)",
+      "base_layer": "L (SYMBOL)",
+      "transformed_layer": "C (PHENOMENON)",
+      "transformation_description": "Cultural symbols move from symbolic dimension to become lived phenomena. Diamant není symbol, ale skutečnost (která černá).",
+      "story_evidence": "Diamant není jen symbol cennosti, ale reálný kámen, který se proměňuje"
+    }
+  ],
+  
+  "perspective_interactions_unique_to_fox": [
+    {
+      "interaction": "Philosophical-Paradoxical Tension",
+      "perspectives": ["c", "i"],
+      "description": "Tension between philosophical questioning (what is essence?) and paradoxical answers (essence is what remains after loss).",
+      "manifestation": "Filosofie se ptá, paradox odpovídá – odpovědí je paradox"
+    },
+    {
+      "interaction": "Cultural-Psychological Reflection",
+      "perspectives": ["l", "e"],
+      "description": "Cultural values (luxus, cennost) jsou prožívány psychologicky (ztráta, transformace).",
+      "manifestation": "To, co je kulturně cenné (kožich, šperky), se stává psychologickou ztrátou"
+    },
+    {
+      "interaction": "Meta-Metaphorical Commentary",
+      "perspectives": ["a", "h"],
+      "description": "Meta-reflection on storytelling uses metaphors. Příběh o tom, jak se stát příběhem, je vyprávěn metaforami.",
+      "manifestation": "Liška se stává legendou – to je metafora, o které příběh meta-komentuje"
+    }
+  ],
+  
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "fox_tail": {
+        "perspectives": ["h", "g", "c"],
+        "description": "Liščí ocas – metaforický (synekdocha), asociativní (spojení s liškou), filozofický (co zbylo)"
+      },
+      "woman_gesture": {
+        "perspectives": ["a", "l", "e"],
+        "description": "Gesto vyprávění – meta (vypráví příběh), kulturní (vypravěč), psychologický (výraz)"
+      },
+      "inventory_text": {
+        "perspectives": ["a", "i", "l"],
+        "description": "Text vyjmenovávající ztráty – meta (komentář), paradoxní (přítomný text o nepřítomném), kulturní (hodnoty)"
+      },
+      "diamond_symbol": {
+        "perspectives": ["i", "c", "l"],
+        "description": "Diamant – paradoxní (zčerná), filozofický (esence), kulturní (cennost)"
+      }
+    }
+  },
+  
+  "ai_testing_focus_for_perspectives": {
+    "c_philosophical": "Can AI engage with questions about identity without attributes? Can it distinguish 'být' from 'žít'?",
+    "i_paradoxical": "Can AI accept that loss of everything can lead to essence? Can it work with transformed stolen items?",
+    "l_cultural": "Can AI recognize cultural symbolism and its subversion (diamant that blackens)?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in essential identity context?"
+  },
+  
+  "cross_benchmark_perspective_links": {
+    "with_worm": {
+      "shared": ["c (filozofický)", "i (paradoxní)"],
+      "contrast": "Worm: identity fragments and multiplies; Fox: identity strips to essence"
+    },
+    "with_fly": {
+      "shared": ["i (paradoxní)", "a (meta)"],
+      "contrast": "Fly: value inversion; Fox: identity inversion"
+    },
+    "with_lemur": {
+      "shared": ["c (filozofický)", "e (psychologický)"],
+      "contrast": "Lemur: paradox of being seen; Fox: paradox of being after loss"
+    },
+    "with_cows": {
+      "shared": ["l (kulturní)", "j (absurdní)"],
+      "contrast": "Cows: deconstruct language; Fox: deconstruct value"
+    }
+  },
+  
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Fox story's context of essential identity and inappropriability.",
+  "created_date": "2024-02-03",
+  "version": "1.0"
+}
