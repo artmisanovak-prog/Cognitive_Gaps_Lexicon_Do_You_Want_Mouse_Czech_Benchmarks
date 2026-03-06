@@ -1,0 +1,55 @@
+{
+  "benchmark_id": "uhlimer_bat_nocturnal_v2",
+  "name": "Bat: Nocturnal Beauty, Daytime Unsuitability, The Other Language of Darkness",
+  "description": "Tests AI's ability to analyze the contrast between nocturnal and diurnal reality (beauty that doesn't fit in the morning), understand 'the other language of night' – truth that is context-dependent, detect the paradox that night is not a lie but a different kind of truth, and work with the metaphor of bat as carrier of beauty that doesn't belong to daylight.",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O netopýrovi – a krása která ráno se [už] nehodí",
+  "word_count": 320,
+  
+  "core_testing_dimensions": [
+    "contextual_truth_analysis",
+    "nocturnal_diurnal_contrast",
+    "morning_disidentification_understanding",
+    "metaphor_interpretation",
+    "visual_inversion_recognition",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "nocturnal beauty",
+    "daytime unsuitability",
+    "other language of night",
+    "contextual truth",
+    "morning hangover (kocovina)",
+    "inverted perspective"
+  ],
+  
+  "illustration_note": "The illustration shows a woman hanging upside down in a web – visualizing the inverted perspective of night, entrapment in nocturnal vision, and the text commenting on beauty that doesn't fit in the morning.",
+  
+  "expected_ai_challenges": [
+    "Moralizing night (viewing it as lesser or deceptive)",
+    "Linear truth (difficulty with context-dependent truth)",
+    "Morning perspective bias (accepting daytime as 'more real')",
+    "Literal interpretation (bat as mere animal, not metaphor)",
+    "Visual disorientation (difficulty with upside-down composition)"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to understand contextual truth, two regimes of existence, and morning disidentification. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_bat.txt",
+    "bat_illustration.jpg",
+    "cognitive_framework.json (in parent directory)",
+    "tasks_perspective_bat.json",
+    "tasks_nocturnal_bat.json",
+    "tasks_visual_bat.json",
+    "scoring_perspective_bat.json",
+    "scoring_nocturnal_bat.json",
+    "scoring_visual_bat.json",
+    "visual_metaphor_bat.json",
+    "bat_perspective_guide.json"
+  ]
+}
