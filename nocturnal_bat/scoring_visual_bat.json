@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "bat_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Bat Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of bat illustration. Focuses on inverted perspective understanding, web symbolism, and text-image relationship.",
+  "scoring_philosophy": "We value perception of visual inversion as metaphor, understanding of web as ambivalent symbol, and interpretation of text as commentary on image.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Inverted Perspective Understanding",
+      "description": "Does the AI understand the upside-down posture as visual metaphor for different perspective?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of inverted perspective, understands its relationship to nocturnal vision, and connects to story themes of alternative truth."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes inversion as meaningful and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices inversion but analysis is superficial or literal."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats posture as random or fails to see significance."
+        }
+      ]
+    },
+    {
+      "dimension": "Web Symbolism Perception",
+      "description": "Can the AI perceive the web as ambivalent symbol (both trap and protection)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies web's ambivalence, understands its relationship to entrapment in nocturnal vision, and connects to themes of safety and imprisonment."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes web as symbolic and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices web but analysis is one-dimensional (only trap)."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats web as mere decoration or misses its significance."
+        }
+      ]
+    },
+    {
+      "dimension": "Text-Image Relationship Understanding",
+      "description": "Does the AI understand the relationship between text (night beauty, morning unsuitable) and image (woman in web)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of text-image relationship, understands how text comments on image (what's not shown), and interprets brackets '[UŽ]' as meaningful."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes relationship and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices connection but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats text and image as separate or misinterprets their relation."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (bat, flight, morning light) and presence (inverted woman, web, text) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of what's not shown, and analyzes selective representation as emphasis on state over event."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct inverted perspective from description? Does it ask clarifying questions about spatial relationships?",
+  "overall_assessment_guidance": "The bat illustration particularly tests understanding of visual inversion and ambivalent symbolism. Reward AI that perceives these complex visual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding inverted perspective and ambivalent symbolism."
+}
