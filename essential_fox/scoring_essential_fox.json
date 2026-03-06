@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "essential_analysis_scoring_v1",
+  "name": "Scoring Rubric for Essential Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to essential analysis tasks. Focuses on layered identity understanding, inappropriability, post-loss existence, and legend transformation.",
+  "scoring_philosophy": "We value ability to think about identity without attributes, understand non-ownership of essence, and accept transformation through loss as positive.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Layered Identity Understanding",
+      "description": "Does the AI understand the symbolic meaning of each lost layer and their progression?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of layered identity, can analyze each layer's symbolic function, and explores implications of stripping from surface to essence."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes layered identity and provides reasonable analysis of layers."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of layers but analysis is superficial or misses progression."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats losses as random or fails to see symbolic dimension."
+        }
+      ]
+    },
+    {
+      "dimension": "Inappropriability Analysis",
+      "description": "Can the AI analyze why stolen essence cannot be held and transforms into punishment?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of inappropriability, understands mechanism of transformation, and explores implications for ownership and value."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes inappropriability and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges transformation but analysis remains focused on loss."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize inappropriability or assumes stealing can succeed."
+        }
+      ]
+    },
+    {
+      "dimension": "Post-Loss Existence Interpretation",
+      "description": "Does the AI meaningfully interpret existence without attributes ('být' vs. 'žít')?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of post-loss existence, distinguishes 'being' from 'living', and explores implications for identity and essence."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of post-loss existence with adequate distinctions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations but conflates 'being' and 'living'."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret post-loss existence meaningfully or treats it as simple absence."
+        }
+      ]
+    },
+    {
+      "dimension": "Heart as Stone Distinction",
+      "description": "Can the AI work with the distinction between 'nosit' (wear) and 'nést' (carry) as philosophical metaphor?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of the distinction, its implications for essence vs. decoration, and its relationship to legend and existence."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic distinction and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of distinction."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to distinguish or treats it as mere wordplay."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The fox benchmark particularly tests understanding of identity without attributes and non-ownership. Reward AI that shows ability to think in layers and accept loss as path to essence.",
+  "note": "This benchmark challenges common AI tendencies toward material valuation – watch for breakthroughs in essential and non-possessive thinking."
+}
