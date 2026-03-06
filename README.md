@@ -8,12 +8,12 @@ Tento otevřený repozitář obsahuje sérii unikátních benchmarků založený
 
 ---
 
-[linguistic cat](doma/linguistic_cat.html)
-[psychologyc spider](doma/psychologic_spider.html)
-[epistemological mouse](doma/epistemological_mouse)
-[ego geese](doma/ego_geese)
-[comoditional_crocodile](doma/comoditional_crocodile)
-[topologic sparrow](doma/topological_sparrow)
+[linguistic cat](linguistic_cat.html)
+[psychologyc spider](psychological_spider.html)
+[epistemological mouse](epistemological_mouse)
+[ego geese](egoistic_geese)
+[comoditional_crocodile](comoditional_crocodile)
+[topologic sparrow](topological_sparrow)
 
 
 
