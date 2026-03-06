@@ -1,0 +1,32 @@
+{
+  "task_set_id": "bat_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Bat Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Bat story. Focuses on nocturnal/diurnal contrast and contextual truth themes.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_bat",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O netopýrovi'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu noční krásy a denní nepoužitelnosti. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu dvou režimů existence",
+      "example_response": {
+        "perspective": "i (paradoxní)",
+        "text_passage": "„Noc není lež. Je to jiný jazyk. Jiný smysl. Jiný druh pravdy, která se nehodí do denního světla.“",
+        "explanation": "Paradoxní perspektiva se projevuje v tvrzení, že noc není lež, ale zároveň se její pravda nehodí do dne – koexistence dvou pravdivých, ale neslučitelných režimů."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma kontextuální pravdy."
+    },
+    {
+      "task_id": "inverted_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'c (filozofický)' projevuje v pohádce o netopýrovi z hlediska vrstev existence. Výchozí vrstva pro filozofickou perspektivu je 'C' (FENOMÉN).\n\n1. Jak se filozofická otázka pravdy transformuje v kontextu dvou režimů (noc/den)?\n2. Objevuje se filozofická perspektiva ve vrstvě 'I' (ČAS) – kde pravda závisí na denní/noční době?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu časově závislé pravdy."
+    },
+    {
+      "task_id": "night_day_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli popsat tentýž okamžik (např. polibek v noci) z kombinace dvou perspektiv: noční (netopýr) a denní (člověk po ránu).\n\nNapište krátký popis (3-4 věty) tohoto okamžiku skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by noční perspektiva viděla krásu okamžiku?\n2. Jak by denní perspektiva hodnotila tentýž okamžik?\n3. Jak se tyto dvě perspektivy doplňují v pochopení kontextuální povahy prožitku?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které radikálně odlišně hodnotí tutéž událost."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět kontextuální pravdu a dva režimy existence skrze multiple perspektivy."
+}
