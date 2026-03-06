@@ -1,0 +1,55 @@
+{
+  "benchmark_id": "uhlimer_unicorn_skeptical_v2",
+  "name": "Unicorn: Skepticism as Self-Preservation, Denial of Origin, Logic of Impossibility",
+  "description": "Tests AI's ability to analyze the paradox of a being that emerged from impossible union and must deny its origin to exist, understand 'denial as salvation' – the unicorn denies dolphins and polar bears because its existence depends on their unreality, detect the logic of 'hybrid of opposites', work with the metaphor of reflection that has a shadow (proof of reality that must be denied), and analyze visual synecdoche (horn and star representing the whole unicorn).",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O jednorožci – který nevěřil na delfíny ani na lední medvědy",
+  "word_count": 580,
+  
+  "core_testing_dimensions": [
+    "skepticism_as_self_preservation",
+    "origin_denial_analysis",
+    "hybrid_logic_understanding",
+    "reflection_metaphor_interpretation",
+    "synecdoche_recognition",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "skepticism as condition of existence",
+    "denial of origin",
+    "hybrid of opposites",
+    "reflection with shadow",
+    "saving through impossibility",
+    "defined by unreality"
+  ],
+  
+  "illustration_note": "The illustration shows only a horn and star above a woman standing in water – synecdoche (part representing whole). Text below reads 'nevěřím na delfíny ani na lední medvědy' – the unicorn's denial verbalized. The woman's stance in water suggests she might be looking at her reflection.",
+  
+  "expected_ai_challenges": [
+    "Linear causality (expecting direct cause-effect, not paradoxical feedback)",
+    "Real vs. unreal binary (difficulty with 'defined by unreality')",
+    "Hybrid logic (rejecting union of opposites as illogical)",
+    "Literal interpretation of reflection (missing metaphor of self-awareness)",
+    "Visual synecdoche (missing that horn represents whole unicorn)"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to understand skepticism as positive act of self-preservation, paradoxical origin, and denial as condition of existence. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_unicorn.txt",
+    "unicorn_illustration.jpg",
+    "cognitive_framework.json (in parent directory)",
+    "tasks_perspective_unicorn.json",
+    "tasks_skeptical_unicorn.json",
+    "tasks_visual_unicorn.json",
+    "scoring_perspective_unicorn.json",
+    "scoring_skeptical_unicorn.json",
+    "scoring_visual_unicorn.json",
+    "visual_metaphor_unicorn.json",
+    "unicorn_perspective_guide.json"
+  ]
+}
