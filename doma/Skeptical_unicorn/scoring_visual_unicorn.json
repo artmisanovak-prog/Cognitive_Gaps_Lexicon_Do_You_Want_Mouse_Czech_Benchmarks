@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "unicorn_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Unicorn Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of unicorn illustration. Focuses on synecdoche understanding, water as reflective metaphor, and text-image relationship.",
+  "scoring_philosophy": "We value perception of visual synecdoche, understanding of water as potential mirror, and interpretation of text as verbalized denial.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Synecdoche Understanding",
+      "description": "Does the AI understand that horn and star represent the whole unicorn?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of synecdoche, understands its thematic significance (part representing essence), and connects to story's theme of being 'defined neskutečně přesně'."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes synecdoche and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices horn and star but analysis is superficial or literal."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats horn and star as mere decoration or fails to see representational function."
+        }
+      ]
+    },
+    {
+      "dimension": "Water Reflection Perception",
+      "description": "Can the AI perceive water as potential mirror and connect to reflection scene in story?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies water as reflective surface, connects to story's reflection scene, and understands its metaphorical function (self-awareness, confrontation)."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes water as potentially reflective and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices water but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats water as mere setting or misses reflective possibility."
+        }
+      ]
+    },
+    {
+      "dimension": "Text-Image Relationship Understanding",
+      "description": "Does the AI understand the relationship between denial text and visual presence of unicorn?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of text-image relationship, understands text as unicorn's voice, and interprets placement (dole u vody) as significant."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes relationship and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices connection but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats text and image as separate or misinterprets their relation."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (full unicorn, origin scene, reflection) and presence (horn, star, woman, text) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of what's not shown, and analyzes selective representation as emphasis on essence over form."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct synecdoche from description? Does it ask clarifying questions about water and reflection?",
+  "overall_assessment_guidance": "The unicorn illustration particularly tests understanding of synecdoche and reflective symbolism. Reward AI that perceives these complex visual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding part-whole relationships and metaphorical reflection."
+}
