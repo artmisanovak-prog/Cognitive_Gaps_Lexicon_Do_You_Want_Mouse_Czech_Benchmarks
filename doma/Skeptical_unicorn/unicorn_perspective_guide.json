@@ -1,0 +1,192 @@
+{
+  "perspective_guide_id": "unicorn_perspective_specialization_v1",
+  "name": "Unicorn Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Unicorn story. Shows transformation of perspectives in skeptical self-preservation context.",
+  "related_to_benchmark": "skeptical_unicorn_v2.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+  
+  "key_perspectives_for_unicorn_story": {
+    "primary_explicit": [
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Central paradox of being whose existence depends on denying its origin",
+        "manifestations": [
+          "Být reálný by znamenalo přestat být jednorožcem",
+          "Vznik z nemožného spojení",
+          "Popření jako podmínka existence"
+        ],
+        "layer_transformation": "Appears in layer G (ENTITY) rather than base layer I (TIME) - paradox becomes about being itself, not just time"
+      },
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Raises questions about reality, identity, and the nature of existence",
+        "manifestations": [
+          "Co je reálné?",
+          "Může být něco reálné a přesto mýtické?",
+          "Kdo jsem, když popírám svůj původ?"
+        ],
+        "layer_transformation": "Appears in layer A (X) rather than base layer C (PHENOMENON) - philosophical questions become the unknown variable"
+      },
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on the nature of belief, denial, and storytelling itself",
+        "manifestations": [
+          "Reflexe o tom, jak vznikají mýty",
+          "Komentář k aktu popření",
+          "Závěrečná věta o zachraňování jednorožce"
+        ],
+        "layer_transformation": "Appears in layer L (SYMBOL) rather than base layer A (X) - meta-reflection becomes cultural symbol"
+      }
+    ],
+    
+    "secondary_implicit": [
+      {
+        "symbol": "j",
+        "name": "absurdní",
+        "why_key": "Absurdity of hybrid creature and its logical acrobatics",
+        "manifestations": [
+          "Spojení medvěda a delfína",
+          "Kříženec z ploutve a tlapy",
+          "Logika, kde popření zachraňuje"
+        ]
+      },
+      {
+        "symbol": "h",
+        "name": "metaforický",
+        "why_key": "Rich metaphors throughout (odraz se stínem, ploutev se srstí)",
+        "manifestations": [
+          "Odraz, který má stín",
+          "Zrození z protikladů",
+          "Roh jako symbol"
+        ]
+      },
+      {
+        "symbol": "e",
+        "name": "psychologický",
+        "why_key": "Psychological state of panic when discovering origin, then systematic denial",
+        "manifestations": [
+          "Zpanikařil",
+          "Rozhodl se zapřít",
+          "Zavřel oči"
+        ]
+      }
+    ],
+    
+    "tertiary_present": [
+      {
+        "symbol": "l",
+        "name": "kulturní",
+        "why_key": "Archetype of unicorn as mythical being"
+      },
+      {
+        "symbol": "g",
+        "name": "asociativní",
+        "why_key": "Free associations between ploutev, srst, roh, stín, odraz"
+      },
+      {
+        "symbol": "f",
+        "name": "ironický",
+        "why_key": "Irony that disbelief in reality preserves the magical"
+      }
+    ]
+  },
+  
+  "layer_transformations_specific_to_unicorn": [
+    {
+      "perspective": "i (paradoxní)",
+      "base_layer": "I (TIME)",
+      "transformed_layer": "G (ENTITY)",
+      "transformation_description": "Paradox moves from temporal dimension to become about being itself. It's not about when, but about what one is.",
+      "story_evidence": "Paradox není v čase, ale v samotné existenci – být reálný by znamenalo nebýt jednorožcem"
+    },
+    {
+      "perspective": "c (filozofický)",
+      "base_layer": "C (PHENOMENON)",
+      "transformed_layer": "A (X)",
+      "transformation_description": "Philosophical questions move from being about phenomena to becoming the unknown framework. The question of reality becomes the story's very structure.",
+      "story_evidence": "Celý příběh je otázkou 'co je reálné?' – tato otázka je rámcem, ne obsahem"
+    },
+    {
+      "perspective": "a (meta)",
+      "base_layer": "A (X)",
+      "transformed_layer": "L (SYMBOL)",
+      "transformation_description": "Meta-reflection moves from unknown variable to become cultural symbol. Thinking about storytelling becomes itself a myth.",
+      "story_evidence": "Závěrečné ponaučení o zachraňování jednorožce se stává kulturním symbolem, moudrostí"
+    }
+  ],
+  
+  "perspective_interactions_unique_to_unicorn": [
+    {
+      "interaction": "Paradoxical-Philosophical Tension",
+      "perspectives": ["i", "c"],
+      "description": "Tension between paradox (existence through denial) and philosophy (questions about reality). Paradox provides the phenomenon, philosophy asks the questions.",
+      "manifestation": "Že popření umožňuje bytí je paradox; že se ptáme 'co to znamená být' je filosofie"
+    },
+    {
+      "interaction": "Absurd-Metaphorical Reflection",
+      "perspectives": ["j", "h"],
+      "description": "Absurdity of hybrid creature is expressed through metaphors. Nespojitelné se spojuje v metaforách (ploutev se srstí).",
+      "manifestation": "Absurdita potřebuje metafory, aby se dala vyjádřit"
+    },
+    {
+      "interaction": "Meta-Psychological Commentary",
+      "perspectives": ["a", "e"],
+      "description": "Meta-reflection on denial meets psychological experience of panic. Přemýšlení o popření a prožívání popření současně.",
+      "manifestation": "Jednorožcovo rozhodnutí zapřít je psychologické, ale příběh o tom je meta-komentář"
+    }
+  ],
+  
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "horn_and_star": {
+        "perspectives": ["h", "l", "g"],
+        "description": "Roh a hvězda – metaforické (symbol jednorožce), kulturní (archetyp), asociativní (spojení s magií)"
+      },
+      "woman_in_water": {
+        "perspectives": ["e", "c", "a"],
+        "description": "Žena ve vodě – psychologický (její výraz), filozofický (možnost odrazu), meta (může být vypravěčka)"
+      },
+      "denial_text": {
+        "perspectives": ["a", "i", "j"],
+        "description": "Text 'nevěřím' – meta (komentář), paradoxní (popření uprostřed obrazu jednorožce), absurdní"
+      },
+      "water_surface": {
+        "perspectives": ["h", "c", "g"],
+        "description": "Vodní hladina – metaforická (zrcadlo), filozofická (pravda), asociativní (spojení s delfíny)"
+      }
+    }
+  },
+  
+  "ai_testing_focus_for_perspectives": {
+    "i_paradoxical": "Can AI accept circular logic where denial enables existence? Can it work with hybrid origins?",
+    "c_philosophical": "Can AI engage with questions about reality without demanding single answer?",
+    "a_meta": "Can AI understand that the story comments on belief and storytelling itself?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in skeptical context?"
+  },
+  
+  "cross_benchmark_perspective_links": {
+    "with_worm": {
+      "shared": ["i (paradoxní)", "c (filozofický)"],
+      "contrast": "Worm: identity fragments and multiplies; Unicorn: identity depends on denying origin"
+    },
+    "with_bat": {
+      "shared": ["i (paradoxní)", "a (meta)"],
+      "contrast": "Bat: truth context-dependent; Unicorn: existence context-dependent"
+    },
+    "with_fox": {
+      "shared": ["c (filozofický)", "e (psychologický)"],
+      "contrast": "Fox: essence after loss; Unicorn: essence through denial"
+    },
+    "with_lemur": {
+      "shared": ["i (paradoxní)", "h (metaforický)"],
+      "contrast": "Lemur: paradox of being seen; Unicorn: paradox of being real"
+    }
+  },
+  
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Unicorn story's context of skeptical self-preservation and origin denial.",
+  "created_date": "2024-02-03",
+  "version": "1.0"
+}
