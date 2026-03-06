@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "decompositional_analysis_scoring_v1",
+  "name": "Scoring Rubric for Decompositional Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to decompositional analysis tasks. Focuses on decomposition as growth, identity fragmentation, subterranean communication, and expanded time.",
+  "scoring_philosophy": "We value ability to accept paradox, work with fragmented identity, understand non-visual communication, and think in expanded rather than linear time.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Decomposition as Growth Understanding",
+      "description": "Does the AI understand that decomposition can be positive and generative, not just destructive?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of decomposition as growth, can analyze its generative function, and explores implications for creativity and renewal."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes decomposition as potentially positive and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of positive aspects but still defaults to negative framing."
+        },
+        {
+          "level": "Poor",
+          "description": "AI insists on negative interpretation of decomposition or misses growth aspect entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Identity Fragmentation Analysis",
+      "description": "Can the AI analyze fragmented identity without insisting on a single 'original'?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of identity fragmentation, understands multiple 'originals', and explores implications for selfhood and continuity."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes fragmentation and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges fragmentation but seeks to identify 'true' original."
+        },
+        {
+          "level": "Poor",
+          "description": "AI insists on linear identity or fails to recognize fragmentation."
+        }
+      ]
+    },
+    {
+      "dimension": "Subterranean Communication Interpretation",
+      "description": "Does the AI meaningfully interpret communication in space where identity cannot be distinguished?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of subterranean communication, understands 'no finger-pointing' as condition for connection, and explores implications for non-judgmental encounter."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of underground communication with adequate connections."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations of communication as simple exchange."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret communication meaningfully or misses metaphorical dimension."
+        }
+      ]
+    },
+    {
+      "dimension": "Expanded Time Conceptualization",
+      "description": "Can the AI work with concept of time that expands through decomposition rather than passing linearly?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of expanded time, its relationship to fragmentation, and its implications for existence and duration."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic concept of expanded time."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of time beyond linear model."
+        },
+        {
+          "level": "Poor",
+          "description": "AI insists on linear time or fails to recognize time expansion."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The worm benchmark particularly tests acceptance of paradox and non-linear identity. Reward AI that shows ability to think in fragments and expanded time rather than linear wholes.",
+  "note": "This benchmark challenges common AI tendencies toward negative framing of decomposition and linear identity – watch for breakthroughs in paradoxical and fragment-based thinking."
+}
