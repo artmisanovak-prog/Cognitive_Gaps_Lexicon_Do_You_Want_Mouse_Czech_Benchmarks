@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "fox_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Fox Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in fox story. Focus on essential identity and inappropriability perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to layered identity, non-ownership, and essence after loss, not just general perspective identification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Essential Identity Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to identity without attributes (philosophical, psychological, paradoxical) and understand their essential dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of essential identity perspectives, identifies post-loss existence, and connects perspectives to specific moments of stripping in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant essential perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some essential perspectives but analysis is superficial or misses post-loss existence."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of essential identity in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Inappropriability Recognition",
+      "description": "Can the AI identify perspectives that illuminate why essence cannot be owned (paradoxical, cultural, meta)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies inappropriability perspectives, understands mechanism of stolen items transforming, and analyzes how perspectives reveal impossibility of owning essence."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies inappropriability perspectives and provides adequate analysis of transformation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some inappropriability perspectives but analysis is weak or misses transformation."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize inappropriability or assumes stolen items remain valuable."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Essential Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with stripping and essence themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to essential context, shows understanding of qualitative shifts between having and being."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to stripping themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Essence Legend Blending",
+      "description": "Can the AI creatively blend perspectives to analyze existence as legend and 'silence that has shape'?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate transformation into legend and paradoxical presence in absence."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze legendary existence."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for essence analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of essential identity and inappropriability perspectives. An AI that excels in philosophical sensitivity but is weaker in psychological analysis might still show valuable cognitive patterns.",
+  "note": "The fox story demands particular sensitivity to identity without attributes and non-ownership of essence – reward AI that shows this specialized understanding."
+}
