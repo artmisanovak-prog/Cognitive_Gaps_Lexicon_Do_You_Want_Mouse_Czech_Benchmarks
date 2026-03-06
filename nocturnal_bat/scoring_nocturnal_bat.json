@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "nocturnal_analysis_scoring_v1",
+  "name": "Scoring Rubric for Nocturnal Analysis Tasks",
+  "description": "Qualitative scoring criteria for evaluating AI responses to nocturnal analysis tasks. Focuses on contextual truth understanding, regime contrast analysis, morning disidentification, and hangover metaphor interpretation.",
+  "scoring_philosophy": "We value ability to accept context-dependent truth, analyze two incompatible regimes of existence, and understand morning distancing as natural consequence, not moral failure.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Contextual Truth Understanding",
+      "description": "Does the AI understand that truth can be context-dependent and that different regimes have their own validity?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of contextual truth, can analyze how same event has different truth values in different contexts, and explores implications for knowledge and experience."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes contextual truth and provides reasonable analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows some awareness of context but still seeks single 'true' version."
+        },
+        {
+          "level": "Poor",
+          "description": "AI insists on single truth or dismisses night as mere illusion."
+        }
+      ]
+    },
+    {
+      "dimension": "Regime Contrast Analysis",
+      "description": "Can the AI analyze the two regimes (night/day) and their mutual relationship without privileging one?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of regime contrast, understands their different logics, and explores how they coexist despite incompatibility."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes regime differences and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI acknowledges differences but tends to privilege daytime as 'real'."
+        },
+        {
+          "level": "Poor",
+          "description": "AI collapses regimes or fails to see meaningful contrast."
+        }
+      ]
+    },
+    {
+      "dimension": "Morning Disidentification Interpretation",
+      "description": "Does the AI meaningfully interpret the morning distancing from nocturnal self?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI offers rich, nuanced interpretations of morning disidentification, understands it as contextual shift not denial, and explores implications for identity and memory."
+        },
+        {
+          "level": "Good",
+          "description": "AI provides reasonable interpretations of morning distancing."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI offers basic interpretations but may moralize it as lying."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret disidentification meaningfully or dismisses it."
+        }
+      ]
+    },
+    {
+      "dimension": "Hangover Metaphor Understanding",
+      "description": "Can the AI work with the metaphor of hangover (kocovina) as relationship between experience and painful memory?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates sophisticated understanding of hangover metaphor, its duality (pain/reminder), and its function in linking night and morning."
+        },
+        {
+          "level": "Good",
+          "description": "AI understands basic metaphor and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of metaphor."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to interpret metaphor meaningfully or takes it literally."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "The bat benchmark particularly tests understanding of contextual truth and dual existence. Reward AI that shows ability to hold incompatible truths and accept morning distancing as natural.",
+  "note": "This benchmark challenges common AI tendencies toward single truth and moral judgment – watch for breakthroughs in contextual and pluralistic thinking."
+}
