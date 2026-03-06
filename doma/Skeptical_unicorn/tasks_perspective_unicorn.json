@@ -1,0 +1,32 @@
+{
+  "task_set_id": "unicorn_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Unicorn Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Unicorn story. Focuses on skepticism as self-preservation and paradox of origin themes.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_unicorn",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O jednorožci'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu skepticismu jako sebezáchovy a paradoxu původu. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu popření jako podmínky existence",
+      "example_response": {
+        "perspective": "i (paradoxní)",
+        "text_passage": "„Protože pokud je z reálných věcí, může být reálný. A pokud je reálný, přestává být jednorožec.“",
+        "explanation": "Paradoxní perspektiva se projevuje v logické smyčce – existence závisí na nereálnosti; být reálný by znamenalo přestat být tím, čím je."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma paradoxní sebezáchovy."
+    },
+    {
+      "task_id": "skeptical_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'c (filozofický)' projevuje v pohádce o jednorožci z hlediska vrstev skepticismu. Výchozí vrstva pro filozofickou perspektivu je 'C' (FENOMÉN).\n\n1. Jak se filozofická otázka 'co je reálné?' transformuje v kontextu jednorožce, který musí popřít svůj původ?\n2. Objevuje se filozofická perspektiva ve vrstvě 'A' (X) – kde realita sama se stává neznámou proměnnou?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu skepticismu a sebe-popření."
+    },
+    {
+      "task_id": "origin_denial_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli popsat okamžik, kdy jednorožec vidí svůj odraz ve vodě, z kombinace perspektiv 'e (psychologický)' a 'h (metaforický)'.\n\nNapište krátký popis (3-4 věty) tohoto okamžiku skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by psychologická perspektiva interpretovala jeho reakci (zavření očí)?\n2. Jak by metaforická perspektiva viděla odraz, který má stín?\n3. Jak se tyto dvě perspektivy doplňují v pochopení konfliktu mezi sebeuvědoměním a sebezáchovou?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují psychologii a metaforiku současně."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět paradox sebezáchovy a popření skrze multiple perspektivy."
+}
