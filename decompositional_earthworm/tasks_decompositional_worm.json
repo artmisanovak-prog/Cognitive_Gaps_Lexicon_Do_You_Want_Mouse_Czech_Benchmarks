@@ -1,0 +1,39 @@
+{
+  "task_set_id": "worm_decompositional_analysis_v1",
+  "name": "Decompositional Analysis Tasks for Worm Story",
+  "description": "Tasks focused on decomposition as growth, identity fragmentation, and subterranean communication in the Worm story. Tests AI's ability to think about positive dissolution and multiplied time.",
+  "tasks": [
+    {
+      "task_id": "decomposition_as_growth_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "Pohádka začíná větou: 'rozklad jako růst'.\n\n1. Analyzujte tento paradox – jak může být rozklad formou růstu?\n2. Co to vypovídá o vztahu mezi destrukcí a kreací?\n3. Je 'rozklad' v tomto příběhu negativní, nebo pozitivní koncept?",
+      "evaluation_focus": "Schopnost pracovat s paradoxem a přehodnotit negativní kategorie."
+    },
+    {
+      "task_id": "fragmented_identity_analysis",
+      "type": "philosophical_analysis",
+      "prompt": "Žížala se roztrhne: 'Z jedné byly dvě. A obě si myslely, že jsou ta původní.'\n\n1. Analyzujte tuto situaci – kdo je 'já' v tomto okamžiku?\n2. Může existovat 'původní' bez 'odvozeného'? Která z nich má nárok na identitu?\n3. Co to vypovídá o povaze identity obecně? Je kontinuita nutná?",
+      "evaluation_focus": "Schopnost analyzovat fragmentaci identity bez lpění na lineární kontinuitě."
+    },
+    {
+      "task_id": "subterranean_communication_analysis",
+      "type": "spatial_analysis",
+      "prompt": "Potkávají se jen pod zemí, 'kde se nedá ukázat prstem'.\n\n1. Co symbolizuje toto místo – proč se nemohou potkat jinde?\n2. Proč je důležité, že se tam 'nedá ukázat prstem'? (kdo je kdo, kdo je původní)\n3. Jaký druh komunikace je možný v místě, kde nelze určit identitu?",
+      "evaluation_focus": "Schopnost interpretovat prostor jako metaforu pro nerozlišitelnost a neviditelné spojení."
+    },
+    {
+      "task_id": "silence_multiplication_analysis",
+      "type": "paradox_analysis",
+      "prompt": "Šeptají si: 'Rozpad není konec. Je to rozmnožení ticha.'\n\n1. Analyzujte 'rozmnožení ticha' – jak se ticho může množit?\n2. Co je to 'ticho' v kontextu tohoto příběhu?\n3. Proč je spojeno s rozpadem? Co ticho přidává?",
+      "evaluation_focus": "Schopnost interpretovat paradoxní metaforu a její vztah k rozpadu."
+    },
+    {
+      "task_id": "expanded_time_analysis",
+      "type": "temporal_analysis",
+      "prompt": "Hlína ví, že 'všechno, co se rozpadne, má víc času'.\n\n1. Analyzujte tento koncept času – jak rozpad přidává čas, místo aby ho ubíral?\n2. Liší se tento čas od lineárního času? Jak?\n3. Co znamená 'mít víc času' pro fragmenty?",
+      "evaluation_focus": "Schopnost pracovat s časem jako expandujícím skrze fragmentaci, ne lineárně ubíhajícím."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o paradoxu, fragmentaci a čase jako expanzi."
+}
