@@ -1,0 +1,44 @@
+{
+  "illustration_id": "worm_visual_metaphor_v1",
+  "file_name": "worm_illustration.jpg",
+  "title": "ROZKLAD RŮST – MŮJ LÍBÁ TÍŠÍ BALO",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (žena s korunou) zabírajícím centrální část, obklopeným fragmentovaným textem a abstraktními žížalími prvky. Text je v češtině, obsahuje: nahoře 'ROZKLAD RŮST', vlevo 'MŮJ LÍBÁ', dole 'TÍŠÍ BALO' a opakované 'jako' (jako tako, jako, jako). Text je fragmentovaný, nedává souvislý smysl. Žena má na hlavě korunu, velké překvapené oči, otevřená ústa. Kolem ní se vinou abstraktní zkroucené tvary připomínající žížaly nebo kořeny. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, s fragmentovaným textem a abstraktními tvary obklopujícími centrální figuru",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "zepředu, introspektivní",
+      "expression": "překvapená, s otevřenými ústy",
+      "features": ["velké oči", "koruna na hlavě", "kudrnaté vlasy", "jednoduché linie těla"]
+    },
+    "worm_elements": {
+      "representation": "abstraktní zkroucené tvary",
+      "position": "propletené s textem, obklopující ženu",
+      "features": ["tmavé nepravidelné linie", "spirálovité tvary", "připomínající žížaly nebo kořeny"],
+      "symbolic_qualities": ["rozklad", "růst", "fragmentace", "podzemní spojení"]
+    },
+    "text": {
+      "content": "ROZKLAD RŮST / MŮJ LÍBÁ / TÍŠÍ BALO / jako tako / jako / jako / jako",
+      "style": "ručně psané, křivé, graffiti-like, fragmentované",
+      "placement": "roztroušené po celé kompozici, překrývající se s žížalími prvky",
+      "integration": "text je vizuálně 'rozpadlý' – jako by se sám rozkládal",
+      "function": "verbální paralela k tématu rozkladu, fragmentace významu"
+    }
+  },
+  
+  "interpretive_notes": {
+    "fragmented_text": "Text nedává souvislý smysl – je rozpadlý, jako žížala. 'ROZKLAD RŮST' vedle sebe vizualizuje ústřední paradox.",
+    "crown_irony": "Koruna na hlavě uprostřed rozkladu – ironický kontrast mezi královskou důstojností a fragmentací.",
+    "worm_forms": "Abstraktní žížalí prvky nejsou konkrétní žížaly, ale spíše esence žížalovitosti – růst skrze rozklad, pohyb pod zemí.",
+    "relationship_to_story": "Ilustrace nezobrazuje žížaly, jejich roztržení ani setkání pod zemí. Vizualizuje spíše stav – být fragmentem, být obklopen rozpadem a přesto (nebo právě proto) růst.",
+    "conceptual_core": "Ilustrace jako metafora pro fragmentaci identity a pozitivní rozklad – koruna (jednota, identita) je obklopena tím, co ji rozkládá, a přesto (nebo právě proto) je."
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["i (paradoxní)", "h (metaforický)", "c (filozofický)"],
+    "secondary": ["j (absurdní)", "a (meta)", "g (asociativní)"],
+    "reasoning": "Paradoxní kvůli 'ROZKLAD RŮST'; metaforický kvůli abstraktním žížalím prvkům; filozofický kvůli otázkám identity; absurdní kvůli koruně v rozkladu; meta kvůli fragmentaci textu; asociativní kvůli volným spojením mezi fragmenty."
+  }
+}
