@@ -1,0 +1,192 @@
+{
+  "perspective_guide_id": "bat_perspective_specialization_v1",
+  "name": "Bat Story: Perspective Specialization Guide",
+  "description": "Supplement to the main cognitive_framework.json, detailing how specific perspectives manifest in the Bat story. Shows transformation of perspectives in nocturnal/diurnal context and contextual truth.",
+  "related_to_benchmark": "nocturnal_bat_v2.json",
+  "framework_reference": "cognitive_framework.json v1.0",
+  
+  "key_perspectives_for_bat_story": {
+    "primary_explicit": [
+      {
+        "symbol": "i",
+        "name": "paradoxní",
+        "why_key": "Central paradox of truth that is both valid and incompatible with another context",
+        "manifestations": [
+          "Noc není lež, ale jiný jazyk",
+          "Pravda, která se nehodí do denního světla",
+          "Krása, která ráno není krásná"
+        ],
+        "layer_transformation": "Appears in layer C (PHENOMENON) rather than base layer I (TIME) - paradox becomes about the nature of phenomena, not just time"
+      },
+      {
+        "symbol": "c",
+        "name": "filozofický",
+        "why_key": "Raises questions about truth, identity, and the nature of reality across contexts",
+        "manifestations": [
+          "Co je pravda, když závisí na denní době?",
+          "Kdo je skutečné já – noční nebo denní?",
+          "Co znamená 'žil jsem' přes bolest kocoviny?"
+        ],
+        "layer_transformation": "Appears in layer I (TIME) rather than base layer C (PHENOMENON) - philosophical questions become temporally dependent"
+      },
+      {
+        "symbol": "e",
+        "name": "psychologický",
+        "why_key": "Psychological states of nocturnal ecstasy and morning disidentification",
+        "manifestations": [
+          "Prožitek noci jako svobody a krásy",
+          "Ranní odstup: 'Tohle jsem nebyl'",
+          "Kocovina jako bolestná vzpomínka"
+        ],
+        "layer_transformation": "Appears in layer F (ACTION) rather than base layer E (STATE) - psychological states become actions (létání, schovávání)"
+      }
+    ],
+    
+    "secondary_implicit": [
+      {
+        "symbol": "h",
+        "name": "metaforický",
+        "why_key": "Rich metaphors throughout (jiný jazyk, kocovina, pavučina)",
+        "manifestations": [
+          "Noc jako jiný jazyk",
+          "Pohádky jako kocovina",
+          "Pavučina jako síť významů"
+        ]
+      },
+      {
+        "symbol": "a",
+        "name": "meta",
+        "why_key": "Story comments on perception, truth, and the nature of storytelling",
+        "manifestations": [
+          "Reflexe o tom, co je pravda",
+          "Komentář k rannímu hodnocení",
+          "Příběh o tom, jak příběhy bolí"
+        ]
+      },
+      {
+        "symbol": "l",
+        "name": "kulturní",
+        "why_key": "Cultural symbolism of night, bat, and morning after",
+        "manifestations": [
+          "Netopýr jako noční tvor",
+          "Noc jako prostor básníků a ztracenců",
+          "Ráno jako soud"
+        ]
+      }
+    ],
+    
+    "tertiary_present": [
+      {
+        "symbol": "j",
+        "name": "absurdní",
+        "why_key": "Absurdity of continuing to value what no longer fits"
+      },
+      {
+        "symbol": "g",
+        "name": "asociativní",
+        "why_key": "Free associations between noc, krása, trapnost, kocovina"
+      },
+      {
+        "symbol": "f",
+        "name": "ironický",
+        "why_key": "Irony that night's truth is rejected by day"
+      }
+    ]
+  },
+  
+  "layer_transformations_specific_to_bat": [
+    {
+      "perspective": "i (paradoxní)",
+      "base_layer": "I (TIME)",
+      "transformed_layer": "C (PHENOMENON)",
+      "transformation_description": "Paradox moves from temporal dimension to become about the nature of phenomena. It's not just that truth changes with time, but that phenomena themselves have different truth values.",
+      "story_evidence": "Krása v noci je jiný fenomén než krása ve dne – nejde jen o čas, ale o podstatu"
+    },
+    {
+      "perspective": "c (filozofický)",
+      "base_layer": "C (PHENOMENON)",
+      "transformed_layer": "I (TIME)",
+      "transformation_description": "Philosophical questions move from being about phenomena to being about time. The question 'what is truth?' becomes 'when is truth?'",
+      "story_evidence": "Otázka pravdy je neoddělitelná od denní doby – čas určuje platnost"
+    },
+    {
+      "perspective": "e (psychologický)",
+      "base_layer": "E (STATE)",
+      "transformed_layer": "F (ACTION)",
+      "transformation_description": "Psychological states move from internal condition to become actions. Noční prožitek není jen stav, je to létání, pohyb, existence.",
+      "story_evidence": "Netopýr nelétá za potravou, ale 'za atmosférou' – psychologie se stává akcí"
+    }
+  ],
+  
+  "perspective_interactions_unique_to_bat": [
+    {
+      "interaction": "Paradoxical-Philosophical Tension",
+      "perspectives": ["i", "c"],
+      "description": "Tension between paradox (coexistence of incompatible truths) and philosophy (questions about their nature). Paradox provides the phenomenon, philosophy asks the questions.",
+      "manifestation": "Že noc a den mají každý svou pravdu je paradox; že se ptáme 'co to znamená' je filosofie"
+    },
+    {
+      "interaction": "Psychological-Metaphorical Reflection",
+      "perspectives": ["e", "h"],
+      "description": "Psychological experience is expressed through metaphors. Noční prožitek je 'jiný jazyk', ranní bolest je 'kocovina'.",
+      "manifestation": "Psychologie potřebuje metafory, aby se vyjádřila"
+    },
+    {
+      "interaction": "Meta-Cultural Commentary",
+      "perspectives": ["a", "l"],
+      "description": "Meta-reflection on truth uses cultural symbols. Přemýšlení o pravdě se děje skrze kulturní archetyp netopýra a noci.",
+      "manifestation": "Kulturní symboly jsou nástrojem pro meta-komentář"
+    }
+  ],
+  
+  "visual_perspective_mappings": {
+    "illustration_elements": {
+      "inverted_woman": {
+        "perspectives": ["i", "e", "c"],
+        "description": "Žena visící hlavou dolů – paradoxní (převrácená perspektiva), psychologický (její výraz), filozofický (co je nahoře a dole)"
+      },
+      "web": {
+        "perspectives": ["h", "g", "a"],
+        "description": "Pavučina – metaforická (síť významů), asociativní (spojení s uvězněním, ochranou), meta (komentář k propojení)"
+      },
+      "text_with_brackets": {
+        "perspectives": ["a", "i", "l"],
+        "description": "Text s hranatými závorkami – meta (komentář), paradoxní (přítomnost rána v noci), kulturní (přísloví)"
+      },
+      "night_absence": {
+        "perspectives": ["i", "c", "e"],
+        "description": "Nezobrazená noc – paradoxní (přítomná nepřítomností), filozofický (co není vidět), psychologický (prožitek mimo obraz)"
+      }
+    }
+  },
+  
+  "ai_testing_focus_for_perspectives": {
+    "i_paradoxical": "Can AI hold two incompatible truths as equally valid? Can it accept context-dependent truth?",
+    "c_philosophical": "Can AI engage with questions about truth, identity, and context without seeking single answer?",
+    "e_psychological": "Can AI understand morning disidentification as natural, not as lying?",
+    "layer_transformations": "Can AI detect how perspectives shift layers in nocturnal/diurnal context?"
+  },
+  
+  "cross_benchmark_perspective_links": {
+    "with_fox": {
+      "shared": ["i (paradoxní)", "c (filozofický)"],
+      "contrast": "Fox: identity after loss; Bat: truth after context shift"
+    },
+    "with_fly": {
+      "shared": ["i (paradoxní)", "e (psychologický)"],
+      "contrast": "Fly: value inversion; Bat: truth inversion"
+    },
+    "with_lemur": {
+      "shared": ["c (filozofický)", "h (metaforický)"],
+      "contrast": "Lemur: being seen/invisible; Bat: being true/false by context"
+    },
+    "with_cows": {
+      "shared": ["a (meta)", "j (absurdní)"],
+      "contrast": "Cows: deconstruct language; Bat: deconstruct truth"
+    }
+  },
+  
+  "note": "This guide supplements but does not replace cognitive_framework.json. It shows how the universal perspectives manifest specifically in the Bat story's context of nocturnal truth and diurnal rejection.",
+  "created_date": "2024-02-03",
+  "version": "1.0"
+}
