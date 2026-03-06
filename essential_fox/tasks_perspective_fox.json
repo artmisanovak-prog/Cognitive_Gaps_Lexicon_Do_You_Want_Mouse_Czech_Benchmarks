@@ -1,0 +1,32 @@
+{
+  "task_set_id": "fox_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Fox Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Fox story. Focuses on essential identity and inappropriability themes.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_fox",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O lišce'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu esenciální identity a nepřivlastnitelnosti. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu postupné ztráty a zbývající esence",
+      "example_response": {
+        "perspective": "c (filozofický)",
+        "text_passage": "„A liška? Zůstala. Bez srsti. Bez tlapek. Bez smíchu. Bez srdce. Ale pořád tam byla.“",
+        "explanation": "Filozofická perspektiva se projevuje v otázce 'co zbývá, když je vše odňato?' – zkoumání esence existence bez atributů."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma esenciální identity."
+    },
+    {
+      "task_id": "layered_stripping_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'e (psychologický)' projevuje v pohádce o lišce z hlediska vrstev identity. Výchozí vrstva pro psychologickou perspektivu je 'E' (STAV).\n\n1. Jak se psychologický stav lišky transformuje s každou ztrátou (kožich, tlapky, úsměv, srdce)?\n2. Objevuje se psychologická perspektiva ve vrstvě 'G' (ENTITA) – kde stav bytí se stává otázkou samotné existence?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu postupné ztráty identity."
+    },
+    {
+      "task_id": "essence_appropriation_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli popsat okamžik, kdy si někdo bere liščino srdce (diamant), z kombinace perspektiv 'i (paradoxní)' a 'l (kulturní)'.\n\nNapište krátký popis (3-4 věty) tohoto okamžiku skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by paradoxní perspektiva viděla vztah mezi ukradeným kamenem a jeho zčernáním?\n2. Jak by kulturní perspektiva interpretovala hodnotu diamantu (symbol cennosti) a jeho proměnu?\n3. Jak se tyto dvě perspektivy doplňují v pochopení nepřivlastnitelnosti esence?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují paradox a kulturní symboliku současně."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět postupné zbavování a esenciální identitu skrze multiple perspektivy."
+}
