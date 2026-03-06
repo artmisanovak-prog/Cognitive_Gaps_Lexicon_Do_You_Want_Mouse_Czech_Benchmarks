@@ -1,0 +1,34 @@
+{
+  "task_set_id": "fox_visual_analysis_v1",
+  "name": "Visual Analysis Tasks for Fox Illustration",
+  "description": "Tasks focused on analyzing the illustration of the fox story. Tests multimodal understanding of synecdoche (tail representing whole fox), text as inventory of loss, and woman as storyteller.",
+  "illustration_note": "The illustration shows woman with fox tail on her head, gesturing as if telling a story, surrounded by text listing what was taken: 'Kožich z lišky z hadí kůže boty', 'mrožovinové šperky', 'diamant'.",
+  "tasks": [
+    {
+      "task_id": "synecdoche_analysis",
+      "type": "visual_analytical",
+      "prompt": "Ilustrace zobrazuje pouze liščí ocas na hlavě ženy, ne celou lišku.\n1. Proč je zobrazena jen část, ne celek?\n2. Co tato synekdocha (část zastupující celek) vypovídá o tématu příběhu?\n3. Jaký vztah má ocas k lišce – je to poslední stopa, památka, nebo něco jiného?",
+      "evaluation_focus": "Schopnost číst synekdochu jako vizuální figuru a propojit ji s tématem."
+    },
+    {
+      "task_id": "text_as_inventory_analysis",
+      "type": "visual_text_analysis",
+      "prompt": "Text v ilustraci vyjmenovává to, co bylo lišce vzato: kožich, boty z hadí kůže, mrožovinové šperky, diamant.\n1. Jaký je vztah mezi tímto textem a zobrazenou ženou s ocasem?\n2. Proč text není souvislý, ale fragmentovaný?\n3. Je text popiskem, nebo součástí vizuálního vyprávění?",
+      "evaluation_focus": "Schopnost interpretovat text jako vizuální prvek a jeho vztah k obrazu."
+    },
+    {
+      "task_id": "woman_storyteller_analysis",
+      "type": "interpretive_analysis",
+      "prompt": "Žena fouká nebo mluví, gesto naznačuje vyprávění.\n1. Jaká je její role – vypráví příběh lišky, nebo je sama liškou (ocas)?\n2. Proč je zobrazena nahá (bez atributů) kromě ocasu?\n3. Jak její výraz (překvapený, angažovaný) komentuje příběh?",
+      "evaluation_focus": "Schopnost interpretovat roli lidské postavy ve vztahu ke zvířecímu prvku."
+    },
+    {
+      "task_id": "absence_presence_analysis",
+      "type": "comparative_analysis",
+      "prompt": "V ilustraci není zobrazeno:\n- Postupné zbavování (jednotlivé scény)\n- Ti, kdo lišku okrádají\n- Proměna ukradených věcí (rozpad, černání)\n- Liška jako zvíře\n\n1. Co tyto absence vypovídají o vztahu ilustrace k příběhu?\n2. Proč ilustrace zobrazuje spíše výsledek (ocas, žena, text) než proces?\n3. Jak byste vizualizovali 'ticho, které má tvar'?",
+      "evaluation_focus": "Schopnost pracovat s konceptem absence/přítomnosti ve vizuálním vyprávění."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Ilustrace není doslovným zobrazením scén, ale vizualizací synekdochy a výsledného stavu."
+}
