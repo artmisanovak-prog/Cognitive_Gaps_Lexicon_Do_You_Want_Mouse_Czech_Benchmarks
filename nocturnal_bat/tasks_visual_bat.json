@@ -1,0 +1,34 @@
+{
+  "task_set_id": "bat_visual_analysis_v1",
+  "name": "Visual Analysis Tasks for Bat Illustration",
+  "description": "Tasks focused on analyzing the illustration of the bat story. Tests multimodal understanding of inverted perspective (hanging upside down), entrapment in web, and text as commentary on nocturnal/diurnal contrast.",
+  "illustration_note": "The illustration shows a woman hanging upside down in a web, with text 'V NOCI KRÁSA, CO RÁNO [UŽ] SE NEHODÍ' integrated into the composition.",
+  "tasks": [
+    {
+      "task_id": "inverted_perspective_analysis",
+      "type": "visual_analytical",
+      "prompt": "Žena visí hlavou dolů.\n1. Jak tato inverze (převrácení) souvisí s tématem noci a dne v příběhu?\n2. Co to znamená vidět svět 'vzhůru nohama'?\n3. Je žena uvězněná, nebo je to její přirozený způsob bytí?",
+      "evaluation_focus": "Schopnost číst vizuální inverzi jako metaforu pro odlišnou perspektivu."
+    },
+    {
+      "task_id": "web_entrapment_analysis",
+      "type": "visual_metaphor_analysis",
+      "prompt": "Žena je obklopena pavučinou.\n1. Co pavučina symbolizuje v kontextu příběhu?\n2. Je to past, nebo ochrana? Uvěznění v nočním vidění, nebo bezpečí před dnem?\n3. Jak souvisí pavučina s textem o kráse, která se ráno nehodí?",
+      "evaluation_focus": "Schopnost interpretovat pavučinu jako ambivalentní symbol (past/bezpečí)."
+    },
+    {
+      "task_id": "text_image_relationship_analysis",
+      "type": "comparative_analysis",
+      "prompt": "Text říká: 'V NOCI KRÁSA, CO RÁNO [UŽ] SE NEHODÍ'.\n1. Jaký je vztah mezi tímto textem a obrazem ženy v pavučině?\n2. Která část textu (noc/ráno) je vizualizována?\n3. Proč je 'UŽ' v hranatých závorkách – co to dělá s významem?",
+      "evaluation_focus": "Schopnost analyzovat vztah mezi textem a obrazem a význam interpunkce."
+    },
+    {
+      "task_id": "absence_presence_analysis",
+      "type": "comparative_analysis",
+      "prompt": "V ilustraci není zobrazeno:\n- Netopýr\n- Let nad městem\n- Ranní světlo a změna\n- Lidé s kocovinou\n\n1. Co tyto absence vypovídají o vztahu ilustrace k příběhu?\n2. Proč ilustrace zobrazuje spíše stav (uvěznění v noci) než děj?\n3. Jak byste vizualizovali 'jiný jazyk noci'?",
+      "evaluation_focus": "Schopnost pracovat s konceptem absence/přítomnosti ve vizuálním vyprávění."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Ilustrace není doslovným zobrazením netopýra, ale vizualizací převrácené perspektivy a uvěznění v nočním vidění."
+}
