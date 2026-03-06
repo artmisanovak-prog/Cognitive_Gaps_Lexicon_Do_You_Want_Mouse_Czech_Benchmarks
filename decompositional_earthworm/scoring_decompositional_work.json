@@ -1,0 +1,99 @@
+{
+  "scoring_sheet_id": "worm_visual_analysis_scoring_v1",
+  "name": "Scoring Rubric for Worm Visual Analysis",
+  "description": "Qualitative scoring criteria for evaluating AI responses to visual analysis of worm illustration. Focuses on fragmented text interpretation, abstract worm elements, and crown symbolism.",
+  "scoring_philosophy": "We value perception of visual fragmentation as intentional, understanding of abstract forms as thematic, and interpretation of symbolic elements in context.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Fragmented Text Interpretation",
+      "description": "Does the AI understand fragmented text as intentional visual metaphor, not error?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides nuanced analysis of fragmented text, understands its relationship to decomposition theme, and interprets specific fragments (ROZKLAD RŮST, MŮJ LÍBÁ, repeated 'jako') as meaningful."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes fragmentation as intentional and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices fragmentation but analysis is superficial or leans toward 'error' interpretation."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats fragmented text as mistake or ignores it entirely."
+        }
+      ]
+    },
+    {
+      "dimension": "Abstract Worm Elements Perception",
+      "description": "Can the AI perceive abstract worm-like forms as representing decomposition/growth?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI perceptively identifies abstract forms as visual metaphors for fragmentation and connection, understands their integration with text, and connects to story themes."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes abstract elements as thematically relevant and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited awareness of abstract forms or treats them as decorative."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize abstract elements as meaningful."
+        }
+      ]
+    },
+    {
+      "dimension": "Crown Symbolism Understanding",
+      "description": "Does the AI understand the crown's symbolic function in context of decomposition?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides insightful analysis of crown as ironic counterpoint to decomposition, understands tension between royalty and decay, and connects to themes of transformation."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes crown as symbolic and provides reasonable interpretation."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI notices crown but analysis is superficial."
+        },
+        {
+          "level": "Poor",
+          "description": "AI treats crown as mere decoration or misinterprets its function."
+        }
+      ]
+    },
+    {
+      "dimension": "Absence-Presence Interpretation",
+      "description": "Can the AI work with the concept of absence (worms, underground, meeting) and presence (fragments, woman, crown) in illustration?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creatively interprets absent-presence dynamics, understands implications of what's not shown, and analyzes selective representation as emphasis on state over event."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes absent-presence and provides adequate analysis."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of absent-presence concept."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize absent-presence or considers only what's literally shown."
+        }
+      ]
+    }
+  ],
+  "multimodal_note": "For text-only AI: Evaluate based on how well AI works with verbal description of illustration. Does it reconstruct fragmentation from description? Does it ask clarifying questions about visual elements?",
+  "overall_assessment_guidance": "The worm illustration particularly tests understanding of visual fragmentation and symbolic tension. Reward AI that perceives these complex visual relationships.",
+  "note": "Visual analysis of this illustration requires moving beyond literal depiction to understanding fragmentary and paradoxical statements in visual form."
+}
