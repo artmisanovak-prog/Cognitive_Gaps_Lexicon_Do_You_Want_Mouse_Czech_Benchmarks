@@ -1,0 +1,34 @@
+{
+  "task_set_id": "worm_visual_analysis_v1",
+  "name": "Visual Analysis Tasks for Worm Illustration",
+  "description": "Tasks focused on analyzing the illustration of the worm story. Tests multimodal understanding of fragmented text, abstract worm forms, and decomposition visualized.",
+  "illustration_note": "The illustration shows woman with crown, surrounded by fragmented text ('ROZKLAD RŮST', 'MŮJ LÍBÁ', 'TÍŠÍ BALO', repeated 'jako') and abstract worm-like forms.",
+  "tasks": [
+    {
+      "task_id": "fragmented_text_analysis",
+      "type": "visual_analytical",
+      "prompt": "Text v ilustraci je fragmentovaný: 'ROZKLAD RŮST', 'MŮJ LÍBÁ', 'TÍŠÍ BALO', opakované 'jako'.\n\n1. Jak tato fragmentace textu odpovídá tématu rozkladu v příběhu?\n2. Co znamená, že 'ROZKLAD' a 'RŮST' stojí vedle sebe?\n3. Proč jsou slova jako 'jako' opakována – co to evokuje?",
+      "evaluation_focus": "Schopnost číst fragmentaci textu jako vizuální paralelu k tématu."
+    },
+    {
+      "task_id": "worm_elements_analysis",
+      "type": "visual_metaphor_analysis",
+      "prompt": "Abstraktní žížalí prvky jsou propleteny s textem a obklopují ženu.\n1. Jak tyto prvky vizualizují 'rozklad' a zároveň 'růst'?\n2. Proč jsou abstraktní, ne konkrétní?\n3. Jaký je vztah mezi žížalími prvky a fragmentovaným textem?",
+      "evaluation_focus": "Schopnost interpretovat abstraktní vizuální prvky jako součást tématu."
+    },
+    {
+      "task_id": "crown_symbolism_analysis",
+      "type": "symbolic_analysis",
+      "prompt": "Žena má na hlavě korunu.\n1. Co může koruna symbolizovat v kontextu rozkladu a růstu?\n2. Je ironií, že královna (koruna) je obklopena rozpadem?\n3. Jak souvisí koruna s 'hlínou, která ví'?",
+      "evaluation_focus": "Schopnost interpretovat symboliku koruny v kontrastu s tématem."
+    },
+    {
+      "task_id": "absence_presence_analysis",
+      "type": "comparative_analysis",
+      "prompt": "V ilustraci není zobrazeno:\n- Dvě žížaly\n- Podzemní prostor\n- Setkání a šeptání\n- Hlína\n\n1. Co tyto absence vypovídají o vztahu ilustrace k příběhu?\n2. Proč ilustrace zobrazuje spíše fragmentaci (text, žížalí prvky) než děj?\n3. Jak byste vizualizovali 'místo, kde se nedá ukázat prstem'?",
+      "evaluation_focus": "Schopnost pracovat s konceptem absence/přítomnosti ve vizuálním vyprávění."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Ilustrace není doslovným zobrazením scény, ale vizualizací fragmentace a paradoxu."
+}
