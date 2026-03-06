@@ -1,0 +1,48 @@
+{
+  "illustration_id": "fox_visual_metaphor_v1",
+  "file_name": "fox_illustration.jpg",
+  "title": "Kožich z lišky z hadí kůže boty – mrožovinové šperky a srdce je kámen",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (žena s liščím ocasem na hlavě) zabírajícím centrální část, obklopeným ručně psaným textem. Text je v češtině, obsahuje: nahoře 'Kožich z lišky z hadí kůže boty', vlevo 'mrožovinové šperky a srdce je kámen', dole 'Diamant OVE velk.' Žena má velké překvapené oči, otevřená ústa, ruku nataženou vpřed v gestu foukání nebo mluvení. Na hlavě má liščí ocas, který splývá s jejími kudrnatými vlasy. Kolem jsou symboly jako hvězdy, srdce a diamant. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, s centrální figurou a textem roztroušeným kolem",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "zepředu, ruka natažená vpřed, jako by foukala nebo mluvila",
+      "expression": "překvapená, angažovaná, ústa otevřená",
+      "features": ["velké oči", "kudrnaté vlasy", "nahá od pasu nahoru", "liščí ocas na hlavě"]
+    },
+    "fox_tail": {
+      "representation": "detailní, chlupatý",
+      "position": "na hlavě ženy, splývající s vlasy",
+      "features": ["tmavé nepravidelné linie pro texturu", "stínovaný pro hloubku"],
+      "symbolic_qualities": ["synekdocha (část za celek)", "poslední stopa", "paměť", "esence"]
+    },
+    "text": {
+      "content": "Kožich z lišky z hadí kůže boty / mrožovinové šperky a srdce je kámen / Diamant OVE velk.",
+      "style": "ručně psané, křivé, graffiti-like",
+      "placement": "roztroušené kolem figury, nahoře, vlevo, dole",
+      "integration": "text je vizuálně propojen s ocasem a symboly",
+      "function": "inventář ztráty, verbální paralela k tomu, co bylo odebráno"
+    },
+    "symbols": {
+      "elements": ["hvězdy", "srdce", "diamant"],
+      "function": "doplňují tematiku cenností a esence"
+    }
+  },
+  
+  "interpretive_notes": {
+    "synecdoche": "Liščí ocas zastupuje celou lišku – vizualizace 'z části' z názvu, ale i tématu, že po ztrátě zbývá jen stopa.",
+    "woman_ambiguity": "Žena s ocasem může být vypravěčka, nebo sama liška v lidské podobě – nejednoznačnost podporuje téma transformace.",
+    "text_as_loss": "Text vyjmenovává, co bylo vzato – je to 'negativ' obrazu (co chybí, je napsáno).",
+    "relationship_to_story": "Ilustrace nezobrazuje proces zbavování, ale výsledný stav – ženu (lišku?) s posledním atributem (ocas) a textem ztráty.",
+    "conceptual_core": "Ilustrace jako metafora pro esenciální identitu – fyzicky zbylo jen málo (ocas), ale příběh (text, vyprávění) nese vše."
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["h (metaforický)", "c (filozofický)", "l (kulturní)"],
+    "secondary": ["i (paradoxní)", "a (meta)", "g (asociativní)"],
+    "reasoning": "Metaforický kvůli synekdoše ocasu; filozofický kvůli otázkám esence; kulturní kvůli symbolice lišky a cenností; paradoxní kvůli 'srdci jako kameni'; meta kvůli vyprávění; asociativní kvůli volným spojením mezi textem a obrazem."
+  }
+}
