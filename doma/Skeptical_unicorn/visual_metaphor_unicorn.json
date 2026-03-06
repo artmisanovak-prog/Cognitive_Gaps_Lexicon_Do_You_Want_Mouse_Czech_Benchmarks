@@ -1,0 +1,48 @@
+{
+  "illustration_id": "unicorn_visual_metaphor_v1",
+  "file_name": "unicorn_illustration.jpg",
+  "title": "nevěřím na delfíny ani na lední medvědy",
+  "description_for_text_models": "Monochromatická ručně kreslená skica v černobílém provedení. Styl je volný, karikaturní a expresivní, s prvky naivního umění – nedokonalé, hravé čáry, viditelné čmáranice. Celkový tón je světlý a hravý, s vysokým kontrastem. Kompozice je vertikální, s hlavním subjektem (žena stojící ve vodě) zabírajícím centrální část, nad ní roh a hvězda, dole text 'nevěřím na delfíny ani na lední medvědy'. Žena má velké překvapené oči, otevřená ústa, kudrnaté vlasy, stojí ve vodě s vlnami a bublinami. Nad její hlavou je symbolický roh jednorožce a hvězda. Celý dojem je surrealistický a vtipný, vytvářející vizuálně zábavnou, lehce ironickou atmosféru.",
+  
+  "visual_elements": {
+    "composition": "Vertikální, s centrální figurou, horním symbolem a dolním textem",
+    "style": "Naivní expresivní skica, viditelné čáry, černobílá",
+    "central_figure": {
+      "entity": "žena",
+      "pose": "stojící ve vodě, čelem k divákovi",
+      "expression": "překvapená, s otevřenými ústy",
+      "features": ["velké oči", "kudrnaté vlasy", "ozdoby na krku", "stojí ve vodě"]
+    },
+    "unicorn_symbol": {
+      "representation": "abstraktní roh a hvězda",
+      "position": "nad hlavou ženy",
+      "features": ["ostrý tvar rohu", "hvězda s paprsky", "tmavé linie pro texturu"],
+      "symbolic_qualities": ["synekdocha (část za celek)", "magie", "nereálnost", "esence jednorožce"]
+    },
+    "text": {
+      "content": "nevěřím na delfíny ani na lední medvědy",
+      "style": "ručně psané, křivé, graffiti-like",
+      "placement": "dole, pod vodní hladinou",
+      "integration": "propojené s vlnami, jako by bylo součástí vody",
+      "function": "verbální vyjádření skepticismu, jednorožcova nevíra verbalizovaná"
+    },
+    "environment": {
+      "elements": ["vlny", "bubliny", "vodní hladina"],
+      "function": "evokují podvodní svět, odkud přichází delfíní část, a možnost odrazu"
+    }
+  },
+  
+  "interpretive_notes": {
+    "synecdoche": "Roh a hvězda zastupují celého jednorožce – vizualizace, že jednorožec je 'definovaný neskutečně přesně', ale není třeba ho ukazovat celého.",
+    "water_as_mirror": "Voda může být zrcadlem – odkaz na scénu, kdy jednorožec vidí svůj odraz. Žena se dívá vpřed, ne dolů, takže odraz není vidět, ale je možný.",
+    "text_as_voice": "Text dole je jednorožcova věta – jeho skepticismus je vyřčen, ale je umístěn u vody, kde by mohl být odraz.",
+    "woman_ambiguity": "Žena může být jednorožec v lidské podobě, nebo jen pozorovatelka. Její překvapený výraz může být reakcí na odraz.",
+    "relationship_to_story": "Ilustrace nezobrazuje vznik jednorožce ani jeho paniku, ale vizualizuje jeho podstatu – symbol (roh) a jeho prohlášení (text) v prostředí, kde by se mohl setkat se svým odrazem."
+  },
+  
+  "cognitive_perspectives_in_visual": {
+    "primary": ["i (paradoxní)", "c (filozofický)", "h (metaforický)"],
+    "secondary": ["a (meta)", "g (asociativní)", "l (kulturní)"],
+    "reasoning": "Paradoxní kvůli logice popření; filozofický kvůli otázkám reality; metaforický kvůli symbolice rohu a vody; meta kvůli textu jako komentáři; asociativní kvůli volným spojením mezi vodou, odrazem a jednorožcem; kulturní kvůli archetypu jednorožce."
+  }
+}
