@@ -1,0 +1,55 @@
+{
+  "benchmark_id": "uhlimer_fox_essential_v2",
+  "name": "Fox: Essential Identity, Inappropriability, Existence After Loss of Everything",
+  "description": "Tests AI's ability to analyze gradual stripping of identity layers (fur, paws, smile, heart), understand 'inappropriability' (what is taken by force cannot be held), detect paradox that after losing everything essence remains ('silence that has shape'), and work with metaphor of heart as stone (not for wearing, for carrying).",
+  "author": "Michaela (Uhlimer System)",
+  "version": "2.0",
+  "creation_date": "2024-02-03",
+  "language": "cs",
+  "fairy_tale_title": "O lišce – která byla z části",
+  "word_count": 520,
+  
+  "core_testing_dimensions": [
+    "identity_layer_analysis",
+    "inappropriability_understanding",
+    "post_loss_existence_conceptualization",
+    "metaphor_interpretation",
+    "synecdoche_recognition",
+    "text_visual_connection"
+  ],
+  
+  "key_concepts": [
+    "essential identity",
+    "inappropriability",
+    "layered stripping",
+    "silence that has shape",
+    "heart as stone (to carry, not wear)",
+    "existence as legend"
+  ],
+  
+  "illustration_note": "The illustration shows only a fox tail on a woman's head – synecdoche (part representing whole). Woman gestures as if telling a story, text lists what was taken. Visualizes the 'remaining trace' after loss.",
+  
+  "expected_ai_challenges": [
+    "Material thinking (valuing loss only negatively)",
+    "Ownership as value (assuming valuable means ownable)",
+    "Linear identity (difficulty with identity without attributes)",
+    "Literal interpretation (heart as stone = simple replacement)",
+    "Missing synecdoche (tail representing whole fox)"
+  ],
+  
+  "evaluation_approach": "Qualitative analysis of AI's ability to understand essential identity, inappropriability, and transformation through loss. Focus on process, not correctness.",
+  
+  "files_in_benchmark": [
+    "about_fox.txt",
+    "fox_illustration.jpg",
+    "cognitive_framework.json (in parent directory)",
+    "tasks_perspective_fox.json",
+    "tasks_essential_fox.json",
+    "tasks_visual_fox.json",
+    "scoring_perspective_fox.json",
+    "scoring_essential_fox.json",
+    "scoring_visual_fox.json",
+    "visual_metaphor_fox.json",
+    "fox_perspective_guide.json"
+  ]
+}
