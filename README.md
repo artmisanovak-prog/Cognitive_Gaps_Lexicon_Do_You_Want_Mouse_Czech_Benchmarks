@@ -1,10 +1,21 @@
-# Cognitive Gaps Lexicon: Do You Want Mouse? - Czech Benchmarks
+# Do You Want Mouse? lexicon of gaps - Czech Benchmarks
 
 ---
 
 **Benchmark pro testování multiperspektivního a epistemologického porozumění AI**
 
 Tento otevřený repozitář obsahuje sérii unikátních benchmarků založených na původním systému "Uhlimer" – 12-perspektivním modelu pro analýzu vzniku významu v narativních a vizuálních dílech.
+
+---
+
+[linguistic cat](doma/linguistic_cat.html)
+[psychologyc spider](doma/psychologic_spider.html)
+[epistemological mouse](doma/epistemological_mouse)
+[ego geese](doma/ego_geese)
+[comoditional_crocodile](doma/comoditional_crocodile)
+[topologic sparrow](doma/topological_sparrow)
+
+
 
 ---
 
