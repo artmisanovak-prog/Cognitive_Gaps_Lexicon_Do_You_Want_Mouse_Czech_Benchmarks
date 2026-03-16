@@ -14,7 +14,9 @@ Tento otevřený repozitář obsahuje sérii unikátních benchmarků založený
 [ego geese](egoistic_geese)
 [comoditional_crocodile](comoditional_crocodile)
 [topologic sparrow](topological_sparrow)
-
+[gastrosemiotic_butterfly](gastrosemiotic_butterfly/README.md)
+[gastrosemiotic_butterfly_illustration](gastrosemiotic_butterfly/butterfly.jpg)
+[gastrosemiotic_butterfly](gastrosemiotic_butterfly/gastrosemiotic_butterfly_v1.json)
 
 
 ---
