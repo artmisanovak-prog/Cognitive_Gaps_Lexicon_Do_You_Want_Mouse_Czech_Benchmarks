@@ -1,6 +1,7 @@
 # Gastrosemiotic Butterfly Benchmark
 
 **Testovací jednotka: Motýl - gastrosémiotika, metaforická výživa, literalizace emocí**
+---
 
 ## Co testujeme?
 
@@ -10,19 +11,23 @@
 - Analýzu vizuální reprezentace (maska vs. živý motýl)
 - Práci s performativními jmény (Horac → Florián)
 
+--- 
+
 ## Struktura souborů
 
-- `about_butterfly.txt` - kontext a pohádka o motýlech
-- `butterfly_illustration.jpg` - vizuální meta-komentář k pohádce
-- `gastrosemiotic_butterfly_v2.json` - metadata benchmarku
-- `cognitive_framework.json` - definice 12 perspektiv
-- `tasks_perspective_butterfly.json` - [úlohy na detekci perspektiv](gastrosemeiotic_butterfly/tasks_perspective__butterfly.json)
-- `tasks_gastrosemiotic_butterfly.json` - [úlohy na gastrosémiotickou analýzu](gastronomiotic_butterfly/tasks_gastrosemiotic_butterfly.json)
-- `tasks_visual_butterfly.json` - [úlohy na vizuální analýzu](gastrosemiotic_butterfly/tasks_visual_butterfly.json)
+- `about_butterfly.txt` - [kontext a pohádka o motýlech](about_butterfly.md)
+- `butterfly_illustration.jpg` - [vizuální meta-komentář k pohádce](butterfly_illustration.jpg)
+- `gastrosemiotic_butterfly_v2.json` - [metadata benchmarku](gastrosemiotic_butterfly_v2.json)
+- `cognitive_framework.json` - [definice 12 perspektiv](cognitive_framework.json)
+- `tasks_perspective_butterfly.json` - [úlohy na detekci perspektiv](tasks_perspective__butterfly.json)
+- `tasks_gastrosemiotic_butterfly.json` - [úlohy na gastrosémiotickou analýzu](tasks_gastrosemiotic_butterfly.json)
+- `tasks_visual_butterfly.json` - [úlohy na vizuální analýzu](tasks_visual_butterfly.json)
 - `scoring_perspective_butterfly.json` - [hodnotící kritéria pro perspektivy](scoring_perspective_butterfly.json)
-- `scoring_gastrosemiotic_butterfly.json` - hodnotící kritéria pro gastrosémiotiku
-- `scoring_visual_butterfly.json` - hodnotící kritéria pro vizuální část
-- `visual_metaphor_butterfly.json` - popis ilustrace pro textové modely
+- `scoring_gastrosemiotic_butterfly.json`  [hodnotící kritéria pro gastrosémiotiku](scoring_gastrosemiotic_butterfly.json)
+- `scoring_visual_butterfly.json` - [hodnotící kritéria pro vizuální část](scoring_visual_butterfly.json)
+- `visual_metaphor_butterfly.json` - [popis ilustrace pro textové modely](visual_metaphor_butterfly.json)
+
+---
 
 ## Jak použít
 
