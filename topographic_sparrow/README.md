@@ -4,7 +4,7 @@
 
 ## Co testujeme?
 
-* Schopnost AI analyzovat prostorové metafory hodnoty (hrst × hlava × střeš)
+* Schopnost AI analyzovat prostorové metafory hodnoty (hrst × hlava × střecha)
 * Porozumění transformaci od "jistoty v hrsti" k "nejistotě na hlavě"
 * Detekci ekonomie pozornosti a mentálního vlastnictví
 * Analýzu vztahu mezi fyzickým umístěním a sémantickou hodnotou
