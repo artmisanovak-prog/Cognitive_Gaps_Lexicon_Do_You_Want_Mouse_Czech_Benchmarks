@@ -17,7 +17,7 @@ Tento otevřený repozitář obsahuje sérii unikátních benchmarků založený
 - [gastrosemiotic_butterfly](gastrosemiotic_butterfly/README.md)
 - [gastrosemiotic_butterfly_illustration](gastrosemiotic_butterfly/butterfly_illustration.jpg)
 - [gastrosemiotic_butterfly](gastrosemiotic_butterfly/gastrosemiotic_butterfly_v2.json)
-
+- [balanced shark](doma/balanced_shark/index_shark.html)
 
 ---
 
