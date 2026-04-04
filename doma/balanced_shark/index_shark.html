@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balanced Shark Benchmark · forenzní analýza jazyka</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f4f2ef;
+            color: #1a1a1a;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.5;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            font-family: 'Courier Prime', monospace;
+        }
+        .benchmark-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #1a1a1a;
+            padding-bottom: 1rem;
+        }
+        .benchmark-header h1 {
+            background: #1a1a1a;
+            color: #f4f2ef;
+            display: inline-block;
+            padding: 0.2rem 1rem;
+            font-size: 1.8rem;
+        }
+        .grid-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        @media (max-width: 800px) {
+            .grid-2col { grid-template-columns: 1fr; }
+        }
+        .card {
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid #e2dfdb;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+        }
+        .card-header {
+            font-family: 'Courier Prime', monospace;
+            font-weight: 700;
+            padding: 1rem 1.5rem;
+            background: #faf8f5;
+            border-bottom: 2px solid #e2dfdb;
+        }
+        .card-body {
+            padding: 1.5rem;
+        }
+        .fairy-tale {
+            background: #fffcf9;
+            border-left: 6px solid #1a1a1a;
+            padding: 1rem 1.5rem;
+            font-family: 'Courier Prime', monospace;
+            white-space: pre-line;
+            font-size: 0.9rem;
+        }
+        .illustration {
+            text-align: center;
+        }
+        .illustration img {
+            max-width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+            background: #eae7e2;
+        }
+        .task-item {
+            background: #f9f9f6;
+            margin-bottom: 1.2rem;
+            padding: 1rem;
+            border-radius: 18px;
+            border-left: 4px solid #1a1a1a;
+        }
+        .task-meta {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #6b6b6b;
+            margin-bottom: 0.3rem;
+        }
+        .task-prompt {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        textarea {
+            width: 100%;
+            padding: 0.7rem;
+            border: 1px solid #ccc;
+            border-radius: 16px;
+            font-family: inherit;
+            margin-top: 0.5rem;
+            background: white;
+            resize: vertical;
+        }
+        .score-btn {
+            background: #1a1a1a;
+            color: white;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 40px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 1rem;
+            margin: 1rem 0;
+        }
+        .forensic-report {
+            background: #1e1e1e;
+            color: #e0e0e0;
+            font-family: 'Courier Prime', monospace;
+            padding: 1.5rem;
+            border-radius: 20px;
+            margin-top: 1rem;
+            white-space: pre-wrap;
+            font-size: 0.85rem;
+        }
+        .badge {
+            display: inline-block;
+            background: #e2dfdb;
+            border-radius: 30px;
+            padding: 0.2rem 0.6rem;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-right: 0.4rem;
+        }
+        hr {
+            margin: 1rem 0;
+            border-top: 1px dotted #ccc;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.75rem;
+            margin-top: 2rem;
+            color: #6b6b6b;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="benchmark-header">
+        <h1>BALANCED SHARK</h1>
+        <div>rovnováha viděného a skrytého · poměr jako princip existence · 1:1</div>
+    </div>
+
+    <!-- ======================== POHÁDKA + ILUSTRACE ======================== -->
+    <div class="grid-2col">
+        <div class="card">
+            <div class="card-header">📖 O žralokovi – který měl poměr</div>
+            <div class="card-body">
+                <div class="fairy-tale" id="storyText">
+                    <!-- vloženo z about_shark.txt -->
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">🦈 NAD : POD = 1 : 1</div>
+            <div class="card-body illustration">
+                <img src="shark_illustration.jpg" alt="Žralok – vizuální metafora" onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'500\' viewBox=\'0 0 400 500\'%3E%3Crect width=\'400\' height=\'500\' fill=\'%23faf3e0\'/%3E%3Ctext x=\'200\' y=\'40\' text-anchor=\'middle\' font-family=\'monospace\' font-size=\'20\' fill=\'%23111\'%3ENAD:POD 1:1%3C/text%3E%3Cpath d=\'M100 200...\' stroke=\'%23222\' fill=\'none\'/%3E%3C/svg%3E';">
+                <p class="caption" style="margin-top:0.5rem;">🎴 shark_illustration.jpg – žena, žralok, mřížka, text 1:1</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================== ÚLOHY (všechny tasks_*.json) ======================== -->
+    <div class="grid-2col">
+        <!-- LEVÝ SLOUPEC: Balanced tasks + Visual -->
+        <div>
+            <div class="card">
+                <div class="card-header">⚖️ ROVNOVÁHA A POMĚR (balanced_shark)</div>
+                <div class="card-body" id="balancedTasksContainer"></div>
+            </div>
+            <div class="card">
+                <div class="card-header">🎨 VIZUÁLNÍ ANALÝZA (visual_shark)</div>
+                <div class="card-body" id="visualTasksContainer"></div>
+            </div>
+        </div>
+        <!-- PRAVÝ SLOUPEC: Perspektivní úlohy -->
+        <div>
+            <div class="card">
+                <div class="card-header">🧠 PERSPEKTIVY (perspective_shark)</div>
+                <div class="card-body" id="perspectiveTasksContainer"></div>
+            </div>
+            <div class="card">
+                <div class="card-header">📚 KOGNITIVNÍ RÁMEC (12 perspektiv)</div>
+                <div class="card-body" id="frameworkSummary" style="font-size:0.85rem;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================== FORENZNÍ ANALYZÁTOR ======================== -->
+    <div class="card">
+        <div class="card-header">🔬 FORENZNÍ ANALÝZA ODPOVĚDÍ (struktura jazyka)</div>
+        <div class="card-body">
+            <button id="forensicBtn" class="score-btn">🔍 SPUSTIT FORENZNÍ MAPOVÁNÍ</button>
+            <div id="forensicReport" class="forensic-report">
+                ⚡ Po vyplnění textových polí klikněte. Analyzátor detekuje úrovně Excellent / Good / Adequate / Poor podle scoring rubrik, výhradně z jazykových markerů.
+            </div>
+        </div>
+    </div>
+    <footer>
+        Balanced Shark Benchmark v2.0 – Michaela (Uhlimer System) · Princip 1:1 · forenzní analýza založená na scoring_*.json
+    </footer>
+</div>
+
+<script>
+    // ======================== VLOŽENÍ VŠECH SOUBORŮ JAKO DATA ========================
+    // about_shark.txt
+    const FAIRY_TALE = `Zní to jako rovnice, ale zároveň jako hádanka. Žralok je tvor, co se tváří, že je dole, ale občas se vynoří. Nad hladinou je jen na chvíli, pod ní je doma. A přesto — poměr je 1:1. Jako kdyby to, co je vidět, bylo stejně důležité jako to, co není.
+
+Žralok žil pod vodou. To se ví. Tam je doma. Tam je klid. Tam se neptá nikdo na nic.
+
+Ale jednou za čas se vynořil. Jen na chvíli. Jen na nádech. Jen na pohled.
+
+A pokaždé, když se vynořil, někdo ho uviděl. A řekl: „Žralok! Pozor!“ „Nebezpečí!“ „Zuby!“
+
+A žralok se zase ponořil. Pod hladinu. Do ticha. Do místa, kde nikdo nekřičí.
+
+Ale začal si počítat. Kolikrát je nad. Kolikrát je pod. A zjistil: 1 : 1
+
+„Jednou nahoře. Jednou dole. Jednou viděn. Jednou skryt. To je spravedlivé,“ řekl si. „To je rovnováha. To je život.“
+
+Pak přišla ryba. Malá. Zvědavá. A zeptala se: „Proč se vůbec vynořuješ?“ „Aby si mě všimli,“ řekl žralok. „Aby věděli, že jsem.“ „Ale pak se bojí,“ řekla ryba. „To je jejich věc,“ řekl žralok. „Já jsem jen poměr.“
+
+Ryba si to zapsala. Do bubliny. Do kruhu na vodě. Do paměti.
+
+„A co kdyby ses vynořil dvakrát?“ „Pak bych byl víc nad než pod. A to už nejsem já.“
+
+Od té doby si žralok hlídá poměr. Jednou nahoře. Jednou dole. Nikdy víc. Nikdy míň.
+
+A když ho někdo zahlédne, je to přesně ten okamžik, co má být. Ne dřív. Ne později.`;
+
+    // balanced_shark_v2.json (metadata)
+    const BENCHMARK_META = {
+        benchmark_id: "uhlimer_shark_balanced_v2",
+        name: "Shark: Balance of Seen and Hidden",
+        key_concepts: ["ratio 1:1", "balance as justice", "being seen = being known", "counting as self-maintenance"]
+    };
+
+    // tasks_balanced_shark.json
+    const BALANCED_TASKS = [
+        { id: "ratio_identity", prompt: "Žralok říká: 'Kdybych byl víc nad než pod, to už nejsem já.' Může být identita vázána na číselný poměr? Co by se změnilo při poměru 2:1? Analyzujte koncept identity definované numerickým poměrem." },
+        { id: "need_to_be_seen", prompt: "„Aby si mě všimli. Aby věděli, že jsem.“ Proč žralok potřebuje být viděn, i když ho pak vnímají jako nebezpečí? Je existence závislá na tom, že ji někdo vidí?" },
+        { id: "balance_justice", prompt: "„To je spravedlivé. To je rovnováha. To je život.“ Proč je rovnováha vnímána jako spravedlnost? Může být spravedlnost matematická?" },
+        { id: "above_below_paradox", prompt: "Nad hladinou = nebezpečí, pod hladinou = domov. Proč se žralok vystavuje nebezpečí, aby byl viděn? Co je důležitější – bezpečí, nebo existence pro druhé?" },
+        { id: "counting_ritual", prompt: "Žralok si počítá nahoře/dole. Je to mechanická činnost, nebo rituál udržování sebe sama? Co by se stalo, kdyby přestal počítat?" }
+    ];
+
+    // tasks_visual_shark.json
+    const VISUAL_TASKS = [
+        { id: "visual_balance", prompt: "Jak vizuální rovnováha mezi ženou a žralokem (levá/pravá) odpovídá tématu poměru 1:1? Co by se změnilo, kdyby byl žralok výraznější?" },
+        { id: "grid_symbolism", prompt: "Mřížka dole připomíná hrací desku / graf. Co symbolizuje v kontextu počítání a poměru? Proč je umístěna pod postavami?" },
+        { id: "woman_shark_proximity", prompt: "Žena a žralok jsou v těsné blízkosti, téměř propojeni. Je to napětí, spojení, nebo rovnováha? Co znamenají její otevřené oči?" },
+        { id: "above_below_visual", prompt: "Text 'NAD:POD 1:1' je nahoře. Jak je vizuálně znázorněno 'nad' a 'pod'? Souvisí to s postavami?" }
+    ];
+
+    // tasks_perspective_shark.json
+    const PERSPECTIVE_TASKS = [
+        { id: "perspective_identification", prompt: "Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných), které nejlépe vystihují téma rovnováhy viděného a skrytého. Ke každé uveďte pasáž a vysvětlení." },
+        { id: "paradox_layer", prompt: "Jak se paradoxní perspektiva (i) transformuje z výchozí vrstvy ČAS do vrstvy STAV nebo ENTITA? Popište v kontextu žralokova nutkání být viděn." },
+        { id: "counting_blending", prompt: "Spojte naivní perspektivu (k) a meta perspektivu (a) – popište žralokovo počítání jako jednoduchý rituál, který zároveň reflektuje udržení identity." }
+    ];
+
+    // scoring_balanced_shark.json, scoring_visual_shark.json, scoring_perspective_shark.json – sloučeny do heuristik
+    // FORENZNÍ PRAVIDLA (podle rubrik)
+    const FORENSIC_RULES = {
+        // Dimenze: Ratio as Identity
+        ratio_identity: {
+            excellent: [/identita.*poměr|poměr.*identita|1:1.*jsem|kdo jsem.*poměr|numerický.*bytí/i, /změna poměru.*jiný žralok|2:1.*nejsem já/i],
+            good: [/poměr.*definuje|identita.*číslo|hlídá si poměr/i],
+            adequate: [/počítání|1:1/i],
+            poor: [/^$|^\s*$/]
+        },
+        need_to_be_seen: {
+            excellent: [/viděn.*existence|bytí.*viděn|aby věděli že jsem|potřeba.*svědek|existence.*závislá.*vidění/i],
+            good: [/všimli|vynořuje.*aby|nebezpečí.*vidět/i],
+            adequate: [/vidět|ukázat se/i],
+            poor: [/^$|^\s*$/]
+        },
+        balance_justice: {
+            excellent: [/spravedlnost.*rovnováha|matematická spravedlnost|etika.*poměr|fair.*1:1/i],
+            good: [/spravedlivé|rovnováha.*život|stejně důležité/i],
+            adequate: [/rovnováha|poměr/i],
+            poor: [/^$|^\s*$/]
+        },
+        above_below_paradox: {
+            excellent: [/paradox.*nebezpečí.*domov|nutnost být viděn.*i přes|bezpečí.*existence.*druhé|vystavuje.*nebezpečí.*aby/i],
+            good: [/nebezpečí.*domov|nad.*pod.*paradox|vynořuje.*i když/i],
+            adequate: [/nad hladinou|pod hladinou/i],
+            poor: [/^$|^\s*$/]
+        },
+        counting_ritual: {
+            excellent: [/ritual.*udržování identity|počítání.*rituál|sebe sama.*počítání|performativní akt/i],
+            good: [/ritual|udržování|pravidelně počítá|hlídá si poměr/i],
+            adequate: [/počítá|jednou nahoře jednou dole/i],
+            poor: [/^$|^\s*$/]
+        },
+        visual_balance: {
+            excellent: [/vizuální rovnováha.*1:1|kompozice.*poměr|vyvážení žena žralok/i],
+            good: [/rovnováha.*obraz|symetrie|žena a žralok vyváženi/i],
+            adequate: [/žena.*žralok|obrázek/i],
+            poor: [/^$|^\s*$/]
+        },
+        grid_symbolism: {
+            excellent: [/mřížka.*měření|hrací deska.*počítání|symbol záznamu poměru|graf.*rovnováha/i],
+            good: [/mřížka.*symbol|počítání.*mřížka|deska/i],
+            adequate: [/mřížka|čtverečky/i],
+            poor: [/^$|^\s*$/]
+        },
+        woman_shark_proximity: {
+            excellent: [/blízkost.*napětí.*spojení|dvě strany téže existence|žena a žralok.*jednota|otevřené oči.*pozorování/i],
+            good: [/blízkost|propojeni|vztah žena žralok/i],
+            adequate: [/vedle sebe|blízko/i],
+            poor: [/^$|^\s*$/]
+        },
+        perspective_identification: {
+            excellent: [/d.*logický|i.*paradoxní|c.*filozofický|perspektiva.*d.*i|c.*a.*h/i, /poměr.*logická perspektiva|paradox.*bytí viděn/i],
+            good: [/logický|paradoxní|filozofický|metaforický/i],
+            adequate: [/perspektiva|úhel pohledu/i],
+            poor: [/^$|^\s*$/]
+        },
+        paradox_layer: {
+            excellent: [/transformace vrstvy|čas.*stav|I.*E|paradox.*stává se psychologickým|vrstvová transformace/i],
+            good: [/vrstva|transformace|paradox.*čas.*stav/i],
+            adequate: [/paradox|vrstva/i],
+            poor: [/^$|^\s*$/]
+        },
+        counting_blending: {
+            excellent: [/naivní.*meta|blending|prosté počítání.*zároveň reflexe|kombinace jednoduchosti a metapohledu/i],
+            good: [/naivní perspektiva|meta perspektiva|spojení/i],
+            adequate: [/počítání|rituál/i],
+            poor: [/^$|^\s*$/]
+        }
+    };
+
+    // Vygenerování UI úloh
+    function renderTasks() {
+        const balancedDiv = document.getElementById('balancedTasksContainer');
+        balancedDiv.innerHTML = BALANCED_TASKS.map(t => `
+            <div class="task-item">
+                <div class="task-meta">${t.id}</div>
+                <div class="task-prompt">${t.prompt}</div>
+                <textarea rows="3" class="answer" data-task-id="${t.id}" placeholder="Napište analýzu..."></textarea>
+            </div>
+        `).join('');
+
+        const visualDiv = document.getElementById('visualTasksContainer');
+        visualDiv.innerHTML = VISUAL_TASKS.map(t => `
+            <div class="task-item">
+                <div class="task-meta">${t.id}</div>
+                <div class="task-prompt">${t.prompt}</div>
+                <textarea rows="3" class="answer" data-task-id="${t.id}" placeholder="Vizuální interpretace..."></textarea>
+            </div>
+        `).join('');
+
+        const perspDiv = document.getElementById('perspectiveTasksContainer');
+        perspDiv.innerHTML = PERSPECTIVE_TASKS.map(t => `
+            <div class="task-item">
+                <div class="task-meta">${t.id}</div>
+                <div class="task-prompt">${t.prompt}</div>
+                <textarea rows="3" class="answer" data-task-id="${t.id}" placeholder="Perspektivní analýza..."></textarea>
+            </div>
+        `).join('');
+
+        // framework summary
+        document.getElementById('frameworkSummary').innerHTML = `
+            <p><strong>12 perspektiv (Uhlimerův systém):</strong> a(meta), b(lingvistický), c(filozofický), d(logický), e(psychologický), f(ironický), g(asociativní), h(metaforický), i(paradoxní), j(absurdní), k(naivní), l(kulturní).<br>
+            <strong>Klíčové pro žraloka:</strong> d (logický – poměr 1:1), i (paradoxní – viděn = nebezpečí), c (filozofický – proč existovat?), a (meta – reflexe počítání), h (metaforický – nad/pod).</p>
+        `;
+    }
+
+    // Forenzní vyhodnocení jedné odpovědi
+    function evaluateAnswer(text, taskId) {
+        if (!text || text.trim() === "") return { level: "Poor", score: 0, evidence: "žádný text" };
+        const rules = FORENSIC_RULES[taskId];
+        if (!rules) return { level: "Unknown", score: 0, evidence: "žádná pravidla" };
+        if (rules.excellent && rules.excellent.some(re => re.test(text))) return { level: "Excellent", score: 3, evidence: "výborná jazyková struktura – identifikovány klíčové koncepty" };
+        if (rules.good && rules.good.some(re => re.test(text))) return { level: "Good", score: 2, evidence: "dobrá úroveň – relevantní pojmy" };
+        if (rules.adequate && rules.adequate.some(re => re.test(text))) return { level: "Adequate", score: 1, evidence: "základní zmínka, chybí hloubka" };
+        return { level: "Poor", score: 0, evidence: "neobsahuje očekávané jazykové markery (kvantitativní čtení, moralizování, přehlédnutí rovnováhy)" };
+    }
+
+    function forensicAnalysis() {
+        const allAnswers = document.querySelectorAll('.answer');
+        const results = [];
+        for (let ans of allAnswers) {
+            const taskId = ans.getAttribute('data-task-id');
+            const text = ans.value;
+            const evalRes = evaluateAnswer(text, taskId);
+            results.push({ taskId, text: text.substring(0, 100), ...evalRes });
+        }
+        // souhrnné skóre a detekce výzev
+        let totalScore = 0;
+        let excellentCount = 0;
+        let poorCount = 0;
+        const challengesDetected = [];
+        for (let r of results) {
+            totalScore += r.score;
+            if (r.level === "Excellent") excellentCount++;
+            if (r.level === "Poor") poorCount++;
+        }
+        // Detekce specifických kognitivních výzev podle očekávaných výzev z README
+        const allTexts = results.map(r => r.text.toLowerCase()).join(' ');
+        if (!/\b(poměr|ratio|1:1|identita|kdo jsem)\b/i.test(allTexts)) challengesDetected.push("❌ Kvantitativní myšlení – poměr vnímán jen numericky, ne existenciálně");
+        if (/\b(nebezpečí|hrozba|zuby)\b/i.test(allTexts) && !/\b(potřeba být viděn|aby věděli|existence pro druhé)\b/i.test(allTexts)) challengesDetected.push("⚠️ Moralizování žraloka – viděn jen jako hrozba, chybí jeho vlastní potřeba viditelnosti");
+        if (/\b(bezpečí|klid pod hladinou)\b/i.test(allTexts) && !/\b(rovnováha|stejně důležité|nad i pod)\b/i.test(allTexts)) challengesDetected.push("🌊 Přehlédnutí rovnováhy – upřednostněna jedna strana (bezpečí) před existenciálním poměrem");
+        if (/\b(počítá|kolikrát)\b/i.test(allTexts) && !/\b(ritual|udržování identity|rituál|sebe sama)\b/i.test(allTexts)) challengesDetected.push("🔢 Doslovné čtení počítání – chybí chápání jako rituálu identity");
+        if (!/\b(mřížka|hrací deska|graf|symbol měření)\b/i.test(allTexts)) challengesDetected.push("🎲 Vizuální interpretace mřížky – pouze dekorativní, ne symbol rovnováhy a měření");
+
+        const avgScore = totalScore / (results.length || 1);
+        let overallLevel = "Adequate";
+        if (avgScore >= 2.5) overallLevel = "Excellent";
+        else if (avgScore >= 1.5) overallLevel = "Good";
+        else if (avgScore >= 0.5) overallLevel = "Adequate";
+        else overallLevel = "Poor";
+
+        const report = `
+============================================================
+🔍 FORENZNÍ ZPRÁVA (struktura jazyka)
+============================================================
+📊 Celkové skóre: ${totalScore} / ${results.length * 3} bodů
+🏆 Úroveň: ${overallLevel}
+✨ Excellent odpovědí: ${excellentCount}
+⚠️ Poor odpovědí: ${poorCount}
+
+🎯 DETEKCE OČEKÁVANÝCH VÝZEV PRO AI:
+${challengesDetected.length ? challengesDetected.join('\n') : "✅ Žádná z hlavních výzev detekována – AI pracuje s poměrem jako identitou, potřebou být viděn, rovnováhou i rituálem."}
+
+📋 DETAILNÍ MAPOVÁNÍ ODPOVĚDÍ (task → úroveň → důkaz):
+${results.map(r => `• ${r.taskId}: ${r.level} → ${r.evidence}${r.text ? `\n   (úryvek: "${r.text}...")` : ''}`).join('\n\n')}
+
+💡 Interpretace podle scoring_*.json:
+- Ratio as identity: hodnoceno podle přítomnosti „identita poměru / změna poměru = změna bytí“.
+- Need to be seen: detekce „aby věděli že jsem / existence závislá na vidění“.
+- Balance as justice: „spravedlnost = rovnováha 1:1“.
+- Counting as ritual: „rituál / udržování sebe sama / performativní akt“.
+- Vizuální rovnováha a grid: symbolika měření, hry, záznamu poměru.
+
+============================================================
+        `;
+        document.getElementById('forensicReport').innerHTML = `<pre style="white-space:pre-wrap; font-family:'Courier Prime', monospace;">${report}</pre>`;
+    }
+
+    // Inicializace
+    document.getElementById('storyText').innerText = FAIRY_TALE;
+    renderTasks();
+    document.getElementById('forensicBtn').addEventListener('click', forensicAnalysis);
+</script>
+</body>
+</html>
