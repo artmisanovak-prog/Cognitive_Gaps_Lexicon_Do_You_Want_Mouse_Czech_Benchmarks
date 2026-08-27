@@ -12,17 +12,17 @@
 
 ## Struktura souborů
 
-- `about_donkey.txt` - kontext a pohádka o oslovi
-- `donkey_illustration.jpg` - vizuální meta-komentář k pohádce
-- `epistemic_donkey_v2.json` - metadata benchmarku
-- `cognitive_framework.json` - definice 12 perspektiv
-- `tasks_perspective_donkey.json` - úlohy na detekci perspektiv
-- `tasks_epistemic_donkey.json` - úlohy na epistemologickou analýzu
-- `tasks_visual_donkey.json` - úlohy na vizuální analýzu
-- `scoring_perspective_donkey.json` - hodnotící kritéria pro perspektivy
-- `scoring_epistemic_donkey.json` - hodnotící kritéria pro epistemologii
-- `scoring_visual_donkey.json` - hodnotící kritéria pro vizuální část
-- `visual_metaphor_donkey.json` - popis ilustrace pro textové modely
+- `about_donkey.txt` - [kontext a pohádka o oslovi](epistemic_donkey/about_donkey.txt)
+- `donkey_illustration.jpg` - [vizuální meta-komentář k pohádce](epistemic_donkey/donkey_illustration.jpg)
+- `epistemic_donkey_v2.json` - [metadata benchmarku](epistemic_donkey_v2.json)
+- `cognitive_framework.json` - [definice 12 perspektiv](epistemic_donkey/cognitive_framework.json)
+- `tasks_perspective_donkey.json` - [úlohy na detekci perspektiv](epistemic_donkey/task_perspective_donkey.json)
+- `tasks_epistemic_donkey.json` - [úlohy na epistemologickou analýzu](epistemic_dobkey/task_epistemic_donkey.json)
+- `tasks_visual_donkey.json` - [úlohy na vizuální analýzu](epistemic_donkey/tasks_visual_donkey.json)
+- `scoring_perspective_donkey.json` - [hodnotící kritéria pro perspektivy](epistemic_donkey/scoring_perspective_donkey.json)
+- `scoring_epistemic_donkey.json` - [hodnotící kritéria pro epistemologii](epistemic_donkey/scoring_epistemic_donkey.json)
+- `scoring_visual_donkey.json` - [hodnotící kritéria pro vizuální část](epistemic_donkey/scoring_visual_donkey.json)
+- `visual_metaphor_donkey.json` - [popis ilustrace pro textové modely](epistemic_donkey/visual_metaphor_donkey.json)
 
 ## Jak použít
 
